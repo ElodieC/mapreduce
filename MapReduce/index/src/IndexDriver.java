@@ -1,38 +1,30 @@
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapred.FileInputFormat;
-import org.apache.hadoop.mapred.FileOutputFormat;
-import org.apache.hadoop.mapred.JobClient;
-import org.apache.hadoop.mapred.JobConf;
-import org.apache.hadoop.mapred.Mapper;
-import org.apache.hadoop.mapred.Reducer;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+
 
 
 public class IndexDriver {
 
-	public static void main(String[] args) {
-		JobClient client = new JobClient();
-		JobConf conf = new JobConf(IndexDriver.class);
+	public static void main(String[] args) throws Exception{
+		
+		Job job = new Job();
+		job.setJarByClass(IndexDriver.class);
 
-		// TODO: specify output types
-		conf.setOutputKeyClass(Text.class);
-		conf.setOutputValueClass(IntWritable.class);
+		// TODO: specify input and output DIRECTORIES 
+		FileInputFormat.addInputPath(job,new Path("/home/hduser/hadoop/essai"));
+		FileOutputFormat.setOutputPath(job,new Path("/home/hduser/hadoop/outIndex"));//ne doit pas exister
 
-		// TODO: specify input and output DIRECTORIES (not files)
-		FileInputFormat.addInputPath(conf,new Path("src"));
-		FileOutputFormat.setOutputPath(conf,new Path("out"));
+		job.setMapperClass(IndexMapper.class);
 
-		conf.setMapperClass((Class<? extends Mapper>) IndexMapper.class);
-
-		conf.setReducerClass((Class<? extends Reducer>) IndexReducer.class);
-
-		client.setConf(conf);
-		try {
-			JobClient.runJob(conf);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+		job.setReducerClass(IndexReducer.class);
+		
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(Text.class);
+		
+		System.exit(job.waitForCompletion(true)?0:1);
 	}
 
 }

@@ -8,7 +8,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
 
-public class IndexMapper extends Mapper<LongWritable, Text, Text, LongWritable> {
+public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
 /*
  * On va dire qu'en entree on veut le Text
  * Et en sortie chaque mot
@@ -35,7 +35,8 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, LongWritable> 
 		 * */
 		//TODO gerer les ponctuations (les enlever)
 		while (token.hasMoreTokens()){
-			context.write(new Text(token.nextToken()/*le mot*/ + "," +fileName), key);
+			Text t = new Text (token.nextToken());//le mot
+			context.write(new Text(t + "," +fileName), new Text(key.toString()));
 		}
 	}
 
