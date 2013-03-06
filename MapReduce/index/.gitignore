@@ -1,5 +1,6 @@
 #Ignorer les fichiers binaires
 bin/
 
+../../.metadata
 .classpath
 .project
