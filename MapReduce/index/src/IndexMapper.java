@@ -24,7 +24,10 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, LongWritable> 
 		
 		//On recupere le nom de fichier
 		InputSplit split = context.getInputSplit();
-		String fileName = ((FileSplit) split).getPath().getName();
+		String fileName=null;
+		if (split != null){//pour les tests a effacer apres
+			fileName = ((FileSplit) split).getPath().getName();
+		}
 		
 		
 		/*pour l'instant on va dire que les mots sont seulements separes par des espaces
