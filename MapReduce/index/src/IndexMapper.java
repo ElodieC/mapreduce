@@ -1,11 +1,12 @@
 import java.io.IOException;
 
+import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 
-public class WordCountMapper extends Mapper<LongWritable, Text, Text, Text> {
+public class IndexMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 /*
  * On va dire qu'en entree on veut le Text
  * Et en sortie chaque mot
