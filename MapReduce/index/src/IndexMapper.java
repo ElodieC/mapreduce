@@ -6,7 +6,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 
-public class IndexMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+public class IndexMapper extends Mapper<LongWritable, Text, Text, LongWritable> {
 /*
  * On va dire qu'en entree on veut le Text
  * Et en sortie chaque mot
@@ -24,7 +24,7 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 		//TODO gerer les ponctuations (les enlever)
 		for (String mot:tabSplitLine){
 			//TODO compter le nombre de mots par ligne
-			context.write(new Text(mot), new Text());
+			context.write(new Text(mot), key);
 		}
 	}
 
