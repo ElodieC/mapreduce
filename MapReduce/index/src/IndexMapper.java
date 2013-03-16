@@ -20,6 +20,7 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
 	public void map(LongWritable key, Text values,
 			Context context) throws IOException, InterruptedException {
 		String line = values.toString().toLowerCase();//on ignore la casse
+		line=supprimerPonctuation(line);
 		StringTokenizer token = new StringTokenizer(line, " ");
 		
 		//On recupere le nom de fichier
@@ -36,8 +37,16 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
 		//TODO gerer les ponctuations (les enlever)
 		while (token.hasMoreTokens()){
 			Text t = new Text (token.nextToken());//le mot
-			context.write(new Text(t + "," +fileName), new Text(key.toString()));
+			context.write(new Text(t + " , " +fileName), new Text(key.toString()));
 		}
 	}
+	
+	public static String supprimerPonctuation(String texte)
+	   {
+	      StringBuffer sb = new StringBuffer();
+	      for (String s : texte.split("\\p{Punct}"))
+	         sb.append(s);
+	      return sb.toString();      
+	   }
 
 }

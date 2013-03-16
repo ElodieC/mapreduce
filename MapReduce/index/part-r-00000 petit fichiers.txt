@@ -1,0 +1,33 @@
+blabla , example.txt	34
+bonjour , example.txt	0 , 55
+bonjour , exemple2.txt	73
+bonjour , exemple3.txt	78
+class , exemple2.txt	0 , 13
+class , exemple3.txt	0 , 14
+context , exemple2.txt	88
+context , exemple3.txt	93
+elodie , example.txt	8 , 21 , 34
+emacs , example.txt	28
+emacs , exemple2.txt	47 , 53
+emacs , exemple3.txt	50
+extends , exemple2.txt	53 , 26
+extends , exemple3.txt	28
+extendsemacs , exemple3.txt	56
+gerer , exemple2.txt	88
+gerer , exemple3.txt	93
+index , exemple2.txt	26
+index , exemple3.txt	28
+map , exemple2.txt	88
+map , exemple3.txt	93
+mapper , exemple2.txt	26
+mapper , exemple3.txt	28
+public , exemple2.txt	13 , 0
+public , exemple3.txt	14 , 0
+split , exemple2.txt	67
+split , exemple3.txt	70
+token , exemple2.txt	88
+token , exemple3.txt	93
+ubuntu , example.txt	34
+ubuntu , exemple2.txt	81
+ubuntu , exemple3.txt	86
+world , example.txt	15
