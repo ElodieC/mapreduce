@@ -33,6 +33,9 @@ public class Fenetre extends JApplet {
 		recherche.add(search);
 		c.add(recherche,"North");
 		
+		c.add(search,"North");
+		c.add(entree,"South");
+		
 		search.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String r = entree.getText();
