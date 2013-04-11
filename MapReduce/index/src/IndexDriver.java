@@ -14,8 +14,8 @@ public class IndexDriver {
 		job.setJarByClass(IndexDriver.class);
 
 		// TODO: specify input and output DIRECTORIES 
-		FileInputFormat.addInputPath(job,new Path("/home/hduser/hadoop/essai"));
-		FileOutputFormat.setOutputPath(job,new Path("/home/hduser/hadoop/outIndex"));//ne doit pas exister
+		FileInputFormat.addInputPath(job,new Path("/home/hduser/hadoop/livres"));
+		FileOutputFormat.setOutputPath(job,new Path("/home/hduser/hadoop/francais"));//ne doit pas exister
 
 		job.setMapperClass(IndexMapper.class);
 

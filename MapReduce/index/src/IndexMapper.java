@@ -1,4 +1,7 @@
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.StringTokenizer;
 
 import org.apache.hadoop.io.LongWritable;
@@ -9,6 +12,8 @@ import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
 
 public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
+	
+	
 /*
  * On va dire qu'en entree on veut le Text
  * Et en sortie chaque mot
@@ -19,7 +24,9 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
  */
 	public void map(LongWritable key, Text values,
 			Context context) throws IOException, InterruptedException {
+		
 		String line = values.toString().toLowerCase();//on ignore la casse
+		line=supprimerPonctuation(line);
 		StringTokenizer token = new StringTokenizer(line, " ");
 		
 		//On recupere le nom de fichier
@@ -36,8 +43,33 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
 		//TODO gerer les ponctuations (les enlever)
 		while (token.hasMoreTokens()){
 			Text t = new Text (token.nextToken());//le mot
-			context.write(new Text(t + "," +fileName), new Text(key.toString()));
+			if (!motAIgnorer(t))
+				context.write(new Text(t + " , " +fileName), new Text(key.toString()));
 		}
 	}
+	/**
+	 * 
+	 * @param text
+	 * @return vrai si le mot est a ignorer (non pertinent)
+	 */
+	public static boolean motAIgnorer(Text text){
+		boolean res=false;
+		List<String> caracteresIgnores = new ArrayList<String>();
+		String[] tab = {"et", "ou", "de", "des", "d", "le", "les","l","au","aux","du","un",
+				"une","a","à","or","ni","que","si","y"};
+		caracteresIgnores=Arrays.asList(tab);
+		if (caracteresIgnores.contains(text.toString())){
+			res= true;
+		}
+		return res;
+	}
+	
+	public static String supprimerPonctuation(String texte)
+	   {
+	      StringBuffer sb = new StringBuffer();
+	      for (String s : texte.split("[\\p{P}]"))
+	         sb.append(s);
+	      return sb.toString();      
+	   }
 
 }
