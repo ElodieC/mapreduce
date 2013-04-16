@@ -6,34 +6,35 @@ PARSER_BEGIN(Index)
 
 package grammar;
 import index.*;
+import search.*;
 import java.io.IOException;
 
 
 public class Index {
 
 public static IndexBuilder builder;
+public static Search recherche;
 
-  public static void main(String args[]) throws IOException { 
+  public static void build(String file, Search search) throws IOException{ 
     Index analyseur;
 
     java.io.InputStream input;
     builder = new IndexBuilder();
+    recherche = search;
 	
-    if (args.length==1) {
-      System.out.print(args[args.length-1] + ": ");
+	if(file != ""){
+    System.out.print(file + ": ");
       try {
-        input = new java.io.FileInputStream(args[args.length-1]+".txt");
+        input = new java.io.FileInputStream(file+".txt");
       } catch (java.io.FileNotFoundException e) {
         System.out.println("Fichier introuvable.");
         return;
       }
-    } else if (args.length==0) {
+    } else {
       System.out.println("Lecture sur l'entree standard...");
       input = System.in;
-    } else {
-      System.out.println("Usage: java Gram [fichier]");
-      return;
-    }
+	}
+	
     try {
       analyseur = new Index(input);
       analyseur.analyse();
@@ -52,7 +53,7 @@ PARSER_END(Index)
 
 TOKEN_MGR_DECLS :
 {public static String identLu,chaineLue;
- public static int entierLu;}
+ public static long entierLu;}
 
 /*** Skip whitespace and comments ***/
 SKIP :
@@ -88,12 +89,13 @@ TOKEN  :
 {
   < #chiffre : ["0"-"9"] >
 | < entier : (<chiffre>)+ > 
-	{ entierLu = Integer.parseInt(image.toString());
+	{ entierLu = Long.parseLong(image.toString());
         }
-| < #lettre: ["A"-"Z","a"-"z"] >
+| < #lettre: ["0"-"9","A"-"Z","a"-"z","é", "è", "ê", "ë", "à", "á", "â", "ç", "æ", "ü", "û", "ù", "î", "ï", "ò", "ô", "ì", "œ", "ñ", "°", "_", "-"] >
 | < ident : <lettre> (<lettre> | <chiffre>)* >
 	{identLu =image.toString();	
 	}
+
 | < chaine : "\"" (~["\""])* "\"" | "'" (~["'"])* "'" >
 	{ chaineLue = image.toString();
 	 }
@@ -105,7 +107,7 @@ TOKEN  :
 /**************************************/
 void analyse() : {}
 {
-	lineOutputs() {builder.seek();}
+	lineOutputs() {recherche.toDo();}
 }
 
 void lineOutputs() :{}
@@ -117,6 +119,14 @@ void lineOutputs() :{}
 void lineOutput() : {}
 {
    <ident> {builder.addWord(IndexTokenManager.identLu);} ","
+   <ident> <TXT> {builder.addFile(IndexTokenManager.identLu);} 
+   <entier> {builder.addOffset(IndexTokenManager.identLu);}
+   ("," <entier> {builder.addOffset(IndexTokenManager.identLu);})*
+   {builder.buildSet();}
+   
+   |
+   
+   <entier> {builder.addWord(Long.toString(IndexTokenManager.entierLu));} ","
    <ident> <TXT> {builder.addFile(IndexTokenManager.identLu);} 
    <entier> {builder.addOffset(IndexTokenManager.identLu);}
    ("," <entier> {builder.addOffset(IndexTokenManager.identLu);})*

@@ -1,10 +1,9 @@
 package search;
 
-import java.io.IOException;
-
 import index.IndexBuilder;
 
-public abstract class Seeker {
+public class Seeker {
+	
 	public static void seek(String word){
 		if(isPresent(word))
 		{
@@ -12,11 +11,11 @@ public abstract class Seeker {
 			int occurences = getOccurences(word);
 			if (occurences == 1)
 			{
-				System.out.println("Le mot a été trouvé : "+occurences+" occurence dans le fichier"+getFichiers(word));
+				System.out.println("Le mot a été trouvé : "+occurences+" occurence dans le fichier "+getFichiers(word));
 			}
 			else
 			{
-				System.out.println("Le mot a été trouvé : "+occurences+" occurences dans les fichiers"+getFichiers(word));
+				System.out.println("Le mot a été trouvé : "+occurences+" occurences dans les fichiers "+getFichiers(word));
 			}
 		}
 		else
@@ -51,7 +50,7 @@ public abstract class Seeker {
 		for(int i=1 ; i<= IndexBuilder.getIndex().size(); i++){
 			if(IndexBuilder.getIndex().get(i).keySet().contains(word))
 			{
-				files = files + " " + IndexBuilder.getIndex().get(i).get(word).getfile();
+				files = files + IndexBuilder.getIndex().get(i).get(word).getfile() + " ";
 			}
 		}
 		return files;

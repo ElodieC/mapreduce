@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import search.Search;
 import search.Seeker;
 
 public class IndexBuilder {	
@@ -43,11 +44,6 @@ public class IndexBuilder {
 			HashMap<String, Informations> mapped = new HashMap<String, Informations >();
 			mapped.put(currentWord, new Informations(offsets, currentFile));
 			getIndex().put(currentID, mapped);	
-	}
-
-	public void seek(){
-		//test
-		Seeker.seek("ubuntu");
 	}
 	
 	public static Map<Integer, HashMap<String, Informations > >  getIndex() {
