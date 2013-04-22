@@ -22,9 +22,14 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
  * En sortie on veut en key mot, nomFichier
  * et en value offset
  */
+	/**
+	 * Numero de la ligne dans le fichier
+	 */
+	private int lineNumber=0;
+	
 	public void map(LongWritable key, Text values,
 			Context context) throws IOException, InterruptedException {
-		
+		lineNumber++;
 		String line = values.toString().toLowerCase();//on ignore la casse
 		line=supprimerPonctuation(line);
 		StringTokenizer token = new StringTokenizer(line, " ");
@@ -35,16 +40,16 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
 		if (split != null){//pour les tests a effacer apres
 			fileName = ((FileSplit) split).getPath().getName();
 		}
+		/**
+		 * Decallage par rapport au debut de la ligne
+		 */
+		int lineOffset = 0;
 		
-		
-		/*pour l'instant on va dire que les mots sont seulements separes par des espaces
-		 * dans une ligne
-		 * */
-		//TODO gerer les ponctuations (les enlever)
 		while (token.hasMoreTokens()){
+			lineOffset++;
 			Text t = new Text (token.nextToken());//le mot
 			if (!motAIgnorer(t))
-				context.write(new Text(t + " , " +fileName), new Text(key.toString()));
+				context.write(new Text(t + "," +fileName), new Text(""+lineNumber/*key.toString()*/));
 		}
 	}
 	/**
