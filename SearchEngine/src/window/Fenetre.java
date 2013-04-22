@@ -26,7 +26,7 @@ public class Fenetre extends JApplet {
 	private String whereSearch;
 	
 	public void init() {
-		whereSearch="/home/mickael/Bureau/workspace/SearchEngine/src/resultat3";
+		whereSearch="/home/hduser/Téléchargements/line";
 		
 		toEvaluate = new Search();
 		
