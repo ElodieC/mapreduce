@@ -10,7 +10,9 @@ import org.apache.hadoop.mapreduce.lib.input.LineRecordReader;
 
 public class NotSplit<K,V> extends FileInputFormat<K, V> {
 
-	
+	/**
+	 * To make the file not split in different mappers
+	 */
 	@Override
 	public boolean isSplitable(JobContext context, Path filename){
 		return false;
