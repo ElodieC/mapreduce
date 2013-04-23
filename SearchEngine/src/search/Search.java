@@ -59,8 +59,8 @@ public class Search {
 			this.renderSearch(arguments[i]);
 			System.out.println(Seeker.getFichiers(arguments[i]));
 			System.out.println(this.getToSeek().contains(Seeker.getFichiers(arguments[i])));
-			//this.result+=Seeker.getFichiers(arguments[i])+"\n";
-			this.result="coucou \n blatte attack !";
+			this.result+=Seeker.getFichiers(arguments[i])+"\n";
+			//this.result="coucou \n blatte attack !";
 		}
 	}
 }

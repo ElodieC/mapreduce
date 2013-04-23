@@ -43,12 +43,12 @@ public static Search recherche;
 /**************************************/
 /********debut de la grammaire ********/
 /**************************************/
-  static final public void analyse() throws ParseException {
+  final public void analyse() throws ParseException {
     lineOutputs();
                        recherche.toDo();
   }
 
-  static final public void lineOutputs() throws ParseException {
+  final public void lineOutputs() throws ParseException {
     switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
     case entier:
     case ident:
@@ -65,7 +65,7 @@ public static Search recherche;
     }
   }
 
-  static final public void lineOutput() throws ParseException {
+  final public void lineOutput() throws ParseException {
     switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
     case ident:
       jj_consume_token(ident);
@@ -124,17 +124,16 @@ public static Search recherche;
     }
   }
 
-  static private boolean jj_initialized_once = false;
   /** Generated Token Manager. */
-  static public IndexTokenManager token_source;
-  static SimpleCharStream jj_input_stream;
+  public IndexTokenManager token_source;
+  SimpleCharStream jj_input_stream;
   /** Current token. */
-  static public Token token;
+  public Token token;
   /** Next token. */
-  static public Token jj_nt;
-  static private int jj_ntk;
-  static private int jj_gen;
-  static final private int[] jj_la1 = new int[4];
+  public Token jj_nt;
+  private int jj_ntk;
+  private int jj_gen;
+  final private int[] jj_la1 = new int[4];
   static private int[] jj_la1_0;
   static {
       jj_la1_init_0();
@@ -149,13 +148,6 @@ public static Search recherche;
   }
   /** Constructor with InputStream and supplied encoding */
   public Index(java.io.InputStream stream, String encoding) {
-    if (jj_initialized_once) {
-      System.out.println("ERROR: Second call to constructor of static parser.  ");
-      System.out.println("       You must either use ReInit() or set the JavaCC option STATIC to false");
-      System.out.println("       during parser generation.");
-      throw new Error();
-    }
-    jj_initialized_once = true;
     try { jj_input_stream = new SimpleCharStream(stream, encoding, 1, 1); } catch(java.io.UnsupportedEncodingException e) { throw new RuntimeException(e); }
     token_source = new IndexTokenManager(jj_input_stream);
     token = new Token();
@@ -165,11 +157,11 @@ public static Search recherche;
   }
 
   /** Reinitialise. */
-  static public void ReInit(java.io.InputStream stream) {
+  public void ReInit(java.io.InputStream stream) {
      ReInit(stream, null);
   }
   /** Reinitialise. */
-  static public void ReInit(java.io.InputStream stream, String encoding) {
+  public void ReInit(java.io.InputStream stream, String encoding) {
     try { jj_input_stream.ReInit(stream, encoding, 1, 1); } catch(java.io.UnsupportedEncodingException e) { throw new RuntimeException(e); }
     token_source.ReInit(jj_input_stream);
     token = new Token();
@@ -180,13 +172,6 @@ public static Search recherche;
 
   /** Constructor. */
   public Index(java.io.Reader stream) {
-    if (jj_initialized_once) {
-      System.out.println("ERROR: Second call to constructor of static parser. ");
-      System.out.println("       You must either use ReInit() or set the JavaCC option STATIC to false");
-      System.out.println("       during parser generation.");
-      throw new Error();
-    }
-    jj_initialized_once = true;
     jj_input_stream = new SimpleCharStream(stream, 1, 1);
     token_source = new IndexTokenManager(jj_input_stream);
     token = new Token();
@@ -196,7 +181,7 @@ public static Search recherche;
   }
 
   /** Reinitialise. */
-  static public void ReInit(java.io.Reader stream) {
+  public void ReInit(java.io.Reader stream) {
     jj_input_stream.ReInit(stream, 1, 1);
     token_source.ReInit(jj_input_stream);
     token = new Token();
@@ -207,13 +192,6 @@ public static Search recherche;
 
   /** Constructor with generated Token Manager. */
   public Index(IndexTokenManager tm) {
-    if (jj_initialized_once) {
-      System.out.println("ERROR: Second call to constructor of static parser. ");
-      System.out.println("       You must either use ReInit() or set the JavaCC option STATIC to false");
-      System.out.println("       during parser generation.");
-      throw new Error();
-    }
-    jj_initialized_once = true;
     token_source = tm;
     token = new Token();
     jj_ntk = -1;
@@ -230,7 +208,7 @@ public static Search recherche;
     for (int i = 0; i < 4; i++) jj_la1[i] = -1;
   }
 
-  static private Token jj_consume_token(int kind) throws ParseException {
+  private Token jj_consume_token(int kind) throws ParseException {
     Token oldToken;
     if ((oldToken = token).next != null) token = token.next;
     else token = token.next = token_source.getNextToken();
@@ -246,7 +224,7 @@ public static Search recherche;
 
 
 /** Get the next Token. */
-  static final public Token getNextToken() {
+  final public Token getNextToken() {
     if (token.next != null) token = token.next;
     else token = token.next = token_source.getNextToken();
     jj_ntk = -1;
@@ -255,7 +233,7 @@ public static Search recherche;
   }
 
 /** Get the specific Token. */
-  static final public Token getToken(int index) {
+  final public Token getToken(int index) {
     Token t = token;
     for (int i = 0; i < index; i++) {
       if (t.next != null) t = t.next;
@@ -264,19 +242,19 @@ public static Search recherche;
     return t;
   }
 
-  static private int jj_ntk() {
+  private int jj_ntk() {
     if ((jj_nt=token.next) == null)
       return (jj_ntk = (token.next=token_source.getNextToken()).kind);
     else
       return (jj_ntk = jj_nt.kind);
   }
 
-  static private java.util.List<int[]> jj_expentries = new java.util.ArrayList<int[]>();
-  static private int[] jj_expentry;
-  static private int jj_kind = -1;
+  private java.util.List<int[]> jj_expentries = new java.util.ArrayList<int[]>();
+  private int[] jj_expentry;
+  private int jj_kind = -1;
 
   /** Generate ParseException. */
-  static public ParseException generateParseException() {
+  public ParseException generateParseException() {
     jj_expentries.clear();
     boolean[] la1tokens = new boolean[18];
     if (jj_kind >= 0) {
@@ -307,11 +285,11 @@ public static Search recherche;
   }
 
   /** Enable tracing. */
-  static final public void enable_tracing() {
+  final public void enable_tracing() {
   }
 
   /** Disable tracing. */
-  static final public void disable_tracing() {
+  final public void disable_tracing() {
   }
 
 }
