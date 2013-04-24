@@ -3,18 +3,22 @@ package index;
 import java.util.ArrayList;
 
 public class Informations {
-	private ArrayList<String> offsets;
+	//Informations liées à un mot, à savoir le fichier dans lequel il se trouve et les offsets où il a été repéré dans ce fichier
+	private ArrayList<Long> offsets;
 	private String file;
 	
-	public Informations(ArrayList<String> offsets, String file) {
+	@SuppressWarnings("unchecked")
+	public Informations(ArrayList<Long> offsets, String file) {
 		super();
-		this.offsets = offsets;
+		/*TRES TRES MOCHE !*/
+		this.offsets = (ArrayList<Long>) offsets.clone();
 		this.file = file;
 	}
-	public ArrayList<String> getOffsets() {
+	public ArrayList<Long> getOffsets() {
+		//System.out.println(offsets);
 		return offsets;
 	}
-	public void setOffsets(ArrayList<String> offsets) {
+	public void setOffsets(ArrayList<Long> offsets) {
 		this.offsets = offsets;
 	}
 	public String getfile() {

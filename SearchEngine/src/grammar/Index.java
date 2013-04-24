@@ -10,7 +10,8 @@ public class Index implements IndexConstants {
 public static IndexBuilder builder;
 public static Search recherche;
 
-  public static void build(String file, Search search) throws IOException{
+  @SuppressWarnings("resource")
+public static void build(String file, Search search) throws IOException{
     Index analyseur;
 
     java.io.InputStream input;
@@ -75,7 +76,7 @@ public static Search recherche;
       jj_consume_token(TXT);
                   builder.addFile(IndexTokenManager.identLu);
       jj_consume_token(entier);
-             builder.addOffset(IndexTokenManager.identLu);
+             builder.addOffset(IndexTokenManager.entierLu);
       label_1:
       while (true) {
         switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
@@ -88,7 +89,7 @@ public static Search recherche;
         }
         jj_consume_token(17);
         jj_consume_token(entier);
-                  builder.addOffset(IndexTokenManager.identLu);
+                  builder.addOffset(IndexTokenManager.entierLu);
       }
     builder.buildSet();
       break;
@@ -100,7 +101,7 @@ public static Search recherche;
       jj_consume_token(TXT);
                   builder.addFile(IndexTokenManager.identLu);
       jj_consume_token(entier);
-             builder.addOffset(IndexTokenManager.identLu);
+             builder.addOffset(IndexTokenManager.entierLu);
       label_2:
       while (true) {
         switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
@@ -113,7 +114,7 @@ public static Search recherche;
         }
         jj_consume_token(17);
         jj_consume_token(entier);
-                  builder.addOffset(IndexTokenManager.identLu);
+                  builder.addOffset(IndexTokenManager.entierLu);
       }
     builder.buildSet();
       break;

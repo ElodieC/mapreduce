@@ -121,15 +121,15 @@ void lineOutput() : {}
 {
    <ident> {builder.addWord(IndexTokenManager.identLu);} ","
    <ident> <TXT> {builder.addFile(IndexTokenManager.identLu);} 
-   <entier> {builder.addOffset(IndexTokenManager.identLu);}
-   ("," <entier> {builder.addOffset(IndexTokenManager.identLu);})*
+   <entier> {builder.addOffset(IndexTokenManager.entierLu);}
+   ("," <entier> {builder.addOffset(IndexTokenManager.entierLu);})*
    {builder.buildSet();}
    
    |
    
    <entier> {builder.addWord(Long.toString(IndexTokenManager.entierLu));} ","
    <ident> <TXT> {builder.addFile(IndexTokenManager.identLu);} 
-   <entier> {builder.addOffset(IndexTokenManager.identLu);}
-   ("," <entier> {builder.addOffset(IndexTokenManager.identLu);})*
+   <entier> {builder.addOffset(IndexTokenManager.entierLu);}
+   ("," <entier> {builder.addOffset(IndexTokenManager.entierLu);})*
    {builder.buildSet();}
 }

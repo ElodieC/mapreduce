@@ -1,32 +1,27 @@
 package index;
 
-import java.awt.List;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import search.Search;
-import search.Seeker;
-
-public class IndexBuilder {	
+public class IndexBuilder {
+	//Classe chargée de construire l'index
 	private static Map<Integer, HashMap<String, Informations > > index;
 	private String currentWord;
 	private String currentFile;
-	private ArrayList<String> offsets;
+	private ArrayList<Long> offsets;
 	private Integer currentID;
 	
 	public IndexBuilder() throws IOException{
 		index = new HashMap<Integer,HashMap<String, Informations > >();
-		offsets = new ArrayList<String>();
+		offsets = new ArrayList<Long>();
 		currentID = 0;
 	}
 
-	public void addOffset(String ident) {
-		offsets.add(ident);
+	public void addOffset(long entierLu) {
+		//System.out.println(entierLu);
+		offsets.add(entierLu);
 	}
 
 	public void addFile(String ident) {
@@ -43,7 +38,8 @@ public class IndexBuilder {
 	public void buildSet(){
 			HashMap<String, Informations> mapped = new HashMap<String, Informations >();
 			mapped.put(currentWord, new Informations(offsets, currentFile));
-			getIndex().put(currentID, mapped);	
+			getIndex().put(currentID, mapped);
+			offsets.clear();
 	}
 	
 	public static Map<Integer, HashMap<String, Informations > >  getIndex() {

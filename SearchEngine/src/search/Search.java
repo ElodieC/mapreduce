@@ -1,33 +1,31 @@
 package search;
 
-import grammar.*;
 import index.*;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Search {
+	//Cette classe lance des seekers qui vont chacun chercher un mot dans le fichier texte et en font le bilan
 	private ArrayList<String> toSeek;
 	public static IndexBuilder builder;
 	public String expression; 
-	public String result;
+	public Seeker seeker;
+	public ArrayList<String> result;
+	public ArrayList<Long> lineResults;
 
 	public Search() {
 		this.toSeek = new ArrayList<String>();
 		this.expression="";
-		this.result="";
-	}
-	
-	public Search(String exp) {
-		this.toSeek = new ArrayList<String>();
-		this.expression=exp;
+		this.seeker = new Seeker();
+		this.result = new ArrayList<String>();
+		lineResults = new ArrayList<Long>();
 	}
 	
 	public void renderSearch(String word)
 	{
-		if(Seeker.isPresent(word)){
-			toSeek.add(Seeker.getFichiers(word));
+		if(seeker.isPresent(word)){
+			toSeek.addAll(seeker.getFichiers(word));
 		}
 	}
 	
@@ -41,7 +39,7 @@ public class Search {
 	
 	public void seek(String word){
 		//test
-		Seeker.seek(word);
+		seeker.seek(word);
 	}
 
 	public ArrayList<String> getToSeek() {
@@ -57,10 +55,11 @@ public class Search {
 		for(int i=0; i<arguments.length;i++){
 			this.seek(arguments[i]);
 			this.renderSearch(arguments[i]);
-			System.out.println(Seeker.getFichiers(arguments[i]));
-			System.out.println(this.getToSeek().contains(Seeker.getFichiers(arguments[i])));
-			this.result+=Seeker.getFichiers(arguments[i])+"\n";
-			//this.result="coucou \n blatte attack !";
+			
+			System.out.println(i);
+			this.result.addAll(seeker.getFichiers(arguments[i]));
+			
+			this.lineResults.addAll(seeker.getLines(arguments[i]));
 		}
 	}
 }
