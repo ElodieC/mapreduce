@@ -1,0 +1,3169 @@
+14 , dumas_blanche_beaulieu-utf8.txt	58
+1413 , dumas_blanche_beaulieu-utf8.txt	219
+1424 , dumas_blanche_beaulieu-utf8.txt	220
+1425 , dumas_blanche_beaulieu-utf8.txt	228
+15 , dumas_blanche_beaulieu-utf8.txt	81
+151 , dumas_blanche_beaulieu-utf8.txt	238
+152 , dumas_blanche_beaulieu-utf8.txt	265
+153 , dumas_blanche_beaulieu-utf8.txt	296
+154 , dumas_blanche_beaulieu-utf8.txt	329
+155 , dumas_blanche_beaulieu-utf8.txt	360
+16 , dumas_blanche_beaulieu-utf8.txt	115
+16 , hugo_claude_gueux--utf8.txt	798
+1793 , dumas_blanche_beaulieu-utf8.txt	169
+1794 , dumas_blanche_beaulieu-utf8.txt	200
+1830 , hugo_claude_gueux--utf8.txt	1146
+1831 , hugo_claude_gueux--utf8.txt	418
+1832 , hugo_claude_gueux--utf8.txt	798 , 914
+1834 , hugo_claude_gueux--utf8.txt	61 , 31
+1881 , hugo_claude_gueux--utf8.txt	35
+2 , dumas_blanche_beaulieu-utf8.txt	10
+25 , hugo_claude_gueux--utf8.txt	418 , 434 , 458
+296 , hugo_claude_gueux--utf8.txt	838
+3 , dumas_blanche_beaulieu-utf8.txt	30
+30 , hugo_claude_gueux--utf8.txt	61
+4 , hugo_claude_gueux--utf8.txt	458 , 810 , 462 , 566 , 566 , 434
+494 , dumas_blanche_beaulieu-utf8.txt	9
+5 , dumas_blanche_beaulieu-utf8.txt	169
+50 , dumas_blanche_beaulieu-utf8.txt	9
+6 , hugo_claude_gueux--utf8.txt	69
+75 , dumas_blanche_beaulieu-utf8.txt	145
+76 , dumas_blanche_beaulieu-utf8.txt	176
+77 , dumas_blanche_beaulieu-utf8.txt	208
+8 , hugo_claude_gueux--utf8.txt	914
+abandonnerait , hugo_claude_gueux--utf8.txt	626
+abattu , dumas_blanche_beaulieu-utf8.txt	196
+abbaye , hugo_claude_gueux--utf8.txt	94
+abjurations , dumas_blanche_beaulieu-utf8.txt	171
+abjurèrent , dumas_blanche_beaulieu-utf8.txt	159
+aborda , hugo_claude_gueux--utf8.txt	446 , 522
+abrégeons , hugo_claude_gueux--utf8.txt	798
+absurde , hugo_claude_gueux--utf8.txt	114 , 1094 , 1106 , 114
+accosta , hugo_claude_gueux--utf8.txt	522
+accusait , dumas_blanche_beaulieu-utf8.txt	202
+accusé , dumas_blanche_beaulieu-utf8.txt	206
+accusé , hugo_claude_gueux--utf8.txt	1034
+acquis , hugo_claude_gueux--utf8.txt	134
+action , hugo_claude_gueux--utf8.txt	574
+adieux , hugo_claude_gueux--utf8.txt	638
+administratifs , dumas_blanche_beaulieu-utf8.txt	132
+admirable , hugo_claude_gueux--utf8.txt	982
+adoration , hugo_claude_gueux--utf8.txt	138
+adressa , hugo_claude_gueux--utf8.txt	246
+adressait , hugo_claude_gueux--utf8.txt	386
+adresser , hugo_claude_gueux--utf8.txt	73
+affaire , hugo_claude_gueux--utf8.txt	806 , 322
+affection , hugo_claude_gueux--utf8.txt	814
+affreuse , hugo_claude_gueux--utf8.txt	766
+afin , dumas_blanche_beaulieu-utf8.txt	194 , 250
+afin , hugo_claude_gueux--utf8.txt	958 , 806 , 1134
+agi , hugo_claude_gueux--utf8.txt	218
+agir , dumas_blanche_beaulieu-utf8.txt	138
+agiter , dumas_blanche_beaulieu-utf8.txt	61
+ah , dumas_blanche_beaulieu-utf8.txt	223 , 241
+ah , hugo_claude_gueux--utf8.txt	854 , 262 , 718
+ai , dumas_blanche_beaulieu-utf8.txt	271
+ai , hugo_claude_gueux--utf8.txt	350 , 566 , 566 , 178
+aidezmoi , hugo_claude_gueux--utf8.txt	69
+aiguilles , hugo_claude_gueux--utf8.txt	142
+aije , hugo_claude_gueux--utf8.txt	870 , 870
+ailleurs , hugo_claude_gueux--utf8.txt	482
+aimait , hugo_claude_gueux--utf8.txt	618 , 226
+aimant , hugo_claude_gueux--utf8.txt	138 , 138
+aimé , hugo_claude_gueux--utf8.txt	146 , 218 , 566 , 482 , 566
+aimée , hugo_claude_gueux--utf8.txt	462
+ainsi , dumas_blanche_beaulieu-utf8.txt	330
+ainsi , hugo_claude_gueux--utf8.txt	746 , 554 , 642 , 94 , 146 , 158 , 246
+ait , hugo_claude_gueux--utf8.txt	734
+ajouta , hugo_claude_gueux--utf8.txt	314 , 430 , 530
+ajoutât , hugo_claude_gueux--utf8.txt	946
+ajusté , hugo_claude_gueux--utf8.txt	114
+albin , hugo_claude_gueux--utf8.txt	242 , 734 , 734 , 734 , 822 , 618 , 566 , 566 , 566 , 238 , 946 , 386 , 194 , 210 , 326 , 210 , 302 , 286 , 226 , 246 , 246 , 246 , 246 , 230 , 246
+alentour , dumas_blanche_beaulieu-utf8.txt	80 , 64
+alexandre , dumas_blanche_beaulieu-utf8.txt	3
+alla , hugo_claude_gueux--utf8.txt	658
+allait , hugo_claude_gueux--utf8.txt	630 , 114 , 574 , 642 , 602
+aller , hugo_claude_gueux--utf8.txt	734 , 850
+allez , hugo_claude_gueux--utf8.txt	1130
+allons , dumas_blanche_beaulieu-utf8.txt	292
+allons , hugo_claude_gueux--utf8.txt	922 , 634
+allume , hugo_claude_gueux--utf8.txt	122
+allumée , hugo_claude_gueux--utf8.txt	266
+allèrent , dumas_blanche_beaulieu-utf8.txt	61
+alors , dumas_blanche_beaulieu-utf8.txt	101
+alors , hugo_claude_gueux--utf8.txt	562 , 770 , 810 , 658 , 550 , 854
+amenés , dumas_blanche_beaulieu-utf8.txt	53
+ami , hugo_claude_gueux--utf8.txt	854 , 734 , 462 , 854 , 854
+amis , dumas_blanche_beaulieu-utf8.txt	88
+amis , hugo_claude_gueux--utf8.txt	1090 , 214
+amitié , hugo_claude_gueux--utf8.txt	210 , 210
+amoindrir , hugo_claude_gueux--utf8.txt	838
+amputation , hugo_claude_gueux--utf8.txt	1094
+an , hugo_claude_gueux--utf8.txt	1114 , 1050
+anacharsis , dumas_blanche_beaulieu-utf8.txt	162
+ancien , hugo_claude_gueux--utf8.txt	626
+anglais , dumas_blanche_beaulieu-utf8.txt	256
+angle , hugo_claude_gueux--utf8.txt	642
+animale , hugo_claude_gueux--utf8.txt	1130
+annonça , hugo_claude_gueux--utf8.txt	558 , 914
+année , dumas_blanche_beaulieu-utf8.txt	228
+année , hugo_claude_gueux--utf8.txt	31
+ans , dumas_blanche_beaulieu-utf8.txt	25
+ans , hugo_claude_gueux--utf8.txt	854 , 894 , 90 , 522 , 854 , 854 , 210 , 210 , 90 , 1030
+anse , hugo_claude_gueux--utf8.txt	910
+anxiété , hugo_claude_gueux--utf8.txt	390
+apercevez , dumas_blanche_beaulieu-utf8.txt	56
+aperçut , hugo_claude_gueux--utf8.txt	630
+appela , hugo_claude_gueux--utf8.txt	230 , 822
+appelait , hugo_claude_gueux--utf8.txt	114 , 126 , 874
+appelant , hugo_claude_gueux--utf8.txt	618
+appelez , hugo_claude_gueux--utf8.txt	1130
+appelle , hugo_claude_gueux--utf8.txt	830
+applaudi , dumas_blanche_beaulieu-utf8.txt	171
+appris , dumas_blanche_beaulieu-utf8.txt	264
+approchait , hugo_claude_gueux--utf8.txt	650
+approché , dumas_blanche_beaulieu-utf8.txt	235
+approvisionnent , dumas_blanche_beaulieu-utf8.txt	294
+appuyée , dumas_blanche_beaulieu-utf8.txt	212
+appétitslà , hugo_claude_gueux--utf8.txt	150
+après , dumas_blanche_beaulieu-utf8.txt	25 , 71 , 249
+après , hugo_claude_gueux--utf8.txt	1058 , 830 , 522 , 738 , 618 , 874 , 914 , 618 , 642 , 990
+arbres , dumas_blanche_beaulieu-utf8.txt	250
+arcade , hugo_claude_gueux--utf8.txt	106
+argent , dumas_blanche_beaulieu-utf8.txt	258 , 273
+armée , dumas_blanche_beaulieu-utf8.txt	77 , 104
+arrachent , hugo_claude_gueux--utf8.txt	122
+arriva , dumas_blanche_beaulieu-utf8.txt	116
+arriva , hugo_claude_gueux--utf8.txt	930 , 914 , 462 , 246
+arriver , dumas_blanche_beaulieu-utf8.txt	253
+arriverait , hugo_claude_gueux--utf8.txt	518
+arrivé , dumas_blanche_beaulieu-utf8.txt	225
+arrivé , hugo_claude_gueux--utf8.txt	126 , 102
+arrivés , hugo_claude_gueux--utf8.txt	746
+arrosezla , hugo_claude_gueux--utf8.txt	1186
+arrêt , hugo_claude_gueux--utf8.txt	882
+artus , dumas_blanche_beaulieu-utf8.txt	307 , 275 , 333 , 283 , 243 , 323
+as , dumas_blanche_beaulieu-utf8.txt	50 , 325 , 264
+ascendant , hugo_claude_gueux--utf8.txt	134 , 134
+assassin , hugo_claude_gueux--utf8.txt	870 , 838
+assassiné , hugo_claude_gueux--utf8.txt	1182 , 850
+assez , hugo_claude_gueux--utf8.txt	318 , 642 , 854 , 566 , 718 , 642
+assigné , hugo_claude_gueux--utf8.txt	542
+assis , hugo_claude_gueux--utf8.txt	402
+assistait , hugo_claude_gueux--utf8.txt	834
+assistants , hugo_claude_gueux--utf8.txt	842
+assure , hugo_claude_gueux--utf8.txt	398
+assénés , hugo_claude_gueux--utf8.txt	766
+astu , dumas_blanche_beaulieu-utf8.txt	262
+atelier , hugo_claude_gueux--utf8.txt	214 , 126 , 546 , 102 , 550
+ateliers , hugo_claude_gueux--utf8.txt	218 , 1122 , 506 , 118 , 786 , 114 , 850 , 282
+atil , hugo_claude_gueux--utf8.txt	994 , 886 , 886
+atroce , hugo_claude_gueux--utf8.txt	1106
+attacher , hugo_claude_gueux--utf8.txt	478
+attaque , dumas_blanche_beaulieu-utf8.txt	95
+attendaient , hugo_claude_gueux--utf8.txt	650
+attendait , hugo_claude_gueux--utf8.txt	390
+attendant , hugo_claude_gueux--utf8.txt	290
+attendent , dumas_blanche_beaulieu-utf8.txt	320
+attendit , hugo_claude_gueux--utf8.txt	970 , 518 , 738
+attendre , dumas_blanche_beaulieu-utf8.txt	297 , 342
+attendri , hugo_claude_gueux--utf8.txt	734
+attentif , hugo_claude_gueux--utf8.txt	846
+attention , hugo_claude_gueux--utf8.txt	942 , 814 , 466
+attesta , hugo_claude_gueux--utf8.txt	574
+attitude , hugo_claude_gueux--utf8.txt	802 , 402
+atténuantes , hugo_claude_gueux--utf8.txt	858
+aucun , hugo_claude_gueux--utf8.txt	782 , 374 , 810
+audedans , dumas_blanche_beaulieu-utf8.txt	189
+audehors , dumas_blanche_beaulieu-utf8.txt	190
+audessous , hugo_claude_gueux--utf8.txt	482 , 1130
+audessus , hugo_claude_gueux--utf8.txt	858
+audience , hugo_claude_gueux--utf8.txt	834
+aujourdhui , hugo_claude_gueux--utf8.txt	434 , 258
+auprès , hugo_claude_gueux--utf8.txt	778
+aura , dumas_blanche_beaulieu-utf8.txt	293
+auraient , dumas_blanche_beaulieu-utf8.txt	259
+aurait , dumas_blanche_beaulieu-utf8.txt	253
+aurait , hugo_claude_gueux--utf8.txt	946 , 326
+aurez , hugo_claude_gueux--utf8.txt	1146
+auront , dumas_blanche_beaulieu-utf8.txt	349
+aussi , dumas_blanche_beaulieu-utf8.txt	173
+aussi , hugo_claude_gueux--utf8.txt	1158 , 482 , 910 , 206 , 386 , 474 , 946 , 218 , 746 , 126
+autant , hugo_claude_gueux--utf8.txt	998 , 73
+autel , hugo_claude_gueux--utf8.txt	94
+auteur , dumas_blanche_beaulieu-utf8.txt	11
+auteur , hugo_claude_gueux--utf8.txt	57
+autorité , hugo_claude_gueux--utf8.txt	114
+autour , hugo_claude_gueux--utf8.txt	138 , 794 , 1130
+autre , dumas_blanche_beaulieu-utf8.txt	34
+autre , hugo_claude_gueux--utf8.txt	1146 , 402 , 734
+autres , dumas_blanche_beaulieu-utf8.txt	27 , 5 , 249 , 146
+autres , hugo_claude_gueux--utf8.txt	1034 , 546 , 394 , 870 , 446 , 794 , 162
+auxquelles , hugo_claude_gueux--utf8.txt	886
+avaient , dumas_blanche_beaulieu-utf8.txt	64
+avaient , hugo_claude_gueux--utf8.txt	766 , 878 , 782 , 1142 , 810
+avait , dumas_blanche_beaulieu-utf8.txt	53 , 196 , 173 , 170 , 165 , 146 , 215 , 110 , 39 , 358
+avait , hugo_claude_gueux--utf8.txt	110 , 510 , 962 , 510 , 782 , 134 , 90 , 150 , 130 , 210 , 418 , 462 , 862 , 110 , 218 , 210 , 786 , 782 , 778 , 150 , 850 , 210 , 782 , 950 , 134 , 590 , 158 , 626 , 478 , 946 , 642 , 766 , 558 , 862 , 806 , 862 , 106 , 114 , 114 , 390 , 602 , 554 , 738 , 386 , 850 , 462 , 866 , 218 , 154 , 878 , 782 , 114 , 374 , 618 , 958 , 802 , 218
+avancé , hugo_claude_gueux--utf8.txt	106
+avant , hugo_claude_gueux--utf8.txt	482 , 766 , 990
+avança , hugo_claude_gueux--utf8.txt	762
+avec , dumas_blanche_beaulieu-utf8.txt	243 , 248 , 142 , 268 , 55 , 301 , 38 , 166
+avec , hugo_claude_gueux--utf8.txt	734 , 114 , 382 , 114 , 930 , 930 , 938 , 814 , 466 , 574 , 854 , 970 , 738 , 142 , 822 , 390 , 318 , 1050 , 318 , 266 , 674 , 462 , 898 , 802 , 946 , 854 , 1154 , 782 , 462 , 478 , 778 , 90 , 630 , 942 , 126 , 838 , 470 , 838 , 838 , 626 , 862 , 734 , 442 , 626 , 566 , 418 , 442 , 546 , 1118 , 138 , 118 , 566 , 1130 , 766 , 114 , 954
+avenir , hugo_claude_gueux--utf8.txt	1158
+avertir , hugo_claude_gueux--utf8.txt	458
+avertît , hugo_claude_gueux--utf8.txt	594
+aveuglément , hugo_claude_gueux--utf8.txt	114
+avez , hugo_claude_gueux--utf8.txt	566 , 1098 , 1106 , 1070 , 1070
+avezvous , hugo_claude_gueux--utf8.txt	566
+avis , dumas_blanche_beaulieu-utf8.txt	193
+avoir , dumas_blanche_beaulieu-utf8.txt	136 , 191
+avoir , hugo_claude_gueux--utf8.txt	642 , 566 , 574 , 1038
+avons , hugo_claude_gueux--utf8.txt	986 , 126 , 218 , 850
+ayant , hugo_claude_gueux--utf8.txt	162
+ayez , hugo_claude_gueux--utf8.txt	1070
+bagne , hugo_claude_gueux--utf8.txt	1070 , 1094 , 1098
+bagnes , hugo_claude_gueux--utf8.txt	1130
+baigné , hugo_claude_gueux--utf8.txt	770
+baisa , hugo_claude_gueux--utf8.txt	822
+baissa , hugo_claude_gueux--utf8.txt	370
+balafra , hugo_claude_gueux--utf8.txt	766
+balance , hugo_claude_gueux--utf8.txt	1154 , 1154
+banal , hugo_claude_gueux--utf8.txt	674
+banc , hugo_claude_gueux--utf8.txt	290 , 558 , 646
+bancs , hugo_claude_gueux--utf8.txt	1042 , 642
+bandages , hugo_claude_gueux--utf8.txt	778
+banlieue , hugo_claude_gueux--utf8.txt	1034
+barbare , hugo_claude_gueux--utf8.txt	1094
+barreaux , hugo_claude_gueux--utf8.txt	466
+barreauxci , hugo_claude_gueux--utf8.txt	470
+barreront , hugo_claude_gueux--utf8.txt	1018
+barrière , hugo_claude_gueux--utf8.txt	1050
+barère , dumas_blanche_beaulieu-utf8.txt	134 , 117
+basse , dumas_blanche_beaulieu-utf8.txt	60
+basse , hugo_claude_gueux--utf8.txt	430
+bastille , hugo_claude_gueux--utf8.txt	94
+bataille , dumas_blanche_beaulieu-utf8.txt	80
+battent , dumas_blanche_beaulieu-utf8.txt	256 , 82
+battre , dumas_blanche_beaulieu-utf8.txt	350
+bayonnettes , hugo_claude_gueux--utf8.txt	806
+baïonnettes , dumas_blanche_beaulieu-utf8.txt	73
+beau , dumas_blanche_beaulieu-utf8.txt	78
+beaucoup , hugo_claude_gueux--utf8.txt	942 , 226 , 246 , 114 , 778
+beaulieu , dumas_blanche_beaulieu-utf8.txt	2
+beffroi , hugo_claude_gueux--utf8.txt	970
+belgique , hugo_claude_gueux--utf8.txt	1126
+belle , dumas_blanche_beaulieu-utf8.txt	78
+belle , hugo_claude_gueux--utf8.txt	106 , 1058
+besogne , hugo_claude_gueux--utf8.txt	126
+besoin , dumas_blanche_beaulieu-utf8.txt	250
+besoin , hugo_claude_gueux--utf8.txt	1186 , 310
+bestial , hugo_claude_gueux--utf8.txt	1130
+bible , hugo_claude_gueux--utf8.txt	1174
+bibliothèque , dumas_blanche_beaulieu-utf8.txt	6 , 11
+bien , dumas_blanche_beaulieu-utf8.txt	226 , 90 , 253
+bien , hugo_claude_gueux--utf8.txt	922 , 478 , 1002 , 886 , 462 , 106 , 73 , 734 , 1178 , 110 , 450 , 126 , 838 , 838 , 1138 , 734 , 994 , 378 , 994 , 994 , 854 , 1002 , 1034 , 1018 , 594 , 90 , 574 , 398
+bientôt , dumas_blanche_beaulieu-utf8.txt	134
+bientôt , hugo_claude_gueux--utf8.txt	454 , 1022
+bienveillant , hugo_claude_gueux--utf8.txt	846 , 658
+bienvenu , dumas_blanche_beaulieu-utf8.txt	246
+bijoux , dumas_blanche_beaulieu-utf8.txt	278
+billaudvarennes , dumas_blanche_beaulieu-utf8.txt	121 , 128
+blanc , hugo_claude_gueux--utf8.txt	162 , 462
+blanche , dumas_blanche_beaulieu-utf8.txt	2
+blanchi , hugo_claude_gueux--utf8.txt	466
+blancs , hugo_claude_gueux--utf8.txt	1058
+blessures , hugo_claude_gueux--utf8.txt	782 , 794
+blâme , hugo_claude_gueux--utf8.txt	102
+boire , dumas_blanche_beaulieu-utf8.txt	349
+bois , hugo_claude_gueux--utf8.txt	462 , 114
+boiteuse , hugo_claude_gueux--utf8.txt	1110
+bon , dumas_blanche_beaulieu-utf8.txt	298
+bon , hugo_claude_gueux--utf8.txt	114 , 114 , 586 , 114 , 114 , 1030 , 734 , 454 , 126 , 442
+bond , dumas_blanche_beaulieu-utf8.txt	31 , 31
+bondissant , dumas_blanche_beaulieu-utf8.txt	323
+bonheur , hugo_claude_gueux--utf8.txt	1158
+bonne , hugo_claude_gueux--utf8.txt	126 , 802 , 1134
+bonnes , dumas_blanche_beaulieu-utf8.txt	283
+bonnes , hugo_claude_gueux--utf8.txt	778
+bonnet , hugo_claude_gueux--utf8.txt	290 , 290
+boulet , hugo_claude_gueux--utf8.txt	1106 , 1102
+bourgades , hugo_claude_gueux--utf8.txt	958
+bourgeois , hugo_claude_gueux--utf8.txt	478
+bourguignon , dumas_blanche_beaulieu-utf8.txt	287
+bourreau , hugo_claude_gueux--utf8.txt	962 , 962 , 1118 , 930
+bourreaux , hugo_claude_gueux--utf8.txt	1118
+bout , dumas_blanche_beaulieu-utf8.txt	110
+bout , hugo_claude_gueux--utf8.txt	114 , 446 , 114 , 130 , 134 , 138 , 114
+boutonna , hugo_claude_gueux--utf8.txt	290
+boutonnée , hugo_claude_gueux--utf8.txt	290
+boutons , hugo_claude_gueux--utf8.txt	1058
+bras , hugo_claude_gueux--utf8.txt	822 , 750
+bref , hugo_claude_gueux--utf8.txt	114
+bressier , hugo_claude_gueux--utf8.txt	478
+bretons , dumas_blanche_beaulieu-utf8.txt	209
+bride , hugo_claude_gueux--utf8.txt	114
+briquet , hugo_claude_gueux--utf8.txt	118
+briquets , hugo_claude_gueux--utf8.txt	122
+brisa , hugo_claude_gueux--utf8.txt	418
+brisât , dumas_blanche_beaulieu-utf8.txt	193
+brisée , hugo_claude_gueux--utf8.txt	946
+broussaille , hugo_claude_gueux--utf8.txt	114
+bruit , dumas_blanche_beaulieu-utf8.txt	73
+bruit , hugo_claude_gueux--utf8.txt	970 , 418 , 418
+brusquement , hugo_claude_gueux--utf8.txt	166 , 678
+brûlezlui , dumas_blanche_beaulieu-utf8.txt	57
+budget , hugo_claude_gueux--utf8.txt	1030 , 1034
+bureaux , hugo_claude_gueux--utf8.txt	57
+bâillait , hugo_claude_gueux--utf8.txt	522
+bêtise , hugo_claude_gueux--utf8.txt	114
+cabane , dumas_blanche_beaulieu-utf8.txt	32
+cabane , hugo_claude_gueux--utf8.txt	1174
+cabanon , hugo_claude_gueux--utf8.txt	94
+cacha , hugo_claude_gueux--utf8.txt	510
+cachait , hugo_claude_gueux--utf8.txt	522
+cachot , hugo_claude_gueux--utf8.txt	934 , 458 , 438 , 718 , 910 , 854 , 914 , 102 , 442 , 566
+cachée , hugo_claude_gueux--utf8.txt	674
+cadran , hugo_claude_gueux--utf8.txt	142
+cage , hugo_claude_gueux--utf8.txt	370
+cailloux , hugo_claude_gueux--utf8.txt	122
+caisse , hugo_claude_gueux--utf8.txt	462
+calculez , hugo_claude_gueux--utf8.txt	1130
+calme , hugo_claude_gueux--utf8.txt	658 , 266
+calorique , hugo_claude_gueux--utf8.txt	114
+camarade , hugo_claude_gueux--utf8.txt	726 , 422 , 398
+camarades , hugo_claude_gueux--utf8.txt	374 , 626
+cambon , dumas_blanche_beaulieu-utf8.txt	130
+camille , dumas_blanche_beaulieu-utf8.txt	185
+camp , dumas_blanche_beaulieu-utf8.txt	211
+campagne , dumas_blanche_beaulieu-utf8.txt	256
+canons , dumas_blanche_beaulieu-utf8.txt	87
+capable , hugo_claude_gueux--utf8.txt	90
+capacité , hugo_claude_gueux--utf8.txt	114
+capitaine , dumas_blanche_beaulieu-utf8.txt	20
+captif , hugo_claude_gueux--utf8.txt	142
+car , hugo_claude_gueux--utf8.txt	690 , 390 , 246 , 734 , 898 , 626 , 958 , 126 , 290
+caractère , hugo_claude_gueux--utf8.txt	130 , 114
+cardinaux , hugo_claude_gueux--utf8.txt	142
+carlier , hugo_claude_gueux--utf8.txt	81
+carnot , dumas_blanche_beaulieu-utf8.txt	130
+carré , hugo_claude_gueux--utf8.txt	1030 , 446
+cas , hugo_claude_gueux--utf8.txt	358 , 594 , 438
+casque , dumas_blanche_beaulieu-utf8.txt	276 , 261
+cassation , hugo_claude_gueux--utf8.txt	618 , 898
+cassenoisette , dumas_blanche_beaulieu-utf8.txt	27
+catastrophe , hugo_claude_gueux--utf8.txt	114
+catholique , dumas_blanche_beaulieu-utf8.txt	160
+causa , hugo_claude_gueux--utf8.txt	626
+causeries , hugo_claude_gueux--utf8.txt	638
+causèrent , hugo_claude_gueux--utf8.txt	514
+cautérisation , hugo_claude_gueux--utf8.txt	1090
+ce , dumas_blanche_beaulieu-utf8.txt	137 , 215 , 359 , 337 , 328 , 72 , 140 , 110 , 338 , 146
+ce , hugo_claude_gueux--utf8.txt	522 , 454 , 630 , 358 , 522 , 1146 , 458 , 914 , 126 , 634 , 810 , 574 , 934 , 218 , 246 , 114 , 982 , 246 , 566 , 478 , 1034 , 470 , 734 , 1162 , 642 , 1034 , 102 , 946 , 802 , 566 , 490 , 1034 , 946 , 666 , 218 , 418 , 810 , 114 , 422 , 618 , 134 , 838 , 134 , 878 , 118 , 506 , 970 , 550 , 90 , 1034 , 1134 , 958 , 210 , 1018 , 1166 , 518 , 838 , 90 , 734 , 106 , 830 , 526 , 462 , 798 , 90 , 1178 , 150
+ceci , hugo_claude_gueux--utf8.txt	1054 , 862 , 1054 , 1066 , 114 , 642
+cela , dumas_blanche_beaulieu-utf8.txt	253
+cela , hugo_claude_gueux--utf8.txt	134 , 566 , 1026 , 734 , 590 , 566 , 862 , 734 , 342 , 734 , 534 , 594 , 114 , 842 , 146 , 398 , 186 , 1038 , 566 , 566 , 734 , 178
+celle , dumas_blanche_beaulieu-utf8.txt	215
+celle , hugo_claude_gueux--utf8.txt	1090 , 126
+cellule , hugo_claude_gueux--utf8.txt	94
+celui , dumas_blanche_beaulieu-utf8.txt	160 , 151 , 150
+celui , hugo_claude_gueux--utf8.txt	1022 , 826
+celuici , dumas_blanche_beaulieu-utf8.txt	40 , 235
+celuilà , dumas_blanche_beaulieu-utf8.txt	36
+celuilà , hugo_claude_gueux--utf8.txt	114
+cendres , dumas_blanche_beaulieu-utf8.txt	64
+cent , dumas_blanche_beaulieu-utf8.txt	270 , 290
+cent , hugo_claude_gueux--utf8.txt	150
+centrale , hugo_claude_gueux--utf8.txt	118 , 94
+centres , hugo_claude_gueux--utf8.txt	1062
+cents , dumas_blanche_beaulieu-utf8.txt	279
+cents , hugo_claude_gueux--utf8.txt	1118
+cependant , dumas_blanche_beaulieu-utf8.txt	259 , 351
+cependant , hugo_claude_gueux--utf8.txt	378 , 1038 , 790
+certain , hugo_claude_gueux--utf8.txt	790 , 878 , 478
+certaine , hugo_claude_gueux--utf8.txt	926 , 114 , 130
+certaines , hugo_claude_gueux--utf8.txt	94
+certes , hugo_claude_gueux--utf8.txt	994
+certitude , hugo_claude_gueux--utf8.txt	1158 , 1058
+cerveau , hugo_claude_gueux--utf8.txt	138 , 1002
+cerveaux , hugo_claude_gueux--utf8.txt	138
+cervelle , dumas_blanche_beaulieu-utf8.txt	59
+ces , dumas_blanche_beaulieu-utf8.txt	316 , 65 , 199 , 260 , 148
+ces , hugo_claude_gueux--utf8.txt	1074 , 134 , 990 , 390 , 210 , 1130 , 1130 , 1134 , 982 , 826 , 442 , 470 , 150 , 910 , 1026 , 386 , 142 , 114 , 870 , 266 , 1042 , 134 , 222 , 470 , 990 , 1130 , 114 , 946 , 1022 , 1130 , 1130
+cessation , dumas_blanche_beaulieu-utf8.txt	180
+cest , dumas_blanche_beaulieu-utf8.txt	242 , 103 , 77 , 106 , 91
+cest , hugo_claude_gueux--utf8.txt	690 , 1126 , 854 , 1034 , 698 , 1162 , 114 , 566 , 262 , 610 , 854 , 422 , 542 , 90 , 734 , 526 , 998 , 342 , 742 , 506 , 1146 , 886 , 302 , 654 , 94
+cestàdire , dumas_blanche_beaulieu-utf8.txt	187
+cet , dumas_blanche_beaulieu-utf8.txt	54 , 353 , 255 , 273
+cet , hugo_claude_gueux--utf8.txt	270 , 134 , 626 , 846 , 126 , 162 , 114 , 114 , 550 , 218 , 854 , 390 , 738 , 886 , 994 , 886 , 854
+cette , dumas_blanche_beaulieu-utf8.txt	52 , 61 , 34 , 104 , 228 , 226 , 165
+cette , hugo_claude_gueux--utf8.txt	126 , 1178 , 990 , 766 , 366 , 806 , 374 , 922 , 390 , 52 , 90 , 626 , 1086 , 1018 , 1110 , 986 , 642 , 1154 , 618 , 1034 , 1186 , 978 , 854 , 834 , 1146 , 266 , 830
+ceux , dumas_blanche_beaulieu-utf8.txt	51 , 97
+ceux , hugo_claude_gueux--utf8.txt	822 , 1026 , 378 , 950 , 618
+ceuxlà , hugo_claude_gueux--utf8.txt	622
+chacun , dumas_blanche_beaulieu-utf8.txt	54
+chacun , hugo_claude_gueux--utf8.txt	214 , 910 , 518 , 1130 , 1130
+chacune , hugo_claude_gueux--utf8.txt	830
+chagrin , hugo_claude_gueux--utf8.txt	374
+chambre , hugo_claude_gueux--utf8.txt	1042 , 1042 , 866
+chambres , hugo_claude_gueux--utf8.txt	1030
+chambrée , hugo_claude_gueux--utf8.txt	558
+champ , dumas_blanche_beaulieu-utf8.txt	80
+champ , hugo_claude_gueux--utf8.txt	1174
+champenois , hugo_claude_gueux--utf8.txt	874
+champs , dumas_blanche_beaulieu-utf8.txt	109
+chancelant , hugo_claude_gueux--utf8.txt	822
+chandelle , hugo_claude_gueux--utf8.txt	266 , 114
+chandelles , hugo_claude_gueux--utf8.txt	626
+changé , hugo_claude_gueux--utf8.txt	262 , 374 , 302
+chapeau , hugo_claude_gueux--utf8.txt	478
+chapitre , hugo_claude_gueux--utf8.txt	986
+chaque , dumas_blanche_beaulieu-utf8.txt	107 , 65 , 139
+chaque , hugo_claude_gueux--utf8.txt	1174 , 1174 , 378 , 542 , 118 , 642
+charge , hugo_claude_gueux--utf8.txt	814 , 150
+chargea , dumas_blanche_beaulieu-utf8.txt	124 , 169
+charger , hugo_claude_gueux--utf8.txt	838
+chargé , dumas_blanche_beaulieu-utf8.txt	279
+charité , hugo_claude_gueux--utf8.txt	778
+charles , dumas_blanche_beaulieu-utf8.txt	357
+charles , hugo_claude_gueux--utf8.txt	81
+charte , hugo_claude_gueux--utf8.txt	1146
+chat , hugo_claude_gueux--utf8.txt	1130
+chaux , hugo_claude_gueux--utf8.txt	466
+chef , dumas_blanche_beaulieu-utf8.txt	310
+chemin , dumas_blanche_beaulieu-utf8.txt	68 , 110
+chemin , hugo_claude_gueux--utf8.txt	90 , 1018
+chercha , hugo_claude_gueux--utf8.txt	246
+chevalier , dumas_blanche_beaulieu-utf8.txt	26
+chevet , hugo_claude_gueux--utf8.txt	778 , 1082
+cheveux , hugo_claude_gueux--utf8.txt	106 , 934
+chez , hugo_claude_gueux--utf8.txt	31
+chien , hugo_claude_gueux--utf8.txt	370 , 690
+chiourme , hugo_claude_gueux--utf8.txt	1130
+choc , hugo_claude_gueux--utf8.txt	114
+choisi , hugo_claude_gueux--utf8.txt	958 , 846
+choisir , hugo_claude_gueux--utf8.txt	510
+choléra , hugo_claude_gueux--utf8.txt	934 , 938
+chose , dumas_blanche_beaulieu-utf8.txt	337 , 354 , 77
+chose , hugo_claude_gueux--utf8.txt	558 , 586 , 386 , 110 , 1058 , 866 , 114 , 766 , 350 , 114 , 390 , 566 , 870 , 514 , 950 , 378 , 462 , 94
+choses , hugo_claude_gueux--utf8.txt	1034 , 1038 , 1098 , 90 , 838
+christ , hugo_claude_gueux--utf8.txt	962
+christianisme , dumas_blanche_beaulieu-utf8.txt	159
+chrétienne , dumas_blanche_beaulieu-utf8.txt	251
+chute , hugo_claude_gueux--utf8.txt	990 , 990
+cidessous , hugo_claude_gueux--utf8.txt	57
+ciel , dumas_blanche_beaulieu-utf8.txt	79
+ciel , hugo_claude_gueux--utf8.txt	734
+cinq , dumas_blanche_beaulieu-utf8.txt	320
+cinq , hugo_claude_gueux--utf8.txt	90 , 962 , 150 , 950 , 902
+cinquante , hugo_claude_gueux--utf8.txt	210
+cinquième , hugo_claude_gueux--utf8.txt	766
+circonstances , hugo_claude_gueux--utf8.txt	858
+circuler , dumas_blanche_beaulieu-utf8.txt	207
+cirque , dumas_blanche_beaulieu-utf8.txt	82
+ciseaux , hugo_claude_gueux--utf8.txt	770 , 946 , 462 , 462 , 946 , 618 , 782 , 466
+ciseauxlà , hugo_claude_gueux--utf8.txt	470
+citoyens , dumas_blanche_beaulieu-utf8.txt	52
+cité , hugo_claude_gueux--utf8.txt	850 , 1182
+clair , hugo_claude_gueux--utf8.txt	838
+clairvaux , hugo_claude_gueux--utf8.txt	802 , 786 , 290 , 94 , 126 , 154 , 94 , 118
+classiques , hugo_claude_gueux--utf8.txt	1034
+claude , hugo_claude_gueux--utf8.txt	738 , 474 , 138 , 482 , 142 , 466 , 486 , 490 , 462 , 882 , 462 , 874 , 134 , 910 , 518 , 462 , 130 , 150 , 458 , 126 , 458 , 522 , 522 , 914 , 454 , 870 , 126 , 922 , 450 , 126 , 154 , 446 , 546 , 862 , 154 , 438 , 430 , 422 , 554 , 154 , 558 , 562 , 162 , 418 , 766 , 778 , 410 , 406 , 574 , 938 , 762 , 394 , 162 , 854 , 850 , 162 , 390 , 174 , 606 , 1002 , 50 , 766 , 182 , 610 , 386 , 386 , 618 , 842 , 190 , 198 , 206 , 210 , 114 , 834 , 370 , 230 , 634 , 358 , 830 , 342 , 246 , 210 , 970 , 822 , 310 , 822 , 302 , 106 , 294 , 646 , 814 , 814 , 650 , 814 , 218 , 290 , 986 , 810 , 810 , 218 , 674 , 266 , 750 , 218 , 218 , 770 , 682 , 258 , 802 , 694 , 218 , 714 , 722 , 57 , 734 , 794 , 226 , 23 , 246 , 90 , 234 , 746 , 69 , 86 , 734
+claudo , hugo_claude_gueux--utf8.txt	914
+clef , hugo_claude_gueux--utf8.txt	214
+cloche , hugo_claude_gueux--utf8.txt	650
+cloots , dumas_blanche_beaulieu-utf8.txt	163
+clou , hugo_claude_gueux--utf8.txt	910 , 910
+cloître , hugo_claude_gueux--utf8.txt	466
+clément , hugo_claude_gueux--utf8.txt	646
+clôture , hugo_claude_gueux--utf8.txt	290
+codes , hugo_claude_gueux--utf8.txt	1110 , 1086
+coin , hugo_claude_gueux--utf8.txt	934
+coins , hugo_claude_gueux--utf8.txt	638
+collection , dumas_blanche_beaulieu-utf8.txt	7
+colleter , hugo_claude_gueux--utf8.txt	1042
+collier , dumas_blanche_beaulieu-utf8.txt	15
+collot , dumas_blanche_beaulieu-utf8.txt	128 , 121
+collègues , dumas_blanche_beaulieu-utf8.txt	122
+colonne , dumas_blanche_beaulieu-utf8.txt	55
+colère , hugo_claude_gueux--utf8.txt	850 , 386
+colères , hugo_claude_gueux--utf8.txt	114
+combat , dumas_blanche_beaulieu-utf8.txt	110 , 111
+comité , dumas_blanche_beaulieu-utf8.txt	164 , 186 , 118
+commanda , hugo_claude_gueux--utf8.txt	810 , 638
+commandant , dumas_blanche_beaulieu-utf8.txt	137
+commande , dumas_blanche_beaulieu-utf8.txt	138
+commande , hugo_claude_gueux--utf8.txt	114
+comme , dumas_blanche_beaulieu-utf8.txt	137 , 101 , 117 , 70 , 114 , 191 , 210 , 82 , 90
+comme , hugo_claude_gueux--utf8.txt	826 , 546 , 670 , 186 , 542 , 846 , 914 , 286 , 806 , 766 , 134 , 626 , 838 , 402 , 646 , 734 , 90 , 482 , 970 , 746
+commence , dumas_blanche_beaulieu-utf8.txt	228
+commencèrent , hugo_claude_gueux--utf8.txt	786
+commencé , hugo_claude_gueux--utf8.txt	862
+comment , dumas_blanche_beaulieu-utf8.txt	94 , 95
+comment , hugo_claude_gueux--utf8.txt	190 , 778
+commençait , dumas_blanche_beaulieu-utf8.txt	207
+commode , dumas_blanche_beaulieu-utf8.txt	49
+commune , dumas_blanche_beaulieu-utf8.txt	172 , 150
+compagnie , dumas_blanche_beaulieu-utf8.txt	248
+compagnon , hugo_claude_gueux--utf8.txt	114
+compagnons , dumas_blanche_beaulieu-utf8.txt	22
+compagnons , hugo_claude_gueux--utf8.txt	1090 , 618 , 134 , 546
+comparait , hugo_claude_gueux--utf8.txt	114
+complaisance , hugo_claude_gueux--utf8.txt	898
+complication , hugo_claude_gueux--utf8.txt	518
+compliqué , hugo_claude_gueux--utf8.txt	734
+complètement , hugo_claude_gueux--utf8.txt	1018
+complètes , hugo_claude_gueux--utf8.txt	35
+compose , dumas_blanche_beaulieu-utf8.txt	278
+composés , hugo_claude_gueux--utf8.txt	114
+comprend , hugo_claude_gueux--utf8.txt	1022
+comprends , hugo_claude_gueux--utf8.txt	854
+comprennent , hugo_claude_gueux--utf8.txt	94
+comprime , hugo_claude_gueux--utf8.txt	854
+comprimer , dumas_blanche_beaulieu-utf8.txt	189
+comprimèrent , dumas_blanche_beaulieu-utf8.txt	122
+comprimé , dumas_blanche_beaulieu-utf8.txt	191
+compris , hugo_claude_gueux--utf8.txt	554
+comptais , dumas_blanche_beaulieu-utf8.txt	248
+compte , dumas_blanche_beaulieu-utf8.txt	343
+comptes , dumas_blanche_beaulieu-utf8.txt	353
+compère , hugo_claude_gueux--utf8.txt	1146
+comte , dumas_blanche_beaulieu-utf8.txt	261 , 217 , 257 , 12
+comte , hugo_claude_gueux--utf8.txt	1030
+concubinage , hugo_claude_gueux--utf8.txt	862
+condamné , hugo_claude_gueux--utf8.txt	466 , 522 , 874 , 402 , 754 , 822 , 566 , 446 , 630
+condamnés , hugo_claude_gueux--utf8.txt	954
+confesseur , hugo_claude_gueux--utf8.txt	970
+conformées , hugo_claude_gueux--utf8.txt	1130
+conférences , hugo_claude_gueux--utf8.txt	1034
+connais , hugo_claude_gueux--utf8.txt	1030
+connaissaient , hugo_claude_gueux--utf8.txt	378
+connaissance , hugo_claude_gueux--utf8.txt	778 , 126
+connaît , hugo_claude_gueux--utf8.txt	1034
+connaître , dumas_blanche_beaulieu-utf8.txt	315
+connaître , hugo_claude_gueux--utf8.txt	1030
+connétable , dumas_blanche_beaulieu-utf8.txt	218
+conscience , hugo_claude_gueux--utf8.txt	574
+conseilla , hugo_claude_gueux--utf8.txt	522
+conseillé , hugo_claude_gueux--utf8.txt	518
+conserva , hugo_claude_gueux--utf8.txt	934
+consoler , hugo_claude_gueux--utf8.txt	126
+constaté , hugo_claude_gueux--utf8.txt	554 , 394
+constitutionnel , hugo_claude_gueux--utf8.txt	1146
+construite , hugo_claude_gueux--utf8.txt	114
+consultaient , hugo_claude_gueux--utf8.txt	134
+consultation , hugo_claude_gueux--utf8.txt	1082
+conséquences , dumas_blanche_beaulieu-utf8.txt	143
+conséquent , hugo_claude_gueux--utf8.txt	850
+conta , hugo_claude_gueux--utf8.txt	126
+contact , hugo_claude_gueux--utf8.txt	114
+contenait , hugo_claude_gueux--utf8.txt	838 , 462
+contenant , dumas_blanche_beaulieu-utf8.txt	218
+contenir , hugo_claude_gueux--utf8.txt	218 , 806
+contenta , hugo_claude_gueux--utf8.txt	882
+contes , dumas_blanche_beaulieu-utf8.txt	27
+contiennent , hugo_claude_gueux--utf8.txt	138
+contient , hugo_claude_gueux--utf8.txt	138
+continua , dumas_blanche_beaulieu-utf8.txt	236 , 333
+continuant , hugo_claude_gueux--utf8.txt	722 , 718
+contraindre , hugo_claude_gueux--utf8.txt	1030
+contraires , dumas_blanche_beaulieu-utf8.txt	177
+contre , dumas_blanche_beaulieu-utf8.txt	146 , 41
+contre , hugo_claude_gueux--utf8.txt	810 , 830 , 1034 , 218
+contrepoids , hugo_claude_gueux--utf8.txt	1158
+convention , dumas_blanche_beaulieu-utf8.txt	202 , 170
+convention , hugo_claude_gueux--utf8.txt	134
+conversation , dumas_blanche_beaulieu-utf8.txt	50
+convint , hugo_claude_gueux--utf8.txt	838
+cordelier , dumas_blanche_beaulieu-utf8.txt	184
+cordialement , hugo_claude_gueux--utf8.txt	218
+corneille , hugo_claude_gueux--utf8.txt	1034
+corps , dumas_blanche_beaulieu-utf8.txt	138 , 137
+corps , hugo_claude_gueux--utf8.txt	1078 , 930
+corrections , dumas_blanche_beaulieu-utf8.txt	214
+corridor , hugo_claude_gueux--utf8.txt	418
+cortège , hugo_claude_gueux--utf8.txt	954
+cotadilla , hugo_claude_gueux--utf8.txt	150
+couchaient , hugo_claude_gueux--utf8.txt	214
+coudes , hugo_claude_gueux--utf8.txt	402
+coudre , hugo_claude_gueux--utf8.txt	462
+coup , dumas_blanche_beaulieu-utf8.txt	96
+coup , hugo_claude_gueux--utf8.txt	854 , 490 , 766 , 678 , 766 , 858 , 1042 , 854 , 978 , 650 , 650
+coupable , hugo_claude_gueux--utf8.txt	1006
+coupables , hugo_claude_gueux--utf8.txt	826
+coupait , hugo_claude_gueux--utf8.txt	934
+coupe , hugo_claude_gueux--utf8.txt	1114
+couper , hugo_claude_gueux--utf8.txt	1186
+couperai , hugo_claude_gueux--utf8.txt	470
+couperet , hugo_claude_gueux--utf8.txt	1106 , 1102
+coupez , hugo_claude_gueux--utf8.txt	854
+coups , hugo_claude_gueux--utf8.txt	766 , 782 , 970
+cour , dumas_blanche_beaulieu-utf8.txt	269
+cour , hugo_claude_gueux--utf8.txt	818 , 802 , 798 , 446 , 618
+courage , hugo_claude_gueux--utf8.txt	634
+courageuses , dumas_blanche_beaulieu-utf8.txt	86
+courant , hugo_claude_gueux--utf8.txt	69
+court , hugo_claude_gueux--utf8.txt	766
+courte , hugo_claude_gueux--utf8.txt	770 , 114
+couteau , dumas_blanche_beaulieu-utf8.txt	40
+couteau , hugo_claude_gueux--utf8.txt	162 , 182
+couthon , dumas_blanche_beaulieu-utf8.txt	125
+coutume , hugo_claude_gueux--utf8.txt	830
+couturière , hugo_claude_gueux--utf8.txt	462
+couvert , hugo_claude_gueux--utf8.txt	778
+couvre , dumas_blanche_beaulieu-utf8.txt	87
+couvrit , hugo_claude_gueux--utf8.txt	970
+coûterait , hugo_claude_gueux--utf8.txt	734
+crains , hugo_claude_gueux--utf8.txt	454
+creux , dumas_blanche_beaulieu-utf8.txt	69
+cri , dumas_blanche_beaulieu-utf8.txt	33 , 34
+cri , hugo_claude_gueux--utf8.txt	766
+cria , hugo_claude_gueux--utf8.txt	402 , 770
+criant , hugo_claude_gueux--utf8.txt	770
+crime , hugo_claude_gueux--utf8.txt	1070 , 1090
+crimes , hugo_claude_gueux--utf8.txt	1110
+criminel , hugo_claude_gueux--utf8.txt	830 , 1090
+cris , hugo_claude_gueux--utf8.txt	1034
+croient , hugo_claude_gueux--utf8.txt	114
+croisée , hugo_claude_gueux--utf8.txt	466
+croyais , dumas_blanche_beaulieu-utf8.txt	247
+croyait , dumas_blanche_beaulieu-utf8.txt	191
+croyait , hugo_claude_gueux--utf8.txt	594 , 574
+croyance , hugo_claude_gueux--utf8.txt	1166
+croyant , hugo_claude_gueux--utf8.txt	162
+croyez , hugo_claude_gueux--utf8.txt	1046
+croyons , hugo_claude_gueux--utf8.txt	1038
+cru , dumas_blanche_beaulieu-utf8.txt	74
+cru , hugo_claude_gueux--utf8.txt	986
+crucifix , hugo_claude_gueux--utf8.txt	954
+crue , dumas_blanche_beaulieu-utf8.txt	166
+crâne , hugo_claude_gueux--utf8.txt	1138 , 766
+crânes , hugo_claude_gueux--utf8.txt	1130
+créé , dumas_blanche_beaulieu-utf8.txt	189
+cuisse , hugo_claude_gueux--utf8.txt	766
+cuivre , dumas_blanche_beaulieu-utf8.txt	210 , 85
+culdesac , hugo_claude_gueux--utf8.txt	582
+culte , dumas_blanche_beaulieu-utf8.txt	160
+cultes , dumas_blanche_beaulieu-utf8.txt	177
+cultivezla , hugo_claude_gueux--utf8.txt	1186
+curieuse , dumas_blanche_beaulieu-utf8.txt	53 , 337
+céleste , hugo_claude_gueux--utf8.txt	1158
+cétaient , dumas_blanche_beaulieu-utf8.txt	199
+cétaient , hugo_claude_gueux--utf8.txt	1102
+cétait , dumas_blanche_beaulieu-utf8.txt	140
+cétait , hugo_claude_gueux--utf8.txt	158 , 682 , 322 , 118 , 114 , 822 , 642 , 150 , 958 , 770 , 786 , 114 , 158 , 462 , 106 , 438 , 142
+côtedor , dumas_blanche_beaulieu-utf8.txt	131
+côté , dumas_blanche_beaulieu-utf8.txt	108 , 285
+côté , hugo_claude_gueux--utf8.txt	230 , 1134 , 870 , 518 , 642 , 658
+côtés , hugo_claude_gueux--utf8.txt	642
+cœur , dumas_blanche_beaulieu-utf8.txt	86
+cœur , hugo_claude_gueux--utf8.txt	770 , 854 , 218 , 1002
+dabord , hugo_claude_gueux--utf8.txt	566
+dacier , dumas_blanche_beaulieu-utf8.txt	75
+dadoucir , dumas_blanche_beaulieu-utf8.txt	125
+daigne , hugo_claude_gueux--utf8.txt	1034
+dailleurs , hugo_claude_gueux--utf8.txt	942 , 114 , 374 , 574
+dajoncs , dumas_blanche_beaulieu-utf8.txt	109
+dalbin , hugo_claude_gueux--utf8.txt	310 , 458 , 706 , 374 , 358 , 822
+dalençon , dumas_blanche_beaulieu-utf8.txt	282
+dambition , dumas_blanche_beaulieu-utf8.txt	206
+damné , hugo_claude_gueux--utf8.txt	770
+damnés , hugo_claude_gueux--utf8.txt	1130
+danemark , hugo_claude_gueux--utf8.txt	1126
+dangereux , dumas_blanche_beaulieu-utf8.txt	195
+dangereux , hugo_claude_gueux--utf8.txt	782
+dangoisse , hugo_claude_gueux--utf8.txt	386
+dans , dumas_blanche_beaulieu-utf8.txt	140 , 313 , 74 , 126 , 125 , 234 , 152 , 261 , 70 , 213 , 68
+dans , hugo_claude_gueux--utf8.txt	950 , 846 , 838 , 230 , 626 , 114 , 1034 , 374 , 182 , 890 , 114 , 90 , 630 , 1002 , 110 , 830 , 69 , 246 , 638 , 210 , 846 , 946 , 826 , 134 , 962 , 850 , 326 , 594 , 106 , 214 , 942 , 734 , 214 , 822 , 246 , 102 , 1130 , 102 , 290 , 402 , 1154 , 402 , 1154 , 402 , 1078 , 510 , 778 , 910 , 566 , 934 , 290 , 766 , 1046 , 462 , 31 , 1178 , 218 , 770 , 1158 , 522 , 134 , 418 , 154 , 914 , 806 , 1158 , 990 , 522 , 1034 , 246 , 666 , 246 , 490 , 1002 , 866 , 542 , 126 , 446 , 478 , 154 , 770 , 550 , 674 , 546 , 578
+danton , dumas_blanche_beaulieu-utf8.txt	151 , 179 , 204
+dapprendre , hugo_claude_gueux--utf8.txt	522
+daprès , hugo_claude_gueux--utf8.txt	114 , 35
+dardeur , hugo_claude_gueux--utf8.txt	478
+darracher , hugo_claude_gueux--utf8.txt	1050
+dartus , dumas_blanche_beaulieu-utf8.txt	234 , 217
+dassises , hugo_claude_gueux--utf8.txt	798
+dathéis , dumas_blanche_beaulieu-utf8.txt	203
+dattraction , hugo_claude_gueux--utf8.txt	138
+daucun , hugo_claude_gueux--utf8.txt	114
+daucune , hugo_claude_gueux--utf8.txt	114
+dauphinois , dumas_blanche_beaulieu-utf8.txt	288
+dautrefois , hugo_claude_gueux--utf8.txt	462
+dautres , hugo_claude_gueux--utf8.txt	846
+davance , hugo_claude_gueux--utf8.txt	478
+davoir , hugo_claude_gueux--utf8.txt	218
+davortements , hugo_claude_gueux--utf8.txt	1034
+debout , dumas_blanche_beaulieu-utf8.txt	97
+debout , hugo_claude_gueux--utf8.txt	558 , 838 , 982 , 290 , 162 , 674
+dedans , hugo_claude_gueux--utf8.txt	1134
+degré , hugo_claude_gueux--utf8.txt	134
+demain , dumas_blanche_beaulieu-utf8.txt	248 , 318
+demanda , hugo_claude_gueux--utf8.txt	786 , 778 , 786 , 418 , 522 , 126 , 866
+demandait , dumas_blanche_beaulieu-utf8.txt	192 , 180
+demandait , hugo_claude_gueux--utf8.txt	230
+demandaton , hugo_claude_gueux--utf8.txt	498
+demande , dumas_blanche_beaulieu-utf8.txt	172 , 173
+demande , hugo_claude_gueux--utf8.txt	946 , 1026
+demi , hugo_claude_gueux--utf8.txt	958 , 298
+demie , hugo_claude_gueux--utf8.txt	154
+demiheure , dumas_blanche_beaulieu-utf8.txt	112
+demisourire , dumas_blanche_beaulieu-utf8.txt	244
+dempire , hugo_claude_gueux--utf8.txt	838
+dempêcher , dumas_blanche_beaulieu-utf8.txt	34
+dempêcher , hugo_claude_gueux--utf8.txt	218
+den , hugo_claude_gueux--utf8.txt	73
+dentendre , hugo_claude_gueux--utf8.txt	678
+dentre , hugo_claude_gueux--utf8.txt	878
+dentrée , hugo_claude_gueux--utf8.txt	658
+dents , dumas_blanche_beaulieu-utf8.txt	308
+denvoyer , hugo_claude_gueux--utf8.txt	866
+depuis , dumas_blanche_beaulieu-utf8.txt	320 , 219 , 112
+depuis , hugo_claude_gueux--utf8.txt	462 , 402 , 554 , 898 , 682 , 626 , 386 , 590
+dernier , dumas_blanche_beaulieu-utf8.txt	225
+dernier , hugo_claude_gueux--utf8.txt	898 , 134
+dernière , hugo_claude_gueux--utf8.txt	626 , 606
+derrière , hugo_claude_gueux--utf8.txt	678
+descendit , dumas_blanche_beaulieu-utf8.txt	68
+descendit , hugo_claude_gueux--utf8.txt	482
+desmoulins , dumas_blanche_beaulieu-utf8.txt	185
+despagne , hugo_claude_gueux--utf8.txt	150
+desprit , hugo_claude_gueux--utf8.txt	934
+despérance , hugo_claude_gueux--utf8.txt	1170
+dessous , hugo_claude_gueux--utf8.txt	838
+dessus , hugo_claude_gueux--utf8.txt	130
+deux , dumas_blanche_beaulieu-utf8.txt	53 , 279 , 146 , 72 , 148
+deux , hugo_claude_gueux--utf8.txt	802 , 150 , 230 , 214 , 746 , 970 , 386 , 642 , 1090 , 990 , 590 , 990 , 982 , 1174 , 642 , 1090 , 814 , 566 , 1130 , 990 , 642 , 218 , 182 , 774 , 1154 , 886 , 230 , 1090 , 870 , 210 , 1074 , 642 , 462 , 990
+devaient , hugo_claude_gueux--utf8.txt	806
+devait , hugo_claude_gueux--utf8.txt	142 , 606 , 642 , 614
+devant , hugo_claude_gueux--utf8.txt	386 , 818 , 674 , 802 , 798
+devenu , dumas_blanche_beaulieu-utf8.txt	193
+devenu , hugo_claude_gueux--utf8.txt	142 , 126
+devint , dumas_blanche_beaulieu-utf8.txt	134 , 163
+devoir , hugo_claude_gueux--utf8.txt	782 , 114 , 986
+devînt , dumas_blanche_beaulieu-utf8.txt	194
+dexemplaires , hugo_claude_gueux--utf8.txt	73
+dexplication , hugo_claude_gueux--utf8.txt	1146
+dhabitude , hugo_claude_gueux--utf8.txt	670
+dherbois , dumas_blanche_beaulieu-utf8.txt	121 , 128
+dheure , hugo_claude_gueux--utf8.txt	874
+dhippodrome , hugo_claude_gueux--utf8.txt	830
+dhonneur , hugo_claude_gueux--utf8.txt	57
+diable , hugo_claude_gueux--utf8.txt	522 , 406
+diagonale , hugo_claude_gueux--utf8.txt	114
+dictateur , dumas_blanche_beaulieu-utf8.txt	207
+dictature , dumas_blanche_beaulieu-utf8.txt	187
+dieu , dumas_blanche_beaulieu-utf8.txt	300
+difficulté , hugo_claude_gueux--utf8.txt	810
+digne , hugo_claude_gueux--utf8.txt	106
+dignité , hugo_claude_gueux--utf8.txt	626
+dijon , hugo_claude_gueux--utf8.txt	1050
+dimanche , hugo_claude_gueux--utf8.txt	402
+dimpatience , hugo_claude_gueux--utf8.txt	738
+dimpérieux , hugo_claude_gueux--utf8.txt	110
+dinnocence , hugo_claude_gueux--utf8.txt	210
+dinstruction , hugo_claude_gueux--utf8.txt	778
+dinterroger , hugo_claude_gueux--utf8.txt	1034
+dintersection , hugo_claude_gueux--utf8.txt	1130
+dintérêt , hugo_claude_gueux--utf8.txt	778
+dirait , hugo_claude_gueux--utf8.txt	1042 , 114
+dire , dumas_blanche_beaulieu-utf8.txt	350 , 306
+dire , hugo_claude_gueux--utf8.txt	734 , 374 , 566 , 1022 , 882 , 838 , 866 , 558 , 766
+directeur , hugo_claude_gueux--utf8.txt	394 , 118 , 366 , 362 , 686 , 850 , 282 , 850 , 114 , 458 , 586 , 230 , 458 , 65 , 738 , 606 , 698 , 710 , 718 , 542 , 614 , 642 , 126 , 442 , 386 , 726 , 322 , 734 , 750 , 430 , 734 , 386 , 670 , 422 , 766 , 418 , 662 , 418 , 386 , 306 , 290 , 766 , 758 , 506 , 218 , 298 , 290 , 290 , 218 , 218 , 226 , 218 , 786 , 566 , 766
+direction , hugo_claude_gueux--utf8.txt	1146
+dirent , hugo_claude_gueux--utf8.txt	810
+dirigèrent , dumas_blanche_beaulieu-utf8.txt	129
+dirigé , hugo_claude_gueux--utf8.txt	1182
+dis , dumas_blanche_beaulieu-utf8.txt	330
+dis , hugo_claude_gueux--utf8.txt	854 , 398 , 90 , 854
+disait , hugo_claude_gueux--utf8.txt	1042
+disant , hugo_claude_gueux--utf8.txt	466
+discours , hugo_claude_gueux--utf8.txt	830 , 850
+discrétionnaire , hugo_claude_gueux--utf8.txt	810
+discussion , hugo_claude_gueux--utf8.txt	846
+discussions , hugo_claude_gueux--utf8.txt	1034
+disparition , hugo_claude_gueux--utf8.txt	458
+distance , hugo_claude_gueux--utf8.txt	114
+distribua , hugo_claude_gueux--utf8.txt	618
+distribué , hugo_claude_gueux--utf8.txt	638
+dit , dumas_blanche_beaulieu-utf8.txt	114 , 211
+dit , hugo_claude_gueux--utf8.txt	538 , 686 , 962 , 562 , 838 , 890 , 322 , 734 , 358 , 650 , 634 , 362 , 870 , 522 , 430 , 426 , 742 , 422 , 1034 , 262 , 938 , 294 , 566 , 946 , 410 , 394 , 758 , 610 , 834 , 454 , 822 , 854 , 190 , 922 , 234 , 714 , 962 , 126 , 710 , 854 , 206 , 606 , 738 , 186 , 238 , 442 , 170
+ditesmoi , hugo_claude_gueux--utf8.txt	754
+ditil , dumas_blanche_beaulieu-utf8.txt	48
+ditil , hugo_claude_gueux--utf8.txt	250 , 494 , 806 , 166
+dix , hugo_claude_gueux--utf8.txt	218 , 218
+dixneuvième , hugo_claude_gueux--utf8.txt	1034 , 986
+dixsept , hugo_claude_gueux--utf8.txt	210
+dois , dumas_blanche_beaulieu-utf8.txt	348
+doitelle , hugo_claude_gueux--utf8.txt	1154
+doivent , hugo_claude_gueux--utf8.txt	926 , 1058
+don , dumas_blanche_beaulieu-utf8.txt	355
+donc , hugo_claude_gueux--utf8.txt	718 , 770 , 114 , 994 , 154 , 406 , 1174 , 118 , 546 , 602 , 258 , 142
+donna , hugo_claude_gueux--utf8.txt	902
+donne , dumas_blanche_beaulieu-utf8.txt	310
+donne , hugo_claude_gueux--utf8.txt	854 , 434 , 854 , 566
+donner , dumas_blanche_beaulieu-utf8.txt	342 , 250
+donner , hugo_claude_gueux--utf8.txt	586 , 798 , 586
+donnera , hugo_claude_gueux--utf8.txt	998
+donnez , hugo_claude_gueux--utf8.txt	1166 , 1166
+donné , hugo_claude_gueux--utf8.txt	138 , 210 , 270 , 566
+donnée , dumas_blanche_beaulieu-utf8.txt	280
+donnée , hugo_claude_gueux--utf8.txt	386 , 950 , 366
+donnés , dumas_blanche_beaulieu-utf8.txt	60
+dont , dumas_blanche_beaulieu-utf8.txt	280
+dont , hugo_claude_gueux--utf8.txt	94 , 146 , 1030 , 114 , 998 , 94 , 1026 , 790 , 57 , 94
+doptique , hugo_claude_gueux--utf8.txt	114
+dor , dumas_blanche_beaulieu-utf8.txt	290 , 276 , 280
+dordinaire , hugo_claude_gueux--utf8.txt	642
+dormi , hugo_claude_gueux--utf8.txt	922
+dormirais , hugo_claude_gueux--utf8.txt	922
+dortoir , hugo_claude_gueux--utf8.txt	246 , 230
+dos , hugo_claude_gueux--utf8.txt	762
+doubla , hugo_claude_gueux--utf8.txt	746
+doublé , hugo_claude_gueux--utf8.txt	146
+doucement , hugo_claude_gueux--utf8.txt	962 , 634 , 750
+douceur , hugo_claude_gueux--utf8.txt	970
+douloureux , hugo_claude_gueux--utf8.txt	458
+doute , hugo_claude_gueux--utf8.txt	630 , 114 , 1002 , 1130 , 1030
+douter , dumas_blanche_beaulieu-utf8.txt	309
+douter , hugo_claude_gueux--utf8.txt	922 , 142
+doux , hugo_claude_gueux--utf8.txt	930 , 106 , 982 , 846 , 378
+douze , hugo_claude_gueux--utf8.txt	874
+doué , hugo_claude_gueux--utf8.txt	994
+doù , dumas_blanche_beaulieu-utf8.txt	96
+doù , hugo_claude_gueux--utf8.txt	258 , 418
+drame , hugo_claude_gueux--utf8.txt	1034
+drames , dumas_blanche_beaulieu-utf8.txt	29
+dressaient , hugo_claude_gueux--utf8.txt	794
+dressant , dumas_blanche_beaulieu-utf8.txt	80
+droit , hugo_claude_gueux--utf8.txt	642 , 218
+droite , dumas_blanche_beaulieu-utf8.txt	214
+droite , hugo_claude_gueux--utf8.txt	674 , 518 , 766 , 766 , 642 , 962 , 950 , 642
+drôle , dumas_blanche_beaulieu-utf8.txt	48
+duc , dumas_blanche_beaulieu-utf8.txt	285
+duc , hugo_claude_gueux--utf8.txt	150
+duchesne , dumas_blanche_beaulieu-utf8.txt	153
+dumas , dumas_blanche_beaulieu-utf8.txt	38 , 3
+dun , dumas_blanche_beaulieu-utf8.txt	302 , 27 , 233 , 87 , 31 , 82 , 31
+dun , hugo_claude_gueux--utf8.txt	138 , 766 , 634 , 386 , 386 , 854 , 766 , 954 , 1158 , 1102
+dune , hugo_claude_gueux--utf8.txt	218 , 430 , 466 , 790
+dunkerque , hugo_claude_gueux--utf8.txt	61
+dupes , hugo_claude_gueux--utf8.txt	114
+dur , hugo_claude_gueux--utf8.txt	114 , 1150
+durant , hugo_claude_gueux--utf8.txt	1034
+dès , hugo_claude_gueux--utf8.txt	878
+débats , hugo_claude_gueux--utf8.txt	862 , 810 , 878
+déblayé , dumas_blanche_beaulieu-utf8.txt	198
+décembre , dumas_blanche_beaulieu-utf8.txt	169
+décembre , hugo_claude_gueux--utf8.txt	794
+décheniller , hugo_claude_gueux--utf8.txt	1030
+déchiqueter , hugo_claude_gueux--utf8.txt	1050
+déchire , dumas_blanche_beaulieu-utf8.txt	103
+décision , hugo_claude_gueux--utf8.txt	330 , 462
+décisions , hugo_claude_gueux--utf8.txt	346
+déclara , hugo_claude_gueux--utf8.txt	574
+déclaration , hugo_claude_gueux--utf8.txt	874
+déclarer , hugo_claude_gueux--utf8.txt	1034
+déclaré , hugo_claude_gueux--utf8.txt	626
+décole , hugo_claude_gueux--utf8.txt	1034 , 1118
+décombres , hugo_claude_gueux--utf8.txt	114
+décréta , dumas_blanche_beaulieu-utf8.txt	172
+dédaigneuse , hugo_claude_gueux--utf8.txt	106
+dédaigneusement , dumas_blanche_beaulieu-utf8.txt	334
+dédaigneux , hugo_claude_gueux--utf8.txt	442
+déducation , hugo_claude_gueux--utf8.txt	626
+déesse , dumas_blanche_beaulieu-utf8.txt	163
+défaveur , hugo_claude_gueux--utf8.txt	146
+défendez , dumas_blanche_beaulieu-utf8.txt	95
+défendues , dumas_blanche_beaulieu-utf8.txt	178
+défrichezla , hugo_claude_gueux--utf8.txt	1186
+déguisé , hugo_claude_gueux--utf8.txt	1030
+dégénère , dumas_blanche_beaulieu-utf8.txt	209
+déjà , hugo_claude_gueux--utf8.txt	210 , 758 , 106 , 218
+délai , hugo_claude_gueux--utf8.txt	898
+délastique , hugo_claude_gueux--utf8.txt	114
+délibération , hugo_claude_gueux--utf8.txt	874
+délièrent , hugo_claude_gueux--utf8.txt	810
+démon , hugo_claude_gueux--utf8.txt	734
+démontezmoi , hugo_claude_gueux--utf8.txt	1110
+démêlés , hugo_claude_gueux--utf8.txt	1042
+dénoncé , hugo_claude_gueux--utf8.txt	518
+dépareillé , hugo_claude_gueux--utf8.txt	462
+départements , dumas_blanche_beaulieu-utf8.txt	129
+dépasser , dumas_blanche_beaulieu-utf8.txt	148
+dépend , hugo_claude_gueux--utf8.txt	342
+dépingle , hugo_claude_gueux--utf8.txt	854
+déposer , hugo_claude_gueux--utf8.txt	822 , 810 , 810
+déposé , hugo_claude_gueux--utf8.txt	266 , 57
+dépouille , hugo_claude_gueux--utf8.txt	618
+députés , hugo_claude_gueux--utf8.txt	73 , 1034
+dépôt , hugo_claude_gueux--utf8.txt	114
+dérangeaient , hugo_claude_gueux--utf8.txt	626
+déroula , hugo_claude_gueux--utf8.txt	818
+désenfler , hugo_claude_gueux--utf8.txt	1030
+déshonoré , hugo_claude_gueux--utf8.txt	466
+désirait , hugo_claude_gueux--utf8.txt	946
+désobéissantes , hugo_claude_gueux--utf8.txt	134
+désordre , hugo_claude_gueux--utf8.txt	1146
+désormais , hugo_claude_gueux--utf8.txt	950 , 57 , 106
+détail , hugo_claude_gueux--utf8.txt	986
+détenu , hugo_claude_gueux--utf8.txt	522
+détenus , hugo_claude_gueux--utf8.txt	910
+déterminé , hugo_claude_gueux--utf8.txt	390
+détestaitil , hugo_claude_gueux--utf8.txt	218
+détesté , hugo_claude_gueux--utf8.txt	146
+détonnement , hugo_claude_gueux--utf8.txt	834
+détourna , hugo_claude_gueux--utf8.txt	298 , 678
+dévangiles , hugo_claude_gueux--utf8.txt	1174
+dévasion , hugo_claude_gueux--utf8.txt	906
+développer , hugo_claude_gueux--utf8.txt	818
+développez , hugo_claude_gueux--utf8.txt	1134
+développée , hugo_claude_gueux--utf8.txt	1146
+dévorer , hugo_claude_gueux--utf8.txt	162
+dévouaient , hugo_claude_gueux--utf8.txt	906
+dêtre , hugo_claude_gueux--utf8.txt	114 , 134
+dû , hugo_claude_gueux--utf8.txt	946
+dœil , hugo_claude_gueux--utf8.txt	490
+e , dumas_blanche_beaulieu-utf8.txt	88
+effet , hugo_claude_gueux--utf8.txt	862 , 218 , 982 , 210
+effort , hugo_claude_gueux--utf8.txt	738
+eh , hugo_claude_gueux--utf8.txt	450
+elle , dumas_blanche_beaulieu-utf8.txt	112
+elle , hugo_claude_gueux--utf8.txt	114 , 898 , 958 , 1154 , 1150 , 1050 , 1050 , 57
+elles , hugo_claude_gueux--utf8.txt	90 , 838
+emboîta , dumas_blanche_beaulieu-utf8.txt	70
+embrassa , hugo_claude_gueux--utf8.txt	622
+embrasser , hugo_claude_gueux--utf8.txt	962
+emmena , hugo_claude_gueux--utf8.txt	242
+empire , hugo_claude_gueux--utf8.txt	134
+empirisme , hugo_claude_gueux--utf8.txt	1086
+employez , hugo_claude_gueux--utf8.txt	1178
+employé , hugo_claude_gueux--utf8.txt	982
+emportements , hugo_claude_gueux--utf8.txt	114
+empêcher , hugo_claude_gueux--utf8.txt	822 , 770
+en , dumas_blanche_beaulieu-utf8.txt	209 , 312 , 354 , 334 , 285 , 37 , 138 , 355 , 119 , 214 , 323 , 307 , 114 , 237 , 333 , 45 , 275 , 156 , 308
+en , hugo_claude_gueux--utf8.txt	722 , 150 , 822 , 862 , 374 , 842 , 358 , 898 , 746 , 986 , 210 , 682 , 154 , 118 , 618 , 642 , 618 , 462 , 210 , 1162 , 850 , 114 , 114 , 862 , 218 , 430 , 838 , 378 , 822 , 1026 , 374 , 666 , 642 , 1114 , 958 , 734 , 810 , 462 , 374 , 382 , 114 , 770 , 114 , 794 , 1114 , 794 , 458 , 210 , 862 , 218 , 402 , 934 , 1082 , 106 , 114 , 182 , 142 , 182 , 638 , 970 , 942 , 1086 , 942 , 31 , 826 , 618 , 1118 , 522 , 466 , 566 , 73 , 370 , 1034 , 114 , 1030 , 1090 , 818 , 386 , 1018
+encombré , hugo_claude_gueux--utf8.txt	806
+encore , dumas_blanche_beaulieu-utf8.txt	97 , 211 , 198
+encore , hugo_claude_gueux--utf8.txt	846 , 162 , 106 , 958 , 1038 , 998 , 462 , 1146 , 978 , 210 , 982 , 922 , 1094 , 710 , 210
+enfant , hugo_claude_gueux--utf8.txt	210 , 90 , 462 , 854 , 854
+enfants , hugo_claude_gueux--utf8.txt	1122
+enfermé , hugo_claude_gueux--utf8.txt	114
+enfin , hugo_claude_gueux--utf8.txt	418 , 770 , 166
+enfoncé , hugo_claude_gueux--utf8.txt	106
+enfonça , hugo_claude_gueux--utf8.txt	770
+engagé , hugo_claude_gueux--utf8.txt	582
+ensemble , hugo_claude_gueux--utf8.txt	566 , 114
+ensemencez , hugo_claude_gueux--utf8.txt	1174
+ensuite , hugo_claude_gueux--utf8.txt	566
+entaille , hugo_claude_gueux--utf8.txt	766
+entamer , hugo_claude_gueux--utf8.txt	810
+entendit , hugo_claude_gueux--utf8.txt	650
+entendre , hugo_claude_gueux--utf8.txt	386
+entendu , dumas_blanche_beaulieu-utf8.txt	271 , 325 , 50
+entendus , dumas_blanche_beaulieu-utf8.txt	312
+entier , hugo_claude_gueux--utf8.txt	850
+entiers , dumas_blanche_beaulieu-utf8.txt	109
+entière , hugo_claude_gueux--utf8.txt	990
+entouré , hugo_claude_gueux--utf8.txt	778
+entra , hugo_claude_gueux--utf8.txt	914 , 674 , 662 , 822
+entrait , hugo_claude_gueux--utf8.txt	482
+entraîner , hugo_claude_gueux--utf8.txt	594
+entre , dumas_blanche_beaulieu-utf8.txt	313 , 72
+entre , hugo_claude_gueux--utf8.txt	390 , 642 , 210 , 514 , 394 , 990
+entrer , hugo_claude_gueux--utf8.txt	642
+entré , dumas_blanche_beaulieu-utf8.txt	234
+entêtement , dumas_blanche_beaulieu-utf8.txt	209
+envieuse , hugo_claude_gueux--utf8.txt	218
+environs , dumas_blanche_beaulieu-utf8.txt	250
+envoyer , dumas_blanche_beaulieu-utf8.txt	248
+envoyé , dumas_blanche_beaulieu-utf8.txt	51
+envoyé , hugo_claude_gueux--utf8.txt	94
+escarcelle , dumas_blanche_beaulieu-utf8.txt	261
+esclaves , hugo_claude_gueux--utf8.txt	146
+espace , hugo_claude_gueux--utf8.txt	134
+espoir , dumas_blanche_beaulieu-utf8.txt	303
+espèce , hugo_claude_gueux--utf8.txt	1130 , 462 , 830 , 386 , 114
+espèces , hugo_claude_gueux--utf8.txt	802
+espéraient , hugo_claude_gueux--utf8.txt	626
+essaiera , hugo_claude_gueux--utf8.txt	1022
+essayer , hugo_claude_gueux--utf8.txt	606
+essentiel , hugo_claude_gueux--utf8.txt	1034
+est , dumas_blanche_beaulieu-utf8.txt	78 , 268 , 287
+est , hugo_claude_gueux--utf8.txt	1030 , 1034 , 1086 , 250 , 150 , 1030 , 1178 , 1034 , 1094 , 290 , 1026 , 878 , 1166 , 57 , 1170 , 1006 , 134 , 1126 , 734 , 146 , 1034 , 57 , 1094 , 154 , 134 , 1066 , 1158 , 114 , 1034 , 1054 , 1130 , 1134 , 1038 , 69 , 150 , 1058 , 114 , 1034 , 146
+estce , hugo_claude_gueux--utf8.txt	1010 , 250 , 350 , 302 , 326 , 494 , 1014 , 534
+estu , hugo_claude_gueux--utf8.txt	198
+etc , hugo_claude_gueux--utf8.txt	826
+eu , dumas_blanche_beaulieu-utf8.txt	33
+eu , hugo_claude_gueux--utf8.txt	782 , 718 , 554
+eurent , hugo_claude_gueux--utf8.txt	90 , 558
+eustache , hugo_claude_gueux--utf8.txt	1050
+eut , hugo_claude_gueux--utf8.txt	802 , 618 , 822 , 838 , 638 , 626
+eux , dumas_blanche_beaulieu-utf8.txt	134 , 206 , 313
+eux , hugo_claude_gueux--utf8.txt	878 , 514 , 1174
+exactement , hugo_claude_gueux--utf8.txt	73
+examinez , hugo_claude_gueux--utf8.txt	1130 , 1154
+examinons , hugo_claude_gueux--utf8.txt	114
+exaucée , dumas_blanche_beaulieu-utf8.txt	304
+excellent , hugo_claude_gueux--utf8.txt	1182
+exemple , hugo_claude_gueux--utf8.txt	1034
+expiré , hugo_claude_gueux--utf8.txt	898
+explication , hugo_claude_gueux--utf8.txt	366
+expédient , hugo_claude_gueux--utf8.txt	1034
+expédients , hugo_claude_gueux--utf8.txt	1086
+extrait , hugo_claude_gueux--utf8.txt	1094
+extraordinaire , hugo_claude_gueux--utf8.txt	550
+extrémité , hugo_claude_gueux--utf8.txt	578
+extrémités , hugo_claude_gueux--utf8.txt	1062 , 642
+extrême , hugo_claude_gueux--utf8.txt	942
+extrêmes , dumas_blanche_beaulieu-utf8.txt	117
+exécutions , dumas_blanche_beaulieu-utf8.txt	156
+exécutions , hugo_claude_gueux--utf8.txt	1050 , 982
+eût , dumas_blanche_beaulieu-utf8.txt	74
+eût , hugo_claude_gueux--utf8.txt	958 , 910 , 734 , 1182 , 210 , 766
+eûtil , dumas_blanche_beaulieu-utf8.txt	286
+face , dumas_blanche_beaulieu-utf8.txt	37 , 38
+face , hugo_claude_gueux--utf8.txt	430 , 1018 , 838
+facial , hugo_claude_gueux--utf8.txt	1142
+faction , dumas_blanche_beaulieu-utf8.txt	165
+factions , dumas_blanche_beaulieu-utf8.txt	199
+faible , hugo_claude_gueux--utf8.txt	162
+faicts , dumas_blanche_beaulieu-utf8.txt	219
+faillette , hugo_claude_gueux--utf8.txt	522 , 538 , 402
+faillirent , hugo_claude_gueux--utf8.txt	982
+faillit , hugo_claude_gueux--utf8.txt	790
+faim , hugo_claude_gueux--utf8.txt	822 , 1070 , 90 , 158 , 154 , 162 , 374
+faire , dumas_blanche_beaulieu-utf8.txt	259 , 342 , 314 , 48 , 309
+faire , hugo_claude_gueux--utf8.txt	1114 , 602 , 290 , 498 , 626 , 326 , 574 , 73 , 69 , 218 , 94 , 582 , 1178 , 1030 , 830 , 946 , 566
+faisaient , hugo_claude_gueux--utf8.txt	838 , 638
+faisait , dumas_blanche_beaulieu-utf8.txt	213
+faisait , hugo_claude_gueux--utf8.txt	386 , 110 , 858 , 566 , 642 , 386 , 246 , 842 , 1090 , 418
+faisant , hugo_claude_gueux--utf8.txt	642
+faisen , dumas_blanche_beaulieu-utf8.txt	354
+faistu , hugo_claude_gueux--utf8.txt	406 , 686
+fait , dumas_blanche_beaulieu-utf8.txt	302 , 138 , 267 , 57
+fait , hugo_claude_gueux--utf8.txt	478 , 118 , 94 , 94 , 106 , 94 , 150 , 878 , 638 , 566 , 1050 , 782 , 218 , 802 , 1002 , 1030 , 1066 , 1034 , 734 , 1138 , 114 , 350 , 1166 , 850 , 57 , 1002 , 914
+faite , hugo_claude_gueux--utf8.txt	126 , 1002 , 1170 , 1002
+faites , hugo_claude_gueux--utf8.txt	906 , 1086 , 854 , 854 , 1086 , 782
+faitesen , hugo_claude_gueux--utf8.txt	1114
+faits , hugo_claude_gueux--utf8.txt	266 , 114 , 894 , 1026 , 818 , 814 , 90
+fallu , hugo_claude_gueux--utf8.txt	626
+fallut , hugo_claude_gueux--utf8.txt	810
+familles , dumas_blanche_beaulieu-utf8.txt	355
+fantastiques , dumas_blanche_beaulieu-utf8.txt	28
+fantômes , dumas_blanche_beaulieu-utf8.txt	14
+fardeaux , hugo_claude_gueux--utf8.txt	1150 , 1150 , 1150
+farinace , hugo_claude_gueux--utf8.txt	1106
+fasse , hugo_claude_gueux--utf8.txt	998 , 854
+fassiez , hugo_claude_gueux--utf8.txt	1150
+fatalités , hugo_claude_gueux--utf8.txt	114
+fatiguer , hugo_claude_gueux--utf8.txt	1034
+fatigué , hugo_claude_gueux--utf8.txt	458
+faudra , hugo_claude_gueux--utf8.txt	1018
+faut , hugo_claude_gueux--utf8.txt	430 , 442
+fautes , hugo_claude_gueux--utf8.txt	1034
+favorablement , hugo_claude_gueux--utf8.txt	290
+façon , hugo_claude_gueux--utf8.txt	1022 , 114
+femme , dumas_blanche_beaulieu-utf8.txt	15
+femme , hugo_claude_gueux--utf8.txt	462 , 854 , 126 , 770 , 462 , 854 , 90 , 1050
+femmes , hugo_claude_gueux--utf8.txt	822
+fendit , hugo_claude_gueux--utf8.txt	766
+fenêtre , dumas_blanche_beaulieu-utf8.txt	37
+fenêtre , hugo_claude_gueux--utf8.txt	134
+fenêtres , hugo_claude_gueux--utf8.txt	642 , 642
+fer , dumas_blanche_beaulieu-utf8.txt	349
+fer , hugo_claude_gueux--utf8.txt	910 , 1106 , 1102 , 138 , 910
+ferai , dumas_blanche_beaulieu-utf8.txt	346
+ferai , hugo_claude_gueux--utf8.txt	610
+ferez , hugo_claude_gueux--utf8.txt	398
+ferme , hugo_claude_gueux--utf8.txt	954 , 430 , 114
+fermées , dumas_blanche_beaulieu-utf8.txt	161
+fermés , hugo_claude_gueux--utf8.txt	862
+ferraillent , hugo_claude_gueux--utf8.txt	1034
+ferrari , hugo_claude_gueux--utf8.txt	474 , 466 , 466
+fers , hugo_claude_gueux--utf8.txt	910 , 114
+feu , hugo_claude_gueux--utf8.txt	90 , 114 , 90
+feuillet , dumas_blanche_beaulieu-utf8.txt	226
+fibres , dumas_blanche_beaulieu-utf8.txt	86
+fier , hugo_claude_gueux--utf8.txt	842 , 114
+figure , hugo_claude_gueux--utf8.txt	674 , 106
+figurer , hugo_claude_gueux--utf8.txt	806
+fil , hugo_claude_gueux--utf8.txt	910 , 910
+fille , hugo_claude_gueux--utf8.txt	862 , 90 , 90 , 90 , 902 , 126
+filles , hugo_claude_gueux--utf8.txt	1070
+fils , hugo_claude_gueux--utf8.txt	210 , 1070
+fin , dumas_blanche_beaulieu-utf8.txt	219
+finances , dumas_blanche_beaulieu-utf8.txt	131
+finit , hugo_claude_gueux--utf8.txt	1002 , 1002
+firent , dumas_blanche_beaulieu-utf8.txt	117
+firent , hugo_claude_gueux--utf8.txt	830
+fit , hugo_claude_gueux--utf8.txt	558 , 862 , 438 , 666 , 962 , 126
+fixe , hugo_claude_gueux--utf8.txt	386
+fixement , hugo_claude_gueux--utf8.txt	386
+fixes , hugo_claude_gueux--utf8.txt	630
+fixé , hugo_claude_gueux--utf8.txt	962 , 954
+fixés , hugo_claude_gueux--utf8.txt	674
+fièvre , hugo_claude_gueux--utf8.txt	790
+flambent , hugo_claude_gueux--utf8.txt	114
+fléchir , hugo_claude_gueux--utf8.txt	606
+flétrissure , hugo_claude_gueux--utf8.txt	1090 , 1098 , 1098
+foi , hugo_claude_gueux--utf8.txt	114
+fois , dumas_blanche_beaulieu-utf8.txt	214
+fois , hugo_claude_gueux--utf8.txt	558 , 218 , 114 , 606 , 738 , 386 , 850 , 402 , 394 , 126 , 458 , 618 , 626
+folle , hugo_claude_gueux--utf8.txt	386
+fonction , dumas_blanche_beaulieu-utf8.txt	136
+fonctionnaire , hugo_claude_gueux--utf8.txt	114
+fond , dumas_blanche_beaulieu-utf8.txt	127
+fond , hugo_claude_gueux--utf8.txt	218
+fondements , hugo_claude_gueux--utf8.txt	826
+font , dumas_blanche_beaulieu-utf8.txt	85
+font , hugo_claude_gueux--utf8.txt	1034 , 1042 , 982
+forcé , dumas_blanche_beaulieu-utf8.txt	314
+forcé , hugo_claude_gueux--utf8.txt	374
+forcément , dumas_blanche_beaulieu-utf8.txt	171
+forma , dumas_blanche_beaulieu-utf8.txt	68
+formait , hugo_claude_gueux--utf8.txt	642
+formes , dumas_blanche_beaulieu-utf8.txt	126
+fort , hugo_claude_gueux--utf8.txt	106 , 510 , 126 , 90 , 90
+forts , hugo_claude_gueux--utf8.txt	926
+fortune , dumas_blanche_beaulieu-utf8.txt	289
+forçats , hugo_claude_gueux--utf8.txt	1070
+fouilla , hugo_claude_gueux--utf8.txt	462 , 770
+foule , hugo_claude_gueux--utf8.txt	1150 , 838 , 798
+frais , hugo_claude_gueux--utf8.txt	73
+france , dumas_blanche_beaulieu-utf8.txt	218 , 357
+france , hugo_claude_gueux--utf8.txt	1126 , 1114 , 73 , 1126 , 958 , 1146
+francs , hugo_claude_gueux--utf8.txt	902 , 962 , 950
+français , hugo_claude_gueux--utf8.txt	1034
+frappait , hugo_claude_gueux--utf8.txt	118
+frappe , dumas_blanche_beaulieu-utf8.txt	96
+frapper , dumas_blanche_beaulieu-utf8.txt	40
+frapper , hugo_claude_gueux--utf8.txt	782
+frappé , hugo_claude_gueux--utf8.txt	946
+frappée , hugo_claude_gueux--utf8.txt	834
+froid , hugo_claude_gueux--utf8.txt	1070 , 90
+froidement , hugo_claude_gueux--utf8.txt	922 , 126
+froids , hugo_claude_gueux--utf8.txt	114
+front , hugo_claude_gueux--utf8.txt	106 , 402 , 1142
+frontière , dumas_blanche_beaulieu-utf8.txt	192
+fronçant , dumas_blanche_beaulieu-utf8.txt	308
+frère , dumas_blanche_beaulieu-utf8.txt	280
+frère , hugo_claude_gueux--utf8.txt	210 , 210 , 566
+frémissants , dumas_blanche_beaulieu-utf8.txt	85
+fréquent , hugo_claude_gueux--utf8.txt	110
+fuir , dumas_blanche_beaulieu-utf8.txt	57
+fuite , dumas_blanche_beaulieu-utf8.txt	34
+fumée , dumas_blanche_beaulieu-utf8.txt	87
+furent , dumas_blanche_beaulieu-utf8.txt	157 , 161
+furent , hugo_claude_gueux--utf8.txt	906
+fureur , hugo_claude_gueux--utf8.txt	766
+fusiller , dumas_blanche_beaulieu-utf8.txt	48
+fussent , dumas_blanche_beaulieu-utf8.txt	245
+fussions , hugo_claude_gueux--utf8.txt	566
+fut , dumas_blanche_beaulieu-utf8.txt	160 , 225 , 119
+fut , hugo_claude_gueux--utf8.txt	930 , 542 , 490 , 126 , 546 , 810 , 790 , 874 , 94
+futiles , hugo_claude_gueux--utf8.txt	1042
+fécondezla , hugo_claude_gueux--utf8.txt	1186
+février , hugo_claude_gueux--utf8.txt	794
+fête , hugo_claude_gueux--utf8.txt	490
+fût , hugo_claude_gueux--utf8.txt	646
+gagnait , hugo_claude_gueux--utf8.txt	154
+gagne , hugo_claude_gueux--utf8.txt	566
+gaiement , hugo_claude_gueux--utf8.txt	890
+gaieté , hugo_claude_gueux--utf8.txt	150 , 626
+galetas , hugo_claude_gueux--utf8.txt	90
+galères , hugo_claude_gueux--utf8.txt	854
+gamin , hugo_claude_gueux--utf8.txt	626
+gangrenait , hugo_claude_gueux--utf8.txt	1090
+garda , hugo_claude_gueux--utf8.txt	618
+garde , dumas_blanche_beaulieu-utf8.txt	314
+garde , hugo_claude_gueux--utf8.txt	1034 , 1058 , 1030
+gardèrent , hugo_claude_gueux--utf8.txt	570 , 510
+gauche , dumas_blanche_beaulieu-utf8.txt	213
+gauche , hugo_claude_gueux--utf8.txt	642 , 674 , 658
+gendarmes , hugo_claude_gueux--utf8.txt	218 , 822
+genoux , hugo_claude_gueux--utf8.txt	402
+genre , hugo_claude_gueux--utf8.txt	550
+gens , hugo_claude_gueux--utf8.txt	982 , 94 , 114
+genslà , hugo_claude_gueux--utf8.txt	442
+genêts , dumas_blanche_beaulieu-utf8.txt	109
+germes , hugo_claude_gueux--utf8.txt	1178
+geste , hugo_claude_gueux--utf8.txt	110 , 838 , 738
+geôlier , hugo_claude_gueux--utf8.txt	946 , 738
+geôliers , hugo_claude_gueux--utf8.txt	146
+giac , dumas_blanche_beaulieu-utf8.txt	268
+gibet , hugo_claude_gueux--utf8.txt	962
+gilles , dumas_blanche_beaulieu-utf8.txt	281
+gisent , hugo_claude_gueux--utf8.txt	114
+glacées , hugo_claude_gueux--utf8.txt	114
+gladiateur , dumas_blanche_beaulieu-utf8.txt	102
+glissaient , dumas_blanche_beaulieu-utf8.txt	73
+gloire , dumas_blanche_beaulieu-utf8.txt	356
+gloire , hugo_claude_gueux--utf8.txt	134
+gorge , hugo_claude_gueux--utf8.txt	1034
+gouvernants , hugo_claude_gueux--utf8.txt	1034
+gouvernement , dumas_blanche_beaulieu-utf8.txt	181
+gouvernent , hugo_claude_gueux--utf8.txt	1026
+gradins , dumas_blanche_beaulieu-utf8.txt	82
+grand , dumas_blanche_beaulieu-utf8.txt	258 , 303
+grand , hugo_claude_gueux--utf8.txt	150 , 1034 , 986 , 998 , 150
+grande , hugo_claude_gueux--utf8.txt	1150 , 69 , 782 , 614
+grandes , hugo_claude_gueux--utf8.txt	1034 , 1182
+grandeur , hugo_claude_gueux--utf8.txt	926
+grandir , hugo_claude_gueux--utf8.txt	1134
+grands , dumas_blanche_beaulieu-utf8.txt	334
+grands , hugo_claude_gueux--utf8.txt	826 , 1034 , 642 , 1034
+grave , hugo_claude_gueux--utf8.txt	106
+gravement , hugo_claude_gueux--utf8.txt	1030 , 962 , 658 , 458
+graviteront , hugo_claude_gueux--utf8.txt	138
+greffe , hugo_claude_gueux--utf8.txt	898
+greffier , hugo_claude_gueux--utf8.txt	914
+grenier , hugo_claude_gueux--utf8.txt	154
+gris , hugo_claude_gueux--utf8.txt	802 , 106
+grise , hugo_claude_gueux--utf8.txt	290
+gros , hugo_claude_gueux--utf8.txt	1122 , 1062
+grosse , dumas_blanche_beaulieu-utf8.txt	215
+grosse , hugo_claude_gueux--utf8.txt	290
+groupes , dumas_blanche_beaulieu-utf8.txt	65
+gruel , dumas_blanche_beaulieu-utf8.txt	242 , 260
+grâce , hugo_claude_gueux--utf8.txt	854 , 114
+grèce , hugo_claude_gueux--utf8.txt	1142 , 1126
+guenilles , hugo_claude_gueux--utf8.txt	462
+guerre , dumas_blanche_beaulieu-utf8.txt	78 , 130
+gueux , hugo_claude_gueux--utf8.txt	86 , 57 , 154 , 50 , 874 , 23 , 150 , 69 , 210 , 862 , 878 , 218 , 1002 , 546 , 190 , 126 , 986 , 106 , 126 , 154 , 90 , 114 , 694 , 390 , 218 , 850 , 734 , 766
+guichetier , hugo_claude_gueux--utf8.txt	230 , 266 , 242 , 254 , 274 , 438 , 114 , 246 , 910
+guide , dumas_blanche_beaulieu-utf8.txt	45 , 56
+guillaume , dumas_blanche_beaulieu-utf8.txt	224 , 247 , 326 , 358 , 301 , 260
+guéri , hugo_claude_gueux--utf8.txt	798
+guérissaient , hugo_claude_gueux--utf8.txt	794
+général , dumas_blanche_beaulieu-utf8.txt	38
+général , hugo_claude_gueux--utf8.txt	114
+habile , hugo_claude_gueux--utf8.txt	90
+habit , dumas_blanche_beaulieu-utf8.txt	255 , 233
+habit , hugo_claude_gueux--utf8.txt	1018 , 802
+habitudes , hugo_claude_gueux--utf8.txt	626
+habituelle , hugo_claude_gueux--utf8.txt	290 , 386 , 210
+habituellement , hugo_claude_gueux--utf8.txt	154
+hache , hugo_claude_gueux--utf8.txt	766 , 526 , 766 , 770 , 494
+haches , hugo_claude_gueux--utf8.txt	510
+haie , dumas_blanche_beaulieu-utf8.txt	59
+haies , dumas_blanche_beaulieu-utf8.txt	108
+haine , hugo_claude_gueux--utf8.txt	218 , 218 , 146
+haines , hugo_claude_gueux--utf8.txt	114
+haineslà , hugo_claude_gueux--utf8.txt	222
+haleine , hugo_claude_gueux--utf8.txt	842
+haletants , hugo_claude_gueux--utf8.txt	746
+hardes , hugo_claude_gueux--utf8.txt	638
+hasard , dumas_blanche_beaulieu-utf8.txt	302
+haussa , hugo_claude_gueux--utf8.txt	562
+haussant , hugo_claude_gueux--utf8.txt	386
+hausser , hugo_claude_gueux--utf8.txt	390 , 1034
+haut , hugo_claude_gueux--utf8.txt	1142 , 106
+hautain , hugo_claude_gueux--utf8.txt	182
+haute , hugo_claude_gueux--utf8.txt	838 , 114
+hautes , dumas_blanche_beaulieu-utf8.txt	108
+haï , hugo_claude_gueux--utf8.txt	218
+hetzel , hugo_claude_gueux--utf8.txt	35
+heure , dumas_blanche_beaulieu-utf8.txt	227
+heure , hugo_claude_gueux--utf8.txt	626 , 914 , 1018 , 386 , 522
+heures , hugo_claude_gueux--utf8.txt	914 , 458 , 718 , 662 , 402 , 542 , 954 , 374 , 970 , 566 , 854 , 614 , 614
+heureux , hugo_claude_gueux--utf8.txt	214 , 462
+heurter , dumas_blanche_beaulieu-utf8.txt	97
+hideuse , hugo_claude_gueux--utf8.txt	962
+histoire , dumas_blanche_beaulieu-utf8.txt	217 , 27 , 201 , 227
+histoire , hugo_claude_gueux--utf8.txt	986 , 550
+histoires , dumas_blanche_beaulieu-utf8.txt	5
+hiver , hugo_claude_gueux--utf8.txt	90
+hochant , hugo_claude_gueux--utf8.txt	674
+homme , dumas_blanche_beaulieu-utf8.txt	54 , 302 , 233 , 225
+homme , hugo_claude_gueux--utf8.txt	690 , 162 , 690 , 114 , 126 , 854 , 218 , 566 , 162 , 846 , 182 , 390 , 854 , 386 , 114 , 886 , 170 , 114 , 854 , 138 , 1050 , 958 , 910 , 734 , 186 , 114 , 886 , 634 , 90 , 994
+hommes , hugo_claude_gueux--utf8.txt	138 , 1130 , 1122 , 150 , 114 , 926 , 210 , 138 , 138 , 598 , 134
+honneur , dumas_blanche_beaulieu-utf8.txt	346
+honnête , hugo_claude_gueux--utf8.txt	106 , 838 , 478
+honnêtement , hugo_claude_gueux--utf8.txt	598
+honte , hugo_claude_gueux--utf8.txt	1126
+hood , dumas_blanche_beaulieu-utf8.txt	18
+horloge , hugo_claude_gueux--utf8.txt	614
+horrible , dumas_blanche_beaulieu-utf8.txt	103
+hors , dumas_blanche_beaulieu-utf8.txt	32 , 37
+hugo , hugo_claude_gueux--utf8.txt	35 , 15 , 69
+huit , hugo_claude_gueux--utf8.txt	90 , 614 , 954 , 970
+huitième , hugo_claude_gueux--utf8.txt	978
+humaine , hugo_claude_gueux--utf8.txt	1130
+humble , hugo_claude_gueux--utf8.txt	930
+humblement , hugo_claude_gueux--utf8.txt	138
+humeur , hugo_claude_gueux--utf8.txt	126
+hyène , hugo_claude_gueux--utf8.txt	1130
+hébert , dumas_blanche_beaulieu-utf8.txt	150 , 152 , 202
+hérault , dumas_blanche_beaulieu-utf8.txt	122
+i , dumas_blanche_beaulieu-utf8.txt	28
+ici , hugo_claude_gueux--utf8.txt	1146 , 198 , 566 , 1046 , 57
+idée , hugo_claude_gueux--utf8.txt	674 , 114
+idées , hugo_claude_gueux--utf8.txt	1034 , 114 , 138
+ignorer , dumas_blanche_beaulieu-utf8.txt	94
+ii , dumas_blanche_beaulieu-utf8.txt	76 , 28
+ii , hugo_claude_gueux--utf8.txt	35
+il , dumas_blanche_beaulieu-utf8.txt	136 , 285 , 194 , 39 , 191 , 49 , 213 , 358 , 169 , 33 , 52 , 110 , 142 , 206 , 268 , 42 , 55 , 196 , 293 , 192
+il , hugo_claude_gueux--utf8.txt	778 , 290 , 290 , 822 , 854 , 502 , 1030 , 790 , 1022 , 854 , 850 , 158 , 462 , 90 , 630 , 1050 , 510 , 218 , 482 , 790 , 802 , 114 , 162 , 786 , 942 , 658 , 878 , 402 , 510 , 666 , 158 , 510 , 162 , 602 , 586 , 1034 , 162 , 786 , 482 , 898 , 838 , 90 , 394 , 430 , 930 , 1170 , 1030 , 762 , 946 , 834 , 430 , 1130 , 674 , 946 , 834 , 1034 , 802 , 946 , 482 , 390 , 646 , 246 , 522 , 110 , 890 , 114 , 946 , 906 , 822 , 574 , 214 , 642 , 626 , 182 , 1170 , 126 , 386 , 522 , 146 , 618 , 950 , 910 , 934 , 782 , 218 , 898 , 530 , 766 , 574 , 838 , 386 , 802 , 926 , 266 , 478 , 810 , 854 , 626 , 382 , 642 , 126 , 442 , 574 , 770 , 678 , 378 , 822 , 862 , 954 , 478 , 542 , 862 , 458 , 1034 , 954 , 618 , 770 , 618 , 854 , 478 , 738 , 114 , 374 , 594 , 462 , 622 , 374 , 374 , 550 , 566 , 622 , 138 , 898 , 958 , 114 , 210 , 778 , 862 , 466 , 822 , 962 , 838 , 1034 , 782 , 990 , 554 , 314 , 626 , 902 , 746 , 638 , 962 , 626 , 1106 , 746 , 210 , 106 , 114 , 1126 , 782 , 90 , 930 , 854 , 246 , 150 , 466 , 566 , 638 , 962 , 1114 , 110 , 290 , 330 , 566 , 1034 , 898 , 854 , 770 , 798 , 90 , 290 , 466 , 638 , 838 , 142
+illusion , hugo_claude_gueux--utf8.txt	114
+ils , dumas_blanche_beaulieu-utf8.txt	350 , 297 , 258
+ils , hugo_claude_gueux--utf8.txt	214 , 810 , 514 , 886 , 626 , 210 , 746 , 114 , 214 , 214 , 214
+immense , dumas_blanche_beaulieu-utf8.txt	74
+immobile , hugo_claude_gueux--utf8.txt	402
+impartial , hugo_claude_gueux--utf8.txt	862
+implacable , hugo_claude_gueux--utf8.txt	218
+important , hugo_claude_gueux--utf8.txt	1034 , 1030 , 1038 , 1030
+importante , hugo_claude_gueux--utf8.txt	990
+importantes , hugo_claude_gueux--utf8.txt	1038
+importunaient , hugo_claude_gueux--utf8.txt	162
+impossible , hugo_claude_gueux--utf8.txt	330 , 426 , 730 , 742
+impression , hugo_claude_gueux--utf8.txt	878
+inattendue , hugo_claude_gueux--utf8.txt	854
+incarnée , dumas_blanche_beaulieu-utf8.txt	141
+incendies , hugo_claude_gueux--utf8.txt	122
+incrédule , hugo_claude_gueux--utf8.txt	474
+indispensable , hugo_claude_gueux--utf8.txt	1034
+individuellement , hugo_claude_gueux--utf8.txt	73
+inertes , hugo_claude_gueux--utf8.txt	114
+inexorable , hugo_claude_gueux--utf8.txt	674 , 154
+infligea , hugo_claude_gueux--utf8.txt	458
+inquiètes , hugo_claude_gueux--utf8.txt	638
+insensée , hugo_claude_gueux--utf8.txt	1090
+inspection , hugo_claude_gueux--utf8.txt	642
+instant , dumas_blanche_beaulieu-utf8.txt	72
+instant , hugo_claude_gueux--utf8.txt	898 , 634
+instants , hugo_claude_gueux--utf8.txt	682 , 846 , 626
+institutions , hugo_claude_gueux--utf8.txt	1138
+instruit , hugo_claude_gueux--utf8.txt	942
+instrumentait , hugo_claude_gueux--utf8.txt	778
+instruments , dumas_blanche_beaulieu-utf8.txt	85
+inséparables , hugo_claude_gueux--utf8.txt	1090
+inséré , hugo_claude_gueux--utf8.txt	69
+intelligence , hugo_claude_gueux--utf8.txt	1146
+intelligences , hugo_claude_gueux--utf8.txt	1018
+intelligent , dumas_blanche_beaulieu-utf8.txt	46
+intelligent , hugo_claude_gueux--utf8.txt	910 , 90
+intelligente , hugo_claude_gueux--utf8.txt	978 , 834
+interrogatoires , hugo_claude_gueux--utf8.txt	786
+interrompit , hugo_claude_gueux--utf8.txt	638
+intérieurement , hugo_claude_gueux--utf8.txt	626 , 390
+intérieurs , dumas_blanche_beaulieu-utf8.txt	132
+inutile , dumas_blanche_beaulieu-utf8.txt	194
+inutile , hugo_claude_gueux--utf8.txt	766
+inutiles , hugo_claude_gueux--utf8.txt	462
+invariablement , hugo_claude_gueux--utf8.txt	154
+inventé , hugo_claude_gueux--utf8.txt	1034
+inédites , hugo_claude_gueux--utf8.txt	1050
+inégales , hugo_claude_gueux--utf8.txt	1154
+irritante , hugo_claude_gueux--utf8.txt	846
+irrésistible , hugo_claude_gueux--utf8.txt	138
+issoudun , dumas_blanche_beaulieu-utf8.txt	268
+ivre , hugo_claude_gueux--utf8.txt	854 , 854
+j , hugo_claude_gueux--utf8.txt	35
+jacques , hugo_claude_gueux--utf8.txt	646
+jaguar , dumas_blanche_beaulieu-utf8.txt	32
+jai , dumas_blanche_beaulieu-utf8.txt	226 , 312 , 314
+jai , hugo_claude_gueux--utf8.txt	202 , 854 , 698 , 854 , 870 , 310 , 854 , 77 , 922 , 854
+jaille , hugo_claude_gueux--utf8.txt	1030
+jaloux , hugo_claude_gueux--utf8.txt	218
+jamais , hugo_claude_gueux--utf8.txt	246 , 146 , 738 , 378 , 346 , 478
+janvier , hugo_claude_gueux--utf8.txt	794
+japporte , dumas_blanche_beaulieu-utf8.txt	237
+jaunes , hugo_claude_gueux--utf8.txt	1058
+javais , hugo_claude_gueux--utf8.txt	854 , 854
+je , dumas_blanche_beaulieu-utf8.txt	258 , 114 , 348 , 271 , 330 , 338 , 254 , 247 , 45 , 328 , 328 , 247 , 48 , 346 , 46
+je , hugo_claude_gueux--utf8.txt	566 , 854 , 854 , 854 , 566 , 854 , 90 , 454 , 854 , 758 , 318 , 854 , 754 , 566 , 854 , 566 , 854 , 754 , 90 , 1030 , 1030 , 854 , 566 , 770 , 90 , 346 , 350 , 470 , 566 , 922 , 566 , 854 , 566 , 566 , 69 , 734 , 73 , 102 , 870 , 238 , 434 , 610 , 854 , 398 , 398 , 854 , 734 , 734 , 938 , 854 , 734 , 90 , 414 , 734
+jean , dumas_blanche_beaulieu-utf8.txt	285
+jen , hugo_claude_gueux--utf8.txt	178
+jeta , dumas_blanche_beaulieu-utf8.txt	32
+jeta , hugo_claude_gueux--utf8.txt	490 , 770
+jetant , hugo_claude_gueux--utf8.txt	674 , 842
+jetez , hugo_claude_gueux--utf8.txt	1158 , 1158 , 1158
+jetezle , dumas_blanche_beaulieu-utf8.txt	59
+jetèrent , hugo_claude_gueux--utf8.txt	910
+jeune , dumas_blanche_beaulieu-utf8.txt	225
+jeune , hugo_claude_gueux--utf8.txt	522 , 106 , 162 , 634 , 186 , 170 , 182 , 630
+jocaste , hugo_claude_gueux--utf8.txt	1034
+jouir , dumas_blanche_beaulieu-utf8.txt	144
+jouissances , hugo_claude_gueux--utf8.txt	1154
+jouit , hugo_claude_gueux--utf8.txt	566
+jour , dumas_blanche_beaulieu-utf8.txt	79 , 143 , 256 , 319
+jour , hugo_claude_gueux--utf8.txt	102 , 462 , 126 , 1018 , 162 , 230 , 958 , 154 , 154 , 118 , 378
+jourlà , hugo_claude_gueux--utf8.txt	982 , 958 , 462 , 914 , 946
+journalier , dumas_blanche_beaulieu-utf8.txt	135
+journée , hugo_claude_gueux--utf8.txt	150 , 542 , 286 , 246 , 286
+jours , hugo_claude_gueux--utf8.txt	210 , 186 , 90 , 914 , 898 , 854 , 1034 , 458
+jovial , hugo_claude_gueux--utf8.txt	114
+joviale , hugo_claude_gueux--utf8.txt	674
+jovialité , hugo_claude_gueux--utf8.txt	126
+joyeusement , hugo_claude_gueux--utf8.txt	162
+joyeuses , dumas_blanche_beaulieu-utf8.txt	239
+judiciaire , hugo_claude_gueux--utf8.txt	554
+juge , hugo_claude_gueux--utf8.txt	414 , 778
+jugea , hugo_claude_gueux--utf8.txt	834
+juges , hugo_claude_gueux--utf8.txt	1110 , 846 , 794
+jugé , hugo_claude_gueux--utf8.txt	566
+juillet , hugo_claude_gueux--utf8.txt	61
+juin , hugo_claude_gueux--utf8.txt	914
+jurés , hugo_claude_gueux--utf8.txt	870 , 874 , 826 , 866
+jusquau , hugo_claude_gueux--utf8.txt	434 , 898 , 566 , 114
+jusque , hugo_claude_gueux--utf8.txt	826
+jusquoù , dumas_blanche_beaulieu-utf8.txt	262
+jusquà , dumas_blanche_beaulieu-utf8.txt	219 , 263
+jusquà , hugo_claude_gueux--utf8.txt	1034
+juste , hugo_claude_gueux--utf8.txt	610 , 854 , 586
+justes , hugo_claude_gueux--utf8.txt	598
+justice , hugo_claude_gueux--utf8.txt	582 , 1050
+jéhu , dumas_blanche_beaulieu-utf8.txt	22
+jésus , hugo_claude_gueux--utf8.txt	1162
+la , dumas_blanche_beaulieu-utf8.txt	212 , 212 , 50 , 37 , 309 , 125 , 130 , 131 , 131 , 102 , 93 , 93 , 137 , 234 , 114 , 319 , 140 , 142 , 87 , 15 , 79 , 150 , 151 , 78 , 269 , 160 , 163 , 338 , 164 , 103 , 219 , 71 , 170 , 170 , 171 , 172 , 172 , 32 , 177 , 179 , 180 , 256 , 19 , 357 , 187 , 254 , 192 , 59 , 196 , 57 , 23 , 356 , 11 , 6 , 201 , 55 , 213 , 55 , 29 , 210
+la , hugo_claude_gueux--utf8.txt	246 , 1002 , 998 , 998 , 998 , 246 , 246 , 990 , 990 , 990 , 262 , 990 , 266 , 286 , 286 , 290 , 1026 , 982 , 290 , 214 , 1030 , 1030 , 318 , 318 , 962 , 342 , 342 , 962 , 370 , 958 , 374 , 210 , 954 , 950 , 950 , 950 , 386 , 1034 , 182 , 946 , 386 , 386 , 386 , 390 , 942 , 1034 , 162 , 402 , 162 , 154 , 154 , 1034 , 1034 , 926 , 922 , 1042 , 446 , 150 , 1042 , 458 , 1042 , 458 , 146 , 462 , 146 , 1046 , 146 , 1050 , 1050 , 1050 , 462 , 462 , 462 , 902 , 1050 , 902 , 466 , 1054 , 142 , 466 , 466 , 466 , 1058 , 1058 , 478 , 890 , 1070 , 510 , 1082 , 510 , 1086 , 874 , 514 , 1090 , 1090 , 1090 , 130 , 866 , 542 , 1094 , 542 , 1098 , 118 , 550 , 118 , 858 , 554 , 858 , 858 , 558 , 562 , 854 , 1118 , 1126 , 114 , 114 , 114 , 1126 , 1126 , 1126 , 114 , 114 , 1126 , 574 , 582 , 586 , 586 , 586 , 114 , 114 , 850 , 1130 , 114 , 1130 , 114 , 846 , 846 , 614 , 618 , 1130 , 618 , 1130 , 1134 , 618 , 838 , 1142 , 1146 , 830 , 110 , 830 , 106 , 1146 , 826 , 106 , 826 , 826 , 826 , 822 , 1146 , 642 , 1150 , 642 , 642 , 1150 , 818 , 102 , 1150 , 818 , 646 , 814 , 94 , 658 , 658 , 94 , 662 , 1154 , 90 , 674 , 674 , 674 , 1158 , 806 , 90 , 802 , 802 , 1158 , 798 , 90 , 1158 , 798 , 1166 , 786 , 734 , 734 , 1170 , 69 , 738 , 782 , 65 , 746 , 1178 , 57 , 1178 , 762 , 1178 , 762 , 766 , 57 , 774 , 57 , 766 , 53 , 1178 , 48 , 766 , 770 , 766 , 770 , 770 , 1182 , 31 , 766 , 31 , 1186 , 770
+laccent , dumas_blanche_beaulieu-utf8.txt	302
+laccusé , hugo_claude_gueux--utf8.txt	814 , 866 , 878
+ladmiraient , hugo_claude_gueux--utf8.txt	134
+ladmiration , hugo_claude_gueux--utf8.txt	134
+ladultère , hugo_claude_gueux--utf8.txt	1034
+laffaire , hugo_claude_gueux--utf8.txt	518 , 634
+laffronta , dumas_blanche_beaulieu-utf8.txt	170
+lai , dumas_blanche_beaulieu-utf8.txt	114
+lai , hugo_claude_gueux--utf8.txt	566 , 758 , 566 , 566
+laide , hugo_claude_gueux--utf8.txt	962
+laine , hugo_claude_gueux--utf8.txt	290 , 770
+lair , hugo_claude_gueux--utf8.txt	162 , 110 , 130
+laissa , hugo_claude_gueux--utf8.txt	850 , 458
+laissant , hugo_claude_gueux--utf8.txt	446 , 90
+laisse , hugo_claude_gueux--utf8.txt	1094
+laisser , dumas_blanche_beaulieu-utf8.txt	49
+laisser , hugo_claude_gueux--utf8.txt	594
+laissez , hugo_claude_gueux--utf8.txt	1146
+laissés , hugo_claude_gueux--utf8.txt	558
+lame , hugo_claude_gueux--utf8.txt	946
+lamour , hugo_claude_gueux--utf8.txt	146
+lampe , dumas_blanche_beaulieu-utf8.txt	210
+lan , dumas_blanche_beaulieu-utf8.txt	219 , 219
+lancien , dumas_blanche_beaulieu-utf8.txt	118
+lancée , hugo_claude_gueux--utf8.txt	766
+langage , dumas_blanche_beaulieu-utf8.txt	154
+langle , hugo_claude_gueux--utf8.txt	658 , 1142
+langues , hugo_claude_gueux--utf8.txt	810
+lanse , hugo_claude_gueux--utf8.txt	910
+laperçut , dumas_blanche_beaulieu-utf8.txt	235
+lappeliez , hugo_claude_gueux--utf8.txt	1066 , 1066
+lapproche , hugo_claude_gueux--utf8.txt	926
+lapôtre , dumas_blanche_beaulieu-utf8.txt	163
+laquelle , dumas_blanche_beaulieu-utf8.txt	200
+laquelle , hugo_claude_gueux--utf8.txt	134 , 162
+largent , hugo_claude_gueux--utf8.txt	902
+larme , hugo_claude_gueux--utf8.txt	182
+larmes , hugo_claude_gueux--utf8.txt	898
+larmée , dumas_blanche_beaulieu-utf8.txt	309
+larrondissement , hugo_claude_gueux--utf8.txt	806
+lart , hugo_claude_gueux--utf8.txt	1034
+larticle , hugo_claude_gueux--utf8.txt	838
+laspiration , hugo_claude_gueux--utf8.txt	1158
+lassurance , hugo_claude_gueux--utf8.txt	1058
+latelier , hugo_claude_gueux--utf8.txt	102 , 142 , 482 , 666 , 230 , 626 , 246 , 290 , 246 , 542 , 126 , 246 , 638 , 642
+lathéisme , dumas_blanche_beaulieu-utf8.txt	167
+lattaquer , dumas_blanche_beaulieu-utf8.txt	169
+lattente , hugo_claude_gueux--utf8.txt	630
+laudience , hugo_claude_gueux--utf8.txt	806
+lauditoire , hugo_claude_gueux--utf8.txt	838
+lautorité , hugo_claude_gueux--utf8.txt	218 , 218
+lautre , dumas_blanche_beaulieu-utf8.txt	67 , 281 , 148
+lautre , hugo_claude_gueux--utf8.txt	446 , 930 , 1086 , 618 , 214 , 770 , 642 , 774 , 770 , 114 , 962
+lavaient , hugo_claude_gueux--utf8.txt	898
+lavait , dumas_blanche_beaulieu-utf8.txt	41
+lavait , hugo_claude_gueux--utf8.txt	462
+lavantquart , hugo_claude_gueux--utf8.txt	654
+lavez , hugo_claude_gueux--utf8.txt	754
+lavocat , hugo_claude_gueux--utf8.txt	830
+lavoir , hugo_claude_gueux--utf8.txt	1094
+lavons , dumas_blanche_beaulieu-utf8.txt	211
+lavée , hugo_claude_gueux--utf8.txt	982
+ldats , dumas_blanche_beaulieu-utf8.txt	63
+leau , dumas_blanche_beaulieu-utf8.txt	348
+lecteur , hugo_claude_gueux--utf8.txt	90
+leffet , hugo_claude_gueux--utf8.txt	146
+legs , hugo_claude_gueux--utf8.txt	946
+lempoisonnement , hugo_claude_gueux--utf8.txt	1034
+len , hugo_claude_gueux--utf8.txt	594 , 770 , 898
+lendemain , hugo_claude_gueux--utf8.txt	446 , 286
+lenfant , hugo_claude_gueux--utf8.txt	90 , 126 , 90
+lennuie , hugo_claude_gueux--utf8.txt	854
+lentement , hugo_claude_gueux--utf8.txt	410
+lentoura , hugo_claude_gueux--utf8.txt	490
+lentouraient , hugo_claude_gueux--utf8.txt	674
+lentrée , hugo_claude_gueux--utf8.txt	290
+lentêtement , hugo_claude_gueux--utf8.txt	114
+lequel , dumas_blanche_beaulieu-utf8.txt	213
+lequel , hugo_claude_gueux--utf8.txt	118 , 774 , 842 , 858
+lespace , hugo_claude_gueux--utf8.txt	642
+lespèce , hugo_claude_gueux--utf8.txt	114
+lespère , dumas_blanche_beaulieu-utf8.txt	46
+lesquels , hugo_claude_gueux--utf8.txt	946 , 782
+lestomac , hugo_claude_gueux--utf8.txt	150
+lettre , hugo_claude_gueux--utf8.txt	57
+lettré , hugo_claude_gueux--utf8.txt	846 , 462
+leur , dumas_blanche_beaulieu-utf8.txt	356 , 348
+leur , hugo_claude_gueux--utf8.txt	866 , 510 , 382 , 810 , 830 , 878 , 618 , 246 , 90 , 782 , 73
+leurope , hugo_claude_gueux--utf8.txt	1126
+leurs , dumas_blanche_beaulieu-utf8.txt	125 , 122 , 345
+leurs , hugo_claude_gueux--utf8.txt	1138
+leva , hugo_claude_gueux--utf8.txt	834 , 410 , 558 , 826 , 658 , 766
+levait , hugo_claude_gueux--utf8.txt	1042 , 386
+levant , hugo_claude_gueux--utf8.txt	462
+lexemple , dumas_blanche_beaulieu-utf8.txt	310
+lexpiation , hugo_claude_gueux--utf8.txt	914
+lexplication , hugo_claude_gueux--utf8.txt	386
+lexpression , dumas_blanche_beaulieu-utf8.txt	359
+lexécutent , hugo_claude_gueux--utf8.txt	94
+lexécution , hugo_claude_gueux--utf8.txt	958
+leçon , hugo_claude_gueux--utf8.txt	69
+lhabitude , hugo_claude_gueux--utf8.txt	542
+lheure , hugo_claude_gueux--utf8.txt	246 , 290
+lhistoire , hugo_claude_gueux--utf8.txt	986
+lhiver , hugo_claude_gueux--utf8.txt	466
+lhomme , hugo_claude_gueux--utf8.txt	1186 , 134 , 90 , 1178 , 94 , 90 , 90
+lhonneur , hugo_claude_gueux--utf8.txt	77
+lhorloge , hugo_claude_gueux--utf8.txt	970
+lhoroscope , dumas_blanche_beaulieu-utf8.txt	21
+lhuissier , hugo_claude_gueux--utf8.txt	822
+lhumanité , hugo_claude_gueux--utf8.txt	1130
+liait , hugo_claude_gueux--utf8.txt	962
+liberté , dumas_blanche_beaulieu-utf8.txt	177
+liberté , hugo_claude_gueux--utf8.txt	934
+libre , hugo_claude_gueux--utf8.txt	154 , 642 , 734
+lieu , hugo_claude_gueux--utf8.txt	554
+ligne , dumas_blanche_beaulieu-utf8.txt	61 , 67
+ligne , hugo_claude_gueux--utf8.txt	642 , 114 , 114
+lignes , hugo_claude_gueux--utf8.txt	1022
+lignorance , hugo_claude_gueux--utf8.txt	1146
+limer , hugo_claude_gueux--utf8.txt	910
+limitaient , hugo_claude_gueux--utf8.txt	134
+limmoralité , dumas_blanche_beaulieu-utf8.txt	167
+linceste , hugo_claude_gueux--utf8.txt	1034
+linceul , dumas_blanche_beaulieu-utf8.txt	88
+linclinaison , hugo_claude_gueux--utf8.txt	1130
+lindet , dumas_blanche_beaulieu-utf8.txt	123
+lindividu , hugo_claude_gueux--utf8.txt	998
+linfanticide , hugo_claude_gueux--utf8.txt	1034
+linge , hugo_claude_gueux--utf8.txt	618
+linges , hugo_claude_gueux--utf8.txt	778
+linstruction , hugo_claude_gueux--utf8.txt	554
+linsulte , dumas_blanche_beaulieu-utf8.txt	155
+lintelligence , hugo_claude_gueux--utf8.txt	114 , 1134
+lintervalle , hugo_claude_gueux--utf8.txt	970
+lintérieur , dumas_blanche_beaulieu-utf8.txt	201 , 192
+lion , hugo_claude_gueux--utf8.txt	370
+lire , hugo_claude_gueux--utf8.txt	462 , 1126 , 1126 , 846 , 1126 , 90 , 1126 , 522 , 1146 , 1126 , 1126 , 1126
+lirlande , hugo_claude_gueux--utf8.txt	1126
+lisait , dumas_blanche_beaulieu-utf8.txt	212
+liste , hugo_claude_gueux--utf8.txt	826
+lit , dumas_blanche_beaulieu-utf8.txt	324 , 235
+lit , hugo_claude_gueux--utf8.txt	462 , 778
+littéraire , hugo_claude_gueux--utf8.txt	1034
+livraison , hugo_claude_gueux--utf8.txt	69
+livre , hugo_claude_gueux--utf8.txt	1174 , 462 , 1146 , 986 , 154
+livres , hugo_claude_gueux--utf8.txt	154
+livré , dumas_blanche_beaulieu-utf8.txt	345
+livrée , dumas_blanche_beaulieu-utf8.txt	255
+livrée , hugo_claude_gueux--utf8.txt	290
+lièrent , hugo_claude_gueux--utf8.txt	950
+liée , hugo_claude_gueux--utf8.txt	57
+lobau , hugo_claude_gueux--utf8.txt	1030
+lobscénité , dumas_blanche_beaulieu-utf8.txt	154
+loccasion , hugo_claude_gueux--utf8.txt	114
+loctroi , hugo_claude_gueux--utf8.txt	982
+lodeur , hugo_claude_gueux--utf8.txt	626
+logiques , hugo_claude_gueux--utf8.txt	1098
+logis , dumas_blanche_beaulieu-utf8.txt	313
+loi , hugo_claude_gueux--utf8.txt	142 , 1130 , 858 , 138
+loin , hugo_claude_gueux--utf8.txt	114 , 290
+lois , hugo_claude_gueux--utf8.txt	1086 , 1030 , 1110
+loislà , hugo_claude_gueux--utf8.txt	982
+lomaigne , dumas_blanche_beaulieu-utf8.txt	282
+lombre , dumas_blanche_beaulieu-utf8.txt	74
+lon , hugo_claude_gueux--utf8.txt	582 , 838 , 370
+long , dumas_blanche_beaulieu-utf8.txt	68
+long , hugo_claude_gueux--utf8.txt	642 , 1162
+longtemps , hugo_claude_gueux--utf8.txt	770
+longue , hugo_claude_gueux--utf8.txt	642 , 642
+lont , hugo_claude_gueux--utf8.txt	626
+lopposition , hugo_claude_gueux--utf8.txt	1042 , 1042
+loquet , hugo_claude_gueux--utf8.txt	762
+lorateur , dumas_blanche_beaulieu-utf8.txt	134
+lordinaire , hugo_claude_gueux--utf8.txt	542 , 478
+lordre , hugo_claude_gueux--utf8.txt	142
+loreille , hugo_claude_gueux--utf8.txt	838
+lorgane , dumas_blanche_beaulieu-utf8.txt	186
+loriginal , hugo_claude_gueux--utf8.txt	57
+lorsque , dumas_blanche_beaulieu-utf8.txt	71
+lorsquil , dumas_blanche_beaulieu-utf8.txt	225
+lorsquil , hugo_claude_gueux--utf8.txt	810 , 218
+lot , hugo_claude_gueux--utf8.txt	1158
+loupcervier , hugo_claude_gueux--utf8.txt	1130
+loups , dumas_blanche_beaulieu-utf8.txt	13
+loutil , hugo_claude_gueux--utf8.txt	114
+louverture , hugo_claude_gueux--utf8.txt	878
+louvrage , hugo_claude_gueux--utf8.txt	90
+louvrier , hugo_claude_gueux--utf8.txt	90 , 114
+lugubre , hugo_claude_gueux--utf8.txt	954
+lui , dumas_blanche_beaulieu-utf8.txt	40 , 55 , 188 , 310 , 122
+lui , hugo_claude_gueux--utf8.txt	522 , 386 , 522 , 1130 , 126 , 994 , 602 , 606 , 950 , 386 , 950 , 126 , 542 , 782 , 134 , 510 , 382 , 498 , 134 , 114 , 950 , 1010 , 970 , 786 , 1166 , 946 , 786 , 478 , 766 , 374 , 114 , 962 , 854 , 786 , 902 , 566 , 162 , 906 , 462 , 854 , 678 , 854 , 566 , 766 , 462 , 210 , 566 , 114 , 458 , 778 , 90 , 402 , 402 , 766 , 770 , 914 , 634 , 574 , 934
+luimême , dumas_blanche_beaulieu-utf8.txt	31 , 43
+luimême , hugo_claude_gueux--utf8.txt	646 , 114 , 142
+lumineux , hugo_claude_gueux--utf8.txt	862 , 1178
+lun , dumas_blanche_beaulieu-utf8.txt	147
+lun , hugo_claude_gueux--utf8.txt	814 , 618 , 962
+lune , dumas_blanche_beaulieu-utf8.txt	71
+lune , hugo_claude_gueux--utf8.txt	642
+lunivers , hugo_claude_gueux--utf8.txt	214
+lupanar , hugo_claude_gueux--utf8.txt	1070
+lut , hugo_claude_gueux--utf8.txt	882
+lutte , hugo_claude_gueux--utf8.txt	390
+lutter , dumas_blanche_beaulieu-utf8.txt	146
+là , dumas_blanche_beaulieu-utf8.txt	89
+là , hugo_claude_gueux--utf8.txt	510 , 686 , 822 , 162 , 638 , 482 , 998 , 102 , 1034 , 690 , 674 , 798 , 490 , 554 , 766 , 406 , 522
+làdessus , hugo_claude_gueux--utf8.txt	1114
+lâme , hugo_claude_gueux--utf8.txt	142
+lèvre , hugo_claude_gueux--utf8.txt	106
+lébauche , hugo_claude_gueux--utf8.txt	1134
+léchafaud , hugo_claude_gueux--utf8.txt	962
+léchelle , hugo_claude_gueux--utf8.txt	858
+lécoutaient , hugo_claude_gueux--utf8.txt	598 , 134 , 574
+lécouter , hugo_claude_gueux--utf8.txt	602
+lécriture , hugo_claude_gueux--utf8.txt	1146
+léducation , hugo_claude_gueux--utf8.txt	1130 , 990 , 90 , 1134
+légal , hugo_claude_gueux--utf8.txt	898
+législateurs , hugo_claude_gueux--utf8.txt	1034
+légèrement , hugo_claude_gueux--utf8.txt	266
+lémile , hugo_claude_gueux--utf8.txt	462
+léquilibre , hugo_claude_gueux--utf8.txt	1158 , 998
+létage , hugo_claude_gueux--utf8.txt	482
+létait , hugo_claude_gueux--utf8.txt	910
+létat , hugo_claude_gueux--utf8.txt	1154 , 458
+létincelle , hugo_claude_gueux--utf8.txt	122
+lévêque , dumas_blanche_beaulieu-utf8.txt	158
+lœil , hugo_claude_gueux--utf8.txt	134 , 962 , 954 , 106 , 182
+m , dumas_blanche_beaulieu-utf8.txt	268
+m , hugo_claude_gueux--utf8.txt	526 , 602 , 1030 , 282 , 438 , 290 , 782 , 566 , 278 , 462 , 478 , 454 , 150
+ma , dumas_blanche_beaulieu-utf8.txt	346 , 355 , 280 , 346
+ma , hugo_claude_gueux--utf8.txt	566 , 566 , 566 , 734
+machine , hugo_claude_gueux--utf8.txt	982
+magnifique , hugo_claude_gueux--utf8.txt	1158
+maides , hugo_claude_gueux--utf8.txt	178
+maigre , hugo_claude_gueux--utf8.txt	162
+main , dumas_blanche_beaulieu-utf8.txt	213 , 213 , 54
+main , hugo_claude_gueux--utf8.txt	962 , 766 , 766 , 822 , 674 , 466 , 266 , 290 , 162 , 762 , 950
+mainforte , hugo_claude_gueux--utf8.txt	218
+mains , dumas_blanche_beaulieu-utf8.txt	83
+mains , hugo_claude_gueux--utf8.txt	950 , 402 , 114 , 638
+maintenant , hugo_claude_gueux--utf8.txt	1158 , 770
+maintes , hugo_claude_gueux--utf8.txt	218
+mais , dumas_blanche_beaulieu-utf8.txt	40 , 92 , 270 , 341 , 286 , 118 , 303 , 50
+mais , hugo_claude_gueux--utf8.txt	594 , 870 , 602 , 150 , 754 , 1106 , 854 , 734 , 886 , 574 , 782 , 954 , 566 , 1002 , 586 , 482 , 838
+maison , hugo_claude_gueux--utf8.txt	94 , 318
+maisonrouge , dumas_blanche_beaulieu-utf8.txt	26
+majesté , hugo_claude_gueux--utf8.txt	550
+majorité , hugo_claude_gueux--utf8.txt	1150
+mal , dumas_blanche_beaulieu-utf8.txt	228 , 325
+mal , hugo_claude_gueux--utf8.txt	1002 , 1134 , 1138 , 782 , 1002 , 858 , 1086 , 1130 , 1134
+malade , hugo_claude_gueux--utf8.txt	250 , 1082
+maladie , hugo_claude_gueux--utf8.txt	1086 , 1082
+maladive , hugo_claude_gueux--utf8.txt	374
+malheur , hugo_claude_gueux--utf8.txt	150 , 454
+malheureuse , hugo_claude_gueux--utf8.txt	126
+malheureusement , dumas_blanche_beaulieu-utf8.txt	236
+malheureuses , hugo_claude_gueux--utf8.txt	1134
+malheureux , hugo_claude_gueux--utf8.txt	1150
+maltraité , hugo_claude_gueux--utf8.txt	90
+malédiction , dumas_blanche_beaulieu-utf8.txt	36
+manant , dumas_blanche_beaulieu-utf8.txt	255
+mangeaient , hugo_claude_gueux--utf8.txt	162
+mangeait , hugo_claude_gueux--utf8.txt	154
+manger , dumas_blanche_beaulieu-utf8.txt	349
+manger , hugo_claude_gueux--utf8.txt	566 , 178 , 182 , 946 , 318
+mangeur , hugo_claude_gueux--utf8.txt	150
+manière , hugo_claude_gueux--utf8.txt	126 , 1026
+manqua , hugo_claude_gueux--utf8.txt	90
+manquait , hugo_claude_gueux--utf8.txt	946
+manqué , hugo_claude_gueux--utf8.txt	994
+manuscrit , dumas_blanche_beaulieu-utf8.txt	215 , 212
+marat , dumas_blanche_beaulieu-utf8.txt	166
+marceau , dumas_blanche_beaulieu-utf8.txt	32 , 45
+marchait , dumas_blanche_beaulieu-utf8.txt	112 , 104
+marchand , hugo_claude_gueux--utf8.txt	114
+marchandises , dumas_blanche_beaulieu-utf8.txt	345
+marchands , dumas_blanche_beaulieu-utf8.txt	354 , 345 , 342 , 294
+marchant , hugo_claude_gueux--utf8.txt	954 , 846
+marche , dumas_blanche_beaulieu-utf8.txt	78
+marcher , dumas_blanche_beaulieu-utf8.txt	98
+marcher , hugo_claude_gueux--utf8.txt	718
+marché , hugo_claude_gueux--utf8.txt	982 , 958
+margot , dumas_blanche_beaulieu-utf8.txt	23
+mari , hugo_claude_gueux--utf8.txt	114
+mariages , dumas_blanche_beaulieu-utf8.txt	16
+marigny , hugo_claude_gueux--utf8.txt	1030
+marne , dumas_blanche_beaulieu-utf8.txt	132
+mars , dumas_blanche_beaulieu-utf8.txt	200
+mars , hugo_claude_gueux--utf8.txt	798
+massacrer , hugo_claude_gueux--utf8.txt	982
+mathieu , hugo_claude_gueux--utf8.txt	1146
+matin , hugo_claude_gueux--utf8.txt	230 , 914 , 418
+matinlà , hugo_claude_gueux--utf8.txt	478
+matinée , hugo_claude_gueux--utf8.txt	478 , 246
+matières , hugo_claude_gueux--utf8.txt	44
+matériel , dumas_blanche_beaulieu-utf8.txt	138
+matérielle , hugo_claude_gueux--utf8.txt	858
+mauvais , hugo_claude_gueux--utf8.txt	114 , 1094 , 1166
+mauvaise , dumas_blanche_beaulieu-utf8.txt	259
+mauvaise , hugo_claude_gueux--utf8.txt	790 , 1146
+mauvaises , hugo_claude_gueux--utf8.txt	626
+mavez , dumas_blanche_beaulieu-utf8.txt	279
+maître , dumas_blanche_beaulieu-utf8.txt	358
+maître , hugo_claude_gueux--utf8.txt	426
+maîtres , hugo_claude_gueux--utf8.txt	146 , 1118 , 1034
+maîtresse , hugo_claude_gueux--utf8.txt	90
+me , dumas_blanche_beaulieu-utf8.txt	314 , 204
+me , hugo_claude_gueux--utf8.txt	854 , 922 , 854 , 854 , 854 , 566 , 358 , 854 , 566 , 494 , 170 , 854 , 854 , 854 , 854 , 1030 , 854 , 734
+meilleur , hugo_claude_gueux--utf8.txt	1166
+membre , dumas_blanche_beaulieu-utf8.txt	139 , 119
+men , hugo_claude_gueux--utf8.txt	742 , 854
+menace , hugo_claude_gueux--utf8.txt	114 , 386
+menaça , hugo_claude_gueux--utf8.txt	810
+menaçait , hugo_claude_gueux--utf8.txt	934 , 438
+meneur , dumas_blanche_beaulieu-utf8.txt	13
+mennuies , hugo_claude_gueux--utf8.txt	742
+menton , hugo_claude_gueux--utf8.txt	106
+menuisiers , hugo_claude_gueux--utf8.txt	482
+menvoyez , hugo_claude_gueux--utf8.txt	854
+mer , dumas_blanche_beaulieu-utf8.txt	29
+merci , hugo_claude_gueux--utf8.txt	186
+mes , dumas_blanche_beaulieu-utf8.txt	283
+mes , hugo_claude_gueux--utf8.txt	346 , 73
+mesdames , dumas_blanche_beaulieu-utf8.txt	281
+messager , dumas_blanche_beaulieu-utf8.txt	245
+messieurs , hugo_claude_gueux--utf8.txt	1062 , 1062 , 1114 , 874 , 870 , 826
+mest , dumas_blanche_beaulieu-utf8.txt	49
+mesure , hugo_claude_gueux--utf8.txt	90
+mesures , dumas_blanche_beaulieu-utf8.txt	175
+mesuré , hugo_claude_gueux--utf8.txt	846
+met , hugo_claude_gueux--utf8.txt	854 , 1002 , 1002 , 114
+mettait , hugo_claude_gueux--utf8.txt	458
+mettent , hugo_claude_gueux--utf8.txt	94
+mettez , hugo_claude_gueux--utf8.txt	138
+mettre , hugo_claude_gueux--utf8.txt	950 , 1034 , 566
+meubles , hugo_claude_gueux--utf8.txt	462
+mhumilie , hugo_claude_gueux--utf8.txt	854
+midi , hugo_claude_gueux--utf8.txt	482
+mieux , dumas_blanche_beaulieu-utf8.txt	341
+mieux , hugo_claude_gueux--utf8.txt	922 , 1034 , 1178 , 1182 , 1086 , 1146 , 1034 , 1134
+milieu , hugo_claude_gueux--utf8.txt	982 , 1042
+mille , dumas_blanche_beaulieu-utf8.txt	87 , 14 , 270
+mille , hugo_claude_gueux--utf8.txt	150
+ministres , hugo_claude_gueux--utf8.txt	1034
+ministère , hugo_claude_gueux--utf8.txt	1042 , 1042
+minutes , dumas_blanche_beaulieu-utf8.txt	71
+minutes , hugo_claude_gueux--utf8.txt	898 , 854
+miparti , hugo_claude_gueux--utf8.txt	802
+misère , hugo_claude_gueux--utf8.txt	1070
+misères , hugo_claude_gueux--utf8.txt	1154 , 1158
+mit , hugo_claude_gueux--utf8.txt	102 , 618 , 474 , 182
+modelée , hugo_claude_gueux--utf8.txt	106
+moderne , hugo_claude_gueux--utf8.txt	1034
+modeste , hugo_claude_gueux--utf8.txt	846
+modéré , dumas_blanche_beaulieu-utf8.txt	179
+moi , hugo_claude_gueux--utf8.txt	734 , 754 , 566 , 326 , 566 , 734 , 938 , 734 , 422 , 206 , 318 , 342 , 338
+moins , dumas_blanche_beaulieu-utf8.txt	246 , 293
+moins , hugo_claude_gueux--utf8.txt	754 , 142 , 954 , 1126
+mois , dumas_blanche_beaulieu-utf8.txt	199 , 320
+mois , hugo_claude_gueux--utf8.txt	142 , 914 , 130 , 590
+moitié , dumas_blanche_beaulieu-utf8.txt	280
+moitié , hugo_claude_gueux--utf8.txt	1086 , 1086
+molécules , hugo_claude_gueux--utf8.txt	114
+moment , hugo_claude_gueux--utf8.txt	386 , 934 , 418 , 970 , 650 , 962 , 766 , 898 , 466 , 866 , 822 , 230 , 522 , 790
+momentlà , hugo_claude_gueux--utf8.txt	246 , 666
+moments , hugo_claude_gueux--utf8.txt	838 , 142 , 626 , 846 , 210
+mon , dumas_blanche_beaulieu-utf8.txt	224 , 247 , 339 , 246 , 227
+mon , hugo_claude_gueux--utf8.txt	1030 , 1030 , 734 , 398 , 422 , 726 , 566 , 854 , 854 , 854
+monarchie , hugo_claude_gueux--utf8.txt	1066
+monde , hugo_claude_gueux--utf8.txt	114 , 1166
+mondeci , hugo_claude_gueux--utf8.txt	1166
+monseigneur , dumas_blanche_beaulieu-utf8.txt	281 , 341 , 253 , 328 , 351 , 231
+monsieur , hugo_claude_gueux--utf8.txt	422 , 698 , 326 , 726 , 310 , 734 , 734 , 826 , 65 , 734 , 342 , 302 , 350 , 398 , 294
+monstre , hugo_claude_gueux--utf8.txt	854 , 862
+monta , hugo_claude_gueux--utf8.txt	962
+montagnards , dumas_blanche_beaulieu-utf8.txt	116
+montagne , dumas_blanche_beaulieu-utf8.txt	151 , 180
+monte , dumas_blanche_beaulieu-utf8.txt	289
+montecristo , dumas_blanche_beaulieu-utf8.txt	12
+monter , hugo_claude_gueux--utf8.txt	1030
+montfaucon , dumas_blanche_beaulieu-utf8.txt	69
+montra , hugo_claude_gueux--utf8.txt	466
+montre , hugo_claude_gueux--utf8.txt	418
+moral , hugo_claude_gueux--utf8.txt	1174
+morale , hugo_claude_gueux--utf8.txt	858
+moralisezla , hugo_claude_gueux--utf8.txt	1186
+moralités , hugo_claude_gueux--utf8.txt	90
+morceau , hugo_claude_gueux--utf8.txt	910
+mord , dumas_blanche_beaulieu-utf8.txt	102
+mordaient , hugo_claude_gueux--utf8.txt	214
+morlaix , dumas_blanche_beaulieu-utf8.txt	286
+morne , hugo_claude_gueux--utf8.txt	802
+mornes , hugo_claude_gueux--utf8.txt	114
+mort , hugo_claude_gueux--utf8.txt	770 , 1094 , 1098 , 766 , 342 , 874 , 926 , 754
+mort2 , hugo_claude_gueux--utf8.txt	566
+mortelles , hugo_claude_gueux--utf8.txt	782
+mot , dumas_blanche_beaulieu-utf8.txt	206
+mot , hugo_claude_gueux--utf8.txt	1146 , 114 , 94
+mots , dumas_blanche_beaulieu-utf8.txt	312 , 260 , 316
+mots , hugo_claude_gueux--utf8.txt	386
+mouchard , hugo_claude_gueux--utf8.txt	854
+mourir , hugo_claude_gueux--utf8.txt	790
+mourrez , dumas_blanche_beaulieu-utf8.txt	90
+mousquetaires , dumas_blanche_beaulieu-utf8.txt	24
+moutons , hugo_claude_gueux--utf8.txt	150
+mouvement , dumas_blanche_beaulieu-utf8.txt	57
+mouvement , hugo_claude_gueux--utf8.txt	858
+moyen , hugo_claude_gueux--utf8.txt	326
+multitude , hugo_claude_gueux--utf8.txt	1150
+mur , hugo_claude_gueux--utf8.txt	642
+murmura , dumas_blanche_beaulieu-utf8.txt	224 , 307 , 283
+murmure , hugo_claude_gueux--utf8.txt	842
+murs , hugo_claude_gueux--utf8.txt	734
+mâchant , hugo_claude_gueux--utf8.txt	674
+mère , hugo_claude_gueux--utf8.txt	462
+mécanique , hugo_claude_gueux--utf8.txt	962
+méchant , hugo_claude_gueux--utf8.txt	114 , 566
+médecins , hugo_claude_gueux--utf8.txt	794
+médiocre , hugo_claude_gueux--utf8.txt	114 , 134
+médée , hugo_claude_gueux--utf8.txt	1034
+mémoires , dumas_blanche_beaulieu-utf8.txt	218
+mémorable , hugo_claude_gueux--utf8.txt	830
+ménage , hugo_claude_gueux--utf8.txt	462
+ménagée , hugo_claude_gueux--utf8.txt	838
+métier , hugo_claude_gueux--utf8.txt	162 , 658 , 386 , 546
+métiers , hugo_claude_gueux--utf8.txt	642 , 642 , 674
+mêlée , dumas_blanche_beaulieu-utf8.txt	79
+même , dumas_blanche_beaulieu-utf8.txt	11
+même , hugo_claude_gueux--utf8.txt	31 , 982 , 134 , 514 , 402 , 214 , 626 , 734 , 134 , 766 , 566 , 114 , 114 , 114 , 838 , 214 , 214 , 214 , 626 , 326 , 126
+môte , hugo_claude_gueux--utf8.txt	854
+mûrement , hugo_claude_gueux--utf8.txt	590
+mûrir , hugo_claude_gueux--utf8.txt	1178
+mœurs , hugo_claude_gueux--utf8.txt	1110
+na , hugo_claude_gueux--utf8.txt	258 , 566
+nachetant , hugo_claude_gueux--utf8.txt	566
+naguère , hugo_claude_gueux--utf8.txt	106
+nai , hugo_claude_gueux--utf8.txt	734 , 854 , 854 , 938 , 318 , 854 , 734 , 566
+naies , dumas_blanche_beaulieu-utf8.txt	226
+nallât , hugo_claude_gueux--utf8.txt	822
+naltéra , hugo_claude_gueux--utf8.txt	374
+napoléon , hugo_claude_gueux--utf8.txt	114
+narine , hugo_claude_gueux--utf8.txt	626
+narines , hugo_claude_gueux--utf8.txt	106
+narrive , hugo_claude_gueux--utf8.txt	454
+nas , hugo_claude_gueux--utf8.txt	718
+natifs , hugo_claude_gueux--utf8.txt	1126
+nationale , hugo_claude_gueux--utf8.txt	1058
+nations , hugo_claude_gueux--utf8.txt	1138
+natteignait , hugo_claude_gueux--utf8.txt	826
+nature , dumas_blanche_beaulieu-utf8.txt	239
+nature , hugo_claude_gueux--utf8.txt	998 , 1130 , 90 , 1134 , 158
+naturelle , hugo_claude_gueux--utf8.txt	626 , 146 , 574
+natures , hugo_claude_gueux--utf8.txt	134
+naurait , hugo_claude_gueux--utf8.txt	626
+naurez , hugo_claude_gueux--utf8.txt	1186
+navais , dumas_blanche_beaulieu-utf8.txt	254
+navait , dumas_blanche_beaulieu-utf8.txt	33 , 188 , 42
+navait , hugo_claude_gueux--utf8.txt	478 , 162 , 914
+navoir , hugo_claude_gueux--utf8.txt	942
+ne , dumas_blanche_beaulieu-utf8.txt	341 , 101 , 319 , 339 , 258 , 194 , 50 , 237 , 228
+ne , hugo_claude_gueux--utf8.txt	1146 , 626 , 462 , 1030 , 226 , 1030 , 594 , 930 , 462 , 246 , 386 , 586 , 742 , 1154 , 898 , 114 , 734 , 462 , 886 , 114 , 734 , 1154 , 126 , 130 , 246 , 374 , 510 , 1086 , 374 , 514 , 518 , 846 , 57 , 370 , 574 , 246 , 766 , 674 , 810 , 346 , 542 , 90 , 146 , 238 , 90 , 246 , 822 , 1026 , 1034 , 1126 , 618 , 1034 , 566 , 162 , 770 , 1034 , 566 , 634 , 90
+nen , dumas_blanche_beaulieu-utf8.txt	246 , 271
+nen , hugo_claude_gueux--utf8.txt	158 , 138 , 458 , 738
+nentendait , hugo_claude_gueux--utf8.txt	970
+nest , hugo_claude_gueux--utf8.txt	114 , 102 , 690 , 550 , 734 , 854 , 422
+nestu , hugo_claude_gueux--utf8.txt	686
+neuf , hugo_claude_gueux--utf8.txt	662 , 458 , 614
+neût , hugo_claude_gueux--utf8.txt	626
+nnemis , dumas_blanche_beaulieu-utf8.txt	89
+noble , dumas_blanche_beaulieu-utf8.txt	255
+noble , hugo_claude_gueux--utf8.txt	978
+noir , dumas_blanche_beaulieu-utf8.txt	75
+noire , dumas_blanche_beaulieu-utf8.txt	68 , 19
+noires , hugo_claude_gueux--utf8.txt	106
+nom , dumas_blanche_beaulieu-utf8.txt	179
+nom , hugo_claude_gueux--utf8.txt	734
+nombre , hugo_claude_gueux--utf8.txt	114
+nommé , hugo_claude_gueux--utf8.txt	90
+non , dumas_blanche_beaulieu-utf8.txt	328
+non , hugo_claude_gueux--utf8.txt	114 , 1146 , 254 , 1094 , 442
+nont , dumas_blanche_beaulieu-utf8.txt	350
+nont , hugo_claude_gueux--utf8.txt	1106 , 114
+nord , hugo_claude_gueux--utf8.txt	642
+note , hugo_claude_gueux--utf8.txt	48 , 53
+notre , dumas_blanche_beaulieu-utf8.txt	50 , 56 , 289 , 298 , 200
+notre , hugo_claude_gueux--utf8.txt	94 , 1018
+noua , hugo_claude_gueux--utf8.txt	210
+nourri , hugo_claude_gueux--utf8.txt	566
+nourrissait , hugo_claude_gueux--utf8.txt	734
+nourriture , hugo_claude_gueux--utf8.txt	150
+nous , dumas_blanche_beaulieu-utf8.txt	294 , 210
+nous , hugo_claude_gueux--utf8.txt	566 , 114 , 566 , 1026 , 850 , 986 , 986 , 114 , 114 , 434 , 218 , 186 , 1018 , 858 , 1018 , 126 , 1038 , 94 , 1014 , 1018 , 818 , 566 , 1018 , 374 , 57
+nouveau , dumas_blanche_beaulieu-utf8.txt	236
+nouvelle , dumas_blanche_beaulieu-utf8.txt	163
+nouvelles , dumas_blanche_beaulieu-utf8.txt	264 , 237 , 245
+novembre , hugo_claude_gueux--utf8.txt	462 , 794 , 458 , 566 , 434 , 566 , 810
+nuages , dumas_blanche_beaulieu-utf8.txt	72
+nue , hugo_claude_gueux--utf8.txt	802
+nuit , dumas_blanche_beaulieu-utf8.txt	111 , 78 , 93 , 93 , 256
+nuit , hugo_claude_gueux--utf8.txt	922 , 102
+nul , hugo_claude_gueux--utf8.txt	1002
+nulle , hugo_claude_gueux--utf8.txt	114
+numéroté , hugo_claude_gueux--utf8.txt	126
+ny , dumas_blanche_beaulieu-utf8.txt	264
+ny , hugo_claude_gueux--utf8.txt	490 , 782 , 326 , 1046
+né , hugo_claude_gueux--utf8.txt	994
+nécessairement , hugo_claude_gueux--utf8.txt	1154
+nécessité , hugo_claude_gueux--utf8.txt	582
+négligemment , dumas_blanche_beaulieu-utf8.txt	275
+négligemment , hugo_claude_gueux--utf8.txt	262
+négociant , hugo_claude_gueux--utf8.txt	85
+nétait , dumas_blanche_beaulieu-utf8.txt	197
+nétait , hugo_claude_gueux--utf8.txt	1106 , 834 , 978 , 782 , 134 , 246
+o , dumas_blanche_beaulieu-utf8.txt	62
+objection , hugo_claude_gueux--utf8.txt	602
+obligé , hugo_claude_gueux--utf8.txt	218
+oblongue , hugo_claude_gueux--utf8.txt	642
+obscurs , hugo_claude_gueux--utf8.txt	638
+obstiné , hugo_claude_gueux--utf8.txt	114
+obtint , hugo_claude_gueux--utf8.txt	458
+obéi , hugo_claude_gueux--utf8.txt	134
+obéir , hugo_claude_gueux--utf8.txt	218 , 110
+obéirent , hugo_claude_gueux--utf8.txt	638
+obéissant , hugo_claude_gueux--utf8.txt	114
+occasion , hugo_claude_gueux--utf8.txt	150 , 1034 , 218
+occupezvous , hugo_claude_gueux--utf8.txt	1054 , 1082
+occupées , hugo_claude_gueux--utf8.txt	1030
+octobre , hugo_claude_gueux--utf8.txt	458 , 418 , 434
+officielle , hugo_claude_gueux--utf8.txt	218
+officier3 , hugo_claude_gueux--utf8.txt	1030
+offres , hugo_claude_gueux--utf8.txt	906
+oh , dumas_blanche_beaulieu-utf8.txt	100
+olifus , dumas_blanche_beaulieu-utf8.txt	16
+omettait , hugo_claude_gueux--utf8.txt	814
+on , dumas_blanche_beaulieu-utf8.txt	73 , 101 , 102 , 103 , 94 , 102 , 102
+on , hugo_claude_gueux--utf8.txt	1034 , 94 , 542 , 94 , 1030 , 102 , 134 , 882 , 210 , 1026 , 946 , 786 , 246 , 690 , 246 , 558 , 490 , 770 , 958 , 510 , 914 , 126 , 106 , 786 , 94 , 1026 , 1026 , 650
+onces , hugo_claude_gueux--utf8.txt	154
+ongles , dumas_blanche_beaulieu-utf8.txt	103
+ont , dumas_blanche_beaulieu-utf8.txt	345
+ont , hugo_claude_gueux--utf8.txt	1138 , 266 , 822 , 830 , 114
+orateur , hugo_claude_gueux--utf8.txt	838
+orateurs , hugo_claude_gueux--utf8.txt	1034
+ordinaire , hugo_claude_gueux--utf8.txt	954
+ordinaires , hugo_claude_gueux--utf8.txt	150
+ordre , dumas_blanche_beaulieu-utf8.txt	249
+ordrelà , hugo_claude_gueux--utf8.txt	270
+ordres , dumas_blanche_beaulieu-utf8.txt	60 , 257
+organisation , hugo_claude_gueux--utf8.txt	150
+organisé , hugo_claude_gueux--utf8.txt	994
+ornière , dumas_blanche_beaulieu-utf8.txt	70
+oser , hugo_claude_gueux--utf8.txt	162
+oubli , hugo_claude_gueux--utf8.txt	814
+oubliée , hugo_claude_gueux--utf8.txt	858
+oui , hugo_claude_gueux--utf8.txt	306 , 734 , 854 , 786
+outils , hugo_claude_gueux--utf8.txt	910
+outre , hugo_claude_gueux--utf8.txt	366
+ouvert , hugo_claude_gueux--utf8.txt	766
+ouvertes , hugo_claude_gueux--utf8.txt	106
+ouvrez , hugo_claude_gueux--utf8.txt	1142
+ouvrier , hugo_claude_gueux--utf8.txt	150 , 126 , 106 , 90 , 838
+où , hugo_claude_gueux--utf8.txt	594 , 114 , 986 , 386 , 766 , 482 , 958 , 898 , 458 , 462 , 230 , 642 , 466 , 626 , 90 , 1126 , 838 , 418 , 962 , 582 , 822
+pages , dumas_blanche_beaulieu-utf8.txt	227
+paille , hugo_claude_gueux--utf8.txt	478
+pain , dumas_blanche_beaulieu-utf8.txt	348
+pain , hugo_claude_gueux--utf8.txt	566 , 822 , 854 , 154 , 90 , 214 , 854 , 162 , 90 , 154 , 946 , 318
+paire , hugo_claude_gueux--utf8.txt	618 , 466 , 462
+palliatifs , hugo_claude_gueux--utf8.txt	1086
+pamiers , hugo_claude_gueux--utf8.txt	1050
+pan , hugo_claude_gueux--utf8.txt	1018
+pantalon , hugo_claude_gueux--utf8.txt	766 , 510 , 674 , 522
+pape , hugo_claude_gueux--utf8.txt	142
+par , dumas_blanche_beaulieu-utf8.txt	151 , 185 , 160 , 78 , 150 , 280 , 281 , 206 , 121 , 211
+par , hugo_claude_gueux--utf8.txt	334 , 142 , 146 , 90 , 338 , 862 , 814 , 814 , 138 , 850 , 1042 , 1042 , 134 , 858 , 642 , 642 , 69 , 1174 , 210 , 1114 , 1034 , 846 , 126 , 114 , 626 , 134 , 162 , 1034 , 114 , 90 , 910 , 898 , 1018 , 906 , 114 , 386 , 1002 , 594 , 134 , 1002 , 114
+parader , hugo_claude_gueux--utf8.txt	1030
+paradis , hugo_claude_gueux--utf8.txt	1158
+paragraphes , hugo_claude_gueux--utf8.txt	986
+parais , hugo_claude_gueux--utf8.txt	450
+paraissait , hugo_claude_gueux--utf8.txt	210
+parallélogramme , hugo_claude_gueux--utf8.txt	642
+paraît , hugo_claude_gueux--utf8.txt	926 , 214 , 958 , 126 , 838 , 898 , 574 , 542 , 246
+parce , hugo_claude_gueux--utf8.txt	566 , 958 , 458 , 362 , 566 , 786 , 758 , 986
+parcourir , hugo_claude_gueux--utf8.txt	642
+pardessus , dumas_blanche_beaulieu-utf8.txt	59
+pardieu , dumas_blanche_beaulieu-utf8.txt	263
+pardonnant , hugo_claude_gueux--utf8.txt	962
+pareils , hugo_claude_gueux--utf8.txt	122 , 122 , 1026
+parfaite , hugo_claude_gueux--utf8.txt	934
+parfaitement , hugo_claude_gueux--utf8.txt	658 , 798
+parfois , dumas_blanche_beaulieu-utf8.txt	209
+paris , dumas_blanche_beaulieu-utf8.txt	158
+paris , hugo_claude_gueux--utf8.txt	31 , 65 , 1050 , 626 , 90
+paris1 , hugo_claude_gueux--utf8.txt	57
+parla , hugo_claude_gueux--utf8.txt	934 , 834 , 830 , 838 , 574
+parlait , hugo_claude_gueux--utf8.txt	158 , 374
+parlant , hugo_claude_gueux--utf8.txt	746
+parler , dumas_blanche_beaulieu-utf8.txt	271
+parler , hugo_claude_gueux--utf8.txt	162 , 606 , 698
+parlez , hugo_claude_gueux--utf8.txt	1046
+parlons , hugo_claude_gueux--utf8.txt	94
+parlé , hugo_claude_gueux--utf8.txt	218
+parmi , hugo_claude_gueux--utf8.txt	138
+parole , dumas_blanche_beaulieu-utf8.txt	346 , 346
+parole , hugo_claude_gueux--utf8.txt	826 , 110 , 246
+paroles , hugo_claude_gueux--utf8.txt	674 , 218 , 926 , 1042
+parricide , hugo_claude_gueux--utf8.txt	1034
+part , dumas_blanche_beaulieu-utf8.txt	355 , 96
+part , hugo_claude_gueux--utf8.txt	1158 , 386 , 1158 , 946 , 850
+partage , hugo_claude_gueux--utf8.txt	822
+partagea , hugo_claude_gueux--utf8.txt	182
+partageaient , dumas_blanche_beaulieu-utf8.txt	201
+partageait , hugo_claude_gueux--utf8.txt	566 , 318
+partager , hugo_claude_gueux--utf8.txt	382
+partagerons , hugo_claude_gueux--utf8.txt	186
+partagèrent , hugo_claude_gueux--utf8.txt	210
+parti , dumas_blanche_beaulieu-utf8.txt	135 , 179 , 146 , 186 , 140
+particularité , hugo_claude_gueux--utf8.txt	150
+partie , hugo_claude_gueux--utf8.txt	846 , 658
+parties , hugo_claude_gueux--utf8.txt	1102
+partis , dumas_blanche_beaulieu-utf8.txt	149
+parts , hugo_claude_gueux--utf8.txt	182 , 1154
+parut , hugo_claude_gueux--utf8.txt	374 , 478 , 798 , 130
+pas , dumas_blanche_beaulieu-utf8.txt	194 , 51 , 101 , 197 , 246 , 254 , 258 , 319 , 335 , 341
+pas , hugo_claude_gueux--utf8.txt	238 , 462 , 766 , 938 , 458 , 942 , 114 , 1110 , 386 , 746 , 114 , 1106 , 898 , 734 , 886 , 102 , 1154 , 490 , 734 , 954 , 1154 , 718 , 510 , 514 , 686 , 134 , 134 , 678 , 518 , 766 , 370 , 674 , 138 , 57 , 1046 , 326 , 318 , 970 , 978 , 770 , 982 , 90 , 158 , 854 , 566 , 90 , 566 , 826 , 162 , 162 , 1034 , 1186 , 834 , 566 , 1146 , 1030 , 1030 , 854 , 258 , 1026 , 246 , 574 , 846 , 246 , 854 , 846 , 846 , 246 , 1126 , 246 , 594 , 226 , 854
+passa , dumas_blanche_beaulieu-utf8.txt	71
+passa , hugo_claude_gueux--utf8.txt	674 , 290 , 366 , 550 , 286 , 246
+passage , hugo_claude_gueux--utf8.txt	290 , 958
+passait , hugo_claude_gueux--utf8.txt	642 , 386
+passe , dumas_blanche_beaulieu-utf8.txt	200
+passer , hugo_claude_gueux--utf8.txt	1034 , 458
+passetemps , hugo_claude_gueux--utf8.txt	126
+passèrent , hugo_claude_gueux--utf8.txt	794
+patience , dumas_blanche_beaulieu-utf8.txt	309
+patience , hugo_claude_gueux--utf8.txt	1170
+patient , hugo_claude_gueux--utf8.txt	1170
+patriotiquement , hugo_claude_gueux--utf8.txt	1030
+paul , dumas_blanche_beaulieu-utf8.txt	20
+pauvre , dumas_blanche_beaulieu-utf8.txt	247 , 224
+pauvre , hugo_claude_gueux--utf8.txt	370 , 90 , 838 , 1158 , 902 , 1154 , 1150 , 618 , 1158
+pauvres , dumas_blanche_beaulieu-utf8.txt	355
+pauvres , hugo_claude_gueux--utf8.txt	966 , 1130 , 974
+payer , dumas_blanche_beaulieu-utf8.txt	293
+payerez , hugo_claude_gueux--utf8.txt	1118
+pays , hugo_claude_gueux--utf8.txt	1034 , 1034 , 1126
+paysan , dumas_blanche_beaulieu-utf8.txt	49 , 233
+payé , hugo_claude_gueux--utf8.txt	478
+pede , hugo_claude_gueux--utf8.txt	914
+peine , hugo_claude_gueux--utf8.txt	1094 , 1050 , 734 , 150 , 1098 , 154 , 1090
+peines , hugo_claude_gueux--utf8.txt	1110
+peloton , dumas_blanche_beaulieu-utf8.txt	66
+pencher , hugo_claude_gueux--utf8.txt	1154
+pendait , hugo_claude_gueux--utf8.txt	906
+pendant , hugo_claude_gueux--utf8.txt	566 , 842 , 934 , 854 , 854 , 906 , 854
+pendu , dumas_blanche_beaulieu-utf8.txt	247
+pensa , hugo_claude_gueux--utf8.txt	246
+pensait , hugo_claude_gueux--utf8.txt	126
+pensent , hugo_claude_gueux--utf8.txt	1026 , 1026
+penser , hugo_claude_gueux--utf8.txt	90
+pensif , hugo_claude_gueux--utf8.txt	110 , 446
+pensée , hugo_claude_gueux--utf8.txt	210
+pensées , dumas_blanche_beaulieu-utf8.txt	231
+pensées , hugo_claude_gueux--utf8.txt	134
+percé , hugo_claude_gueux--utf8.txt	642
+perdu , hugo_claude_gueux--utf8.txt	782
+perdus , hugo_claude_gueux--utf8.txt	106
+pernot , hugo_claude_gueux--utf8.txt	446
+personne , hugo_claude_gueux--utf8.txt	114 , 134 , 770 , 110 , 834
+petit , hugo_claude_gueux--utf8.txt	462 , 446
+petite , hugo_claude_gueux--utf8.txt	510 , 618 , 466
+petites , hugo_claude_gueux--utf8.txt	114
+petits , hugo_claude_gueux--utf8.txt	770
+peu , dumas_blanche_beaulieu-utf8.txt	156
+peu , hugo_claude_gueux--utf8.txt	538 , 134 , 482 , 566 , 110 , 870
+peuple , dumas_blanche_beaulieu-utf8.txt	143
+peuple , hugo_claude_gueux--utf8.txt	1166 , 986 , 1186 , 1070 , 1166 , 1134 , 1142 , 982 , 1070 , 1178 , 1066 , 1122 , 1062 , 1070
+peuples , dumas_blanche_beaulieu-utf8.txt	80
+peur , dumas_blanche_beaulieu-utf8.txt	226
+peur , hugo_claude_gueux--utf8.txt	938
+peut , dumas_blanche_beaulieu-utf8.txt	308
+peut , hugo_claude_gueux--utf8.txt	798
+peutêtre , hugo_claude_gueux--utf8.txt	1022 , 626 , 738
+phases , hugo_claude_gueux--utf8.txt	990 , 990
+philosophique , hugo_claude_gueux--utf8.txt	1146
+phèdre , hugo_claude_gueux--utf8.txt	1034
+pied , dumas_blanche_beaulieu-utf8.txt	98
+pied , hugo_claude_gueux--utf8.txt	462 , 418 , 954
+pieds , hugo_claude_gueux--utf8.txt	114
+pierre , hugo_claude_gueux--utf8.txt	402
+pilori , hugo_claude_gueux--utf8.txt	94
+pique , hugo_claude_gueux--utf8.txt	854
+pire , dumas_blanche_beaulieu-utf8.txt	229
+pire , hugo_claude_gueux--utf8.txt	1094
+pires , hugo_claude_gueux--utf8.txt	222
+pitance , hugo_claude_gueux--utf8.txt	162
+pitié , hugo_claude_gueux--utf8.txt	1070
+pièce , hugo_claude_gueux--utf8.txt	950 , 962
+place , dumas_blanche_beaulieu-utf8.txt	117
+place , hugo_claude_gueux--utf8.txt	686 , 854
+placent , dumas_blanche_beaulieu-utf8.txt	55
+placer , hugo_claude_gueux--utf8.txt	162
+plaidoirie , hugo_claude_gueux--utf8.txt	830 , 830
+plaie , hugo_claude_gueux--utf8.txt	1090
+plaies , hugo_claude_gueux--utf8.txt	790
+plaisir , dumas_blanche_beaulieu-utf8.txt	298
+plaisir , hugo_claude_gueux--utf8.txt	1030
+plateau , hugo_claude_gueux--utf8.txt	1154 , 1158 , 1154
+plein , dumas_blanche_beaulieu-utf8.txt	276
+plein , hugo_claude_gueux--utf8.txt	838 , 386
+pleine , hugo_claude_gueux--utf8.txt	1178
+pleines , hugo_claude_gueux--utf8.txt	1034
+pleins , hugo_claude_gueux--utf8.txt	458
+pleuraient , hugo_claude_gueux--utf8.txt	622
+pleurèrent , hugo_claude_gueux--utf8.txt	822
+ployé , dumas_blanche_beaulieu-utf8.txt	41
+plus , dumas_blanche_beaulieu-utf8.txt	259 , 194 , 239 , 214 , 287 , 355 , 42 , 49 , 227
+plus , hugo_claude_gueux--utf8.txt	1178 , 1162 , 378 , 1058 , 1182 , 1146 , 290 , 478 , 1146 , 378 , 742 , 690 , 778 , 510 , 378 , 266 , 458 , 770 , 458 , 626 , 374 , 734 , 130 , 1038 , 1142 , 218 , 958 , 1106 , 1146 , 618 , 914
+plusieurs , hugo_claude_gueux--utf8.txt	626 , 510 , 382 , 402 , 878
+plutôt , hugo_claude_gueux--utf8.txt	110 , 210 , 838 , 114
+poignantes , hugo_claude_gueux--utf8.txt	1018
+poignardât , dumas_blanche_beaulieu-utf8.txt	43
+poignet , dumas_blanche_beaulieu-utf8.txt	41
+poing , hugo_claude_gueux--utf8.txt	854
+point , dumas_blanche_beaulieu-utf8.txt	319 , 271 , 264 , 339 , 239
+point , hugo_claude_gueux--utf8.txt	1130 , 442 , 626
+poitrine , dumas_blanche_beaulieu-utf8.txt	42
+poitrine , hugo_claude_gueux--utf8.txt	770 , 770 , 946
+poli , hugo_claude_gueux--utf8.txt	846
+politique , dumas_blanche_beaulieu-utf8.txt	137
+politiques , hugo_claude_gueux--utf8.txt	1034
+populaire , hugo_claude_gueux--utf8.txt	1146
+popularisait , dumas_blanche_beaulieu-utf8.txt	152
+popularité , hugo_claude_gueux--utf8.txt	146
+portait , hugo_claude_gueux--utf8.txt	802 , 266
+porte , hugo_claude_gueux--utf8.txt	1030 , 662 , 642 , 658 , 674 , 762 , 642 , 746
+porteclefs , hugo_claude_gueux--utf8.txt	230 , 262
+porter , hugo_claude_gueux--utf8.txt	946 , 1150
+portes , hugo_claude_gueux--utf8.txt	642 , 642
+portée , hugo_claude_gueux--utf8.txt	618
+portés , hugo_claude_gueux--utf8.txt	782
+posa , hugo_claude_gueux--utf8.txt	838
+pose , dumas_blanche_beaulieu-utf8.txt	101
+posez , hugo_claude_gueux--utf8.txt	870
+position , hugo_claude_gueux--utf8.txt	866
+possible , hugo_claude_gueux--utf8.txt	958 , 518
+possédait , hugo_claude_gueux--utf8.txt	618
+pour , dumas_blanche_beaulieu-utf8.txt	143 , 77 , 215 , 57 , 89 , 318 , 42 , 189 , 356
+pour , hugo_claude_gueux--utf8.txt	974 , 154 , 854 , 214 , 57 , 462 , 90 , 854 , 1030 , 1122 , 586 , 150 , 150 , 1178 , 390 , 150 , 1166 , 566 , 1030 , 566 , 782 , 114 , 1090 , 90 , 114 , 966 , 218 , 830 , 1166 , 90 , 814 , 958 , 1122 , 998 , 310 , 218 , 526 , 542 , 566 , 846 , 506 , 898 , 910 , 1058 , 1034 , 982 , 118 , 126 , 102 , 102 , 1034 , 342
+pourquoi , dumas_blanche_beaulieu-utf8.txt	104
+pourquoi , hugo_claude_gueux--utf8.txt	498 , 886 , 134 , 358 , 886 , 786 , 686 , 870 , 870 , 754 , 754 , 198
+pourraient , hugo_claude_gueux--utf8.txt	986
+pourrais , dumas_blanche_beaulieu-utf8.txt	48
+pourrait , hugo_claude_gueux--utf8.txt	1038
+pourrez , hugo_claude_gueux--utf8.txt	1142
+poursuivit , hugo_claude_gueux--utf8.txt	310
+poursuivons , hugo_claude_gueux--utf8.txt	98
+pourtant , hugo_claude_gueux--utf8.txt	870 , 430 , 110
+pourvoi , hugo_claude_gueux--utf8.txt	898 , 918 , 906
+pourvoir , hugo_claude_gueux--utf8.txt	898
+pourvut , hugo_claude_gueux--utf8.txt	898
+pousse , hugo_claude_gueux--utf8.txt	1070
+pousser , dumas_blanche_beaulieu-utf8.txt	42
+pousser , hugo_claude_gueux--utf8.txt	1150 , 766
+pouvaient , hugo_claude_gueux--utf8.txt	462
+pouvait , hugo_claude_gueux--utf8.txt	518 , 586 , 626
+pouvez , hugo_claude_gueux--utf8.txt	734
+pouvoir , dumas_blanche_beaulieu-utf8.txt	193
+pouvoir , hugo_claude_gueux--utf8.txt	218 , 810 , 218
+premier , hugo_claude_gueux--utf8.txt	658 , 1130
+premiers , hugo_claude_gueux--utf8.txt	674
+première , hugo_claude_gueux--utf8.txt	31 , 53 , 48
+prend , hugo_claude_gueux--utf8.txt	1070
+prendrai , dumas_blanche_beaulieu-utf8.txt	338
+prendre , hugo_claude_gueux--utf8.txt	586 , 962
+prends , dumas_blanche_beaulieu-utf8.txt	353
+prenez , dumas_blanche_beaulieu-utf8.txt	330
+prennent , dumas_blanche_beaulieu-utf8.txt	54
+prennent , hugo_claude_gueux--utf8.txt	114 , 114
+presque , hugo_claude_gueux--utf8.txt	1094 , 210 , 114 , 210 , 838
+pressent , hugo_claude_gueux--utf8.txt	1026
+pressé , hugo_claude_gueux--utf8.txt	746
+pria , hugo_claude_gueux--utf8.txt	950 , 946
+prie , dumas_blanche_beaulieu-utf8.txt	330
+prie , hugo_claude_gueux--utf8.txt	73 , 69
+prier , dumas_blanche_beaulieu-utf8.txt	356
+prier , hugo_claude_gueux--utf8.txt	898
+prieur , dumas_blanche_beaulieu-utf8.txt	131 , 131
+prince , hugo_claude_gueux--utf8.txt	114
+princes , dumas_blanche_beaulieu-utf8.txt	17
+principale , hugo_claude_gueux--utf8.txt	114
+principales , hugo_claude_gueux--utf8.txt	990
+principe , hugo_claude_gueux--utf8.txt	290
+pris , dumas_blanche_beaulieu-utf8.txt	254
+pris , hugo_claude_gueux--utf8.txt	790
+prise , dumas_blanche_beaulieu-utf8.txt	260
+prise , hugo_claude_gueux--utf8.txt	330
+prison , hugo_claude_gueux--utf8.txt	1002 , 390 , 890 , 154 , 154 , 90 , 130 , 954 , 786 , 734 , 118
+prisonnier , hugo_claude_gueux--utf8.txt	114 , 618 , 142 , 150 , 374
+prisonniers , hugo_claude_gueux--utf8.txt	218 , 510 , 230 , 118 , 162 , 446 , 218 , 802 , 146 , 906 , 542 , 246
+prisons , hugo_claude_gueux--utf8.txt	114 , 290 , 1110
+prit , hugo_claude_gueux--utf8.txt	182 , 182 , 510 , 826 , 902
+privée , hugo_claude_gueux--utf8.txt	114
+prix , dumas_blanche_beaulieu-utf8.txt	278
+prix , hugo_claude_gueux--utf8.txt	478
+prière , dumas_blanche_beaulieu-utf8.txt	303
+prière , hugo_claude_gueux--utf8.txt	386 , 458 , 646
+problème , hugo_claude_gueux--utf8.txt	986 , 998
+prochaine , hugo_claude_gueux--utf8.txt	922
+proconsulat , dumas_blanche_beaulieu-utf8.txt	129
+procureur , hugo_claude_gueux--utf8.txt	850 , 822 , 826 , 806
+procès , hugo_claude_gueux--utf8.txt	830
+produisent , hugo_claude_gueux--utf8.txt	1174
+profils , hugo_claude_gueux--utf8.txt	1130
+profitent , hugo_claude_gueux--utf8.txt	1034
+profiter , hugo_claude_gueux--utf8.txt	69
+profonde , hugo_claude_gueux--utf8.txt	770 , 814 , 878
+progrès , dumas_blanche_beaulieu-utf8.txt	157
+progrès , hugo_claude_gueux--utf8.txt	94
+prolongeaient , dumas_blanche_beaulieu-utf8.txt	108
+promenaient , hugo_claude_gueux--utf8.txt	214
+promenait , hugo_claude_gueux--utf8.txt	446 , 374
+promenant , dumas_blanche_beaulieu-utf8.txt	334
+promenoir , hugo_claude_gueux--utf8.txt	522 , 466
+promettaient , dumas_blanche_beaulieu-utf8.txt	318
+promis , dumas_blanche_beaulieu-utf8.txt	270 , 45
+promises , dumas_blanche_beaulieu-utf8.txt	245
+proportion , hugo_claude_gueux--utf8.txt	998
+proportionnée , hugo_claude_gueux--utf8.txt	858
+propos , hugo_claude_gueux--utf8.txt	1034 , 52
+propositions , dumas_blanche_beaulieu-utf8.txt	126
+propre , hugo_claude_gueux--utf8.txt	586 , 114 , 130
+proscrit , dumas_blanche_beaulieu-utf8.txt	18
+prostituées , hugo_claude_gueux--utf8.txt	1070
+prouvait , dumas_blanche_beaulieu-utf8.txt	244
+prouvent , hugo_claude_gueux--utf8.txt	1074
+prouver , hugo_claude_gueux--utf8.txt	1034
+providences , hugo_claude_gueux--utf8.txt	114
+provocation , hugo_claude_gueux--utf8.txt	858 , 850 , 858
+provoqué , hugo_claude_gueux--utf8.txt	854 , 854 , 854
+près , hugo_claude_gueux--utf8.txt	642 , 134 , 746 , 162 , 162
+préau , hugo_claude_gueux--utf8.txt	246 , 214 , 402 , 374 , 246
+précaution , dumas_blanche_beaulieu-utf8.txt	330 , 338 , 254
+précise , dumas_blanche_beaulieu-utf8.txt	136
+précédente , hugo_claude_gueux--utf8.txt	286
+préparatifs , hugo_claude_gueux--utf8.txt	794
+présence , hugo_claude_gueux--utf8.txt	1026
+présenta , hugo_claude_gueux--utf8.txt	810 , 510
+président , hugo_claude_gueux--utf8.txt	810 , 866 , 862
+prétexte , hugo_claude_gueux--utf8.txt	482
+préviens , hugo_claude_gueux--utf8.txt	566
+prévient , hugo_claude_gueux--utf8.txt	290
+prévint , hugo_claude_gueux--utf8.txt	230
+prévoir , dumas_blanche_beaulieu-utf8.txt	33
+prêt , hugo_claude_gueux--utf8.txt	602
+prêter , hugo_claude_gueux--utf8.txt	494
+prêtre , hugo_claude_gueux--utf8.txt	962 , 962 , 954 , 942 , 930 , 930
+prêté , hugo_claude_gueux--utf8.txt	218
+pu , dumas_blanche_beaulieu-utf8.txt	259 , 253
+pu , hugo_claude_gueux--utf8.txt	766
+public , dumas_blanche_beaulieu-utf8.txt	186 , 164
+publication , hugo_claude_gueux--utf8.txt	31
+publique , hugo_claude_gueux--utf8.txt	1042 , 126 , 826 , 114 , 862
+publiques , hugo_claude_gueux--utf8.txt	982
+puis , dumas_blanche_beaulieu-utf8.txt	60 , 205
+puis , hugo_claude_gueux--utf8.txt	622 , 862 , 766 , 846 , 822 , 862 , 386 , 962 , 930
+puisque , hugo_claude_gueux--utf8.txt	1114 , 1118
+puissamment , hugo_claude_gueux--utf8.txt	106
+puissance , dumas_blanche_beaulieu-utf8.txt	164
+puisse , hugo_claude_gueux--utf8.txt	550 , 1134
+purent , hugo_claude_gueux--utf8.txt	822
+pâle , hugo_claude_gueux--utf8.txt	954 , 162 , 630
+père , dumas_blanche_beaulieu-utf8.txt	153 , 16
+père , hugo_claude_gueux--utf8.txt	114 , 210
+pénalité , hugo_claude_gueux--utf8.txt	990 , 1110
+pénétrante , hugo_claude_gueux--utf8.txt	838
+pût , dumas_blanche_beaulieu-utf8.txt	143
+qualbin , hugo_claude_gueux--utf8.txt	250 , 566 , 318 , 734
+quand , dumas_blanche_beaulieu-utf8.txt	309 , 84 , 86 , 79 , 88 , 79
+quand , hugo_claude_gueux--utf8.txt	246 , 114 , 1086 , 958 , 814 , 246 , 638 , 114 , 94 , 1026 , 1146 , 778 , 1026
+quant , dumas_blanche_beaulieu-utf8.txt	338 , 348 , 135 , 297 , 285
+quant , hugo_claude_gueux--utf8.txt	938
+quantin , hugo_claude_gueux--utf8.txt	35
+quantité , hugo_claude_gueux--utf8.txt	782
+quaprès , hugo_claude_gueux--utf8.txt	542
+quart , hugo_claude_gueux--utf8.txt	874 , 954
+quartier , hugo_claude_gueux--utf8.txt	302 , 326 , 262
+quatre , dumas_blanche_beaulieu-utf8.txt	290
+quatre , hugo_claude_gueux--utf8.txt	854 , 154 , 154 , 854 , 914 , 854 , 734
+quatrevingtdeux , hugo_claude_gueux--utf8.txt	554
+quatrevingts , dumas_blanche_beaulieu-utf8.txt	290
+quatrevingts , hugo_claude_gueux--utf8.txt	766 , 746 , 1118
+quatrevingtun , hugo_claude_gueux--utf8.txt	574
+quatrième , hugo_claude_gueux--utf8.txt	766
+quau , dumas_blanche_beaulieu-utf8.txt	109
+quaucune , hugo_claude_gueux--utf8.txt	550
+quavant , hugo_claude_gueux--utf8.txt	606
+quel , hugo_claude_gueux--utf8.txt	390
+quelle , dumas_blanche_beaulieu-utf8.txt	303 , 106
+quelle , hugo_claude_gueux--utf8.txt	114 , 114 , 1022
+quelles , dumas_blanche_beaulieu-utf8.txt	320
+quelles , hugo_claude_gueux--utf8.txt	830 , 1018
+quelque , dumas_blanche_beaulieu-utf8.txt	354
+quelque , hugo_claude_gueux--utf8.txt	378 , 558 , 350 , 618 , 566 , 110 , 374 , 854 , 390 , 454 , 866
+quelquefois , hugo_claude_gueux--utf8.txt	582
+quelques , dumas_blanche_beaulieu-utf8.txt	312 , 71 , 60
+quelques , hugo_claude_gueux--utf8.txt	682 , 638 , 462 , 130 , 106 , 898
+quelquesuns , hugo_claude_gueux--utf8.txt	622
+quelquun , hugo_claude_gueux--utf8.txt	934 , 414 , 602 , 1042
+querellerez , hugo_claude_gueux--utf8.txt	1058
+questce , dumas_blanche_beaulieu-utf8.txt	306
+questce , hugo_claude_gueux--utf8.txt	734
+question , hugo_claude_gueux--utf8.txt	1050 , 990 , 982 , 1046 , 1054 , 1178 , 990
+questionner , hugo_claude_gueux--utf8.txt	1034
+questions , hugo_claude_gueux--utf8.txt	1018 , 1026 , 990 , 1018 , 870 , 990 , 886 , 866
+qui , dumas_blanche_beaulieu-utf8.txt	64 , 51 , 234 , 98 , 69 , 63 , 228 , 314 , 199 , 308 , 244 , 302 , 170 , 96 , 197 , 210 , 294 , 166 , 97 , 73 , 173
+qui , hugo_claude_gueux--utf8.txt	114 , 766 , 778 , 778 , 1182 , 734 , 734 , 786 , 734 , 734 , 682 , 674 , 806 , 674 , 822 , 642 , 822 , 822 , 642 , 826 , 638 , 630 , 630 , 630 , 834 , 626 , 626 , 838 , 846 , 90 , 1166 , 598 , 1166 , 1166 , 1162 , 854 , 854 , 574 , 574 , 854 , 854 , 566 , 858 , 554 , 550 , 542 , 522 , 518 , 510 , 878 , 494 , 494 , 882 , 898 , 466 , 466 , 906 , 462 , 462 , 462 , 446 , 934 , 946 , 386 , 950 , 386 , 950 , 378 , 378 , 370 , 334 , 270 , 266 , 266 , 230 , 1006 , 1018 , 1018 , 1018 , 1022 , 218 , 1026 , 110 , 1034 , 1034 , 1034 , 1034 , 1034 , 1034 , 150 , 1042 , 150 , 1046 , 1046 , 114 , 138 , 114 , 138 , 138 , 138 , 134 , 1070 , 1134 , 114 , 134 , 1090 , 1090 , 1090 , 1094 , 1098 , 114 , 114 , 114 , 114 , 114 , 114 , 1126 , 114 , 114 , 114 , 114 , 114
+quil , dumas_blanche_beaulieu-utf8.txt	212 , 287 , 56
+quil , hugo_claude_gueux--utf8.txt	898 , 946 , 602 , 1018 , 134 , 618 , 838 , 598 , 618 , 782 , 594 , 734 , 1002 , 590 , 782 , 1002 , 462 , 626 , 586 , 246 , 578 , 626 , 1146 , 574 , 246 , 574 , 246 , 574 , 574 , 258 , 134 , 566 , 566 , 630 , 73 , 1094 , 558 , 1178 , 126 , 970 , 618 , 90 , 326 , 962 , 914 , 454 , 958 , 822 , 958 , 418 , 1038 , 114 , 946
+quils , dumas_blanche_beaulieu-utf8.txt	349
+quils , hugo_claude_gueux--utf8.txt	810 , 94 , 214
+quimper , dumas_blanche_beaulieu-utf8.txt	286
+quimporte , hugo_claude_gueux--utf8.txt	1042
+quoi , dumas_blanche_beaulieu-utf8.txt	293
+quoi , hugo_claude_gueux--utf8.txt	1150 , 318 , 174 , 702 , 1026 , 854 , 450 , 118 , 1126
+quoique , dumas_blanche_beaulieu-utf8.txt	244 , 258
+quoique , hugo_claude_gueux--utf8.txt	106
+quon , dumas_blanche_beaulieu-utf8.txt	165 , 193
+quon , hugo_claude_gueux--utf8.txt	638 , 934 , 114 , 946 , 462 , 874 , 1034 , 302 , 1034 , 566 , 830 , 262 , 594
+quont , dumas_blanche_beaulieu-utf8.txt	313
+quun , hugo_claude_gueux--utf8.txt	838 , 126 , 734
+quune , dumas_blanche_beaulieu-utf8.txt	77
+quune , hugo_claude_gueux--utf8.txt	114 , 290 , 394 , 914 , 126 , 834
+quà , dumas_blanche_beaulieu-utf8.txt	42
+quà , hugo_claude_gueux--utf8.txt	462 , 478 , 586 , 266 , 462
+québec , dumas_blanche_beaulieu-utf8.txt	6
+quétait , hugo_claude_gueux--utf8.txt	126
+racine , hugo_claude_gueux--utf8.txt	1034
+raconter , hugo_claude_gueux--utf8.txt	986 , 550
+raillant , hugo_claude_gueux--utf8.txt	114
+raison , dumas_blanche_beaulieu-utf8.txt	161
+raison , hugo_claude_gueux--utf8.txt	854
+raisonnant , hugo_claude_gueux--utf8.txt	114
+raisons , hugo_claude_gueux--utf8.txt	598
+rallié , dumas_blanche_beaulieu-utf8.txt	134
+rallonge , hugo_claude_gueux--utf8.txt	114
+ramasser , hugo_claude_gueux--utf8.txt	90
+ramena , hugo_claude_gueux--utf8.txt	246
+ramené , hugo_claude_gueux--utf8.txt	386
+ramper , dumas_blanche_beaulieu-utf8.txt	74
+rangées , hugo_claude_gueux--utf8.txt	642
+rangés , hugo_claude_gueux--utf8.txt	642
+rapide , hugo_claude_gueux--utf8.txt	490
+rapidement , hugo_claude_gueux--utf8.txt	642 , 674
+rapporte , dumas_blanche_beaulieu-utf8.txt	258
+rapportes , dumas_blanche_beaulieu-utf8.txt	273
+rare , hugo_claude_gueux--utf8.txt	110
+rarement , hugo_claude_gueux--utf8.txt	482
+rares , hugo_claude_gueux--utf8.txt	626
+raser , hugo_claude_gueux--utf8.txt	802
+ratifié , hugo_claude_gueux--utf8.txt	618
+ration , hugo_claude_gueux--utf8.txt	318 , 382 , 566 , 162 , 154 , 182 , 946
+rayon , dumas_blanche_beaulieu-utf8.txt	114
+rayonnant , hugo_claude_gueux--utf8.txt	138
+rebâtir , dumas_blanche_beaulieu-utf8.txt	197
+recevait , hugo_claude_gueux--utf8.txt	154
+recevoir , hugo_claude_gueux--utf8.txt	926
+recommandant , dumas_blanche_beaulieu-utf8.txt	356
+recommandé , hugo_claude_gueux--utf8.txt	510
+reconnaissante , hugo_claude_gueux--utf8.txt	902
+reconnu , dumas_blanche_beaulieu-utf8.txt	359
+reconnut , hugo_claude_gueux--utf8.txt	126
+recours , hugo_claude_gueux--utf8.txt	218
+reculé , hugo_claude_gueux--utf8.txt	766
+redemande , hugo_claude_gueux--utf8.txt	854
+redemandé , hugo_claude_gueux--utf8.txt	566
+redoutables , dumas_blanche_beaulieu-utf8.txt	157
+refaites , hugo_claude_gueux--utf8.txt	1110 , 1110 , 1110 , 1110
+refaitesla , hugo_claude_gueux--utf8.txt	1110
+refusa , hugo_claude_gueux--utf8.txt	906 , 930 , 382
+regard , hugo_claude_gueux--utf8.txt	674 , 210 , 134 , 842
+regarda , dumas_blanche_beaulieu-utf8.txt	358
+regarda , hugo_claude_gueux--utf8.txt	838
+regardaient , hugo_claude_gueux--utf8.txt	746 , 642
+regardait , hugo_claude_gueux--utf8.txt	386 , 630 , 466
+regardant , hugo_claude_gueux--utf8.txt	430
+regarde , dumas_blanche_beaulieu-utf8.txt	79
+regarder , hugo_claude_gueux--utf8.txt	1018
+regards , hugo_claude_gueux--utf8.txt	958
+regardé , hugo_claude_gueux--utf8.txt	642
+registre , hugo_claude_gueux--utf8.txt	898
+regrettant , hugo_claude_gueux--utf8.txt	942
+reine , dumas_blanche_beaulieu-utf8.txt	23
+rejeté , hugo_claude_gueux--utf8.txt	918
+relation , hugo_claude_gueux--utf8.txt	962
+relativement , hugo_claude_gueux--utf8.txt	1150
+religion , dumas_blanche_beaulieu-utf8.txt	174
+religion , hugo_claude_gueux--utf8.txt	942
+remarquaient , hugo_claude_gueux--utf8.txt	378
+remarquer , hugo_claude_gueux--utf8.txt	438
+remarquez , hugo_claude_gueux--utf8.txt	398
+remarquèrent , hugo_claude_gueux--utf8.txt	266
+remarqué , hugo_claude_gueux--utf8.txt	878
+remercia , hugo_claude_gueux--utf8.txt	902
+remerciant , hugo_claude_gueux--utf8.txt	962
+remettez , hugo_claude_gueux--utf8.txt	1110 , 734
+remettre , hugo_claude_gueux--utf8.txt	326
+remis , hugo_claude_gueux--utf8.txt	162 , 646 , 646
+remit , hugo_claude_gueux--utf8.txt	910
+remplacé , dumas_blanche_beaulieu-utf8.txt	160
+remuer , hugo_claude_gueux--utf8.txt	838
+remît , hugo_claude_gueux--utf8.txt	638
+rendes , hugo_claude_gueux--utf8.txt	170
+rendezlemoi , hugo_claude_gueux--utf8.txt	734
+rendezmoi , hugo_claude_gueux--utf8.txt	422 , 73 , 398 , 726
+rendre , dumas_blanche_beaulieu-utf8.txt	239
+rendre , hugo_claude_gueux--utf8.txt	566
+rendu , hugo_claude_gueux--utf8.txt	1094 , 218 , 946
+renferma , hugo_claude_gueux--utf8.txt	542
+rennes , dumas_blanche_beaulieu-utf8.txt	263 , 287
+renouvellement , dumas_blanche_beaulieu-utf8.txt	116
+rentra , hugo_claude_gueux--utf8.txt	246
+rentrant , dumas_blanche_beaulieu-utf8.txt	312
+rentrer , hugo_claude_gueux--utf8.txt	542
+rentré , hugo_claude_gueux--utf8.txt	890
+renverse , hugo_claude_gueux--utf8.txt	766
+reparle , hugo_claude_gueux--utf8.txt	742
+reparu , hugo_claude_gueux--utf8.txt	258
+reparut , hugo_claude_gueux--utf8.txt	246
+repas , hugo_claude_gueux--utf8.txt	246
+replacé , hugo_claude_gueux--utf8.txt	646
+reporteras , dumas_blanche_beaulieu-utf8.txt	51
+repoussa , hugo_claude_gueux--utf8.txt	962
+reprenait , hugo_claude_gueux--utf8.txt	842
+repris , hugo_claude_gueux--utf8.txt	130
+reprises , hugo_claude_gueux--utf8.txt	770
+reprit , dumas_blanche_beaulieu-utf8.txt	275
+reprit , hugo_claude_gueux--utf8.txt	618 , 718 , 258 , 574 , 342 , 778 , 198 , 266 , 174 , 302
+reproduisions , hugo_claude_gueux--utf8.txt	57
+représentation , dumas_blanche_beaulieu-utf8.txt	118
+représenté , dumas_blanche_beaulieu-utf8.txt	151 , 150
+respectueusement , hugo_claude_gueux--utf8.txt	290 , 694
+ressemblait , hugo_claude_gueux--utf8.txt	458
+ressentiment , hugo_claude_gueux--utf8.txt	594
+ressortir , hugo_claude_gueux--utf8.txt	642
+resta , dumas_blanche_beaulieu-utf8.txt	117
+restait , hugo_claude_gueux--utf8.txt	162
+reste , dumas_blanche_beaulieu-utf8.txt	354
+reste , hugo_claude_gueux--utf8.txt	378 , 1098 , 542
+restât , hugo_claude_gueux--utf8.txt	462 , 950
+resté , hugo_claude_gueux--utf8.txt	642
+retenir , dumas_blanche_beaulieu-utf8.txt	148
+retouché , hugo_claude_gueux--utf8.txt	1134
+retrouverait , hugo_claude_gueux--utf8.txt	246
+reviens , hugo_claude_gueux--utf8.txt	346
+revint , hugo_claude_gueux--utf8.txt	246 , 834
+revue , hugo_claude_gueux--utf8.txt	31 , 57 , 65
+rezdechaussée , hugo_claude_gueux--utf8.txt	482
+riait , hugo_claude_gueux--utf8.txt	150
+riant , hugo_claude_gueux--utf8.txt	402
+riche , hugo_claude_gueux--utf8.txt	1154 , 1158 , 1158
+richemont , dumas_blanche_beaulieu-utf8.txt	217
+riches , dumas_blanche_beaulieu-utf8.txt	227
+ridé , hugo_claude_gueux--utf8.txt	106
+rien , dumas_blanche_beaulieu-utf8.txt	350
+rien , hugo_claude_gueux--utf8.txt	566 , 422 , 114 , 354 , 374 , 374 , 374 , 130 , 626
+rire , dumas_blanche_beaulieu-utf8.txt	156
+rire , hugo_claude_gueux--utf8.txt	474
+rivait , hugo_claude_gueux--utf8.txt	1090
+rivé , hugo_claude_gueux--utf8.txt	126
+robert , dumas_blanche_beaulieu-utf8.txt	123
+robespierre , dumas_blanche_beaulieu-utf8.txt	119 , 168 , 173 , 135 , 202
+robin , dumas_blanche_beaulieu-utf8.txt	18
+rodogune , hugo_claude_gueux--utf8.txt	1034
+roi , dumas_blanche_beaulieu-utf8.txt	298 , 264 , 356
+roi , hugo_claude_gueux--utf8.txt	142 , 850 , 822 , 806 , 826
+roman , hugo_claude_gueux--utf8.txt	35
+rome , hugo_claude_gueux--utf8.txt	1142
+rompue , dumas_blanche_beaulieu-utf8.txt	61
+ronde , hugo_claude_gueux--utf8.txt	290 , 418 , 542
+roue , dumas_blanche_beaulieu-utf8.txt	70
+rouge , hugo_claude_gueux--utf8.txt	1106 , 1102
+roula , hugo_claude_gueux--utf8.txt	182
+roule , dumas_blanche_beaulieu-utf8.txt	102
+route , dumas_blanche_beaulieu-utf8.txt	108
+routes , hugo_claude_gueux--utf8.txt	1182
+routine , hugo_claude_gueux--utf8.txt	1086
+ruban , dumas_blanche_beaulieu-utf8.txt	73
+rude , hugo_claude_gueux--utf8.txt	578
+rues , hugo_claude_gueux--utf8.txt	626
+ruisseau , hugo_claude_gueux--utf8.txt	626
+réaction , hugo_claude_gueux--utf8.txt	146
+rébellion , hugo_claude_gueux--utf8.txt	218
+récits , dumas_blanche_beaulieu-utf8.txt	28
+récréation , hugo_claude_gueux--utf8.txt	374
+rédigé , dumas_blanche_beaulieu-utf8.txt	185
+réellement , hugo_claude_gueux--utf8.txt	1006
+réfléchi , hugo_claude_gueux--utf8.txt	590
+réfléchissez , hugo_claude_gueux--utf8.txt	994 , 434
+réfléchit , dumas_blanche_beaulieu-utf8.txt	72
+régler , dumas_blanche_beaulieu-utf8.txt	353
+réimpressions , hugo_claude_gueux--utf8.txt	57
+répliqua , hugo_claude_gueux--utf8.txt	738 , 370
+répondent , hugo_claude_gueux--utf8.txt	886
+répondit , dumas_blanche_beaulieu-utf8.txt	34 , 243 , 233 , 301
+répondit , hugo_claude_gueux--utf8.txt	722 , 758 , 306 , 786 , 274 , 694 , 254 , 502 , 786 , 970
+répondre , hugo_claude_gueux--utf8.txt	1034
+réponse , hugo_claude_gueux--utf8.txt	766 , 266
+république , hugo_claude_gueux--utf8.txt	1066
+répéta , hugo_claude_gueux--utf8.txt	970
+répétait , hugo_claude_gueux--utf8.txt	838
+résigneront , dumas_blanche_beaulieu-utf8.txt	297
+résista , hugo_claude_gueux--utf8.txt	898
+résolu , hugo_claude_gueux--utf8.txt	838 , 986
+résolution , hugo_claude_gueux--utf8.txt	626 , 390
+résonnent , hugo_claude_gueux--utf8.txt	114
+résorber , hugo_claude_gueux--utf8.txt	1094
+résulta , hugo_claude_gueux--utf8.txt	90 , 862
+résultat , hugo_claude_gueux--utf8.txt	390
+résultats , dumas_blanche_beaulieu-utf8.txt	144
+résumé , hugo_claude_gueux--utf8.txt	862
+rétablissait , hugo_claude_gueux--utf8.txt	814
+rétablissez , hugo_claude_gueux--utf8.txt	1158
+réunis , hugo_claude_gueux--utf8.txt	1082
+révolte , dumas_blanche_beaulieu-utf8.txt	336 , 318 , 332 , 324 , 322
+révolution , dumas_blanche_beaulieu-utf8.txt	140 , 196
+révolutionnaire , dumas_blanche_beaulieu-utf8.txt	181
+s , dumas_blanche_beaulieu-utf8.txt	61
+sa , dumas_blanche_beaulieu-utf8.txt	41 , 173 , 108 , 139
+sa , hugo_claude_gueux--utf8.txt	950 , 110 , 838 , 134 , 970 , 946 , 290 , 90 , 586 , 158 , 410 , 770 , 114 , 946 , 290 , 618 , 766 , 418 , 162 , 626 , 154 , 386 , 566 , 150 , 126 , 626 , 626 , 946 , 162 , 854 , 962 , 770 , 674 , 566 , 210 , 162
+sacclimata , hugo_claude_gueux--utf8.txt	130
+saccomplit , hugo_claude_gueux--utf8.txt	146
+saccouder , hugo_claude_gueux--utf8.txt	658
+saccusant , hugo_claude_gueux--utf8.txt	942
+sachant , hugo_claude_gueux--utf8.txt	90 , 90
+sache , hugo_claude_gueux--utf8.txt	754
+sachent , hugo_claude_gueux--utf8.txt	1126
+sadmirait , hugo_claude_gueux--utf8.txt	114
+sadressait , dumas_blanche_beaulieu-utf8.txt	52
+saintcrépin , dumas_blanche_beaulieu-utf8.txt	69
+sainte , hugo_claude_gueux--utf8.txt	1146
+saintjacques , hugo_claude_gueux--utf8.txt	1050
+saintjust , dumas_blanche_beaulieu-utf8.txt	120 , 124
+sais , hugo_claude_gueux--utf8.txt	238 , 90 , 90 , 90
+saisissant , dumas_blanche_beaulieu-utf8.txt	41
+sait , hugo_claude_gueux--utf8.txt	1034 , 1126 , 1126 , 1126 , 1126 , 1126 , 1126
+salle , hugo_claude_gueux--utf8.txt	658 , 734 , 806 , 490 , 642 , 642
+salles , hugo_claude_gueux--utf8.txt	542
+sallongèrent , dumas_blanche_beaulieu-utf8.txt	65
+saluer , hugo_claude_gueux--utf8.txt	77
+salut , dumas_blanche_beaulieu-utf8.txt	357 , 186 , 164
+sameutèrent , hugo_claude_gueux--utf8.txt	982
+samusa , hugo_claude_gueux--utf8.txt	626
+sang , hugo_claude_gueux--utf8.txt	770 , 1078 , 1094 , 782
+sanglotait , hugo_claude_gueux--utf8.txt	822
+sans , dumas_blanche_beaulieu-utf8.txt	303 , 96 , 339 , 73 , 98 , 135 , 235
+sans , hugo_claude_gueux--utf8.txt	922 , 1130 , 114 , 146 , 550 , 770 , 114 , 1146 , 114 , 850 , 850 , 134 , 1030 , 1034 , 114 , 134 , 586 , 1094 , 458 , 286 , 674 , 642 , 630 , 218 , 550 , 838 , 1002
+sapercevoir , hugo_claude_gueux--utf8.txt	674
+sappelait , hugo_claude_gueux--utf8.txt	282 , 878
+sappelle , hugo_claude_gueux--utf8.txt	734 , 734
+sapprocha , hugo_claude_gueux--utf8.txt	402 , 466
+sappuie , hugo_claude_gueux--utf8.txt	858
+sappuyait , dumas_blanche_beaulieu-utf8.txt	166
+sarrêta , hugo_claude_gueux--utf8.txt	298
+sarrête , hugo_claude_gueux--utf8.txt	766
+sarrêter , hugo_claude_gueux--utf8.txt	642
+satisfaite , hugo_claude_gueux--utf8.txt	674
+saura , hugo_claude_gueux--utf8.txt	1146
+sauvages , hugo_claude_gueux--utf8.txt	958
+savait , dumas_blanche_beaulieu-utf8.txt	107
+savait , hugo_claude_gueux--utf8.txt	574 , 1162 , 1162 , 846 , 462 , 126
+savez , dumas_blanche_beaulieu-utf8.txt	287
+savez , hugo_claude_gueux--utf8.txt	318 , 566 , 734 , 734
+savezvous , hugo_claude_gueux--utf8.txt	1126
+savoir , dumas_blanche_beaulieu-utf8.txt	98
+savoir , hugo_claude_gueux--utf8.txt	1018 , 1034 , 1058
+scales , dumas_blanche_beaulieu-utf8.txt	257
+scellait , hugo_claude_gueux--utf8.txt	1090
+science , hugo_claude_gueux--utf8.txt	1146
+scène , dumas_blanche_beaulieu-utf8.txt	53
+scène , hugo_claude_gueux--utf8.txt	550 , 550
+scènes , hugo_claude_gueux--utf8.txt	390
+scélérat , hugo_claude_gueux--utf8.txt	822
+scélérats , hugo_claude_gueux--utf8.txt	806
+se , dumas_blanche_beaulieu-utf8.txt	43 , 349 , 54 , 168 , 278 , 124 , 289 , 67 , 68 , 297 , 108 , 102 , 102 , 101 , 200 , 201 , 72 , 80 , 334
+se , hugo_claude_gueux--utf8.txt	1042 , 298 , 558 , 794 , 638 , 290 , 818 , 110 , 182 , 286 , 766 , 638 , 770 , 550 , 834 , 646 , 1098 , 114 , 162 , 642 , 826 , 402 , 210 , 1114 , 898 , 658 , 534 , 642 , 582 , 582 , 246 , 214 , 446 , 898 , 810 , 810 , 594 , 666 , 838 , 474 , 462 , 850 , 218 , 1026 , 782 , 678 , 114 , 374 , 882
+seau , hugo_claude_gueux--utf8.txt	910
+second , hugo_claude_gueux--utf8.txt	1130
+secousse , hugo_claude_gueux--utf8.txt	850
+secret , hugo_claude_gueux--utf8.txt	510
+secrète , hugo_claude_gueux--utf8.txt	218
+section , hugo_claude_gueux--utf8.txt	542
+seffraya , dumas_blanche_beaulieu-utf8.txt	164
+seize , hugo_claude_gueux--utf8.txt	522
+sellette , hugo_claude_gueux--utf8.txt	1034
+selon , dumas_blanche_beaulieu-utf8.txt	188
+selon , hugo_claude_gueux--utf8.txt	1070 , 986 , 1138 , 858
+sembla , dumas_blanche_beaulieu-utf8.txt	67
+semblant , hugo_claude_gueux--utf8.txt	386
+semble , hugo_claude_gueux--utf8.txt	1130
+sempressaient , hugo_claude_gueux--utf8.txt	794
+sen , hugo_claude_gueux--utf8.txt	958 , 834
+senfoncer , hugo_claude_gueux--utf8.txt	1034
+sens , hugo_claude_gueux--utf8.txt	1106
+sensiblement , hugo_claude_gueux--utf8.txt	374
+sentence , hugo_claude_gueux--utf8.txt	618
+sentiment , hugo_claude_gueux--utf8.txt	114
+sentir , dumas_blanche_beaulieu-utf8.txt	97
+senvenimèrent , hugo_claude_gueux--utf8.txt	790
+sept , hugo_claude_gueux--utf8.txt	914 , 914 , 542 , 90
+sera , dumas_blanche_beaulieu-utf8.txt	339 , 55 , 303
+sera , hugo_claude_gueux--utf8.txt	1170 , 1170 , 1150 , 634
+serait , dumas_blanche_beaulieu-utf8.txt	337
+serait , hugo_claude_gueux--utf8.txt	986 , 594 , 390 , 826 , 1146
+serein , hugo_claude_gueux--utf8.txt	462
+serpent , dumas_blanche_beaulieu-utf8.txt	75
+serrant , dumas_blanche_beaulieu-utf8.txt	307
+serré , hugo_claude_gueux--utf8.txt	638
+sert , hugo_claude_gueux--utf8.txt	466
+servant , hugo_claude_gueux--utf8.txt	114
+service , hugo_claude_gueux--utf8.txt	170 , 218 , 73
+servir , hugo_claude_gueux--utf8.txt	462 , 986
+serviteur , hugo_claude_gueux--utf8.txt	1182
+ses , dumas_blanche_beaulieu-utf8.txt	144 , 142 , 159 , 157 , 218
+ses , hugo_claude_gueux--utf8.txt	638 , 462 , 794 , 402 , 374 , 642 , 642 , 598 , 826 , 114 , 618 , 546 , 134 , 638 , 674 , 910 , 1070 , 626 , 790 , 1070 , 142
+sest , hugo_claude_gueux--utf8.txt	114 , 114
+seul , dumas_blanche_beaulieu-utf8.txt	169 , 31
+seul , hugo_claude_gueux--utf8.txt	446 , 374 , 670
+seule , dumas_blanche_beaulieu-utf8.txt	210
+seule , hugo_claude_gueux--utf8.txt	950 , 550 , 462
+seulement , hugo_claude_gueux--utf8.txt	386 , 606 , 850 , 590
+seuls , hugo_claude_gueux--utf8.txt	558
+sexe , hugo_claude_gueux--utf8.txt	1070
+sien , dumas_blanche_beaulieu-utf8.txt	35
+sienne , hugo_claude_gueux--utf8.txt	586
+signa , hugo_claude_gueux--utf8.txt	898
+signe , hugo_claude_gueux--utf8.txt	962
+sil , dumas_blanche_beaulieu-utf8.txt	57 , 354
+sil , hugo_claude_gueux--utf8.txt	142 , 866
+silence , hugo_claude_gueux--utf8.txt	666 , 638 , 570 , 682 , 558
+silencieuse , dumas_blanche_beaulieu-utf8.txt	105
+sils , hugo_claude_gueux--utf8.txt	1026
+simple , hugo_claude_gueux--utf8.txt	518
+simplement , hugo_claude_gueux--utf8.txt	838
+singe , hugo_claude_gueux--utf8.txt	1130
+singulier , hugo_claude_gueux--utf8.txt	134
+singulière , hugo_claude_gueux--utf8.txt	810 , 574
+sinistre , hugo_claude_gueux--utf8.txt	378
+sinécures , hugo_claude_gueux--utf8.txt	1030
+sire , dumas_blanche_beaulieu-utf8.txt	257
+situé , hugo_claude_gueux--utf8.txt	482
+six , hugo_claude_gueux--utf8.txt	1118
+siècle , hugo_claude_gueux--utf8.txt	986 , 1034
+soccupa , dumas_blanche_beaulieu-utf8.txt	130
+social , hugo_claude_gueux--utf8.txt	1078
+société , hugo_claude_gueux--utf8.txt	990 , 958 , 106 , 1002 , 826 , 998 , 1002 , 118
+soigné , hugo_claude_gueux--utf8.txt	898
+soimême , hugo_claude_gueux--utf8.txt	582
+soin , hugo_claude_gueux--utf8.txt	802
+soins , hugo_claude_gueux--utf8.txt	1134 , 778 , 794
+soir , hugo_claude_gueux--utf8.txt	526 , 418 , 290 , 470 , 246 , 506 , 542
+soirs , hugo_claude_gueux--utf8.txt	386
+soit , hugo_claude_gueux--utf8.txt	1130
+soldat , hugo_claude_gueux--utf8.txt	1030
+soldats , dumas_blanche_beaulieu-utf8.txt	348 , 314 , 52 , 297
+solde , dumas_blanche_beaulieu-utf8.txt	320
+solde , hugo_claude_gueux--utf8.txt	1118
+soleil , hugo_claude_gueux--utf8.txt	446
+sollicitent , hugo_claude_gueux--utf8.txt	1018
+solution , hugo_claude_gueux--utf8.txt	998
+sombre , hugo_claude_gueux--utf8.txt	378
+sommation , hugo_claude_gueux--utf8.txt	458
+sommes , hugo_claude_gueux--utf8.txt	434 , 1018 , 374 , 566
+son , dumas_blanche_beaulieu-utf8.txt	358 , 260 , 235 , 359 , 309 , 40 , 324 , 193 , 205 , 276
+son , hugo_claude_gueux--utf8.txt	930 , 462 , 834 , 794 , 290 , 154 , 770 , 418 , 518 , 810 , 162 , 130 , 290 , 290 , 822 , 558 , 658 , 1034 , 378 , 642 , 150 , 162 , 898 , 906 , 930 , 766 , 1130 , 462 , 862 , 318 , 142 , 322 , 958 , 546 , 918 , 778 , 522 , 370 , 910 , 402 , 646 , 674 , 94 , 882 , 462 , 154 , 57 , 510 , 822 , 674 , 462 , 114
+songe , hugo_claude_gueux--utf8.txt	1026
+songeait , hugo_claude_gueux--utf8.txt	226
+songer , hugo_claude_gueux--utf8.txt	130
+songestu , hugo_claude_gueux--utf8.txt	450
+songez , hugo_claude_gueux--utf8.txt	1122
+songeât , hugo_claude_gueux--utf8.txt	770 , 134
+sonnaient , hugo_claude_gueux--utf8.txt	970
+sonnèrent , hugo_claude_gueux--utf8.txt	614 , 662
+sonné , hugo_claude_gueux--utf8.txt	978
+sons , dumas_blanche_beaulieu-utf8.txt	84
+sont , dumas_blanche_beaulieu-utf8.txt	237 , 97 , 89
+sont , hugo_claude_gueux--utf8.txt	1030 , 90 , 114 , 114 , 138 , 138 , 222 , 114 , 1086
+sontelles , hugo_claude_gueux--utf8.txt	1154
+sort , hugo_claude_gueux--utf8.txt	1150 , 1002
+sorte , dumas_blanche_beaulieu-utf8.txt	273 , 289
+sorte , hugo_claude_gueux--utf8.txt	834 , 150 , 134 , 142 , 618 , 642 , 374 , 210
+sortie , hugo_claude_gueux--utf8.txt	746 , 762
+sortir , dumas_blanche_beaulieu-utf8.txt	339
+sortir , hugo_claude_gueux--utf8.txt	766
+sortirent , hugo_claude_gueux--utf8.txt	542
+sortit , dumas_blanche_beaulieu-utf8.txt	358
+sortit , hugo_claude_gueux--utf8.txt	954 , 510
+sottise , hugo_claude_gueux--utf8.txt	114
+souder , dumas_blanche_beaulieu-utf8.txt	67
+soudée , hugo_claude_gueux--utf8.txt	114
+souffert , hugo_claude_gueux--utf8.txt	110
+souffle , hugo_claude_gueux--utf8.txt	626
+souffrait , hugo_claude_gueux--utf8.txt	246
+souffrant , hugo_claude_gueux--utf8.txt	110
+souffre , hugo_claude_gueux--utf8.txt	1066 , 1166 , 854 , 1062
+soumettait , hugo_claude_gueux--utf8.txt	598
+soupa , hugo_claude_gueux--utf8.txt	890
+soupirail , hugo_claude_gueux--utf8.txt	910
+soupirant , dumas_blanche_beaulieu-utf8.txt	237
+sourcil , dumas_blanche_beaulieu-utf8.txt	308
+sourcilière , hugo_claude_gueux--utf8.txt	106
+souriait , hugo_claude_gueux--utf8.txt	622
+souriant , dumas_blanche_beaulieu-utf8.txt	333
+souriant , hugo_claude_gueux--utf8.txt	382 , 822
+sourire , hugo_claude_gueux--utf8.txt	442 , 938
+sous , dumas_blanche_beaulieu-utf8.txt	256
+sous , hugo_claude_gueux--utf8.txt	482 , 418 , 990 , 214 , 1030 , 106 , 94
+soutenus , dumas_blanche_beaulieu-utf8.txt	121
+soutint , hugo_claude_gueux--utf8.txt	822
+souvenezvous , hugo_claude_gueux--utf8.txt	1146
+souvent , hugo_claude_gueux--utf8.txt	626 , 218 , 122 , 1042 , 114
+souverain , hugo_claude_gueux--utf8.txt	218 , 218
+souvrit , hugo_claude_gueux--utf8.txt	662
+soyez , hugo_claude_gueux--utf8.txt	1046
+spectateurs , hugo_claude_gueux--utf8.txt	390
+spirituel , hugo_claude_gueux--utf8.txt	218
+statues , hugo_claude_gueux--utf8.txt	666 , 766
+sublime , dumas_blanche_beaulieu-utf8.txt	91
+sublime , hugo_claude_gueux--utf8.txt	858
+substituer , dumas_blanche_beaulieu-utf8.txt	254
+successivement , hugo_claude_gueux--utf8.txt	910
+sud , hugo_claude_gueux--utf8.txt	642
+suffi , hugo_claude_gueux--utf8.txt	910
+suffirait , hugo_claude_gueux--utf8.txt	566
+suffisait , hugo_claude_gueux--utf8.txt	150
+suffolk , dumas_blanche_beaulieu-utf8.txt	257
+suis , dumas_blanche_beaulieu-utf8.txt	328
+suis , hugo_claude_gueux--utf8.txt	870 , 854 , 754
+suisse , hugo_claude_gueux--utf8.txt	1126
+suivait , dumas_blanche_beaulieu-utf8.txt	155
+suivait , hugo_claude_gueux--utf8.txt	682
+suivre , hugo_claude_gueux--utf8.txt	722
+superstition , hugo_claude_gueux--utf8.txt	782
+suppliait , hugo_claude_gueux--utf8.txt	594
+supplie , hugo_claude_gueux--utf8.txt	734 , 734
+suppressions , hugo_claude_gueux--utf8.txt	1118
+supprimez , hugo_claude_gueux--utf8.txt	1098 , 1118
+supprimé , hugo_claude_gueux--utf8.txt	1098
+supérieurs , hugo_claude_gueux--utf8.txt	290
+sur , dumas_blanche_beaulieu-utf8.txt	276 , 172 , 166 , 197 , 98 , 171 , 346 , 212 , 72 , 246
+sur , hugo_claude_gueux--utf8.txt	1182 , 770 , 142 , 558 , 90 , 858 , 958 , 402 , 114 , 874 , 842 , 134 , 1034 , 118 , 378 , 658 , 962 , 114 , 946 , 402 , 346 , 1090 , 146 , 618 , 642 , 962 , 674 , 866 , 898 , 962 , 954
+surgir , hugo_claude_gueux--utf8.txt	858
+surpris , hugo_claude_gueux--utf8.txt	678
+surveillance , dumas_blanche_beaulieu-utf8.txt	125
+surveillants , hugo_claude_gueux--utf8.txt	542 , 490 , 558
+sy , dumas_blanche_beaulieu-utf8.txt	117 , 70
+sy , hugo_claude_gueux--utf8.txt	906
+syllogisme , hugo_claude_gueux--utf8.txt	1102
+système , hugo_claude_gueux--utf8.txt	858
+sèment , hugo_claude_gueux--utf8.txt	90
+sébattre , hugo_claude_gueux--utf8.txt	446
+séchauffer , hugo_claude_gueux--utf8.txt	114
+séchelles , dumas_blanche_beaulieu-utf8.txt	123
+sécoula , hugo_claude_gueux--utf8.txt	246
+sécria , dumas_blanche_beaulieu-utf8.txt	323
+sécria , hugo_claude_gueux--utf8.txt	854
+sélança , dumas_blanche_beaulieu-utf8.txt	32
+séleva , hugo_claude_gueux--utf8.txt	606
+séloignait , hugo_claude_gueux--utf8.txt	386
+sépaississait , hugo_claude_gueux--utf8.txt	378
+séparation , hugo_claude_gueux--utf8.txt	374
+sépare , dumas_blanche_beaulieu-utf8.txt	69
+séparezvous , hugo_claude_gueux--utf8.txt	358
+séparé , hugo_claude_gueux--utf8.txt	462 , 754
+séparés , hugo_claude_gueux--utf8.txt	566
+sépulture , dumas_blanche_beaulieu-utf8.txt	251
+série , hugo_claude_gueux--utf8.txt	818
+sérieusement , hugo_claude_gueux--utf8.txt	838
+sérieuses , hugo_claude_gueux--utf8.txt	1042
+sérieux , hugo_claude_gueux--utf8.txt	110 , 386
+sérénité , hugo_claude_gueux--utf8.txt	618 , 130
+sétait , dumas_blanche_beaulieu-utf8.txt	234 , 37 , 140
+sétait , hugo_claude_gueux--utf8.txt	646 , 802 , 126 , 646 , 946 , 218 , 162 , 946 , 782
+sétendait , dumas_blanche_beaulieu-utf8.txt	64
+séveilla , hugo_claude_gueux--utf8.txt	462
+sévère , hugo_claude_gueux--utf8.txt	410 , 210 , 1034 , 130
+sévères , hugo_claude_gueux--utf8.txt	1018
+sûr , dumas_blanche_beaulieu-utf8.txt	328
+sût , hugo_claude_gueux--utf8.txt	134
+sœur , hugo_claude_gueux--utf8.txt	950
+sœurs , dumas_blanche_beaulieu-utf8.txt	283
+sœurs , hugo_claude_gueux--utf8.txt	778 , 898
+ta , hugo_claude_gueux--utf8.txt	686
+table , hugo_claude_gueux--utf8.txt	44 , 618
+tacite , hugo_claude_gueux--utf8.txt	134
+taisezvous , hugo_claude_gueux--utf8.txt	1046 , 1046
+tant , dumas_blanche_beaulieu-utf8.txt	349
+tant , hugo_claude_gueux--utf8.txt	210 , 1018 , 626 , 210 , 738
+tappellestu , hugo_claude_gueux--utf8.txt	190
+tard , dumas_blanche_beaulieu-utf8.txt	194
+tard , hugo_claude_gueux--utf8.txt	266
+tarif , hugo_claude_gueux--utf8.txt	982
+tavais , dumas_blanche_beaulieu-utf8.txt	45
+te , dumas_blanche_beaulieu-utf8.txt	308 , 49 , 247 , 48 , 250
+te , hugo_claude_gueux--utf8.txt	234 , 758 , 770
+tel , hugo_claude_gueux--utf8.txt	1182
+telle , hugo_claude_gueux--utf8.txt	150 , 1130 , 834 , 1130
+temporel , hugo_claude_gueux--utf8.txt	218
+temps , dumas_blanche_beaulieu-utf8.txt	114 , 156 , 33 , 114
+temps , hugo_claude_gueux--utf8.txt	138 , 114 , 94 , 1034 , 134
+tempslà , hugo_claude_gueux--utf8.txt	566
+tempéré , hugo_claude_gueux--utf8.txt	1178
+tenace , hugo_claude_gueux--utf8.txt	114
+tenait , hugo_claude_gueux--utf8.txt	386 , 466 , 162 , 134 , 402
+tente , dumas_blanche_beaulieu-utf8.txt	234
+termes , hugo_claude_gueux--utf8.txt	826
+terminer , hugo_claude_gueux--utf8.txt	478
+terrain , dumas_blanche_beaulieu-utf8.txt	197
+terre , dumas_blanche_beaulieu-utf8.txt	103
+terre , hugo_claude_gueux--utf8.txt	114
+terreur , hugo_claude_gueux--utf8.txt	550
+terrible , hugo_claude_gueux--utf8.txt	674 , 518
+texte , dumas_blanche_beaulieu-utf8.txt	215
+texte , hugo_claude_gueux--utf8.txt	35
+théorie , hugo_claude_gueux--utf8.txt	858
+tiennent , hugo_claude_gueux--utf8.txt	1098
+tiens , hugo_claude_gueux--utf8.txt	486
+tient , hugo_claude_gueux--utf8.txt	114
+timidement , hugo_claude_gueux--utf8.txt	170
+tint , hugo_claude_gueux--utf8.txt	290
+tira , hugo_claude_gueux--utf8.txt	462
+tirailler , hugo_claude_gueux--utf8.txt	1034
+tirent , hugo_claude_gueux--utf8.txt	1018
+tirer , hugo_claude_gueux--utf8.txt	118 , 770 , 73
+titre , dumas_blanche_beaulieu-utf8.txt	216
+titre , hugo_claude_gueux--utf8.txt	218
+toi , dumas_blanche_beaulieu-utf8.txt	242
+toi , hugo_claude_gueux--utf8.txt	686
+tomba , hugo_claude_gueux--utf8.txt	770
+tombait , hugo_claude_gueux--utf8.txt	766
+tombant , dumas_blanche_beaulieu-utf8.txt	37
+tomber , dumas_blanche_beaulieu-utf8.txt	95
+tomber , hugo_claude_gueux--utf8.txt	822
+tombée , dumas_blanche_beaulieu-utf8.txt	166
+tombée , hugo_claude_gueux--utf8.txt	978
+tombés , hugo_claude_gueux--utf8.txt	1130
+ton , hugo_claude_gueux--utf8.txt	386
+tont , dumas_blanche_beaulieu-utf8.txt	51
+tord , dumas_blanche_beaulieu-utf8.txt	102
+tort , hugo_claude_gueux--utf8.txt	574 , 1130 , 390
+torture , hugo_claude_gueux--utf8.txt	854 , 854
+toucha , hugo_claude_gueux--utf8.txt	750
+touchaient , dumas_blanche_beaulieu-utf8.txt	319
+touchant , hugo_claude_gueux--utf8.txt	642
+touchante , hugo_claude_gueux--utf8.txt	782
+touché , hugo_claude_gueux--utf8.txt	162
+touffes , hugo_claude_gueux--utf8.txt	106
+toujours , hugo_claude_gueux--utf8.txt	998 , 926 , 146 , 962 , 714 , 126 , 114 , 114 , 146 , 1150 , 838
+tour , dumas_blanche_beaulieu-utf8.txt	206
+tour , hugo_claude_gueux--utf8.txt	834 , 822 , 830
+tourmenter , hugo_claude_gueux--utf8.txt	566
+tournaient , hugo_claude_gueux--utf8.txt	142
+tournant , dumas_blanche_beaulieu-utf8.txt	275
+tournant , hugo_claude_gueux--utf8.txt	762
+tourne , dumas_blanche_beaulieu-utf8.txt	229
+tournez , hugo_claude_gueux--utf8.txt	1134
+tournée , hugo_claude_gueux--utf8.txt	386 , 566
+tous , dumas_blanche_beaulieu-utf8.txt	144 , 249 , 8
+tous , hugo_claude_gueux--utf8.txt	622 , 1030 , 1130 , 386 , 746 , 1130 , 390 , 134 , 1018 , 906 , 806 , 566 , 138 , 570 , 1130 , 650 , 638 , 986 , 210 , 134 , 854 , 510 , 814 , 766 , 674 , 638 , 186
+tout , dumas_blanche_beaulieu-utf8.txt	302 , 136
+tout , hugo_claude_gueux--utf8.txt	154 , 154 , 858 , 158 , 1042 , 798 , 862 , 650 , 990 , 658 , 458 , 954 , 678 , 1094 , 618 , 114 , 834 , 838 , 618 , 1038
+toute , dumas_blanche_beaulieu-utf8.txt	330
+toute , hugo_claude_gueux--utf8.txt	858 , 558 , 1130 , 110 , 642 , 114 , 854 , 146 , 618 , 390
+toutes , dumas_blanche_beaulieu-utf8.txt	175 , 142
+toutes , hugo_claude_gueux--utf8.txt	806 , 57 , 142 , 134 , 810 , 146 , 638 , 638 , 1034 , 1034 , 1018 , 854 , 854 , 1154 , 1154
+train , hugo_claude_gueux--utf8.txt	1114
+traita , hugo_claude_gueux--utf8.txt	126
+traitez , hugo_claude_gueux--utf8.txt	1086
+traité , hugo_claude_gueux--utf8.txt	90
+trajet , hugo_claude_gueux--utf8.txt	642
+tranchante , hugo_claude_gueux--utf8.txt	510
+tranquille , hugo_claude_gueux--utf8.txt	1170
+tranquillité , hugo_claude_gueux--utf8.txt	626
+transvasaient , hugo_claude_gueux--utf8.txt	230
+travail , hugo_claude_gueux--utf8.txt	646 , 542 , 1150 , 162 , 638
+travailla , hugo_claude_gueux--utf8.txt	478
+travaillaient , hugo_claude_gueux--utf8.txt	214
+travaillait , hugo_claude_gueux--utf8.txt	154 , 154 , 482
+travaille , hugo_claude_gueux--utf8.txt	1166
+travaillerai , hugo_claude_gueux--utf8.txt	734
+travailleur , hugo_claude_gueux--utf8.txt	1174
+travailleurs , hugo_claude_gueux--utf8.txt	642
+travaux , dumas_blanche_beaulieu-utf8.txt	132
+travaux , hugo_claude_gueux--utf8.txt	290
+travers , hugo_claude_gueux--utf8.txt	114
+traversa , hugo_claude_gueux--utf8.txt	658
+traversait , hugo_claude_gueux--utf8.txt	642 , 466
+traîner , hugo_claude_gueux--utf8.txt	1150
+trembla , hugo_claude_gueux--utf8.txt	266
+tremblait , hugo_claude_gueux--utf8.txt	630
+trentesix , hugo_claude_gueux--utf8.txt	894 , 210
+tressaillir , dumas_blanche_beaulieu-utf8.txt	86
+tribunal , hugo_claude_gueux--utf8.txt	914
+tribune , dumas_blanche_beaulieu-utf8.txt	170
+tribune , hugo_claude_gueux--utf8.txt	1042
+triste , dumas_blanche_beaulieu-utf8.txt	104 , 77
+triste , hugo_claude_gueux--utf8.txt	126 , 450 , 290 , 1150
+tristes , dumas_blanche_beaulieu-utf8.txt	231 , 245
+trois , dumas_blanche_beaulieu-utf8.txt	199 , 24 , 214
+trois , hugo_claude_gueux--utf8.txt	910 , 1034 , 766 , 766 , 1102 , 1098 , 90 , 142 , 898
+trompe , dumas_blanche_beaulieu-utf8.txt	56
+tromper , hugo_claude_gueux--utf8.txt	162
+trop , dumas_blanche_beaulieu-utf8.txt	126
+trop , hugo_claude_gueux--utf8.txt	458 , 57 , 178 , 1114 , 1070 , 1070
+troupes , dumas_blanche_beaulieu-utf8.txt	319 , 343
+trouvait , hugo_claude_gueux--utf8.txt	582 , 586
+trouver , hugo_claude_gueux--utf8.txt	998
+trouverai , hugo_claude_gueux--utf8.txt	770
+trouvezvous , hugo_claude_gueux--utf8.txt	778
+trouvons , hugo_claude_gueux--utf8.txt	114
+trouvé , dumas_blanche_beaulieu-utf8.txt	37
+trouvé , hugo_claude_gueux--utf8.txt	418
+troyes , hugo_claude_gueux--utf8.txt	478 , 798 , 906 , 934
+très , hugo_claude_gueux--utf8.txt	1030 , 1030
+tu , dumas_blanche_beaulieu-utf8.txt	50 , 273 , 325 , 50 , 226 , 264
+tu , hugo_claude_gueux--utf8.txt	178 , 742 , 186 , 170 , 854 , 450 , 718
+tue , hugo_claude_gueux--utf8.txt	854 , 958 , 854
+tuer , hugo_claude_gueux--utf8.txt	526 , 506 , 1002 , 602 , 566 , 606
+tulipe , dumas_blanche_beaulieu-utf8.txt	19
+tumulte , hugo_claude_gueux--utf8.txt	218
+tutoie , hugo_claude_gueux--utf8.txt	690
+tué , hugo_claude_gueux--utf8.txt	886 , 854 , 870 , 870 , 862 , 786
+type , hugo_claude_gueux--utf8.txt	1130
+tyrannique , hugo_claude_gueux--utf8.txt	114
+tâtez , hugo_claude_gueux--utf8.txt	1130
+témoignage , hugo_claude_gueux--utf8.txt	818 , 818
+témoins , hugo_claude_gueux--utf8.txt	266 , 826 , 806 , 810
+ténacité , hugo_claude_gueux--utf8.txt	114 , 114 , 390
+ténébreux , hugo_claude_gueux--utf8.txt	138
+tête , dumas_blanche_beaulieu-utf8.txt	137 , 212 , 55
+tête , hugo_claude_gueux--utf8.txt	838 , 106 , 674 , 1186 , 854 , 978 , 114 , 410 , 1178 , 370 , 802 , 1050 , 1178 , 134
+têtes , hugo_claude_gueux--utf8.txt	986 , 1130 , 1134 , 1114
+têtues , hugo_claude_gueux--utf8.txt	114
+ulcères , hugo_claude_gueux--utf8.txt	1074
+ultrarévolutionnaire , dumas_blanche_beaulieu-utf8.txt	165
+universel , hugo_claude_gueux--utf8.txt	998
+uns , dumas_blanche_beaulieu-utf8.txt	249
+uns , hugo_claude_gueux--utf8.txt	794 , 1034
+utile , hugo_claude_gueux--utf8.txt	1034
+utiles , hugo_claude_gueux--utf8.txt	1178
+utilisezla , hugo_claude_gueux--utf8.txt	1186
+va , dumas_blanche_beaulieu-utf8.txt	353
+va , hugo_claude_gueux--utf8.txt	106 , 146 , 114
+vain , hugo_claude_gueux--utf8.txt	810
+vaincre , dumas_blanche_beaulieu-utf8.txt	189
+vaincu , dumas_blanche_beaulieu-utf8.txt	192
+vainqueurs , dumas_blanche_beaulieu-utf8.txt	83
+vais , hugo_claude_gueux--utf8.txt	566
+valaient , hugo_claude_gueux--utf8.txt	218
+vante , hugo_claude_gueux--utf8.txt	958
+variété , hugo_claude_gueux--utf8.txt	114
+vaudraitil , dumas_blanche_beaulieu-utf8.txt	341
+vaut , hugo_claude_gueux--utf8.txt	1146
+vautour , hugo_claude_gueux--utf8.txt	1130
+veillait , dumas_blanche_beaulieu-utf8.txt	136
+veillât , dumas_blanche_beaulieu-utf8.txt	211
+velours , dumas_blanche_beaulieu-utf8.txt	15
+venait , hugo_claude_gueux--utf8.txt	838 , 418 , 162
+vendre , dumas_blanche_beaulieu-utf8.txt	279
+vendéen , dumas_blanche_beaulieu-utf8.txt	43 , 36
+venir , hugo_claude_gueux--utf8.txt	734 , 614 , 1178
+venons , hugo_claude_gueux--utf8.txt	818
+vents , dumas_blanche_beaulieu-utf8.txt	8
+venu , dumas_blanche_beaulieu-utf8.txt	236
+venu , hugo_claude_gueux--utf8.txt	134
+verre , hugo_claude_gueux--utf8.txt	418
+verrez , hugo_claude_gueux--utf8.txt	734
+verrouillé , hugo_claude_gueux--utf8.txt	546
+vers , hugo_claude_gueux--utf8.txt	762
+version , dumas_blanche_beaulieu-utf8.txt	9
+vertu , hugo_claude_gueux--utf8.txt	1178 , 114
+verve , hugo_claude_gueux--utf8.txt	1118
+veste , hugo_claude_gueux--utf8.txt	290 , 770 , 290
+veuille , dumas_blanche_beaulieu-utf8.txt	300
+veulent , hugo_claude_gueux--utf8.txt	1018
+veuton , hugo_claude_gueux--utf8.txt	234
+veux , hugo_claude_gueux--utf8.txt	186 , 1030
+veuxtu , hugo_claude_gueux--utf8.txt	166
+viande , hugo_claude_gueux--utf8.txt	154 , 162
+vibrant , hugo_claude_gueux--utf8.txt	114
+vicaires , dumas_blanche_beaulieu-utf8.txt	159
+vice , hugo_claude_gueux--utf8.txt	1070 , 1078
+victime , hugo_claude_gueux--utf8.txt	774
+victimes , dumas_blanche_beaulieu-utf8.txt	156
+victor , hugo_claude_gueux--utf8.txt	15 , 69 , 35
+vida , dumas_blanche_beaulieu-utf8.txt	260
+vie , hugo_claude_gueux--utf8.txt	862 , 586 , 586 , 990 , 1090 , 342
+vieillard , hugo_claude_gueux--utf8.txt	210
+vieille , hugo_claude_gueux--utf8.txt	1110
+viendra , hugo_claude_gueux--utf8.txt	566
+viennent , hugo_claude_gueux--utf8.txt	134
+vient , hugo_claude_gueux--utf8.txt	258 , 1050 , 1050
+vieux , dumas_blanche_beaulieu-utf8.txt	183
+vieux , hugo_claude_gueux--utf8.txt	466
+vii , dumas_blanche_beaulieu-utf8.txt	357
+vilaine , hugo_claude_gueux--utf8.txt	862
+village , dumas_blanche_beaulieu-utf8.txt	65
+villages , hugo_claude_gueux--utf8.txt	1174
+ville , hugo_claude_gueux--utf8.txt	798
+vindicte , hugo_claude_gueux--utf8.txt	826
+vingt , dumas_blanche_beaulieu-utf8.txt	25
+vingt , hugo_claude_gueux--utf8.txt	770 , 210
+vingtquatre , hugo_claude_gueux--utf8.txt	458 , 718
+vingtsept , hugo_claude_gueux--utf8.txt	510
+vint , hugo_claude_gueux--utf8.txt	898 , 290 , 162
+violence , hugo_claude_gueux--utf8.txt	850
+violences , dumas_blanche_beaulieu-utf8.txt	175
+violente , hugo_claude_gueux--utf8.txt	574
+violentes , dumas_blanche_beaulieu-utf8.txt	126
+virent , hugo_claude_gueux--utf8.txt	766
+visage , dumas_blanche_beaulieu-utf8.txt	359
+visage , hugo_claude_gueux--utf8.txt	378 , 658 , 462 , 766
+visiter , dumas_blanche_beaulieu-utf8.txt	249
+vit , hugo_claude_gueux--utf8.txt	290 , 674 , 770 , 246
+vite , hugo_claude_gueux--utf8.txt	478
+vivait , hugo_claude_gueux--utf8.txt	90
+vivre , dumas_blanche_beaulieu-utf8.txt	49
+vivre , hugo_claude_gueux--utf8.txt	310 , 914 , 862
+vivres , dumas_blanche_beaulieu-utf8.txt	294
+voici , dumas_blanche_beaulieu-utf8.txt	46
+voici , hugo_claude_gueux--utf8.txt	1050 , 1130 , 1130 , 1130 , 870 , 1130 , 1130
+voie , hugo_claude_gueux--utf8.txt	850 , 642 , 642
+voilà , dumas_blanche_beaulieu-utf8.txt	231 , 104
+voilà , hugo_claude_gueux--utf8.txt	822 , 1082 , 118 , 118 , 1178 , 486 , 94 , 458 , 886
+voir , dumas_blanche_beaulieu-utf8.txt	74 , 338 , 89 , 96
+voir , hugo_claude_gueux--utf8.txt	630 , 106
+voit , hugo_claude_gueux--utf8.txt	534 , 914 , 134
+voix , dumas_blanche_beaulieu-utf8.txt	60
+voix , hugo_claude_gueux--utf8.txt	430 , 562 , 734 , 606 , 970 , 838
+vol , hugo_claude_gueux--utf8.txt	90
+vola , hugo_claude_gueux--utf8.txt	90 , 90 , 90
+voler , hugo_claude_gueux--utf8.txt	1002
+voleur , hugo_claude_gueux--utf8.txt	106 , 218 , 210 , 870
+voleurs , dumas_blanche_beaulieu-utf8.txt	17
+voleurs , hugo_claude_gueux--utf8.txt	574 , 746 , 554
+volonté , dumas_blanche_beaulieu-utf8.txt	139
+volonté , hugo_claude_gueux--utf8.txt	114 , 114
+voltaire , hugo_claude_gueux--utf8.txt	1162
+volume , dumas_blanche_beaulieu-utf8.txt	9
+volume , hugo_claude_gueux--utf8.txt	31 , 462
+volé , hugo_claude_gueux--utf8.txt	870 , 862 , 854 , 202 , 854 , 870 , 886
+vont , hugo_claude_gueux--utf8.txt	134
+voracité , hugo_claude_gueux--utf8.txt	374
+vos , hugo_claude_gueux--utf8.txt	1134 , 1086 , 1118 , 1110 , 1110 , 1110
+votre , dumas_blanche_beaulieu-utf8.txt	280 , 255
+votre , hugo_claude_gueux--utf8.txt	1110 , 69 , 1134
+voulait , dumas_blanche_beaulieu-utf8.txt	148 , 197 , 142
+voulait , hugo_claude_gueux--utf8.txt	810
+voulezvous , hugo_claude_gueux--utf8.txt	854
+vouloir , hugo_claude_gueux--utf8.txt	162
+voulu , dumas_blanche_beaulieu-utf8.txt	39
+voulu , hugo_claude_gueux--utf8.txt	566
+voulurent , hugo_claude_gueux--utf8.txt	382
+voulut , hugo_claude_gueux--utf8.txt	962 , 898
+vous , dumas_blanche_beaulieu-utf8.txt	96 , 330 , 56 , 56 , 87 , 53 , 90 , 287 , 94 , 95 , 278 , 95 , 99 , 98 , 97
+vous , hugo_claude_gueux--utf8.txt	1130 , 1118 , 1118 , 1114 , 1106 , 1098 , 1098 , 1086 , 1086 , 1086 , 1082 , 1070 , 114 , 1070 , 1066 , 1066 , 1058 , 1058 , 1046 , 1142 , 1046 , 1046 , 1046 , 1146 , 982 , 318 , 342 , 350 , 1150 , 398 , 398 , 398 , 434 , 566 , 854 , 1158 , 854 , 566 , 566 , 854 , 854 , 854 , 77 , 73 , 69 , 69 , 698 , 734 , 734 , 734 , 734 , 734 , 734 , 734 , 734 , 734 , 734 , 734 , 778 , 754 , 1186
+voyage , dumas_blanche_beaulieu-utf8.txt	285
+voyant , hugo_claude_gueux--utf8.txt	126
+voyez , hugo_claude_gueux--utf8.txt	1002
+voyons , hugo_claude_gueux--utf8.txt	742
+voûte , hugo_claude_gueux--utf8.txt	214
+vrai , hugo_claude_gueux--utf8.txt	862 , 302
+vraiment , hugo_claude_gueux--utf8.txt	854 , 734
+vu , hugo_claude_gueux--utf8.txt	810 , 462 , 566
+vénalité , dumas_blanche_beaulieu-utf8.txt	204
+véritable , hugo_claude_gueux--utf8.txt	838
+vérité , hugo_claude_gueux--utf8.txt	586
+vésicatoire , hugo_claude_gueux--utf8.txt	1094
+vêtements , hugo_claude_gueux--utf8.txt	618
+vêtu , dumas_blanche_beaulieu-utf8.txt	233
+yeux , dumas_blanche_beaulieu-utf8.txt	275
+yeux , hugo_claude_gueux--utf8.txt	386 , 630 , 674 , 134 , 246
+âme , dumas_blanche_beaulieu-utf8.txt	246
+âme , hugo_claude_gueux--utf8.txt	930
+çà , hugo_claude_gueux--utf8.txt	674 , 638 , 718
+ébauché , hugo_claude_gueux--utf8.txt	1134
+ébranlée , hugo_claude_gueux--utf8.txt	826
+écailles , dumas_blanche_beaulieu-utf8.txt	75
+échafaud , hugo_claude_gueux--utf8.txt	794
+échafaudée , hugo_claude_gueux--utf8.txt	114
+échangés , dumas_blanche_beaulieu-utf8.txt	313
+échelle , hugo_claude_gueux--utf8.txt	1110
+échelles , hugo_claude_gueux--utf8.txt	146
+éclairaient , hugo_claude_gueux--utf8.txt	626
+éclairait , dumas_blanche_beaulieu-utf8.txt	211
+éclairezla , hugo_claude_gueux--utf8.txt	1186
+écoles , hugo_claude_gueux--utf8.txt	1122
+économies , hugo_claude_gueux--utf8.txt	1114
+écoutaient , hugo_claude_gueux--utf8.txt	746
+écoutait , hugo_claude_gueux--utf8.txt	942 , 814
+écoutez , hugo_claude_gueux--utf8.txt	398
+écrit , dumas_blanche_beaulieu-utf8.txt	226
+écrit , hugo_claude_gueux--utf8.txt	1022
+écriture , dumas_blanche_beaulieu-utf8.txt	214
+écroulée , hugo_claude_gueux--utf8.txt	114
+écus , dumas_blanche_beaulieu-utf8.txt	270 , 290 , 279
+édition , hugo_claude_gueux--utf8.txt	53 , 52 , 48
+éducation , hugo_claude_gueux--utf8.txt	1134
+égal , hugo_claude_gueux--utf8.txt	734
+égales , hugo_claude_gueux--utf8.txt	182
+églises , dumas_blanche_beaulieu-utf8.txt	161
+électronique , dumas_blanche_beaulieu-utf8.txt	6
+électronique , hugo_claude_gueux--utf8.txt	52
+éloquence , hugo_claude_gueux--utf8.txt	838 , 574
+élu , dumas_blanche_beaulieu-utf8.txt	119
+émotion , hugo_claude_gueux--utf8.txt	114
+énormes , hugo_claude_gueux--utf8.txt	466
+épaules , hugo_claude_gueux--utf8.txt	390 , 386 , 1034
+épicier , hugo_claude_gueux--utf8.txt	1030
+époque , dumas_blanche_beaulieu-utf8.txt	200
+épuisé , hugo_claude_gueux--utf8.txt	738
+épuisée , hugo_claude_gueux--utf8.txt	826
+épée , dumas_blanche_beaulieu-utf8.txt	339
+établi , hugo_claude_gueux--utf8.txt	850 , 35
+établir , dumas_blanche_beaulieu-utf8.txt	174
+étaient , dumas_blanche_beaulieu-utf8.txt	177 , 149
+étaient , hugo_claude_gueux--utf8.txt	766 , 746 , 642 , 214 , 822 , 838 , 674
+était , dumas_blanche_beaulieu-utf8.txt	246 , 206 , 185 , 251 , 285 , 36 , 234
+était , hugo_claude_gueux--utf8.txt	482 , 994 , 490 , 510 , 518 , 230 , 218 , 218 , 218 , 542 , 214 , 862 , 210 , 210 , 210 , 566 , 746 , 150 , 146 , 574 , 114 , 90 , 578 , 582 , 142 , 142 , 138 , 602 , 134 , 90 , 846 , 114 , 630 , 1090 , 642 , 766 , 658 , 670 , 118 , 674 , 1106 , 798 , 778 , 774 , 390 , 390 , 114 , 770 , 770 , 918 , 378 , 954 , 462 , 106 , 898 , 978
+étant , hugo_claude_gueux--utf8.txt	798 , 126 , 982
+éteindre , hugo_claude_gueux--utf8.txt	626
+éternel , hugo_claude_gueux--utf8.txt	1146 , 1158
+étincelles , hugo_claude_gueux--utf8.txt	118
+étoile , hugo_claude_gueux--utf8.txt	114
+étonnait , hugo_claude_gueux--utf8.txt	386
+étrange , hugo_claude_gueux--utf8.txt	618
+étranges , hugo_claude_gueux--utf8.txt	390
+étroite , hugo_claude_gueux--utf8.txt	642 , 210
+étudiezlà , hugo_claude_gueux--utf8.txt	1086
+été , dumas_blanche_beaulieu-utf8.txt	286 , 262 , 188 , 280 , 314 , 64
+été , hugo_claude_gueux--utf8.txt	394 , 942 , 854 , 1182 , 854 , 114 , 854
+évanoui , hugo_claude_gueux--utf8.txt	770
+évident , hugo_claude_gueux--utf8.txt	390
+évolutions , hugo_claude_gueux--utf8.txt	830
+évréat , hugo_claude_gueux--utf8.txt	31
+événements , hugo_claude_gueux--utf8.txt	810
+êtes , dumas_blanche_beaulieu-utf8.txt	98
+êtes , hugo_claude_gueux--utf8.txt	1118 , 1098 , 1114 , 1046 , 734
+être , hugo_claude_gueux--utf8.txt	1046 , 1058 , 518 , 442
+ôta , hugo_claude_gueux--utf8.txt	290
+ôtait , hugo_claude_gueux--utf8.txt	370
+ôté , hugo_claude_gueux--utf8.txt	1106
+œdipe , hugo_claude_gueux--utf8.txt	1034
+œil , hugo_claude_gueux--utf8.txt	838
+œuvres , hugo_claude_gueux--utf8.txt	35
