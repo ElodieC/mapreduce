@@ -1,0 +1,254 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.4.27)  27 APR 2013 21:11
+entering extended mode
+ %&-line parsing enabled.
+**exemple-expose.tex
+(./exemple-expose.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./exptech.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texmf-texlive/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/share/texmf-texlive/tex/generic/babel/frenchb.ldf
+Language: frenchb 2009/03/16 v2.3d French support from the babel system
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen105
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `French'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@french = a dialect from \language0
+Package babel Info: Making : an active character on input line 120.
+Package babel Info: Making ; an active character on input line 121.
+Package babel Info: Making ! an active character on input line 122.
+Package babel Info: Making ? an active character on input line 123.
+\FB@Mht=\dimen106
+\std@mcc=\count88
+\dec@mcc=\count89
+\parindentFFN=\dimen107
+*************************************
+* Local config file frenchb.cfg used
+*
+(/usr/share/texmf-texlive/tex/generic/babel/frenchb.cfg)))
+(/usr/share/texmf-texlive/tex/latex/carlisle/scalefnt.sty))
+(./exemple-expose.aux)
+\openout1 = `exemple-expose.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Info: Redefining \degres on input line 33.
+LaTeX Info: Redefining \dots on input line 33.
+LaTeX Info: Redefining \up on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 51.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 53.
+ (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 56.
+
+(/usr/share/texmf-texlive/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+
+LaTeX Warning: File `./fig/xlatex.faconner.eps' not found on input line 57.
+
+
+! LaTeX Error: File `./fig/xlatex.faconner.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 ...height=0.75em]{./fig/xlatex.faconner.eps}}
+                                                  ),
+? 
+
+! LaTeX Error: Cannot determine size of graphic in ./fig/xlatex.faconner.eps (n
+o BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 ...height=0.75em]{./fig/xlatex.faconner.eps}}
+                                                  ),
+? 
+File: ./fig/xlatex.faconner.eps Graphic file (type eps)
+<./fig/xlatex.faconner.eps>
+
+LaTeX Warning: File `./fig/xlatex.visionner.eps' not found on input line 60.
+
+
+! LaTeX Error: File `./fig/xlatex.visionner.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...eight=0.75em]{./fig/xlatex.visionner.eps}}
+                                                  ), etc.
+? 
+
+! LaTeX Error: Cannot determine size of graphic in ./fig/xlatex.visionner.eps (
+no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...eight=0.75em]{./fig/xlatex.visionner.eps}}
+                                                  ), etc.
+? 
+File: ./fig/xlatex.visionner.eps Graphic file (type eps)
+<./fig/xlatex.visionner.eps>
+
+LaTeX Warning: Citation `lamport:latex:94' on page 1 undefined on input line 75
+.
+
+
+LaTeX Warning: Citation `rolland:latex:95' on page 1 undefined on input line 76
+.
+
+
+LaTeX Warning: File `./fig/exemple-figure.eps' not found on input line 111.
+
+
+! LaTeX Error: File `./fig/exemple-figure.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111                   {fig:exemple}
+                                     
+? 
+
+! LaTeX Error: Cannot determine size of graphic in ./fig/exemple-figure.eps (no
+ BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111                   {fig:exemple}
+                                     
+? 
+File: ./fig/exemple-figure.eps Graphic file (type eps)
+<./fig/exemple-figure.eps> [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+Non-PDF special ignored!
+Non-PDF special ignored!]
+No file exemple-expose.bbl.
+[2
+Non-PDF special ignored!] (./exemple-expose.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1562 strings out of 495061
+ 19771 string characters out of 1182621
+ 78268 words of memory out of 3000000
+ 4737 multiletter control sequences out of 15000+50000
+ 20117 words of font info for 44 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 32i,6n,26p,216b,256s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/hduser/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1095.600pk> </home/
+hduser/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1095.600pk> </home/hduser/.te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk> </home/hduser/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/hduser/.texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecbx1200.600pk> </home/hduser/.texmf-var/fonts/pk/ljfour/jknapp
+en/ec/ecss1095.600pk> </home/hduser/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt
+1095.600pk> </home/hduser/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk
+> </home/hduser/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/h
+duser/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/hduser/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/hduser/.texmf-var/fon
+ts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/hduser/.texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/ecbx1000.600pk> </home/hduser/.texmf-var/fonts/pk/ljfour/jknappe
+n/ec/eccc1200.600pk> </home/hduser/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1
+200.600pk> </home/hduser/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk>
+Output written on exemple-expose.pdf (2 pages, 122657 bytes).
+PDF statistics:
+ 408 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
