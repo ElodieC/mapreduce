@@ -1,7 +1,0 @@
-<html>
-	<title>The Hello, World Applet</title>
-		<applet code="Fenetre.class" archive="test.jar">
-		If your browser was Java-enabled,"Hello, World"
-		message would appear here.
-		</applet>
-</html>
