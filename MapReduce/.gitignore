@@ -1,1 +1,4 @@
 livres/
+bin/
+.metadata
+.classpath

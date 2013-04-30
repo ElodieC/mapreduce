@@ -7,6 +7,10 @@ import index.IndexBuilder;
 public class Seeker {
 	public String message;
 	
+	/*==> etend donné que cette classe sert visiblement de manière statique il conviendrait
+	 * de la mettre en static
+	 */
+	
 	public Seeker() {
 		super();
 		this.message = "";
