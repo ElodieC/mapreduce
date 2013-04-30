@@ -1,0 +1,300 @@
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+no jobtracker to stop
+localhost: no tasktracker to stop
+no namenode to stop
+localhost: no datanode to stop
+localhost: no secondarynamenode to stop
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop--namenode-elodie-HP-G61-Notebook-PC.out
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-elodie-HP-G61-Notebook-PC.out
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-elodie-HP-G61-Notebook-PC.out
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop--jobtracker-elodie-HP-G61-Notebook-PC.out
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-elodie-HP-G61-Notebook-PC.out
+Safe mode is OFF
+Deleted hdfs://localhost:54310/home/hduser/hadoop/inputFiles
+Deleted hdfs://localhost:54310/home/hduser/hadoop/output
+stopping jobtracker
+localhost: stopping tasktracker
+stopping namenode
+localhost: stopping datanode
+localhost: stopping secondarynamenode

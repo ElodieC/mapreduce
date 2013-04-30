@@ -1,0 +1,147 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     STYLE POUR LES EXPOSÉS TECHNIQUES 
+%         3e année INSA de Rennes
+%
+%             NE PAS MODIFIER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{exptech}       % Fichier (./exptech.sty) contenant les styles pour 
+                           % l'expose technique (ne pas le modifier)
+
+%\linespread{1,6}          % Pour une version destinée à un relecteur,
+                           % décommenter cette commande (double interligne) 
+                           
+% UTILISEZ SPELL (correcteur orthographique) à accès simplifié depuis XEmacs
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{ \textbf{Indexation et recherche de contenu utilisant MapReduce de Google} }
+\markright{Style pour l'exposé technique} 
+                           % Pour avoir le titre de l'expose sur chaque page
+
+\author{Elodie \textsc{Corbel}, Kévin \textsc{M'Ghari}, \\
+        Mickaël \textsc{Olivier}, Clarisse \textsc{Renou} \\
+        \\
+        Encadrant : Alexandru \textsc{Costan}}
+
+\date{}                    % Ne pas modifier
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}          
+
+\maketitle                 % Génère le titre
+\thispagestyle{empty}      % Supprime le numéro de page sur la 1re page
+
+
+
+\begin{abstract}
+Le résumé est limité à 10 lignes au maximum.
+\end{abstract} 
+
+
+\section{Introduction}  
+
+Il n'y a pas de table des matières. Le document doit impérativement
+compter de \textbf{6 à 8 pages} de texte (figures comprises) et il ne
+doit pas y avoir d'annexe.
+
+Pour utiliser \LaTeX\ (disponible sur le réseau enseignement
+\textbf{uniquement} sous \textbf{Unix/Linux}), copiez tous les fichiers de
+\texttt{/home-info/commun/3info/ExpTech/} sur votre compte, puis 
+tapez \texttt{xlatex exemple-expose}. Vous pouvez alors
+lancer\footnote{équivalent à taper la commande : \texttt{latex mon-document}.}
+\LaTeX\ (bouton \fbox{\textsf{Façonner}} 
+ou \fbox{\includegraphics[height=0.75em]{./fig/xlatex.faconner.eps}}), 
+voir\footnote{équivalent à taper la commande : \texttt{xdvi mon-document}.}
+le résultat (bouton \fbox{\textsf{Visionner}}
+ou \fbox{\includegraphics[height=0.75em]{./fig/xlatex.visionner.eps}}), etc.
+
+Lors de la compilation, en cas d'erreur, \LaTeX\ attend un ordre de
+votre part. Les plus utiles sont :
+\begin{itemize}
+        \item[?] liste des commandes possibles ;
+
+        \item[h] diagnostic détaillé et suggestion de solution ; 
+ 
+        \item[q] arrêt de \LaTeX.
+\end{itemize}
+
+Pour avoir un descriptif plus étoffé des commandes \LaTeX\ 
+utilisables, vous pouvez vous reporter à la documentation distribuée.
+Si elle n'est pas suffisante, vous trouverez des informations
+complémentaires à la bibliothèque dans \cite{lamport:latex:94} et
+\cite{rolland:latex:95}.
+
+Sous Solaris vous avez les lettres minuscules accentuées
+accessibles directement par les raccourcis spéciaux \textsf{shift-F1 à F12}, 
+et les majuscules par \textsf{CapsLock} puis \textsf{shift-F1 à F12}, 
+ou bien plus classiquement par la séquence de touches 
+\textsf{Compose accent lettre}.
+
+
+
+\section{Titre de section}  
+
+Ligne de remplissage pour visualiser la mise en page. Ligne de
+remplissage pour visualiser la mise en page. 
+
+\subsection{Titre de sous-section}
+\subsubsection{Titre de sous-sous-section}
+\paragraph{Titre de paragraphe}
+
+Exemple de référence à une figure au format PostScript encapsulé
+(figure~\ref{fig:exemple}). Cette figure a été créée à l'aide de
+\texttt{xfig}\footnote{disponible sous Unix/Linux.} après exportation 
+du fichier fig vers le format Encapsulated PostScript.
+
+% Utilisation de la commande pour inclure un fichier eps
+%------------------------------------------------------------------------------
+%       \FigurePS{h,t,b,p}{largeur}{nom_fichier}{titre}{nom_symbolique} 
+%------------------------------------------------------------------------------
+% {h,t,b,p} donne l'ordre de préférence du positionnement de la figure :
+%                 h -> here ; t -> top ; b -> bottom ; p -> end of part.
+%           En général, ne pas modifier cet argument.
+
+%------------------------------------------------------------------------------
+\FigureEPS{h,t,b,p}{8.5cm}{./fig/exemple-figure.eps}
+                  {Exemple d'inclusion d'une figure EPS}   
+                  {fig:exemple}
+%------------------------------------------------------------------------------
+
+Pour inclure une image, on doit aussi la convertir en EPS, avec
+la commande \texttt{convert}\footnote{
+disponible aussi sous Unix/Linux et à privilégier 
+car elle génère un EPS tout à fait standard 
+(au contraire de nombreux pilotes Windows).}
+\texttt{~image image.eps}, qui accepte pratiquement tous les formats d'images.
+
+
+\subsection{Encore un titre de sous-section}
+
+Exemple de liste à puces :
+\begin{itemize}
+        \item ligne de remplissage pour visualiser la mise en page. Ligne de
+        remplissage pour visualiser la mise en page ;
+
+        \item ligne de remplissage pour visualiser la mise en page. Ligne de
+        remplissage pour visualiser la mise en page.
+\end{itemize}
+
+Ligne de remplissage pour visualiser la mise en page. Ligne de remplissage pour
+visualiser la mise en page. 
+
+
+\section{Conclusion} 
+ 
+\LaTeX\ c'est facile pour produire des documents standard et nickel ! 
+Et Bib\TeX\ pour les références, c'est le pied.
+
+\bibliography{biblio}
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

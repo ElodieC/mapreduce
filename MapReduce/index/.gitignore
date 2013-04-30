@@ -4,3 +4,7 @@ bin/
 ../../.metadata
 .classpath
 .project
+<<<<<<< HEAD
+=======
+.settings
+>>>>>>> fff73b47b0ae179d10c7c5097d5b67b0bb31701f
