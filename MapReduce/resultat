@@ -1,0 +1,66 @@
+Resultats :
+input
+---------------------
+Bonjour
+Elodie
+world
+Elodie
+Emacs
+Ubuntu Elodie blabla
+Bonjour
+
+output
+--------------------------
+blabla,example.txt	34
+bonjour,example.txt	0,55
+elodie,example.txt	8,21,34
+emacs,example.txt	28
+ubuntu,example.txt	34
+world,example.txt	15
+
+avec 2 fichiers
+input
+-------------------------
+exemple.txt
+-------------------
+Bonjour
+Elodie
+world
+Elodie
+Emacs
+Ubuntu Elodie blabla
+Bonjour
+-----
+exemple2.txt
+----------------
+public class
+public class
+Index Mapper extends
+emacs
+extends emacs
+split
+bonjour
+ubuntu
+map gerer token context
+
+output
+-----------------
+blabla,example.txt	34
+bonjour,example.txt	0,55
+bonjour,exemple2.txt	73
+class,exemple2.txt	0,13
+context,exemple2.txt	88
+elodie,example.txt	8,21,34
+emacs,example.txt	28
+emacs,exemple2.txt	47,53
+extends,exemple2.txt	53,26
+gerer,exemple2.txt	88
+index,exemple2.txt	26
+map,exemple2.txt	88
+mapper,exemple2.txt	26
+public,exemple2.txt	13,0
+split,exemple2.txt	67
+token,exemple2.txt	88
+ubuntu,example.txt	34
+ubuntu,exemple2.txt	81
+world,example.txt	15

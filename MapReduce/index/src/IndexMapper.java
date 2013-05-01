@@ -49,7 +49,7 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
 			lineOffset++;
 			Text t = new Text (token.nextToken());//le mot
 			if (!motAIgnorer(t))
-				context.write(new Text(t + " , " +fileName), new Text(""+lineNumber/*key.toString()*/));
+				context.write(new Text(t + " , " +fileName), new Text(""+lineNumber));
 		}
 	}
 	/**
@@ -60,8 +60,9 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
 	public static boolean motAIgnorer(Text text){
 		boolean res=false;
 		List<String> caracteresIgnores = new ArrayList<String>();
-		String[] tab = {"et", "ou", "de", "des", "d", "le", "les","l","au","aux","du","un",
-				"une","a","à","or","ni","que","si","y"};
+		String[] tab = {"et", "ou", "où", "de", "des", "d", "le", "les","l","la","je","il","au","aux","du","un",
+				"une","a","à","or","ni","que","si","y","m","mon","ma","mes","me","ne",
+				"nous","on","sa","ses","se","qui","s","t","ta","tes","te","il","là","qu","sans","sur"};
 		caracteresIgnores=Arrays.asList(tab);
 		if (caracteresIgnores.contains(text.toString())){
 			res= true;
@@ -73,7 +74,7 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
 	   {
 	      StringBuffer sb = new StringBuffer();
 	      for (String s : texte.split("[\\p{P}]"))
-	         sb.append(s);
+	         sb.append(" "+s);
 	      return sb.toString();      
 	   }
 
