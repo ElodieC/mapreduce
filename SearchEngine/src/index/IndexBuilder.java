@@ -13,7 +13,7 @@ public class IndexBuilder {
 	private ArrayList<Long> offsets;
 	private Integer currentID;
 	
-	public IndexBuilder() throws IOException{
+	public IndexBuilder() throws IOException{//pourquoi IOException ?
 		index = new HashMap<Integer,HashMap<String, Informations > >();
 		offsets = new ArrayList<Long>();
 		currentID = 0;

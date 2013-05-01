@@ -14,7 +14,9 @@ public class FileRead {
 	/**
 	 * Repertoire ou se trouvent les fichiers splitter
 	 */
-	private final String fileInputDir = "/home/hduser/hadoopMR/inputFilesSplit/";
+	//"/home/hduser/hadoopMR/inputFilesSplit/"
+	String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/";
+	private final String fileInputDir = chemindeClarisse;
 	/**
 	 * Pour parcourir plus vite les fichiers on a decide de les couper toutes les 100 lignes
 	 * avec un script bash

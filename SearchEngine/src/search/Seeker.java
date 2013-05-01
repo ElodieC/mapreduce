@@ -23,11 +23,6 @@ public class Seeker {
 	
 	private FileRead fichierALire;
 	
-	/*==> etend donné que cette classe sert visiblement de manière statique il conviendrait
-	 * de la mettre en static
-	 * - les classes static n'existent pas ^^
-	 */
-	
 	public Seeker() {
 		super();
 		this.message = "<html>";		
