@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Moteur de Recherche avec Hadoop</title>
@@ -5,10 +6,10 @@
 
 <body>
 
-	<center> <img src="color.jpg" width=500 height=275> </center>
+	<center><img src="color.jpg" width=500 height=275> </center>
 	<center> <img src="hadoop.jpg" width=150 height=100> </center>
-	<br>
-	<br>
+	<br/>
+	<br/>
 		
 	<center>
 		<applet code="window/Fenetre.class" width=500 height=300 archive="appletCl.jar"></applet>
