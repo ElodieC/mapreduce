@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class Search {
 	//Cette classe lance des seekers qui vont chacun chercher un mot dans le fichier texte et en font le bilan
-	private ArrayList<String> toSeek;
+	private ArrayList<String> toSeek;//il ne faudrait pas plutot l'appeler result?
 	public static IndexBuilder builder;
 	public String expression; 
 	public Seeker seeker;
@@ -21,7 +21,11 @@ public class Search {
 		this.result = new ArrayList<String>();
 		lineResults = new ArrayList<Long>();
 	}
-	
+	/**
+	 * Methode ne servant a rien dans l'etat actuel des choses
+	 * 
+	 * @param word
+	 */
 	public void renderSearch(String word)
 	{
 		if(seeker.isPresent(word)){

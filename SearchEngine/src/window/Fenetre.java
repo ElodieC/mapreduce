@@ -19,7 +19,6 @@ import javax.swing.JTextField;
 import javax.swing.JTextPane;
 
 import search.Search;
-import search.Seeker;
 
 
 public class Fenetre extends JApplet {
@@ -38,14 +37,16 @@ public class Fenetre extends JApplet {
 
 	public void init() {
 		String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output";
-		whereSearch=chemindeClarisse;
+		String cheminElodie = "/home/hduser/hadoopMR/outputFiles/output";
+		//whereSearch=chemindeClarisse;
+		whereSearch=cheminElodie;
 		toEvaluate = new Search();
 
 		JFrame fenetre = new JFrame();
 		fenetre.setPreferredSize(new Dimension(400, 600));
-		fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+		//fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); dans mon navigateur ca bug
 		fenetre.setVisible(true);
-	
+
 
 		JButton search = new JButton("Search");
 		search.setOpaque(true);
@@ -73,10 +74,10 @@ public class Fenetre extends JApplet {
 		search.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				toEvaluate = new Search();
-				//toEvaluate.expression = entree.getText().toLowerCase()
-				toEvaluate.expression = "apache".toLowerCase();// Here is the pseudo word 
-																//typed in the field toLowerCase
-											//to find the word even if we are wrong in the cases
+				toEvaluate.expression = entree.getText().toLowerCase();
+				//toEvaluate.expression = "apache".toLowerCase();// Here is the pseudo word 
+				//typed in the field toLowerCase
+				//to find the word even if we are wrong in the cases
 				try {
 					Index.build(whereSearch, toEvaluate);
 				} catch (IOException e1) {
@@ -87,25 +88,26 @@ public class Fenetre extends JApplet {
 				/*"Official site of the Apache project to provide an open-source " +
 						"implementation of frameworks for reliable, scalable, " +
 						"distributed computing and data storage."*/
-			
-				
+
+
 				//The string TEST
 				String resultTest = "Official site of the Apache project to provide an open-source " +
 						"implementation of frameworks for reliable, scalable, " +
 						"distributed computing and data storage.";
-				
+
 				//We must find the place of the searched word to replace it in the JTextPane with 
 				//the good case (in the example apache is in fact Apache)
-				int offset = resultTest.toLowerCase().indexOf(toEvaluate.expression);
+				//int offset = resultTest.toLowerCase().indexOf(toEvaluate.expression);
 				//We find the good written word word = Apache
-				String word = resultTest.substring(offset, offset+toEvaluate.expression.length());
+				//String word = resultTest.substring(offset, offset+toEvaluate.expression.length());
 				//we split the string test in 2 to put html for the searched word
 				//that why we have to search the word apache with the right case,
 				//else we have a beautiful exception
-				String split[] = resultTest.split(word);
+				//String split[] = resultTest.split(word);
 				//insert the word with right case in bold
-				resultat.setText("<html>"+split[0]+"<strong>"+word+
-						"</strong>"+split[1]+"</html>");				
+				/*resultat.setText("<html>"+split[0]+"<strong>"+word+
+						"</strong>"+split[1]+"</html>");*/
+				resultat.setText(toEvaluate.seeker.getMessage());
 			}
 		});
 	}
