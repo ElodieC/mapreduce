@@ -1,9 +1,10 @@
 package reader;
 
-import java.io.File;
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * Classe qui recupere les lignes du fichier pour un mot donne
@@ -14,9 +15,9 @@ public class FileRead {
 	/**
 	 * Repertoire ou se trouvent les fichiers splitter
 	 */
-	//"/home/hduser/hadoopMR/inputFilesSplit/"
+	String cheminElodie = "/home/hduser/hadoopMR/inputFilesSplit/";
 	String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/";
-	private final String fileInputDir = chemindeClarisse;
+	private final String fileInputDir = cheminElodie;
 	/**
 	 * Pour parcourir plus vite les fichiers on a decide de les couper toutes les 100 lignes
 	 * avec un script bash
@@ -42,11 +43,11 @@ public class FileRead {
 	/**
 	 * @return the context of the lines where is the word in the file
 	 */
-	public String getLinesText(){
-		String lines="Fichier : "+this.fileName+"<br>";
+	public StringBuilder getLinesText(){
+		StringBuilder lines=new StringBuilder("Fichier : "+this.fileName+"<br>");
 		for (Long line : this.lines){
-			lines+="Ligne "+line+": <br>";
-			lines+=getContextLine(line);
+			lines.append("Ligne "+line+": <br>");
+			lines.append(getContextLine(line));
 		}
 
 		return lines;
@@ -55,51 +56,64 @@ public class FileRead {
 	 * @param line number
 	 * @return the context for the given line = 3 lignes autour
 	 */
-	private String getContextLine(Long line) {
-		String lines="";
+	private StringBuilder getContextLine(Long line) {
+		StringBuilder lines=new StringBuilder();
 		try {
-			Scanner file =  new Scanner(new File (this.getFilePart(line)));
+			BufferedReader file =  new BufferedReader(new FileReader (this.getFilePart(line)));
 			int i=0;
 			int lineInFilePart = (int) (line % nbLinesPerFile);//numero de la ligne a l'interieur du fichier splitte
+			String currentLine;
 			if (lineInFilePart == 1){
 				// si on est a la premiere ligne cas particulier
-				while(file.hasNextLine()&& i<lineInFilePart+2){
-					if (i==0)
-						lines += formatStringStrong(file.nextLine())+"<br>";
-					else 
-						lines += file.nextLine()+"<br>";
+				while( (currentLine=file.readLine()) != null && i<lineInFilePart+2){
+					if (i==0){
+						lines.append(formatStringStrong(currentLine));
+						lines.append("<br>");
+					}
+					else {
+						lines.append(currentLine);
+						lines.append("<br>");
+					}
 					i++;
 				}
 				file.close();
 			}
 			else if (lineInFilePart == 0){
 				//si on est a la derniere ligne cas particulier
-				while(file.hasNextLine() && i<nbLinesPerFile){
-					String currentLine = file.nextLine();
+				while((currentLine=file.readLine()) != null && i<nbLinesPerFile){
 					i++;
 					if (i == nbLinesPerFile - 2 || i == nbLinesPerFile-1 ){
-						lines+=currentLine+"<br>";
+						lines.append(currentLine);
+						lines.append("<br>");
 					}
-					else if (i==nbLinesPerFile)
-						lines+=formatStringStrong(currentLine)+"<br>";
+					else if (i==nbLinesPerFile){
+						lines.append(formatStringStrong(currentLine));
+						lines.append("<br>");
+					}
 				}
 				file.close();
 			}
 			else {
-				while(file.hasNextLine() && i<lineInFilePart+1){
-					String currentLine = file.nextLine();
+				while((currentLine=file.readLine()) != null && i<lineInFilePart+1){
 
-					if (i == lineInFilePart-2 || i == lineInFilePart)
-						lines+=currentLine+"<br>";
-					else if (i == lineInFilePart - 1)
-						lines+=formatStringStrong(currentLine)+"<br>";
+					if (i == lineInFilePart-2 || i == lineInFilePart){
+						lines.append(currentLine);
+						lines.append("<br>");
+					}
+					else if (i == lineInFilePart - 1){
+						lines.append(formatStringStrong(currentLine));
+						lines.append("<br>");
+					}
 					i++;
 				}
 				file.close();
 			}
 
 		} catch (FileNotFoundException e) {
-			lines="Fichier Non Trouve Mauvais decoupage du fichier d'entree <br>";
+			lines.append("Fichier Non Trouve Mauvais decoupage du fichier d'entree <br>");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		return lines;
 	}
@@ -110,14 +124,17 @@ public class FileRead {
 	 * @return the path of the file part where is the word
 	 */
 	private String getFilePart(Long line){
-		String fileNamePart=fileInputDir+this.fileName+".txt-";
+		StringBuilder fileNamePart = new StringBuilder();
+		fileNamePart.append(fileInputDir+this.fileName+"-");
 		int numPart = (int) ((line -1 )/nbLinesPerFile);
 		//cas particulier par rapport au nom du fichier = split avec 2 digits
 		if (numPart>=0 && numPart <10)
-			fileNamePart+="0"+numPart;
+			fileNamePart.append("00"+numPart);
+		else if(numPart>=10 && numPart<100)
+			fileNamePart.append("0"+numPart);
 		else 
-			fileNamePart+=numPart;
-		return fileNamePart;
+			fileNamePart.append(numPart);
+		return fileNamePart.toString();
 	}
 	/**
 	 * 

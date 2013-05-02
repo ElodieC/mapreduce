@@ -60,9 +60,7 @@ public class Search {
 			this.seek(arguments[i]);
 			this.renderSearch(arguments[i]);
 			
-			System.out.println(i);
 			this.result.addAll(seeker.getFichiers(arguments[i]));
-			
 			this.lineResults.addAll(seeker.getLines(arguments[i]));
 		}
 	}

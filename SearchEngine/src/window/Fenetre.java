@@ -32,8 +32,8 @@ public class Fenetre extends JApplet {
 	public void init() {
 		String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output";
 		String cheminElodie = "/home/hduser/hadoopMR/outputFiles/output";
-		whereSearch=chemindeClarisse;
-		//whereSearch=cheminElodie;
+		//whereSearch=chemindeClarisse;
+		whereSearch=cheminElodie;
 		toEvaluate = new Search();
 
 		JFrame fenetre = new JFrame();
@@ -66,7 +66,6 @@ public class Fenetre extends JApplet {
 				toEvaluate = new Search();
 				toEvaluate.expression = entree.getText().toLowerCase();
 				Index2.build(whereSearch, toEvaluate);
-
 				//We must find the place of the searched word to replace it in the JTextPane with 
 				//the good case (in the example apache is in fact Apache)
 				//int offset = resultTest.toLowerCase().indexOf(toEvaluate.expression);
@@ -75,7 +74,9 @@ public class Fenetre extends JApplet {
 				//we split the string test in 2 to put html for the searched word
 				//that why we have to search the word apache with the right case,
 				//else we have a beautiful exception
-				resultat.setText(toEvaluate.seeker.getMessage());
+				
+				//System.out.println("getMessage"+toEvaluate.seeker.getMessage());
+				resultat.setText(toEvaluate.seeker.getMessage().toString());
 			}
 		});
 	}

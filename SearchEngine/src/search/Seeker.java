@@ -4,6 +4,7 @@ import index.IndexBuilder;
 import index.Informations;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -19,30 +20,30 @@ public class Seeker {
 	/**
 	 * Resultat rendu a la fin a afficher ensuite
 	 */
-	private String message;
+	private StringBuilder message;
 	
 	private FileRead fichierALire;
 	
 	public Seeker() {
 		super();
-		this.message = "<html>";		
+		this.message = new StringBuilder("<html>");		
 	}
 	
 	public void seek(String word){
 		if(isPresent(word)) {
 			System.out.println("Mot trouvé !");
-			message+="Mot "+word+" trouvé<br>";
-			message+=this.getLinesText(word);
+			message.append("Mot "+word+" trouvé<br>");
+			message.append(this.getLinesText(word));
 		}
 		else {
 			System.out.println("Mot non trouvé");
-			message+="Mot "+word+" non trouvé<br>";
+			message.append("Mot "+word+" non trouvé<br>");
 		}
-		this.message+="<br>";
+		this.message.append("<br>");
 	}
 	
-	public String getMessage(){
-		return this.message+"</html>";
+	public StringBuilder getMessage(){
+		return this.message.append("</html>");
 	}
 	
 	public boolean isPresent(String word){
@@ -113,14 +114,17 @@ public class Seeker {
 	 * @param word
 	 * @return
 	 */
-	private String getLinesText(String word){
-		String lineText="";
+	private StringBuilder getLinesText(String word){
+		StringBuilder lineText=new StringBuilder();
 		Map<String,List<Long>> result  =this.getResult(word);
 		for(Entry<String,List<Long>> occurence : result.entrySet()){
 			this.fichierALire = new FileRead(occurence.getKey(), occurence.getValue(), word);
-			lineText+=this.fichierALire.getLinesText();
+			Long startTime = new Date().getTime();
+			lineText.append(this.fichierALire.getLinesText());
+			Long endTime = new Date().getTime();
+			System.out.println("temps : "+(endTime-startTime)+" ms");
 		}
-		lineText+="<br>";
+		lineText.append("<br>");
 		return lineText;
 	}
 }
