@@ -1,5 +1,7 @@
 Dossier pour le developpement de la partie Moteur de Recherche de notre projet
 
 Chemin à changer pour chaque PC:
-  - pour l'emplacement du fichier à partir duquel il faut construire la hashmap : package window Fenetre.java whereSearch
-  - pour l'emplacement des fichiers d'origine dans lesquels il faut récupérer les lignes : package reader FileRead.java
+  - pour l'emplacement du fichier à partir duquel il faut construire la hashmap : package window Fenetre.java whereSearch fichier dans hadoopMR/outputFiles/output (ne pas mettre de .txt)
+  - pour l'emplacement des fichiers d'origine dans lesquels il faut récupérer les lignes : package reader FileRead.java dossier hadoopMR/inputFilesSplit/ à écrire
+
+Les fichiers nécessaires se trouvent dans hadoopMR.
