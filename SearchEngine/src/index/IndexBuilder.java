@@ -5,6 +5,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Cette classe s'occupe de construire la hashmap.
+ * @author Olivier Mickaël
+ *
+ */
 public class IndexBuilder {
 	//Classe chargée de construire l'index
 	private static Map<Integer, HashMap<String, Informations > > index;
@@ -13,14 +18,13 @@ public class IndexBuilder {
 	private ArrayList<Long> offsets;
 	private Integer currentID;
 	
-	public IndexBuilder() throws IOException{//pourquoi IOException ?
+	public IndexBuilder() throws IOException{
 		index = new HashMap<Integer,HashMap<String, Informations > >();
 		offsets = new ArrayList<Long>();
 		currentID = 0;
 	}
 
 	public void addOffset(long entierLu) {
-		//System.out.println(entierLu);
 		offsets.add(entierLu);
 	}
 

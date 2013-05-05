@@ -14,7 +14,7 @@ import reader.FileRead;
 import window.Logger;
 /**
  * Recherche dans la hashmap pour un mot donne
- * @author 
+ * @author Olivier Mickaël
  *
  */
 public class Seeker {
@@ -30,6 +30,13 @@ public class Seeker {
 		this.message = new StringBuilder("<html>");		
 	}
 	
+	/**
+	 * Vérifie si le mot est présent dans un des fichiers txt
+	 * si oui il reccupere son contexte
+	 * @param word seeked
+	 * @see #getLinesText(String)
+	 * @see #isPresent(String)
+	 */
 	public void seek(String word){
 		if(isPresent(word)) {
 			System.out.println("Mot trouvé !");
@@ -45,10 +52,19 @@ public class Seeker {
 		this.message.append("<br>");
 	}
 	
+	/**
+	 * Met fin au rendu du resultat final
+	 * @return le message
+	 */
 	public StringBuilder getMessage(){
 		return this.message.append("</html>");
 	}
 	
+	/**
+	 * Verifie si le mot est présent dans la hashmap
+	 * @param word
+	 * @return true si présent false sinon
+	 */
 	public boolean isPresent(String word){
 		for(int i=1 ; i<= IndexBuilder.getIndex().size(); i++){
 			if(IndexBuilder.getIndex().get(i).keySet().contains(word))
@@ -59,8 +75,8 @@ public class Seeker {
 		return false;
 	}
 	/**
-	 * 
-	 * @param word
+	 * Obtient l'occurence du mot dans les fichiers donnes
+	 * @param word seeked
 	 * @return Le nombre de fichiers dans lequel se trouve word
 	 */
 	public int getFilesOccurences(String word){
@@ -115,7 +131,7 @@ public class Seeker {
 	/**
 	 * Rend le texte des lignes pour un mot dans les fichiers dans lequel il se trouve
 	 * @param word
-	 * @return
+	 * @return le texte
 	 */
 	private StringBuilder getLinesText(String word){
 		StringBuilder lineText=new StringBuilder();

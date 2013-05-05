@@ -32,12 +32,12 @@ public class Search {
 	 * 
 	 * @param word
 	 */
-	/*public void renderSearch(String word)
+	public void renderSearch(String word)
 	{
 		if(seeker.isPresent(word)){
 			toSeek.addAll(seeker.getFichiers(word));
 		}
-	}*/
+	}
 	
 	public void evaluate()
 	{
@@ -56,25 +56,27 @@ public class Search {
 		return toSeek;
 	}
 
-	public void setToSeek(List<String> toSeek) {
-		supprNonIndexe(toSeek);
-		this.toSeek = toSeek;
+	private void setToSeek(List<String> toSeek) {
+		this.toSeek = supprNonIndexe(toSeek);
 	}
 	/**
 	 * Supprime les mots de la liste des mots entres s'ils ne sont pas indexes
 	 * @param motsEntres
+	 * @return la liste des mots entres sans les mots non indexes
 	 */
-	private void supprNonIndexe(List<String> motsEntres){
+	private List<String> supprNonIndexe(List<String> motsEntres){
+		List<String> supprNonIndexe = new ArrayList <String>(); 
 		List<String> nonIndexe = new ArrayList<String>();
-		String[] tab = {"et", "ou", "où", "de", "des", "d", "le", "les","l","la","je","il","au","aux","du","un",
-				"une","a","à","or","ni","que","si","y","m","mon","ma","mes","me","ne",
-				"nous","on","sa","ses","se","qui","s","t","ta","tes","te","il","là","qu","sans","sur"};
+		String[] tab = {"et", "ou", "oÃ¹", "de", "des", "d", "le", "les","l","la","je","il","au","aux","du","un",
+				"une","a","Ã ","or","ni","que","si","y","m","mon","ma","mes","me","ne",
+				"nous","on","sa","ses","se","qui","s","t","ta","tes","te","il","lÃ ","qu","sans","sur"};
 		nonIndexe=Arrays.asList(tab);
 		for (String mot : motsEntres){
-			if (nonIndexe.contains(mot)){
-				motsEntres.remove(mot);
+			if (!nonIndexe.contains(mot)){
+				supprNonIndexe.add(mot);
 			}
 		}
+		return supprNonIndexe;
 	}
 	
 	public void toDo(){
@@ -93,3 +95,4 @@ public class Search {
 		}
 	}
 }
+//>>>>>>> 9146e70d80f4897f87eaffffb71f4bd217918419

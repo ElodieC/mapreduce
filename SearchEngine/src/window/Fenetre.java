@@ -19,7 +19,13 @@ import javax.swing.JTextPane;
 
 import search.Search;
 
-
+/**
+ * Applet du programme, réccupère l'entrée utilisation dans un premier JTextField
+ * et réécrit les résultats en dessous
+ * @author Corbel Elodie, M'ghari Kevin, Renou Clarisse
+ * @version 2.0
+ * @see Page web
+ */
 public class Fenetre extends JApplet {
 
 	private static final long serialVersionUID = 1L;
@@ -28,7 +34,12 @@ public class Fenetre extends JApplet {
 	private Search toEvaluate;
 	private String whereSearch; 
 	
-	
+	/**
+	 * Methode d'initialisation de l'applet
+	 * whereSearch représente le chemin où sont stockés les fichiers txt ou l'on veut
+	 * lancer les recherches
+	 * 
+	 */
 	public void init() {
 		String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output";
 		String cheminElodie = "/home/hduser/hadoopMR/outputFiles/output";
@@ -65,6 +76,11 @@ public class Fenetre extends JApplet {
 		add(recherche,"North");
 
 
+		/**
+		 * Action sur le bouton Search
+		 * Construit la hashmap par rapport au ficher d'Index
+		 * Puis traite le résultat
+		 */
 		search.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Logger.addInLog("Mot entré : ");

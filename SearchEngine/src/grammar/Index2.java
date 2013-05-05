@@ -10,12 +10,29 @@ import java.util.Scanner;
 import search.Search;
 import window.Logger;
 
+/**
+ * Cette classe va parcourire le fichier Index et appeler les methodes adequate pour
+ * construire la hashmap
+ * Elle est statique afin d'avoir acces à la creation d'index partout
+ * scanLine est un {@link Scanner} qui va s'occupait mot par mot de la ligne pour construire la hashmap
+ * builder est {@link IndexBuilder} charger de construire la hashmap
+ * recherche est le {@link Search} 
+ * @author Renou Clarisse
+ * @see IndexBuilder
+ *
+ */
 public class Index2 {
 	private static Scanner scanLine;
 	public static IndexBuilder builder;
 	public static Search recherche;
 	
-	
+	/**
+	 * Cette methode scan ligne par ligne le fichier index pour la transmettre
+	 * au {@link #builder(String)}
+	 * @param input BufferedReader on entre le fichier index
+	 * @see #builder(String)
+	 * @see Search#toDo()
+	 */
 	public static void scanFile(BufferedReader input){
 		Logger.addInLog("Analyse de l'index commencée");
 		System.out.println("Analyse de l'index commencée");
@@ -33,7 +50,6 @@ public class Index2 {
 				}
 			} catch (IOException e) {
 				Logger.addInLog("Erreur dans la lecture par ligne du fichier : ");
-				System.out.println("catch");
 				e.printStackTrace();
 				Logger.addInLog(e.getMessage());
 			}
@@ -43,6 +59,15 @@ public class Index2 {
 		recherche.toDo();
 	}
 	
+	/**
+	 * Ici on scanne la ligne envoyee mot par mot
+	 * on reccupere ainsi grace a l'index bien constitue, le titre, l'offset 
+	 * et le mot en question
+	 * l'index est constitue ainsi :
+	 * word , title.txt , offset1 offset2 etc
+	 * @param line String, La ligne envoyee
+	 * @see IndexBuilder
+	 */
 	public static void builder (String line) {
 		String readWord;
 		String title;
@@ -77,6 +102,13 @@ public class Index2 {
 		builder.buildSet();
 	}
 	
+	/**
+	 * principale methode de la classe, elle initialise l'{@link IndexBuilder} 
+	 * et le {@link BufferedReader} puis lance l'analyse
+	 * @param args String, nom du fichier Index
+	 * @param search Search
+	 * @exception catch l'exception si le fichier n'est pas trouve
+	 */
 	public static void build(String args, Search search) {
 		BufferedReader input;
 		try {
