@@ -109,6 +109,15 @@ public class Seeker {
 		}
 		return result;
 	}
+	
+	public int getNbOccurences(String word){
+		int nbOccurences = 0;
+		Map<String,List<Long>> ocurrencesPerFile = getResult(word);
+		for (Entry<String,List<Long>> occurence : ocurrencesPerFile.entrySet()){
+			nbOccurences+=occurence.getValue().size();
+		}
+		return nbOccurences;
+	}
 	/**
 	 * Rend le texte des lignes pour un mot dans les fichiers dans lequel il se trouve
 	 * @param word

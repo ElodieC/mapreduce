@@ -58,7 +58,8 @@ public class Search {
 
 	public void setToSeek(List<String> toSeek) {
 		supprNonIndexe(toSeek);
-		this.toSeek = toSeek;
+		Relevance sort = new Relevance(toSeek);
+		this.toSeek = sort.getMotsSorted();;
 	}
 	/**
 	 * Supprime les mots de la liste des mots entres s'ils ne sont pas indexes
@@ -85,6 +86,7 @@ public class Search {
 		this.setToSeek(motsAChercher);
 		
 		for(String mot : this.toSeek){
+			
 			this.seek(mot);
 			/*this.renderSearch(arguments[i]);
 			
