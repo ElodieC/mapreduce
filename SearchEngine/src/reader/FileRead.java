@@ -6,6 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
+import window.Logger;
+
 /**
  * Classe qui recupere les lignes du fichier pour un mot donne
  * @author hduser
@@ -17,7 +19,7 @@ public class FileRead {
 	 */
 	String cheminElodie = "/home/hduser/hadoopMR/inputFilesSplit/";
 	String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/";
-	private final String fileInputDir = cheminElodie;
+	private final String fileInputDir = chemindeClarisse;
 	/**
 	 * Pour parcourir plus vite les fichiers on a decide de les couper toutes les 100 lignes
 	 * avec un script bash
@@ -39,6 +41,8 @@ public class FileRead {
 		this.fileName = file;
 		this.lines = lines;
 		this.wordToSearch = word;
+		System.out.println("Fichier : "+file+" / Lignes : "+lines+" / Mot cherché : "+word);
+		Logger.addInLog("Fichier : "+file+" / Lignes : "+lines+" / Mot cherché : "+word);
 	}
 	/**
 	 * @return the context of the lines where is the word in the file
@@ -49,7 +53,6 @@ public class FileRead {
 			lines.append("Ligne "+line+": <br>");
 			lines.append(getContextLine(line));
 		}
-
 		return lines;
 	}
 	/**
@@ -111,9 +114,11 @@ public class FileRead {
 
 		} catch (FileNotFoundException e) {
 			lines.append("Fichier Non Trouve Mauvais decoupage du fichier d'entree <br>");
+			Logger.addInLog("Fichier Non Trouve Mauvais decoupage du fichier d'entree");
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
+			Logger.addInLog(e.getMessage());
 		}
 		return lines;
 	}
@@ -126,14 +131,20 @@ public class FileRead {
 	private String getFilePart(Long line){
 		StringBuilder fileNamePart = new StringBuilder();
 		fileNamePart.append(fileInputDir+this.fileName+"-");
+		Logger.addInLog("Chemin des fichiers splité : "+fileInputDir);
 		int numPart = (int) ((line -1 )/nbLinesPerFile);
 		//cas particulier par rapport au nom du fichier = split avec 2 digits
+		
 		if (numPart>=0 && numPart <10)
 			fileNamePart.append("00"+numPart);
+		
 		else if(numPart>=10 && numPart<100)
 			fileNamePart.append("0"+numPart);
+		
 		else 
 			fileNamePart.append(numPart);
+
+		Logger.addInLog(fileNamePart.toString());
 		return fileNamePart.toString();
 	}
 	/**
@@ -146,6 +157,7 @@ public class FileRead {
 		//We must find the place of the searched word to replace it in the JTextPane with 
 		//the good case (in the example apache is in fact Apache)
 		int offset = line.toLowerCase().indexOf(this.wordToSearch);
+		Logger.addInLog("Offset de "+this.wordToSearch+" : "+offset);
 		//We find the good written word word = Apache
 		String wordWithCase = line.substring(offset, offset+wordToSearch.length());
 		//we split the string test in 2 to put html for the searched word
@@ -165,9 +177,6 @@ public class FileRead {
 
 			}
 		}
-		//insert the word with right case in bold
-		/*resultat.setText("<html>"+split[0]+"<strong>"+word+
-				"</strong>"+split[1]+"</html>");*/
 		return result;
 	}
 

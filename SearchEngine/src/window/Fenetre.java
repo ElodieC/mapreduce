@@ -22,19 +22,23 @@ import search.Search;
 
 public class Fenetre extends JApplet {
 
-
 	private static final long serialVersionUID = 1L;
 	private JTextField entree;
 	private JTextPane resultat;
 	private Search toEvaluate;
 	private String whereSearch; 
-
+	
+	
 	public void init() {
 		String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output";
 		String cheminElodie = "/home/hduser/hadoopMR/outputFiles/output";
-		//whereSearch=chemindeClarisse;
-		whereSearch=cheminElodie;
-
+		whereSearch=chemindeClarisse;
+		//whereSearch=cheminElodie;
+		
+		Logger.createLogger();
+		Logger.addInLog("Chemin du fichier d'index :");
+		Logger.addInLog(whereSearch);
+	
 		JFrame fenetre = new JFrame();
 		fenetre.setVisible(true);
 
@@ -46,9 +50,9 @@ public class Fenetre extends JApplet {
 
 		resultat = new JTextPane();
 		resultat.setEditable(false);
-		resultat.setContentType("text/html");// <== because THIS line was commented I have passed all the
-		JScrollPane scrollPane = new JScrollPane(resultat);// day to find how to put html in JTextpanel
-		entree = new JTextField();				//"Dark Idiot" I am !!!!!!!
+		resultat.setContentType("text/html");
+		JScrollPane scrollPane = new JScrollPane(resultat);
+		entree = new JTextField();				
 
 		fenetre.setLayout(new BorderLayout());
 		add(scrollPane,"Center");
@@ -60,21 +64,17 @@ public class Fenetre extends JApplet {
 		recherche.add(search, "Center");
 		add(recherche,"North");
 
+
 		search.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				Logger.addInLog("Mot entré : ");
+				Logger.addInLog(entree.getText());
 				toEvaluate = new Search(entree.getText().toLowerCase());
 				Index2.build(whereSearch, toEvaluate);
-				//We must find the place of the searched word to replace it in the JTextPane with 
-				//the good case (in the example apache is in fact Apache)
-				//int offset = resultTest.toLowerCase().indexOf(toEvaluate.expression);
-				//We find the good written word word = Apache
-				//String word = resultTest.substring(offset, offset+toEvaluate.expression.length());
-				//we split the string test in 2 to put html for the searched word
-				//that why we have to search the word apache with the right case,
-				//else we have a beautiful exception
 				
-				//System.out.println("getMessage"+toEvaluate.seeker.getMessage());
 				resultat.setText(toEvaluate.seeker.getMessage().toString());
+				Logger.addInLog("Sortie : ");
+				Logger.addInLog(toEvaluate.seeker.getMessage().toString());
 			}
 		});
 	}

@@ -11,6 +11,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import reader.FileRead;
+import window.Logger;
 /**
  * Recherche dans la hashmap pour un mot donne
  * @author 
@@ -33,9 +34,11 @@ public class Seeker {
 		if(isPresent(word)) {
 			System.out.println("Mot trouvé !");
 			message.append("Mot "+word+" trouvé<br>");
+			Logger.addInLog("Mot "+word+" trouvé");
 			message.append(this.getLinesText(word));
 		}
 		else {
+			Logger.addInLog("Mot "+word+" non trouvé");
 			System.out.println("Mot non trouvé");
 			message.append("Mot "+word+" non trouvé<br>");
 		}
@@ -123,6 +126,7 @@ public class Seeker {
 			lineText.append(this.fichierALire.getLinesText());
 			Long endTime = new Date().getTime();
 			System.out.println("temps : "+(endTime-startTime)+" ms");
+			Logger.addInLog("temps : "+(endTime-startTime)+" ms");
 		}
 		lineText.append("<br>");
 		return lineText;
