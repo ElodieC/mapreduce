@@ -6,14 +6,16 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
+import window.Logger;
+
 /**
  * Classe qui recupere les lignes du fichier pour un mot donne
- * @author hduser
+ * @author Corbel Elodie
  *
  */
 public class FileRead {
 	/**
-	 * Repertoire ou se trouvent les fichiers splitter
+	 * Repertoire ou se trouvent les fichiers splittes
 	 */
 	String cheminElodie = "/home/hduser/hadoopMR/inputFilesSplit/";
 	String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/";
@@ -35,13 +37,23 @@ public class FileRead {
 
 	private String wordToSearch;
 
+	/**
+	 * Reccupere la liste des lignes et le nom du fichier pour le mot recherche
+	 * @param file Fichier txt ou sont fait les recherches
+	 * @param lines Liste des lignes ou sont trouves les mots
+	 * @param word Mot recherche
+	 */
 	public FileRead(String file, List<Long> lines, String word){
 		this.fileName = file;
 		this.lines = lines;
 		this.wordToSearch = word;
+		System.out.println("Fichier : "+file+" / Lignes : "+lines+" / Mot cherché : "+word);
+		Logger.addInLog("Fichier : "+file+" / Lignes : "+lines+" / Mot cherché : "+word);
 	}
 	/**
+	 * Trouve les lignes qui entoure le mot une fois trouve.
 	 * @return the context of the lines where is the word in the file
+	 * @see #getContextLine(Long)
 	 */
 	public StringBuilder getLinesText(){
 		StringBuilder lines=new StringBuilder("Fichier : "+this.fileName+"<br>");
@@ -49,12 +61,14 @@ public class FileRead {
 			lines.append("Ligne "+line+": <br>");
 			lines.append(getContextLine(line));
 		}
-
 		return lines;
 	}
 	/**
-	 * @param line number
-	 * @return the context for the given line = 3 lignes autour
+	 * on décide de prendre 3 lignes autours du Mot recherché
+	 * @param Numéro de ligne Long, numéro de la ligne qui contient le mot
+	 * @return the context for the given line = 3 lignes autours
+	 * @exception Attrape l'exception si les fichiers splites n'ont pas ete trouves ou
+	 * s'il sont mal decoupes
 	 */
 	private StringBuilder getContextLine(Long line) {
 		StringBuilder lines=new StringBuilder();
@@ -111,41 +125,51 @@ public class FileRead {
 
 		} catch (FileNotFoundException e) {
 			lines.append("Fichier Non Trouve Mauvais decoupage du fichier d'entree <br>");
+			Logger.addInLog("Fichier Non Trouve Mauvais decoupage du fichier d'entree");
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
+			Logger.addInLog(e.getMessage());
 		}
 		return lines;
 	}
 
 	/**
-	 * 
-	 * @param line number
+	 * Reccupere le chemin ou sont stokes les fichiers splites
+	 * @param line number La ligne qui contient le mot
 	 * @return the path of the file part where is the word
+	 * @see #fileInputDir
 	 */
 	private String getFilePart(Long line){
 		StringBuilder fileNamePart = new StringBuilder();
 		fileNamePart.append(fileInputDir+this.fileName+"-");
+		Logger.addInLog("Chemin des fichiers splité : "+fileInputDir);
 		int numPart = (int) ((line -1 )/nbLinesPerFile);
 		//cas particulier par rapport au nom du fichier = split avec 2 digits
+		
 		if (numPart>=0 && numPart <10)
 			fileNamePart.append("00"+numPart);
+		
 		else if(numPart>=10 && numPart<100)
 			fileNamePart.append("0"+numPart);
+		
 		else 
 			fileNamePart.append(numPart);
+
+		Logger.addInLog(fileNamePart.toString());
 		return fileNamePart.toString();
 	}
 	/**
-	 * 
+	 * Met en forme le resultat avant l'affichage : Mise en avant (gras) du mot recherché
 	 * @param line text where is the word
 	 * @return the line text with the word that is seeked in strong
 	 */
 	private String formatStringStrong(String line){
 		String result="";
-		//We must find the place of the searched word to replace it in the JTextPane with 
+		//We must find the place of the seeked word to replace it in the JTextPane with 
 		//the good case (in the example apache is in fact Apache)
 		int offset = line.toLowerCase().indexOf(this.wordToSearch);
+		Logger.addInLog("Offset de "+this.wordToSearch+" : "+offset);
 		//We find the good written word word = Apache
 		String wordWithCase = line.substring(offset, offset+wordToSearch.length());
 		//we split the string test in 2 to put html for the searched word
@@ -165,9 +189,6 @@ public class FileRead {
 
 			}
 		}
-		//insert the word with right case in bold
-		/*resultat.setText("<html>"+split[0]+"<strong>"+word+
-				"</strong>"+split[1]+"</html>");*/
 		return result;
 	}
 

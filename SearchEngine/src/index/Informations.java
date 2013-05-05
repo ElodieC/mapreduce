@@ -2,6 +2,11 @@ package index;
 
 import java.util.ArrayList;
 
+/**
+ * 
+ * @author Olivier Mickael
+ *
+ */
 public class Informations {
 	//Informations liées à un mot, à savoir le fichier dans lequel il se trouve et les offsets où il a été repéré dans ce fichier
 	private ArrayList<Long> offsets;

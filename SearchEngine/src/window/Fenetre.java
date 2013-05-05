@@ -19,22 +19,37 @@ import javax.swing.JTextPane;
 
 import search.Search;
 
-
+/**
+ * Applet du programme, réccupère l'entrée utilisation dans un premier JTextField
+ * et réécrit les résultats en dessous
+ * @author Corbel Elodie, M'ghari Kevin, Renou Clarisse
+ * @version 2.0
+ * @see Page web
+ */
 public class Fenetre extends JApplet {
-
 
 	private static final long serialVersionUID = 1L;
 	private JTextField entree;
 	private JTextPane resultat;
 	private Search toEvaluate;
 	private String whereSearch; 
-
+	
+	/**
+	 * Methode d'initialisation de l'applet
+	 * whereSearch représente le chemin où sont stockés les fichiers txt ou l'on veut
+	 * lancer les recherches
+	 * 
+	 */
 	public void init() {
 		String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output";
 		String cheminElodie = "/home/hduser/hadoopMR/outputFiles/output";
 		//whereSearch=chemindeClarisse;
 		whereSearch=cheminElodie;
-
+		
+		Logger.createLogger();
+		Logger.addInLog("Chemin du fichier d'index :");
+		Logger.addInLog(whereSearch);
+	
 		JFrame fenetre = new JFrame();
 		fenetre.setVisible(true);
 
@@ -46,9 +61,9 @@ public class Fenetre extends JApplet {
 
 		resultat = new JTextPane();
 		resultat.setEditable(false);
-		resultat.setContentType("text/html");// <== because THIS line was commented I have passed all the
-		JScrollPane scrollPane = new JScrollPane(resultat);// day to find how to put html in JTextpanel
-		entree = new JTextField();				//"Dark Idiot" I am !!!!!!!
+		resultat.setContentType("text/html");
+		JScrollPane scrollPane = new JScrollPane(resultat);
+		entree = new JTextField();				
 
 		fenetre.setLayout(new BorderLayout());
 		add(scrollPane,"Center");
@@ -60,21 +75,22 @@ public class Fenetre extends JApplet {
 		recherche.add(search, "Center");
 		add(recherche,"North");
 
+
+		/**
+		 * Action sur le bouton Search
+		 * Construit la hashmap par rapport au ficher d'Index
+		 * Puis traite le résultat
+		 */
 		search.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				Logger.addInLog("Mot entré : ");
+				Logger.addInLog(entree.getText());
 				toEvaluate = new Search(entree.getText().toLowerCase());
 				Index2.build(whereSearch, toEvaluate);
-				//We must find the place of the searched word to replace it in the JTextPane with 
-				//the good case (in the example apache is in fact Apache)
-				//int offset = resultTest.toLowerCase().indexOf(toEvaluate.expression);
-				//We find the good written word word = Apache
-				//String word = resultTest.substring(offset, offset+toEvaluate.expression.length());
-				//we split the string test in 2 to put html for the searched word
-				//that why we have to search the word apache with the right case,
-				//else we have a beautiful exception
 				
-				//System.out.println("getMessage"+toEvaluate.seeker.getMessage());
 				resultat.setText(toEvaluate.seeker.getMessage().toString());
+				Logger.addInLog("Sortie : ");
+				Logger.addInLog(toEvaluate.seeker.getMessage().toString());
 			}
 		});
 	}

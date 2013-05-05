@@ -24,11 +24,7 @@ public class SortFiles {
 	 */
 	public String[] getSortedFileNames() {
 		if (fileNames !=null && fileNames.length!=0){
-			for(String nom:this.fileNames)
-				System.out.println("Nom Fichiers : "+nom+" nbOc : "+fileOccurence.get(nom).size());
 			quicksort(0, fileNames.length - 1);
-			for(String nom:this.fileNames)
-				System.out.println("Nom Fichiers : "+nom+" nbOc : "+fileOccurence.get(nom).size());
 			return fileNames;
 		}
 		else 

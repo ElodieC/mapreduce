@@ -1,15 +1,41 @@
 Chemin du fichier d'index :
 /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output
-Mot entrée : 
-apprendre
+Mot entré : 
+avoir
 Lecture de l'index reussie
-Analyse de l'index commencee
-Analyse de l'index terminee
-Mot apprendre trouvé
-Fichier : hugo_claude_gueux--utf8.txt / Lignes : [522] / Mot cherché : apprendre
+Analyse de l'index commencée
+Analyse de l'index terminée
+Mot avoir trouvé
+Fichier : dumas_blanche_beaulieu-utf8.txt / Lignes : [136, 191] / Mot cherché : avoir
+Chemin des fichiers splité : /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/
+/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/dumas_blanche_beaulieu-utf8.txt-001
+Offset de avoir : 0
+Chemin des fichiers splité : /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/
+/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/dumas_blanche_beaulieu-utf8.txt-001
+Offset de avoir : 22
+temps : 25 ms
+Fichier : hugo_claude_gueux--utf8.txt / Lignes : [642, 942, 574, 566, 218, 1038, 1094] / Mot cherché : avoir
+Chemin des fichiers splité : /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/
+/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/hugo_claude_gueux--utf8.txt-006
+Offset de avoir : 647
+Chemin des fichiers splité : /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/
+/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/hugo_claude_gueux--utf8.txt-009
+Offset de avoir : 106
 Chemin des fichiers splité : /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/
 /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/hugo_claude_gueux--utf8.txt-005
-Offset de apprendre : 109
-temps : 5 ms
+Offset de avoir : 206
+Chemin des fichiers splité : /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/
+/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/hugo_claude_gueux--utf8.txt-005
+Offset de avoir : 589
+Chemin des fichiers splité : /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/
+/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/hugo_claude_gueux--utf8.txt-002
+Offset de avoir : 132
+Chemin des fichiers splité : /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/
+/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/hugo_claude_gueux--utf8.txt-010
+Offset de avoir : 66
+Chemin des fichiers splité : /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/
+/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/hugo_claude_gueux--utf8.txt-010
+Offset de avoir : 68
+temps : 49 ms
 Sortie : 
-<html>Mot apprendre trouvé<br>Fichier : hugo_claude_gueux--utf8.txt<br>Ligne 522: <br><br>Une heure après, il aborda un jeune condamné de seize ans qui bâillait dans le promenoir, et lui conseilla d’<strong>apprendre</strong> à lire. En ce moment, le détenu Faillette accosta Claude, et lui demanda ce que diable il cachait là dans son pantalon. Claude dit :<br><br><br><br></html></html>
+<html>Mot avoir trouvé<br>Fichier : dumas_blanche_beaulieu-utf8.txt<br>Ligne 136: <br>journalier du parti. Quant à Robespierre, sans<br><strong>avoir</strong> de fonction précise, il veillait à tout,<br>commandant à ce corps politique, comme la tête<br>Ligne 191: <br>au-dehors<br>; et comme il croyait <strong>avoir</strong> comprimé à<br>l’intérieur et vaincu à la frontière, il demandait<br>Fichier : hugo_claude_gueux--utf8.txt<br>Ligne 642: <br><br>L’atelier où ceci se passait était une salle oblongue, un long parallélogramme percé de fenêtres sur ses deux grands côtés, et de deux portes qui se regardaient à ses deux extrémités. Les métiers étaient rangés de chaque côté près des fenêtres, les bancs touchant le mur à angle droit, et l’espace resté libre entre les deux rangées de métiers formait une sorte de longue voie qui allait en ligne droite de l’une des portes à l’autre et traversait ainsi toute la salle. C’était cette longue voie, assez étroite, que le directeur avait à parcourir en faisant son inspection ; il devait entrer par la porte sud et ressortir par la porte nord, après <strong>avoir</strong> regardé les travailleurs à droite et à gauche. D’ordinaire il faisait ce trajet assez rapidement et sans s’arrêter.<br><br>Ligne 942: <br><br>Il écoutait d’ailleurs le prêtre avec une attention extrême, en s’accusant beaucoup et en regrettant de n’<strong>avoir</strong> pas été instruit dans la religion.<br><br>Ligne 574: <br><br>Claude reprit. Il parla, à ce qu’il paraît, avec une éloquence singulière, qui d’ailleurs lui était naturelle. Il déclara qu’il savait bien qu’il allait faire une action violente, mais qu’il ne croyait pas <strong>avoir</strong> tort. Il attesta la conscience des quatrevingt-un voleurs qui l’écoutaient :<br><br>Ligne 566: <br><br>– Vous savez tous qu’Albin était mon frère. Je n’ai pas assez de ce qu’on me donne ici pour manger. Même en n’achetant que du pain avec le peu que je gagne, cela ne suffirait pas. Albin partageait sa ration avec moi ; je l’ai aimé d’abord parce qu’il m’a nourri, ensuite parce qu’il m’a aimé. Le directeur, M. D., nous a séparés. Cela ne lui faisait rien que nous fussions ensemble ; mais c’est un méchant homme, qui jouit de tourmenter. Je lui ai redemandé Albin. Vous avez vu, il n’a pas voulu. Je lui ai donné jusqu’au 4 novembre pour me rendre Albin. Il m’a fait mettre au cachot pour <strong>avoir</strong> dit cela. Moi, pendant ce temps-là, je l’ai jugé et je l’ai condamné à mort[2]. Nous sommes au 4 novembre. Il viendra dans deux heures faire sa tournée. Je vous préviens que je vais le tuer. Avez-vous quelque chose à dire à cela ?<br><br>Ligne 218: <br><br>Nous avons déjà parlé du directeur des ateliers. Cet homme, haï des prisonniers, était souvent obligé, pour se faire obéir d’eux, d’<strong>avoir</strong> recours à Claude Gueux, qui en était aimé. Dans plus d’une occasion, lorsqu’il s’était agi d’empêcher une rébellion ou un tumulte, l’autorité sans titre de Claude Gueux avait prêté main-forte à l’autorité officielle du directeur. En effet, pour contenir les prisonniers, dix paroles de Claude valaient dix gendarmes. Claude avait maintes fois rendu ce service au directeur. Aussi le directeur le détestait-il cordialement. Il était jaloux de ce voleur. Il avait au fond du cœur une haine secrète, envieuse, implacable, contre Claude, une haine de souverain de droit à souverain de fait, de pouvoir temporel à pouvoir spirituel.<br><br>Ligne 1038: <br><br>Tout cela est important ; nous croyons cependant qu’il pourrait y <strong>avoir</strong> des choses plus importantes encore.<br><br>Ligne 1094: <br><br>Le bagne est un vésicatoire absurde qui laisse résorber, non sans l’<strong>avoir</strong> rendu pire encore, presque tout le mauvais sang qu’il extrait. La peine de mort est une amputation barbare.<br><br><br><br></html></html>

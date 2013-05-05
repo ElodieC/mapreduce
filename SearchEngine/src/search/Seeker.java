@@ -11,9 +11,10 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import reader.FileRead;
+import window.Logger;
 /**
  * Recherche dans la hashmap pour un mot donne
- * @author 
+ * @author Olivier Mickaël
  *
  */
 public class Seeker {
@@ -21,31 +22,49 @@ public class Seeker {
 	 * Resultat rendu a la fin a afficher ensuite
 	 */
 	private StringBuilder message;
-	
+
 	private FileRead fichierALire;
-	
+
 	public Seeker() {
 		super();
 		this.message = new StringBuilder("<html>");		
 	}
-	
+
+	/**
+	 * Vérifie si le mot est présent dans un des fichiers txt
+	 * si oui il reccupere son contexte
+	 * @param word seeked
+	 * @see #getLinesText(String)
+	 * @see #isPresent(String)
+	 */
 	public void seek(String word){
 		if(isPresent(word)) {
 			System.out.println("Mot trouvé !");
 			message.append("Mot "+word+" trouvé<br>");
+			Logger.addInLog("Mot "+word+" trouvé");
 			message.append(this.getLinesText(word));
 		}
 		else {
+			Logger.addInLog("Mot "+word+" non trouvé");
 			System.out.println("Mot non trouvé");
 			message.append("Mot "+word+" non trouvé<br>");
 		}
 		this.message.append("<br>");
 	}
-	
+
+	/**
+	 * Met fin au rendu du resultat final
+	 * @return le message
+	 */
 	public StringBuilder getMessage(){
 		return this.message.append("</html>");
 	}
-	
+
+	/**
+	 * Verifie si le mot est présent dans la hashmap
+	 * @param word
+	 * @return true si présent false sinon
+	 */
 	public boolean isPresent(String word){
 		for(int i=1 ; i<= IndexBuilder.getIndex().size(); i++){
 			if(IndexBuilder.getIndex().get(i).keySet().contains(word))
@@ -56,8 +75,8 @@ public class Seeker {
 		return false;
 	}
 	/**
-	 * 
-	 * @param word
+	 * Obtient l'occurence du mot dans les fichiers donnes
+	 * @param word seeked
 	 * @return Le nombre de fichiers dans lequel se trouve word
 	 */
 	public int getFilesOccurences(String word){
@@ -70,7 +89,7 @@ public class Seeker {
 		}
 		return num;
 	}
-	
+
 	public List<Long> getLines(String word){
 		ArrayList<Long> lines = new ArrayList<Long>();
 		for(int i=1 ; i<= IndexBuilder.getIndex().size(); i++){
@@ -81,7 +100,7 @@ public class Seeker {
 		}
 		return lines;
 	}
-	
+
 	public List<String> getFichiers(String word){
 		ArrayList<String> files = new ArrayList<String>();
 		for(int i=1 ; i<= IndexBuilder.getIndex().size(); i++){
@@ -91,6 +110,15 @@ public class Seeker {
 			}
 		}
 		return files;
+	}
+
+	public int getNbOccurences(String word){
+		int nbOccurences = 0;
+		Map<String,List<Long>> ocurrencesPerFile = getResult(word);
+		for (Entry<String,List<Long>> occurence : ocurrencesPerFile.entrySet()){
+			nbOccurences+=occurence.getValue().size();
+		}
+		return nbOccurences;
 	}
 	/**
 	 * Rend les numeros de lignes pour un mot
@@ -109,27 +137,18 @@ public class Seeker {
 		}
 		return result;
 	}
-	
-	public int getNbOccurences(String word){
-		int nbOccurences = 0;
-		Map<String,List<Long>> ocurrencesPerFile = getResult(word);
-		for (Entry<String,List<Long>> occurence : ocurrencesPerFile.entrySet()){
-			nbOccurences+=occurence.getValue().size();
-		}
-		return nbOccurences;
-	}
 	/**
 	 * Rend le texte des lignes pour un mot dans les fichiers dans lequel il se trouve
 	 * @param word
-	 * @return
+	 * @return le texte
 	 */
 	private StringBuilder getLinesText(String word){
 		StringBuilder lineText=new StringBuilder();
 		Map<String,List<Long>> result  =this.getResult(word);
-		
+
 		SortFiles sortFiles = new SortFiles(result);
 		String[] sortedFileName = sortFiles.getSortedFileNames();
-		
+
 		for (String nomFichier:sortedFileName){
 			this.fichierALire = new FileRead(nomFichier, result.get(nomFichier), word);
 			Long startTime = new Date().getTime();

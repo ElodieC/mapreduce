@@ -31,12 +31,12 @@ public class Search {
 	 * 
 	 * @param word
 	 */
-	/*public void renderSearch(String word)
+	public void renderSearch(String word)
 	{
 		if(seeker.isPresent(word)){
 			toSeek.addAll(seeker.getFichiers(word));
 		}
-	}*/
+	}
 	
 	
 	public void seek(String word){
@@ -49,10 +49,8 @@ public class Search {
 
 
 	public void setToSeek(List<String> toSeek) {
-		System.out.println(toSeek);
 		RelevanceWord sort = new RelevanceWord(supprNonIndexe(toSeek));
 		this.toSeek = sort.getMotsSorted();
-		System.out.println(this.toSeek);
 	}
 	/**
 	 * Supprime les mots de la liste des mots entres s'ils ne sont pas indexes
