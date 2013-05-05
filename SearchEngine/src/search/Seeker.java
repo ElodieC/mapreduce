@@ -126,8 +126,12 @@ public class Seeker {
 	private StringBuilder getLinesText(String word){
 		StringBuilder lineText=new StringBuilder();
 		Map<String,List<Long>> result  =this.getResult(word);
-		for(Entry<String,List<Long>> occurence : result.entrySet()){
-			this.fichierALire = new FileRead(occurence.getKey(), occurence.getValue(), word);
+		
+		SortFiles sortFiles = new SortFiles(result);
+		String[] sortedFileName = sortFiles.getSortedFileNames();
+		
+		for (String nomFichier:sortedFileName){
+			this.fichierALire = new FileRead(nomFichier, result.get(nomFichier), word);
 			Long startTime = new Date().getTime();
 			lineText.append(this.fichierALire.getLinesText());
 			Long endTime = new Date().getTime();

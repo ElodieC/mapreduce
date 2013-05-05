@@ -1,0 +1,15 @@
+Chemin du fichier d'index :
+/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output
+Mot entrée : 
+apprendre
+Lecture de l'index reussie
+Analyse de l'index commencee
+Analyse de l'index terminee
+Mot apprendre trouvé
+Fichier : hugo_claude_gueux--utf8.txt / Lignes : [522] / Mot cherché : apprendre
+Chemin des fichiers splité : /media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/
+/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/hugo_claude_gueux--utf8.txt-005
+Offset de apprendre : 109
+temps : 5 ms
+Sortie : 
+<html>Mot apprendre trouvé<br>Fichier : hugo_claude_gueux--utf8.txt<br>Ligne 522: <br><br>Une heure après, il aborda un jeune condamné de seize ans qui bâillait dans le promenoir, et lui conseilla d’<strong>apprendre</strong> à lire. En ce moment, le détenu Faillette accosta Claude, et lui demanda ce que diable il cachait là dans son pantalon. Claude dit :<br><br><br><br></html></html>

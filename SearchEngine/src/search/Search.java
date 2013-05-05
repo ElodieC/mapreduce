@@ -1,11 +1,10 @@
 package search;
 
-import index.*;
+import index.IndexBuilder;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.StringTokenizer;
 
 public class Search {
 	//Cette classe lance des seekers qui vont chacun chercher un mot dans le fichier texte et en font le bilan
@@ -39,16 +38,8 @@ public class Search {
 		}
 	}*/
 	
-	public void evaluate()
-	{
-		StringTokenizer st = new StringTokenizer(expression, " ");
-	    while (st.hasMoreTokens()) {
-	        
-	    }
-	}
 	
 	public void seek(String word){
-		//test
 		seeker.seek(word);
 	}
 
@@ -56,26 +47,31 @@ public class Search {
 		return toSeek;
 	}
 
+
 	public void setToSeek(List<String> toSeek) {
-		supprNonIndexe(toSeek);
-		Relevance sort = new Relevance(toSeek);
-		this.toSeek = sort.getMotsSorted();;
+		System.out.println(toSeek);
+		RelevanceWord sort = new RelevanceWord(supprNonIndexe(toSeek));
+		this.toSeek = sort.getMotsSorted();
+		System.out.println(this.toSeek);
 	}
 	/**
 	 * Supprime les mots de la liste des mots entres s'ils ne sont pas indexes
 	 * @param motsEntres
+	 * @return la liste des mots entres sans les mots non indexes
 	 */
-	private void supprNonIndexe(List<String> motsEntres){
+	private List<String> supprNonIndexe(List<String> motsEntres){
+		List<String> supprNonIndexe = new ArrayList <String>(); 
 		List<String> nonIndexe = new ArrayList<String>();
 		String[] tab = {"et", "ou", "où", "de", "des", "d", "le", "les","l","la","je","il","au","aux","du","un",
-				"une","a","à","or","ni","que","si","y","m","mon","ma","mes","me","ne",
-				"nous","on","sa","ses","se","qui","s","t","ta","tes","te","il","là","qu","sans","sur"};
+				"une","a","à ","or","ni","que","si","y","m","mon","ma","mes","me","ne",
+				"nous","on","sa","ses","se","qui","s","t","ta","tes","te","il","là ","qu","sans","sur"};
 		nonIndexe=Arrays.asList(tab);
 		for (String mot : motsEntres){
-			if (nonIndexe.contains(mot)){
-				motsEntres.remove(mot);
+			if (!nonIndexe.contains(mot)){
+				supprNonIndexe.add(mot);
 			}
 		}
+		return supprNonIndexe;
 	}
 	
 	public void toDo(){

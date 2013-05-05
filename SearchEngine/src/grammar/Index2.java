@@ -12,10 +12,10 @@ import search.Search;
 public class Index2 {
 	private static Scanner scanFile;
 	private static Scanner scanLine;
-	public static IndexBuilder builder;
+	public static IndexBuilder builder=null;
 	public static Search recherche;
-	
-	
+
+
 	public static void scanFile(InputStream intput){
 		System.out.println("Analyse du fichier commencee");
 		scanFile = new Scanner(intput);
@@ -25,18 +25,18 @@ public class Index2 {
 			builder(currentLine);
 		}
 		System.out.println("Analyse du fichier terminee");
-		recherche.toDo();
+		
 	}
-	
+
 	public static void builder (String line) {
 		String readWord;
 		String title;
 		int offset;
 		boolean first = true;
-		
+
 		scanLine = new Scanner(line);
 		scanLine.useDelimiter("\\s");// a whitespace character
-		
+
 		while (scanLine.hasNext()){
 			if (first){//if it's the first token it's the word
 				readWord = scanLine.next();
@@ -58,24 +58,29 @@ public class Index2 {
 		}
 		builder.buildSet();
 	}
-	
+
 	public static void build(String args, Search search) {
-		InputStream input;
-		try {
-			builder = new IndexBuilder();
-		} catch (IOException e) {
-			e.printStackTrace();
+		if(builder==null){
+			InputStream input;
+			try {
+				builder = new IndexBuilder();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+
+
+			try {
+				input = new FileInputStream(args+".txt");
+			} catch (java.io.FileNotFoundException e) {
+				System.out.println("Fichier introuvable.");
+				return;
+			}
+			scanFile(input);
+			System.out.println("Lecture du fichier reussie");
+			
 		}
 		recherche = search;
-	    	   
-	    try {
-	    	input = new FileInputStream(args+".txt");
-	    } catch (java.io.FileNotFoundException e) {
-	    	System.out.println("Fichier introuvable.");
-	    	return;
-	    }
-	    
-	    System.out.println("Lecture du fichier reussie");
-	    scanFile(input);
+		recherche.toDo();
+		
 	}
 }
