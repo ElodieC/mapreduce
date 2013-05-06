@@ -20,7 +20,7 @@ public class FileRead {
 	String cheminElodie = "/home/hduser/hadoopMR/inputFilesSplit/";
 	String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/";
 	String cheminMickael = "C:/Users/Olivier Catherine/workspace/hadoopMR/inputFilesSplit/";
-	private final String fileInputDir = cheminElodie;
+	private final String fileInputDir = cheminMickael;
 	/**
 	 * Pour parcourir plus vite les fichiers on a decide de les couper toutes les 100 lignes
 	 * avec un script bash

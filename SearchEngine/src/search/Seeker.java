@@ -72,6 +72,7 @@ public class Seeker {
 	 */
 	public void seekAnd(String word1, String word2){
 		boolean andWorks = false;
+		List<String> files = new ArrayList<String>();
 		if(isPresent(word1)) {
 			if(isPresent(word2)) {
 				for(String word1fic : getFichiers(word1)){
@@ -79,16 +80,18 @@ public class Seeker {
 						if(word1fic.equals(word2fic))
 						{
 							System.out.println("Mots trouvés !");
-							//message.append("Mots "+word1+", "+word2+" trouvés<br>");
 							Logger.addInLog("Mots "+word1+", "+word2+" trouvés");
-							//message.append(this.getLinesText(word1));
-							//message.append(this.getLinesText(word2));
-							info.add(new FoundInfos(word1, this.getFichiers(word1)));
-							info.add(new FoundInfos(word2, this.getFichiers(word2)));//ne fonctionne pas
-							
+							/*info.add(new FoundInfos(word1, this.getFichiers(word1)));
+							info.add(new FoundInfos(word2, this.getFichiers(word2)));//ne fonctionne pas*/
+							files.add(word1fic);
 							andWorks = true;
 						}
 					}
+				}
+				if(andWorks)
+				{
+					info.add(new FoundInfos(word1, files));
+					info.add(new FoundInfos(word2, files));
 				}
 			}
 			else {
@@ -121,6 +124,8 @@ public class Seeker {
 	 */
 	public void seekOr(String word1, String word2){
 		boolean orWorks=false;
+		List<String> filesWord1 = new ArrayList<String>();
+		List<String> filesWord2 = new ArrayList<String>();
 		if(isPresent(word1)) {
 			if(isPresent(word2)) {
 				for(String word1fic : getFichiers(word1)){
@@ -128,15 +133,19 @@ public class Seeker {
 						if(!word1fic.equals(word2fic))
 						{
 							System.out.println("Mots trouvés !");
-							//message.append("Mots "+word1+", "+word2+" trouvés<br>");
 							Logger.addInLog("Mots "+word1+", "+word2+" trouvés");
-							//message.append(this.getLinesText(word1));
-							//message.append(this.getLinesText(word2));
-							info.add(new FoundInfos(word1, this.getFichiers(word1)));
-							info.add(new FoundInfos(word2, this.getFichiers(word2)));//pareil que seekAnd
+							/*info.add(new FoundInfos(word1, this.getFichiers(word1)));
+							info.add(new FoundInfos(word2, this.getFichiers(word2)));//pareil que seekAnd*/
+							filesWord1.add(word1fic);
+							filesWord2.add(word2fic);
 							orWorks=true;
 						}
 					}
+				}
+				if(orWorks)
+				{
+					info.add(new FoundInfos(word1, filesWord1));
+					info.add(new FoundInfos(word2, filesWord2));
 				}
 			}
 			else {

@@ -45,8 +45,8 @@ public class Fenetre extends JApplet {
 		String cheminElodie = "/home/hduser/hadoopMR/outputFiles/output";
 		String cheminMickael = "C:/Users/Olivier Catherine/workspace/hadoopMR/outputFiles/output";
 		//whereSearch=chemindeClarisse;
-		whereSearch=cheminElodie;
-		//whereSearch=cheminMickael;
+		//whereSearch=cheminElodie;
+		whereSearch=cheminMickael;
 		
 		Logger.createLogger();
 		Logger.addInLog("Chemin du fichier d'index :");

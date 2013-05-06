@@ -59,7 +59,7 @@ public class Search {
 		List<String> supprNonIndexe = new ArrayList <String>(); 
 		List<String> nonIndexe = new ArrayList<String>();
 		String[] tab = {"et", "ou", "où", "de", "des", "d", "le", "les","l","la","je","il","au","aux","du","un",
-				"une","a","à ","or","ni","que","si","y","m","mon","ma","mes","me","ne",
+				"une","a","à ","ni","que","si","y","m","mon","ma","mes","me","ne",
 				"nous","on","sa","ses","se","qui","s","t","ta","tes","te","il","là ","qu","sans","sur"};
 		nonIndexe=Arrays.asList(tab);
 		for (String mot : motsEntres){
@@ -81,6 +81,8 @@ public class Search {
 		this.setToSeek(motsAChercher);
 
 		for(int i =0; i<this.toSeek.size(); i++){
+			System.out.println(toSeek.get(i));
+			
 			if(this.toSeek.get(i).equals("AND")){//desolee pour le switch je n'ai pas java 7
 				if(i+2<this.toSeek.size()){
 					this.seeker.seekAnd(this.toSeek.get(i+1).toLowerCase(), this.toSeek.get(i+2).toLowerCase());
@@ -90,6 +92,7 @@ public class Search {
 					this.seeker.predicatInvalid("AND");
 				
 			}
+			
 			else if(this.toSeek.get(i).equals("OR")){
 				if(i+2<this.toSeek.size()){
 					this.seeker.seekOr(this.toSeek.get(i+1).toLowerCase(), this.toSeek.get(i+2).toLowerCase());
@@ -99,6 +102,7 @@ public class Search {
 					this.seeker.predicatInvalid("OR");
 				
 			}
+			
 			else if(this.toSeek.get(i).equals("NOT")){
 				if(i+1<this.toSeek.size()){
 					this.seeker.seekNot(this.toSeek.get(i+1).toLowerCase());

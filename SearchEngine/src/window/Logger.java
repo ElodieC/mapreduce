@@ -25,8 +25,8 @@ public class Logger {
 		String pathElodie = "/home/hduser/hadoopMR/";
 		String pathMickael = "C:/Users/Olivier Catherine/workspace/hadoopMR";
 		//pathLog = pathClarisse;
-		pathLog=pathElodie;
-		//pathLog=pathMickael;
+		//pathLog=pathElodie;
+		pathLog=pathMickael;
 		logFileName = "ProgramLog.txt";
 		try {
 			bLog = new BufferedWriter(new FileWriter(pathLog+""+logFileName));
