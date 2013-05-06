@@ -10,4 +10,8 @@ public class FoundInfos {
 		this.mot = mot;
 		this.fichiers=fichiers;
 	}
+	
+	public String toString(){
+		return mot+" : "+fichiers;
+	}
 }

@@ -17,6 +17,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 import javax.swing.JTextPane;
 
+import path.Paths;
 import search.Search;
 
 /**
@@ -41,12 +42,7 @@ public class Fenetre extends JApplet {
 	 * 
 	 */
 	public void init() {
-		String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output";
-		String cheminElodie = "/home/hduser/hadoopMR/outputFiles/output";
-		String cheminMickael = "C:/Users/Olivier Catherine/workspace/hadoopMR/outputFiles/output";
-		//whereSearch=chemindeClarisse;
-		//whereSearch=cheminElodie;
-		whereSearch=cheminMickael;
+		whereSearch=Paths.outputIndexLocation;
 		
 		Logger.createLogger();
 		Logger.addInLog("Chemin du fichier d'index :");

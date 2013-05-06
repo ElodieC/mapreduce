@@ -6,6 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
+import path.Paths;
+
 import window.Logger;
 
 /**
@@ -17,10 +19,7 @@ public class FileRead {
 	/**
 	 * Repertoire ou se trouvent les fichiers splittes
 	 */
-	String cheminElodie = "/home/hduser/hadoopMR/inputFilesSplit/";
-	String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/";
-	String cheminMickael = "C:/Users/Olivier Catherine/workspace/hadoopMR/inputFilesSplit/";
-	private final String fileInputDir = cheminMickael;
+	private final String fileInputDir = Paths.inputFilesSplitDir;
 	/**
 	 * Pour parcourir plus vite les fichiers on a decide de les couper toutes les 100 lignes
 	 * avec un script bash
@@ -46,7 +45,7 @@ public class FileRead {
 	 */
 	public FileRead(String file, List<Long> lines, String word){
 		this.fileName = file;
-		this.lines = lines;
+		this.lines = new SortLineNumbers(lines).getLinesSorted();
 		this.wordToSearch = word;
 		System.out.println("Fichier : "+file+" / Lignes : "+lines+" / Mot cherché : "+word);
 		Logger.addInLog("Fichier : "+file+" / Lignes : "+lines+" / Mot cherché : "+word);

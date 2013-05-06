@@ -3,6 +3,8 @@ package window;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+
+import path.Paths;
 /**
  * Classe qui Met en place le log de ce que souhaite le programmer
  * @author Renou Clarisse
@@ -20,13 +22,8 @@ public class Logger {
 	 * @exception IOException en cas de probleme de création du fichier de log
 	 */
 	public static void createLogger (){
-		String pathClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/" +
-				"mapreduce/SearchEngine/src/window/";
-		String pathElodie = "/home/hduser/hadoopMR/";
-		String pathMickael = "C:/Users/Olivier Catherine/workspace/hadoopMR";
-		//pathLog = pathClarisse;
-		//pathLog=pathElodie;
-		pathLog=pathMickael;
+		
+		pathLog=Paths.logFilePath;
 		logFileName = "ProgramLog.txt";
 		try {
 			bLog = new BufferedWriter(new FileWriter(pathLog+""+logFileName));

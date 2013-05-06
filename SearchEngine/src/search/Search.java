@@ -83,7 +83,7 @@ public class Search {
 		for(int i =0; i<this.toSeek.size(); i++){
 			System.out.println(toSeek.get(i));
 			
-			if(this.toSeek.get(i).equals("AND")){//desolee pour le switch je n'ai pas java 7
+			if(this.toSeek.get(i).equals("AND")){
 				if(i+2<this.toSeek.size()){
 					this.seeker.seekAnd(this.toSeek.get(i+1).toLowerCase(), this.toSeek.get(i+2).toLowerCase());
 					i=i+2;

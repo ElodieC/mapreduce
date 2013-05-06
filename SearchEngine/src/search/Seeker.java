@@ -81,8 +81,6 @@ public class Seeker {
 						{
 							System.out.println("Mots trouvés !");
 							Logger.addInLog("Mots "+word1+", "+word2+" trouvés");
-							/*info.add(new FoundInfos(word1, this.getFichiers(word1)));
-							info.add(new FoundInfos(word2, this.getFichiers(word2)));//ne fonctionne pas*/
 							files.add(word1fic);
 							andWorks = true;
 						}
@@ -134,8 +132,6 @@ public class Seeker {
 						{
 							System.out.println("Mots trouvés !");
 							Logger.addInLog("Mots "+word1+", "+word2+" trouvés");
-							/*info.add(new FoundInfos(word1, this.getFichiers(word1)));
-							info.add(new FoundInfos(word2, this.getFichiers(word2)));//pareil que seekAnd*/
 							filesWord1.add(word1fic);
 							filesWord2.add(word2fic);
 							orWorks=true;
