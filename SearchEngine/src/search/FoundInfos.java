@@ -7,7 +7,6 @@ public class FoundInfos {
 	public List<String> fichiers;
 	
 	public FoundInfos(String mot, List<String> fichiers) {
-		super();
 		this.mot = mot;
 		this.fichiers=fichiers;
 	}

@@ -84,7 +84,8 @@ public class Seeker {
 							//message.append(this.getLinesText(word1));
 							//message.append(this.getLinesText(word2));
 							info.add(new FoundInfos(word1, this.getFichiers(word1)));
-							info.add(new FoundInfos(word2, this.getFichiers(word2)));
+							info.add(new FoundInfos(word2, this.getFichiers(word2)));//ne fonctionne pas
+							
 							andWorks = true;
 						}
 					}
@@ -102,12 +103,12 @@ public class Seeker {
 			message.append("Mot "+word1+" non trouvÃ©<br>");
 		}
 		
-		if(andWorks==false){
-			this.message.append("Mots "+word1+" et "+word2+" non trouvés dans le même fichier");
-		}
-		else{
-			this.message.append("Mots "+word1+" et "+word2+" trouvés dans le même fichier");
-		}
+		if(!andWorks)
+			this.message.append("Mots "+word1+" et "+word2+" non trouvÃ©s dans le mÃªme fichier");
+		
+		else
+			this.message.append("Mots "+word1+" et "+word2+" trouvÃ©s dans le mÃªme fichier");
+		
 		this.message.append("<br>");
 	}
 	
@@ -132,7 +133,7 @@ public class Seeker {
 							//message.append(this.getLinesText(word1));
 							//message.append(this.getLinesText(word2));
 							info.add(new FoundInfos(word1, this.getFichiers(word1)));
-							info.add(new FoundInfos(word2, this.getFichiers(word2)));
+							info.add(new FoundInfos(word2, this.getFichiers(word2)));//pareil que seekAnd
 							orWorks=true;
 						}
 					}
@@ -149,18 +150,18 @@ public class Seeker {
 			System.out.println("Mot non trouvÃ©");
 			message.append("Mot "+word1+" non trouvÃ©<br>");
 		}
-		if(orWorks==false){
-			this.message.append("Mots "+word1+" et "+word2+" non trouvés dans un fichier différent");
+		if(!orWorks){
+			this.message.append("Mots "+word1+" et "+word2+" non trouvÃ©s dans un fichier diffÃ©rent");
 		}
 		else{
-			this.message.append("Mots "+word1+" et "+word2+" trouvés dans un fichier différent");
+			this.message.append("Mots "+word1+" et "+word2+" trouvÃ©s dans un fichier diffÃ©rent");
 		}
 		this.message.append("<br>");
 	}
 	
 	/**
 	 * VÃ©rifie si le mot est prÃ©sent dans un des fichiers txt
-	 * si oui il elimine son contexte du message de retour si présent
+	 * si oui il elimine son contexte du message de retour si prÃ©sent
 	 * @param word seeked
 	 * @see #getLinesText(String)
 	 * @see #isPresent(String)
@@ -194,33 +195,29 @@ public class Seeker {
 	}
 
 	/**
-	 * Permet de donner des informations sur le formalisme du predicat utilisé en cas d'echec
+	 * Permet de donner des informations sur le formalisme du predicat utilisÃ© en cas d'echec
 	 * @param pred
 	 */
 	public void predicatInvalid(String pred){
-		System.out.println("Prédicat "+pred+" invalide !");
-		message.append("Prédicat "+pred+" invalide !");
+		System.out.println("PrÃ©dicat "+pred+" invalide !");
+		message.append("PrÃ©dicat "+pred+" invalide !");
 		this.message.append("<br>");
-		switch(pred)
-		{
-			case "AND":
-				message.append("Le formalisme est : AND mot1 mot2");
-				this.message.append("<br>");
-				this.message.append("<br>");
-			break;
-			case "OR":
+		if (pred.equals("AND")){
+			message.append("Le formalisme est : AND mot1 mot2");
+			this.message.append("<br>");
+			this.message.append("<br>");
+		}
+		else if (pred.equals("OR")){
 				message.append("Le formalisme est : OR mot1 mot2");
 				this.message.append("<br>");
 				this.message.append("<br>");
-			break;
-			case "NOT":
-				message.append("Le formalisme est : NOT mot");
-				this.message.append("<br>");
-				this.message.append("<br>");
-			break;
-			default:
 		}
-		Logger.addInLog("Prédicat "+pred+" invalide !");
+		else if (pred.equals("NOT")){
+			message.append("Le formalisme est : NOT mot");
+			this.message.append("<br>");
+			this.message.append("<br>");
+		}
+		Logger.addInLog("PrÃ©dicat "+pred+" invalide !");
 	}
 
 	/**
@@ -265,7 +262,7 @@ public class Seeker {
 	/**
 	 * Donne les numeros de ligne du mot passe en parametre
 	 * @param word
-	 * @return Une liste des numeros de lignes où l'on trouve le mot
+	 * @return Une liste des numeros de lignes oÃ¹ l'on trouve le mot
 	 */
 	public List<Long> getLines(String word){
 		ArrayList<Long> lines = new ArrayList<Long>();
@@ -281,7 +278,7 @@ public class Seeker {
 	/**
 	 * Rend une liste de fichiers qui est celle associee au mappage d'un mot
 	 * @param word
-	 * @return les fichiers dans lequel le mot est présent
+	 * @return les fichiers dans lequel le mot est prÃ©sent
 	 */
 	public List<String> getFichiers(String word){
 		ArrayList<String> files = new ArrayList<String>();

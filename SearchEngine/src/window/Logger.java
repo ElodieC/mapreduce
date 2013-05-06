@@ -20,13 +20,13 @@ public class Logger {
 	 * @exception IOException en cas de probleme de création du fichier de log
 	 */
 	public static void createLogger (){
-		/*String pathClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/" +
+		String pathClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/" +
 				"mapreduce/SearchEngine/src/window/";
-		String pathElodie = "/home/hduser/hadoopMR/";*/
+		String pathElodie = "/home/hduser/hadoopMR/";
 		String pathMickael = "C:/Users/Olivier Catherine/workspace/hadoopMR";
 		//pathLog = pathClarisse;
-		//pathLog=pathElodie;
-		pathLog=pathMickael;
+		pathLog=pathElodie;
+		//pathLog=pathMickael;
 		logFileName = "ProgramLog.txt";
 		try {
 			bLog = new BufferedWriter(new FileWriter(pathLog+""+logFileName));
