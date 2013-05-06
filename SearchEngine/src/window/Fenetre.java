@@ -41,10 +41,12 @@ public class Fenetre extends JApplet {
 	 * 
 	 */
 	public void init() {
-		String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output";
-		String cheminElodie = "/home/hduser/hadoopMR/outputFiles/output";
+		//String chemindeClarisse = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output";
+		//String cheminElodie = "/home/hduser/hadoopMR/outputFiles/output";
+		String cheminMickael = "C:/Users/Olivier Catherine/workspace/hadoopMR/outputFiles/output";
 		//whereSearch=chemindeClarisse;
-		whereSearch=cheminElodie;
+		//whereSearch=cheminElodie;
+		whereSearch=cheminMickael;
 		
 		Logger.createLogger();
 		Logger.addInLog("Chemin du fichier d'index :");
@@ -85,7 +87,7 @@ public class Fenetre extends JApplet {
 			public void actionPerformed(ActionEvent e) {
 				Logger.addInLog("Mot entré : ");
 				Logger.addInLog(entree.getText());
-				toEvaluate = new Search(entree.getText().toLowerCase());
+				toEvaluate = new Search(entree.getText()); //.toLowerCase()
 				Index2.build(whereSearch, toEvaluate);
 				
 				resultat.setText(toEvaluate.seeker.getMessage().toString());

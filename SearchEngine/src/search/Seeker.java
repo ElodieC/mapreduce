@@ -24,10 +24,20 @@ public class Seeker {
 	private StringBuilder message;
 
 	private FileRead fichierALire;
+	
+	private List<FoundInfos> info;
+	
+	private List<FoundInfos> intox;
 
 	public Seeker() {
 		super();
-		this.message = new StringBuilder("<html>");		
+		this.message = new StringBuilder("<html>");	
+		this.info = new ArrayList<FoundInfos>();
+		this.intox = new ArrayList<FoundInfos>();
+	}
+	
+	public void addMessage(Object obj) {
+		message.append(obj);
 	}
 
 	/**
@@ -40,16 +50,177 @@ public class Seeker {
 	public void seek(String word){
 		if(isPresent(word)) {
 			System.out.println("Mot trouvé !");
-			message.append("Mot "+word+" trouvé<br>");
+			//message.append("Mot "+word+" trouvé<br>");
 			Logger.addInLog("Mot "+word+" trouvé");
-			message.append(this.getLinesText(word));
+			info.add(new FoundInfos(word, this.getFichiers(word)));
+			//message.append(this.getLinesText(word));
 		}
 		else {
 			Logger.addInLog("Mot "+word+" non trouvé");
 			System.out.println("Mot non trouvé");
 			message.append("Mot "+word+" non trouvé<br>");
+			this.message.append("<br>");
+		}
+	}
+	
+	/**
+	 * Vérifie si les deux mot sont présents dans un des fichiers txt
+	 * si oui il reccupere son contexte
+	 * @param word seeked
+	 * @see #getLinesText(String)
+	 * @see #isPresent(String)
+	 */
+	public void seekAnd(String word1, String word2){
+		boolean andWorks = false;
+		if(isPresent(word1)) {
+			if(isPresent(word2)) {
+				for(String word1fic : getFichiers(word1)){
+					for(String word2fic : getFichiers(word2)){
+						if(word1fic.equals(word2fic))
+						{
+							System.out.println("Mots trouvés !");
+							//message.append("Mots "+word1+", "+word2+" trouvés<br>");
+							Logger.addInLog("Mots "+word1+", "+word2+" trouvés");
+							//message.append(this.getLinesText(word1));
+							//message.append(this.getLinesText(word2));
+							info.add(new FoundInfos(word1, this.getFichiers(word1)));
+							info.add(new FoundInfos(word2, this.getFichiers(word2)));
+							andWorks = true;
+						}
+					}
+				}
+			}
+			else {
+				Logger.addInLog("Mot "+word2+" non trouvé");
+				System.out.println("Mot non trouvé");
+				message.append("Mot "+word2+" non trouvé<br>");
+			}
+		}
+		else {
+			Logger.addInLog("Mot "+word1+" non trouvé");
+			System.out.println("Mot non trouvé");
+			message.append("Mot "+word1+" non trouvé<br>");
+		}
+		
+		if(andWorks==false){
+			this.message.append("Mots "+word1+" et "+word2+" non trouv�s dans le m�me fichier");
+		}
+		else{
+			this.message.append("Mots "+word1+" et "+word2+" trouv�s dans le m�me fichier");
 		}
 		this.message.append("<br>");
+	}
+	
+	/**
+	 * Vérifie si les deux mot sont présents dans un des fichiers txt
+	 * si oui il reccupere son contexte
+	 * @param word seeked
+	 * @see #getLinesText(String)
+	 * @see #isPresent(String)
+	 */
+	public void seekOr(String word1, String word2){
+		boolean orWorks=false;
+		if(isPresent(word1)) {
+			if(isPresent(word2)) {
+				for(String word1fic : getFichiers(word1)){
+					for(String word2fic : getFichiers(word2)){
+						if(!word1fic.equals(word2fic))
+						{
+							System.out.println("Mots trouvés !");
+							//message.append("Mots "+word1+", "+word2+" trouvés<br>");
+							Logger.addInLog("Mots "+word1+", "+word2+" trouvés");
+							//message.append(this.getLinesText(word1));
+							//message.append(this.getLinesText(word2));
+							info.add(new FoundInfos(word1, this.getFichiers(word1)));
+							info.add(new FoundInfos(word2, this.getFichiers(word2)));
+							orWorks=true;
+						}
+					}
+				}
+			}
+			else {
+				Logger.addInLog("Mot "+word2+" non trouvé");
+				System.out.println("Mot non trouvé");
+				message.append("Mot "+word2+" non trouvé<br>");
+			}
+		}
+		else {
+			Logger.addInLog("Mot "+word1+" non trouvé");
+			System.out.println("Mot non trouvé");
+			message.append("Mot "+word1+" non trouvé<br>");
+		}
+		if(orWorks==false){
+			this.message.append("Mots "+word1+" et "+word2+" non trouv�s dans un fichier diff�rent");
+		}
+		else{
+			this.message.append("Mots "+word1+" et "+word2+" trouv�s dans un fichier diff�rent");
+		}
+		this.message.append("<br>");
+	}
+	
+	/**
+	 * Vérifie si le mot est présent dans un des fichiers txt
+	 * si oui il elimine son contexte du message de retour si pr�sent
+	 * @param word seeked
+	 * @see #getLinesText(String)
+	 * @see #isPresent(String)
+	 */
+	public void seekNot(String word){
+		if(isPresent(word)) {
+			System.out.println("Mot trouvé !");
+			//message.append("Mot "+word+" trouvé<br>");
+			Logger.addInLog("Mot "+word+" trouvé");
+			intox.add(new FoundInfos(word, this.getFichiers(word)));
+			//message.append(this.getLinesText(word));
+		}
+		else {
+			Logger.addInLog("Mot "+word+" non trouvé");
+			System.out.println("Mot non trouvé");
+			message.append("Mot "+word+" non trouvé<br>");
+			this.message.append("<br>");
+		}
+	}
+	
+	public List<FoundInfos> getInfo() {
+		return info;
+	}
+
+	public void setInfo(List<FoundInfos> info) {
+		this.info = info;
+	}
+
+	public List<FoundInfos> getIntox() {
+		return intox;
+	}
+
+	/**
+	 * Permet de donner des informations sur le formalisme du predicat utilis� en cas d'echec
+	 * @param pred
+	 */
+	public void predicatInvalid(String pred){
+		System.out.println("Pr�dicat "+pred+" invalide !");
+		message.append("Pr�dicat "+pred+" invalide !");
+		this.message.append("<br>");
+		switch(pred)
+		{
+			case "AND":
+				message.append("Le formalisme est : AND mot1 mot2");
+				this.message.append("<br>");
+				this.message.append("<br>");
+			break;
+			case "OR":
+				message.append("Le formalisme est : OR mot1 mot2");
+				this.message.append("<br>");
+				this.message.append("<br>");
+			break;
+			case "NOT":
+				message.append("Le formalisme est : NOT mot");
+				this.message.append("<br>");
+				this.message.append("<br>");
+			break;
+			default:
+		}
+		Logger.addInLog("Pr�dicat "+pred+" invalide !");
 	}
 
 	/**
@@ -74,6 +245,7 @@ public class Seeker {
 		}
 		return false;
 	}
+	
 	/**
 	 * Obtient l'occurence du mot dans les fichiers donnes
 	 * @param word seeked
@@ -90,6 +262,11 @@ public class Seeker {
 		return num;
 	}
 
+	/**
+	 * Donne les numeros de ligne du mot passe en parametre
+	 * @param word
+	 * @return Une liste des numeros de lignes o� l'on trouve le mot
+	 */
 	public List<Long> getLines(String word){
 		ArrayList<Long> lines = new ArrayList<Long>();
 		for(int i=1 ; i<= IndexBuilder.getIndex().size(); i++){
@@ -101,6 +278,11 @@ public class Seeker {
 		return lines;
 	}
 
+	/**
+	 * Rend une liste de fichiers qui est celle associee au mappage d'un mot
+	 * @param word
+	 * @return les fichiers dans lequel le mot est pr�sent
+	 */
 	public List<String> getFichiers(String word){
 		ArrayList<String> files = new ArrayList<String>();
 		for(int i=1 ; i<= IndexBuilder.getIndex().size(); i++){
@@ -111,7 +293,12 @@ public class Seeker {
 		}
 		return files;
 	}
-
+	
+	/**
+	 * Rend le nombre d'occurences totales d'un mot dans l'index
+	 * @param word
+	 * @return le nombre d'occurences d'un mot dans tous les fichiers
+	 */
 	public int getNbOccurences(String word){
 		int nbOccurences = 0;
 		Map<String,List<Long>> ocurrencesPerFile = getResult(word);
@@ -120,6 +307,7 @@ public class Seeker {
 		}
 		return nbOccurences;
 	}
+	
 	/**
 	 * Rend les numeros de lignes pour un mot
 	 * c'est a dire une Map dans laquelle on a pour cle le fichier dans lequel 
@@ -137,17 +325,19 @@ public class Seeker {
 		}
 		return result;
 	}
+	
+	
 	/**
 	 * Rend le texte des lignes pour un mot dans les fichiers dans lequel il se trouve
 	 * @param word
 	 * @return le texte
 	 */
-	private StringBuilder getLinesText(String word){
+	public StringBuilder getLinesText(String word, List<String> sortedFileName){
 		StringBuilder lineText=new StringBuilder();
 		Map<String,List<Long>> result  =this.getResult(word);
 
-		SortFiles sortFiles = new SortFiles(result);
-		String[] sortedFileName = sortFiles.getSortedFileNames();
+		//SortFiles sortFiles = new SortFiles(result);
+		//String[] sortedFileName = sortFiles.getSortedFileNames();
 
 		for (String nomFichier:sortedFileName){
 			this.fichierALire = new FileRead(nomFichier, result.get(nomFichier), word);

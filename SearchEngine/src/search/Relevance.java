@@ -4,7 +4,8 @@ import java.util.List;
 
 public class Relevance {
 
-	private Seeker seeker;
+	//private Seeker seeker;
+	
 	/**
 	 * Mots entres dans le moteur de recherche
 	 */
