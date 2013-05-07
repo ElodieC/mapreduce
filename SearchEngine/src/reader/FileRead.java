@@ -11,37 +11,39 @@ import path.Paths;
 import window.Logger;
 
 /**
- * Classe qui recupere les lignes du fichier pour un mot donne
- * @author Corbel Elodie
+ * Classe qui récupère les lignes du fichier pour un mot donné
+ * @author Corbel Elodie, Renou Clarisse
  *
  */
 public class FileRead {
 	/**
-	 * Repertoire ou se trouvent les fichiers splittes
+	 * fileInputdir String Repertoire où se trouvent les fichiers découpés
 	 */
 	private final String fileInputDir = Paths.inputFilesSplitDir;
 	/**
-	 * Pour parcourir plus vite les fichiers on a decide de les couper toutes les 100 lignes
+	 * Pour parcourir plus vite les fichiers on a décidé de les couper toutes les 100 lignes
 	 * avec un script bash
-	 * Nbre de lignes par fichier
+	 * nbLinesPerFile int Nbre de lignes par fichier
 	 */
 	private final int nbLinesPerFile = 100;
 	/**
-	 * Nom du fichier a lire
+	 * fileName String Nom du fichier a lire
 	 */
 	private String fileName;
 	/**
-	 * Lignes a afficher
+	 * lines List<Long> Lignes a afficher
 	 */
 	private List<Long> lines;
-
+	/**
+	 * wordToSearch String le mot que l'on cherche
+	 */
 	private String wordToSearch;
 
 	/**
-	 * Reccupere la liste des lignes et le nom du fichier pour le mot recherche
-	 * @param file Fichier txt ou sont fait les recherches
-	 * @param lines Liste des lignes ou sont trouves les mots
-	 * @param word Mot recherche
+	 * Récupère la liste des lignes et le nom du fichier pour le mot recherché
+	 * @param file String nom du fichier où sont faites les recherches
+	 * @param lines List<Long> Liste des lignes où les mots sont trouvés
+	 * @param word String Mot recherché
 	 */
 	public FileRead(String file, List<Long> lines, String word){
 		this.fileName = file;
@@ -51,8 +53,8 @@ public class FileRead {
 		Logger.addInLog("Fichier : "+file+" / Lignes : "+lines+" / Mot cherché : "+word);
 	}
 	/**
-	 * Trouve les lignes qui entoure le mot une fois trouve.
-	 * @return the context of the lines where is the word in the file
+	 * Trouve les lignes qui entourent le mot une fois trouvé.
+	 * @return le contexte des lignes où se trouve le mot dans le fichier
 	 * @see #getContextLine(Long)
 	 */
 	public StringBuilder getLinesText(){
@@ -64,9 +66,9 @@ public class FileRead {
 		return lines;
 	}
 	/**
-	 * on décide de prendre 3 lignes autours du Mot recherché
+	 * On décide de prendre 3 lignes autours du Mot recherché
 	 * @param Numéro de ligne Long, numéro de la ligne qui contient le mot
-	 * @return the context for the given line = 3 lignes autours
+	 * @return le contexte pour la ligne donnée = 3 lignes autours
 	 * @exception Attrape l'exception si les fichiers splites n'ont pas ete trouves ou
 	 * s'il sont mal decoupes
 	 */
@@ -135,9 +137,9 @@ public class FileRead {
 	}
 
 	/**
-	 * Reccupere le chemin ou sont stokes les fichiers splites
-	 * @param line number La ligne qui contient le mot
-	 * @return the path of the file part where is the word
+	 * Récupère le chemin où sont stockés les fichiers découpés
+	 * @param line Long ligne qui contient le mot
+	 * @return String le chemin du fichier découpé
 	 * @see #fileInputDir
 	 */
 	private String getFilePart(Long line){
@@ -160,9 +162,9 @@ public class FileRead {
 		return fileNamePart.toString();
 	}
 	/**
-	 * Met en forme le resultat avant l'affichage : Mise en avant (gras) du mot recherché
-	 * @param line text where is the word
-	 * @return the line text with the word that is seeked in strong
+	 * Met en forme le résultat avant l'affichage : Mise en avant (gras) du mot recherché
+	 * @param line String texte de la ligne où se trouve le mot
+	 * @return le texte de la ligne où se trouve le mot avec le mot en gras
 	 */
 	private String formatStringStrong(String line){
 		String result="";

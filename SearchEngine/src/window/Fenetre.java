@@ -86,9 +86,9 @@ public class Fenetre extends JApplet {
 				toEvaluate = new Search(entree.getText()); //.toLowerCase()
 				Index2.build(whereSearch, toEvaluate);
 				
-				resultat.setText(toEvaluate.seeker.getMessage().toString());
+				resultat.setText(toEvaluate.getSeeker().getMessage().toString());
 				Logger.addInLog("Sortie : ");
-				Logger.addInLog(toEvaluate.seeker.getMessage().toString());
+				Logger.addInLog(toEvaluate.getSeeker().getMessage().toString());
 			}
 		});
 	}

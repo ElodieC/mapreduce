@@ -13,24 +13,25 @@ import java.util.Map.Entry;
 import reader.FileRead;
 import window.Logger;
 /**
- * Recherche dans la hashmap pour un mot donne
+ * Recherche dans la hashmap pour un mot donné
  * @author Olivier Mickaël
  *
  */
 public class Seeker {
 	/**
-	 * Resultat rendu a la fin a afficher ensuite
+	 * message StringBuilder Resultat rendu a la fin a afficher ensuite
 	 */
 	private StringBuilder message;
-
-	private FileRead fichierALire;
-	
+	/**
+	 * info List<FoundInfos> liste des informations sur la recherche
+	 */
 	private List<FoundInfos> info;
-	
+	/**
+	 * intox List<FoundInfos> liste des fichiers à ignorer (prédicat NOT)
+	 */
 	private List<FoundInfos> intox;
 
 	public Seeker() {
-		super();
 		this.message = new StringBuilder("<html>");	
 		this.info = new ArrayList<FoundInfos>();
 		this.intox = new ArrayList<FoundInfos>();
@@ -42,7 +43,7 @@ public class Seeker {
 
 	/**
 	 * Vérifie si le mot est présent dans un des fichiers txt
-	 * si oui il reccupere son contexte
+	 * si oui il récupère son contexte
 	 * @param word seeked
 	 * @see #getLinesText(String)
 	 * @see #isPresent(String)
@@ -64,9 +65,10 @@ public class Seeker {
 	}
 	
 	/**
-	 * Vérifie si les deux mot sont présents dans un des fichiers txt
-	 * si oui il reccupere son contexte
-	 * @param word seeked
+	 * Vérifie si les deux mots sont présents dans un même fichier txt
+	 * si oui il récupère son contexte
+	 * @param word1 String premier mot du prédicat AND
+	 * @param word2 String deuxième mot du prédicat AND
 	 * @see #getLinesText(String)
 	 * @see #isPresent(String)
 	 */
@@ -114,9 +116,10 @@ public class Seeker {
 	}
 	
 	/**
-	 * Vérifie si les deux mot sont présents dans un des fichiers txt
-	 * si oui il reccupere son contexte
-	 * @param word seeked
+	 * Vérifie si les deux mots sont présents dans des fichiers différents
+	 * si oui il récupère son contexte
+	 * @param word1 String premier mot du prédicat OR
+	 * @param word2 String deuxième mot du prédicat OR
 	 * @see #getLinesText(String)
 	 * @see #isPresent(String)
 	 */
@@ -167,7 +170,7 @@ public class Seeker {
 	/**
 	 * Vérifie si le mot est présent dans un des fichiers txt
 	 * si oui il elimine son contexte du message de retour si présent
-	 * @param word seeked
+	 * @param word String mot dont les fichiers dans lequel il se trouve à éliminer
 	 * @see #getLinesText(String)
 	 * @see #isPresent(String)
 	 */
@@ -186,22 +189,31 @@ public class Seeker {
 			this.message.append("<br>");
 		}
 	}
-	
+	/**
+	 * 
+	 * @return la liste des mots et des fichiers dans lequels ils se trouvent
+	 */
 	public List<FoundInfos> getInfo() {
 		return info;
 	}
-
+	/**
+	 * 
+	 * @param info List<FoundInfos> liste des mots et des fichiers dans lequels ils se trouvent
+	 */
 	public void setInfo(List<FoundInfos> info) {
 		this.info = info;
 	}
-
+	/**
+	 * 
+	 * @return la liste des mots et des fichiers à ignorer pour le résultat (prédicat NOT)
+	 */
 	public List<FoundInfos> getIntox() {
 		return intox;
 	}
 
 	/**
 	 * Permet de donner des informations sur le formalisme du predicat utilisé en cas d'echec
-	 * @param pred
+	 * @param pred String le prédicat qui est invalide
 	 */
 	public void predicatInvalid(String pred){
 		System.out.println("Prédicat "+pred+" invalide !");
@@ -234,7 +246,7 @@ public class Seeker {
 	}
 
 	/**
-	 * Verifie si le mot est présent dans la hashmap
+	 * Vérifie si le mot est présent dans la hashmap
 	 * @param word
 	 * @return true si présent false sinon
 	 */
@@ -247,38 +259,6 @@ public class Seeker {
 		}
 		return false;
 	}
-	
-	/**
-	 * Obtient l'occurence du mot dans les fichiers donnes
-	 * @param word seeked
-	 * @return Le nombre de fichiers dans lequel se trouve word
-	 */
-	public int getFilesOccurences(String word){
-		int num = 0;
-		for(int i=1 ; i<= IndexBuilder.getIndex().size(); i++){
-			if(IndexBuilder.getIndex().get(i).keySet().contains(word))
-			{
-				num++;
-			}
-		}
-		return num;
-	}
-
-	/**
-	 * Donne les numeros de ligne du mot passe en parametre
-	 * @param word
-	 * @return Une liste des numeros de lignes où l'on trouve le mot
-	 */
-	public List<Long> getLines(String word){
-		ArrayList<Long> lines = new ArrayList<Long>();
-		for(int i=1 ; i<= IndexBuilder.getIndex().size(); i++){
-			if(IndexBuilder.getIndex().get(i).keySet().contains(word))
-			{
-				lines.addAll(IndexBuilder.getIndex().get(i).get(word).getOffsets());
-			}
-		}
-		return lines;
-	}
 
 	/**
 	 * Rend une liste de fichiers qui est celle associee au mappage d'un mot
@@ -290,7 +270,7 @@ public class Seeker {
 		for(int i=1 ; i<= IndexBuilder.getIndex().size(); i++){
 			if(IndexBuilder.getIndex().get(i).keySet().contains(word))
 			{
-				files.add(IndexBuilder.getIndex().get(i).get(word).getfile());
+				files.add(IndexBuilder.getIndex().get(i).get(word).getFile());
 			}
 		}
 		return files;
@@ -322,7 +302,7 @@ public class Seeker {
 		for (int i=1; i<=IndexBuilder.getIndex().size(); i++){
 			if(IndexBuilder.getIndex().get(i).keySet().contains(word)){
 				Informations info = IndexBuilder.getIndex().get(i).get(word);
-				result.put(info.getfile(), info.getOffsets());
+				result.put(info.getFile(), info.getLines());
 			}
 		}
 		return result;
@@ -330,9 +310,9 @@ public class Seeker {
 	
 	
 	/**
-	 * Rend le texte des lignes pour un mot dans les fichiers dans lequel il se trouve
-	 * @param word
-	 * @return le texte
+	 * @param word String le mot à chercher
+	 * @param sortedFileName la liste des fichiers dans lequel se trouve le mot
+	 * @return StringBuilder texte des lignes pour un mot dans les fichiers dans lequel il se trouve
 	 */
 	public StringBuilder getLinesText(String word, List<String> sortedFileName){
 		StringBuilder lineText=new StringBuilder();
@@ -342,9 +322,9 @@ public class Seeker {
 		//String[] sortedFileName = sortFiles.getSortedFileNames();
 
 		for (String nomFichier:sortedFileName){
-			this.fichierALire = new FileRead(nomFichier, result.get(nomFichier), word);
+			FileRead fichierALire = new FileRead(nomFichier, result.get(nomFichier), word);
 			Long startTime = new Date().getTime();
-			lineText.append(this.fichierALire.getLinesText());
+			lineText.append(fichierALire.getLinesText());
 			Long endTime = new Date().getTime();
 			System.out.println("temps : "+(endTime-startTime)+" ms");
 		}

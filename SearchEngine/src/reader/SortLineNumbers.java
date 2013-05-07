@@ -1,15 +1,19 @@
 package reader;
 
 import java.util.List;
-
+/**
+ * Classe qui applique l'algorithme de tri rapide pour trier les numéros de ligne par ordre croissant
+ * @author Corbel Elodie
+ *
+ */
 public class SortLineNumbers {
 	/**
-	 * Mots entres dans le moteur de recherche
+	 * listLignes List<Long> Liste des numéros de ligne
 	 */
 	private List<Long> listLignes;
 	/**
 	 * 
-	 * @param listLignes liste des lignes a trier
+	 * @param listLignes List<Long> liste des lignes a trier
 	 */
 	public SortLineNumbers(List<Long> listLignes){
 		this.listLignes = listLignes;
@@ -51,7 +55,7 @@ public class SortLineNumbers {
 			quicksort(i, high);
 	}
 	/**
-	 * Permute 2 elements de la liste des lignes
+	 * Permute 2 éléments de la liste des lignes
 	 * @param i indice du premier element
 	 * @param j indice du second element
 	 */

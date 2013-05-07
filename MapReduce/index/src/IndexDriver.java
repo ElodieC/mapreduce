@@ -5,7 +5,11 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 
-
+/**
+ * Classe qui sert à configurer MapReduce et à lancer l'indexation
+ * @author Corbel Elodie, Renou Clarisse
+ *
+ */
 public class IndexDriver {
 
 	public static void main(String[] args) throws Exception{

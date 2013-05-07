@@ -3,6 +3,9 @@ package window;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.FieldPosition;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import path.Paths;
 /**
@@ -40,6 +43,9 @@ public class Logger {
 	 */
 	public static void addInLog(String toLog){
 		try {
+			Date now = new Date();
+			bLog.write(formatDate(now));
+			bLog.write(" : ");
 			bLog.write(toLog);
 			bLog.write("\n");
 			bLog.flush();
@@ -47,4 +53,17 @@ public class Logger {
 			e.printStackTrace();
 		}
 	}
+	
+	 /**
+	  * Met la date au format dd/MM/yyyy kk:mm:ss
+	  * @param date Date la date à formatter
+	  * @return la chaîne de caractères avec la date formattée
+	  */
+	 private static String formatDate(Date date){
+		SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy kk:mm:ss");
+		StringBuffer stringBuffer = new StringBuffer();
+		Date mDate = date;
+		StringBuffer dateString = formatter.format(mDate, stringBuffer,new FieldPosition(0));
+		return dateString.toString();
+	 }
 }

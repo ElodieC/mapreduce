@@ -76,7 +76,7 @@ public static void build(String file, Search search) throws IOException{
       jj_consume_token(TXT);
                   builder.addFile(IndexTokenManager.identLu);
       jj_consume_token(entier);
-             builder.addOffset(IndexTokenManager.entierLu);
+             builder.addLine(IndexTokenManager.entierLu);
       label_1:
       while (true) {
         switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
@@ -89,7 +89,7 @@ public static void build(String file, Search search) throws IOException{
         }
         jj_consume_token(17);
         jj_consume_token(entier);
-                  builder.addOffset(IndexTokenManager.entierLu);
+                  builder.addLine(IndexTokenManager.entierLu);
       }
     builder.buildSet();
       break;
@@ -101,7 +101,7 @@ public static void build(String file, Search search) throws IOException{
       jj_consume_token(TXT);
                   builder.addFile(IndexTokenManager.identLu);
       jj_consume_token(entier);
-             builder.addOffset(IndexTokenManager.entierLu);
+             builder.addLine(IndexTokenManager.entierLu);
       label_2:
       while (true) {
         switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
@@ -114,7 +114,7 @@ public static void build(String file, Search search) throws IOException{
         }
         jj_consume_token(17);
         jj_consume_token(entier);
-                  builder.addOffset(IndexTokenManager.entierLu);
+                  builder.addLine(IndexTokenManager.entierLu);
       }
     builder.buildSet();
       break;

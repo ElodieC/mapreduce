@@ -2,7 +2,7 @@ package search;
 
 import java.util.List;
 /**
- * Tri les mots en entree
+ * Tri les mots en entrée
  *
  */
 public class RelevanceWord {

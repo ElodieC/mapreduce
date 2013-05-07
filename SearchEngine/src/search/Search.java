@@ -1,8 +1,9 @@
 package search;
 
-import index.IndexBuilder;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 /**
  * Classe qui récupère l'expression entrée dans le moteur de recherche 
  * l'analyse, supprime les mots non référencés
@@ -12,42 +13,50 @@ import java.util.*;
  */
 public class Search {
 
-	//Liste de mots 
+	/**
+	 * toSeek List<String> liste des mots à chercher
+	 */
 	private List<String> toSeek;
-	public static IndexBuilder builder;
-	//Expression entree dans le champ recherche
-	public String expression; 
-	public Seeker seeker;
-	public List<String> result;
-	public List<Long> lineResults;
+	/**
+	 * expression String Expression entrée dans le moteur de recherche 
+	 */
+	private String expression; 
+	/**
+	 * seeker Seeker qui va récupérer les informations sur les mots
+	 */
+	private Seeker seeker;
 
 	/**
-	 * Constructeur associe a l'objet Search qui opère la recherche
-	 * @param expression entree dans le moteur de recherche
+	 * Constructeur associé a l'objet Search qui opère la recherche
+	 * @param expression entrée dans le moteur de recherche
 	 */
 	public Search(String expression) {
 		this.toSeek = new ArrayList<String>();
 		this.expression=expression;
 		this.seeker = new Seeker();
-		this.result = new ArrayList<String>();
-		lineResults = new ArrayList<Long>();
 	}
 
 	/**
-	 * Permet d'obtenir la liste de mots sur laquelle on opere la recherche depuis l'exterieur
-	 * @return la liste de mots sur laquelle operer la recherche
+	 * Permet d'obtenir la liste de mots sur laquelle on opère la recherche
+	 * @return la liste de mots sur laquelle opérer la recherche
 	 */
 	public List<String> getToSeek() {
 		return toSeek;
 	}
 
 	/**
-	 * Permet de modifier la liste de mots a chercher depuis l'exterieur
-	 * @param toSeek
+	 * Permet de modifier la liste de mots à chercher 
+	 * @param toSeek String liste des mots à chercher
 	 */
-	public void setToSeek(List<String> toSeek) {
+	private void setToSeek(List<String> toSeek) {
 		//RelevanceWord sort = new RelevanceWord(supprNonIndexe(toSeek)); je pense que l'on ne va pas garder ca - Elodie
 		this.toSeek = supprNonIndexe(toSeek);
+	}
+	/**
+	 * @return Seeker
+	 */
+	public Seeker getSeeker(){
+		return this.seeker;
 	}
 
 	/**
@@ -73,6 +82,9 @@ public class Search {
 	/**
 	 * Fonction qui permet d'analyser l'expression passée, de lancer le seeker mot par mot en tenant
 	 * compte des prédicats, et d'écrire le resultat
+	 * @see #setToSeek(List)
+	 * @see Seeker
+	 * @see FoundInfos
 	 */
 	public void toDo(){
 		String[] arguments = expression.split(" ");
@@ -117,18 +129,18 @@ public class Search {
 			
 
 		}
-
+		//Supprime les fichiers non pertinents
 		List<FoundInfos> newInfo = new ArrayList<FoundInfos>();
 		for(FoundInfos element : this.seeker.getInfo()){
 			for(FoundInfos toEliminate : this.seeker.getIntox()){
-				for(String fichierRebut : toEliminate.fichiers){
+				for(String fichierRebut : toEliminate.getFichiers()){
 					System.out.println("FICHIER REBUT");
 					System.out.println(fichierRebut);
 					System.out.println("FICHIERS DE BASE");
-					System.out.println(element.fichiers);
-					element.fichiers.remove(fichierRebut);
+					System.out.println(element.getFichiers());
+					element.getFichiers().remove(fichierRebut);
 					System.out.println("FICHIERS APRES REBUT");
-					System.out.println(element.fichiers);
+					System.out.println(element.getFichiers());
 				}
 			}
 			newInfo.add(element);
@@ -137,8 +149,8 @@ public class Search {
 		System.out.println(this.seeker.getInfo());
 		List<FoundInfos> aLire = Collections.synchronizedList(this.seeker.getInfo());
 		for(FoundInfos element : aLire){
-			this.seeker.addMessage("Mot "+element.mot+" trouvé<br>");
-			this.seeker.addMessage(this.seeker.getLinesText(element.mot, element.fichiers));
+			this.seeker.addMessage("Mot "+element.getMot()+" trouvé<br>");
+			this.seeker.addMessage(this.seeker.getLinesText(element.getMot(), element.getFichiers()));
 		}
 	}
 }

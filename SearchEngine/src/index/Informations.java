@@ -3,33 +3,55 @@ package index;
 import java.util.ArrayList;
 
 /**
- * 
+ * Classe qui mémorise les Informations liées à un mot, à savoir le fichier
+ * dans lequel il se trouve et les lignes où il a été repéré dans ce fichier
  * @author Olivier Mickael
- *
  */
 public class Informations {
-	//Informations liées à un mot, à savoir le fichier dans lequel il se trouve et les offsets où il a été repéré dans ce fichier
-	private ArrayList<Long> offsets;
+	/**
+	 * Liste des numeros de ligne dans lequel se trouve un mot donné
+	 */
+	private ArrayList<Long> lines;
+	/**
+	 * Nom du fichier dans lequel se trouve un mot donné
+	 */
 	private String file;
 	
 	@SuppressWarnings("unchecked")
-	public Informations(ArrayList<Long> offsets, String file) {
-		super();
-		/*TRES TRES MOCHE !*/
-		this.offsets = (ArrayList<Long>) offsets.clone();
+	/**
+	 * Constructeur
+	 * @param lines ArrayList<Long> liste des numeros de ligne dans lequel se trouve un mot donné
+	 * @param file String nom du fichier dans lequel se trouve un mot donné
+	 */
+	public Informations(ArrayList<Long> lines, String file) {
+		this.lines = (ArrayList<Long>) lines.clone();
 		this.file = file;
 	}
-	public ArrayList<Long> getOffsets() {
-		//System.out.println(offsets);
-		return offsets;
+	/**
+	 * @return lines ArrayList<Long> la liste des numéros de ligne 
+	 */
+	public ArrayList<Long> getLines() {
+		return lines;
 	}
-	public void setOffsets(ArrayList<Long> offsets) {
-		this.offsets = offsets;
+	/**
+	 * 
+	 * @param lines ArrayList<Long> liste des numeros de ligne
+	 */
+	public void setLines(ArrayList<Long> lines) {
+		this.lines = lines;
 	}
-	public String getfile() {
+	/**
+	 * 
+	 * @return file String le nom de fichier
+	 */
+	public String getFile() {
 		return file;
 	}
-	public void setfile(String file) {
+	/**
+	 * Attribue le nom de fichier
+	 * @param file String nom du fichier
+	 */
+	public void setFile(String file) {
 		this.file = file;
 	}
 }

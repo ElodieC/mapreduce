@@ -92,7 +92,7 @@ public class Index2 {
 			}
 			else if (scanLine.hasNextInt()) {//remains numbers, if its aren't first, 
 				offset = scanLine.nextInt();//then its are offsets
-				builder.addOffset(offset);
+				builder.addLine(offset);
 			}
 			else {
 				Logger.addInLog("Problème dans la lecture de l'index, pattern non reconnu");
@@ -127,10 +127,11 @@ public class Index2 {
 				Logger.addInLog("Fichier index introuvable, nom donné : "+args+".txt");
 				return;
 			}
-
+			scanFile(input);
+			
 			Logger.addInLog("Lecture de l'index reussie");
 			System.out.println("Lecture de l'index reussie");
-			scanFile(input);
+			
 		}
 		recherche = search;
 		recherche.toDo();

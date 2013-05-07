@@ -10,52 +10,51 @@ import org.apache.hadoop.mapreduce.InputSplit;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
-
-public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
-	
-	
-/*
- * On va dire qu'en entree on veut le Text
- * Et en sortie chaque mot
- * et le fichier dans lequel il apparait
- * et son offset
- * En sortie on veut en key mot, nomFichier
- * et en value offset
+/**
+ * Le Mapper de MapReduce
+ * En entrée on a pour clé l'offset de la ligne par rapport au début du fichier et en valeur la ligne
+ * En sortie on a pour clé intermédiaire le mot , le nom du fichier et en valeur le numéro de 
+ * la ligne dans lequel il se trouve
+ * @author Corbel Elodie, Renou Clarisse
+ * @see Mapper
  */
+public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
+
 	/**
-	 * Numero de la ligne dans le fichier
+	 * lineNumber int Numero de la ligne dans le fichier
 	 */
 	private int lineNumber=0;
-	
+	/**
+	 * Fonction map, on a un mapper par fichier
+	 * @param key LongWritable l'offset de la ligne
+	 * @param values Text la ligne qu'on lit
+	 */
 	public void map(LongWritable key, Text values,
 			Context context) throws IOException, InterruptedException {
 		lineNumber++;
 		String line = values.toString().toLowerCase();//on ignore la casse
 		line=supprimerPonctuation(line);
-		StringTokenizer token = new StringTokenizer(line, " ");
+		StringTokenizer mots = new StringTokenizer(line, " ");
 		
 		//On recupere le nom de fichier
 		InputSplit split = context.getInputSplit();
-		String fileName=null;
-		if (split != null){//pour les tests a effacer apres
-			fileName = ((FileSplit) split).getPath().getName();
-		}
+		String fileName= ((FileSplit) split).getPath().getName();
+		
 		/**
-		 * Decallage par rapport au debut de la ligne
+		 * lineOffset int Décallage par rapport au debut de la ligne
 		 */
 		int lineOffset = 0;
-		
-		while (token.hasMoreTokens()){
+
+		while (mots.hasMoreTokens()){
 			lineOffset++;
-			Text t = new Text (token.nextToken());//le mot
+			Text t = new Text (mots.nextToken());//le mot
 			if (!motAIgnorer(t))
 				context.write(new Text(t + " , " +fileName), new Text(""+lineNumber));
 		}
 	}
 	/**
-	 * 
-	 * @param text
-	 * @return vrai si le mot est a ignorer (non pertinent)
+	 * @param text Text le mot à analyser
+	 * @return vrai si le mot est à ignorer (non pertinent)
 	 */
 	public static boolean motAIgnorer(Text text){
 		boolean res=false;
@@ -69,13 +68,19 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
 		}
 		return res;
 	}
-	
+	/**
+	 * 
+	 * @param texte String le texte dont on cherche à éliminer la ponctuation
+	 * @return le texte avec la ponctuation éliminée
+	 */
 	public static String supprimerPonctuation(String texte)
-	   {
-	      StringBuffer sb = new StringBuffer();
-	      for (String s : texte.split("[\\p{P}]"))
-	         sb.append(" "+s);
-	      return sb.toString();      
-	   }
+	{
+		StringBuffer sb = new StringBuffer();
+		for (String s : texte.split("[\\p{P}]")){
+			sb.append(" ");
+			sb.append(s);
+		}
+		return sb.toString();      
+	}
 
 }
