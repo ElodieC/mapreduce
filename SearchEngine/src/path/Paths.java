@@ -23,7 +23,7 @@ public interface Paths {
 	static final String inputFilesSplitDir = cheminElodieSplit;
 	
 	String pathClarisseLog = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/" +
-			"mapreduce/SearchEngine/src/window/";
+			"mapreduce/hadoopMR/";
 	String pathElodieLog = "/home/hduser/hadoopMR/";
 	String pathMickaelLog = "C:/Users/Olivier Catherine/workspace/hadoopMR/";
 	/**

@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.2" icons="true">  
+  <object id="1" language="java" name="window.Fenetre" project="SearchEngine" 
+    file="/SearchEngine/src/window/Fenetre.java" binary="false" label="fenetre" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="67" y="0"/>    
+    <execution id="2">      
+      <position height="16136" width="66" x="5" y="99"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="21" width="7" x="35" y="16151"/>    
+    </execution>  
+  </object>  
+  <object id="16" language="java" name="grammar.Index2" project="SearchEngine" 
+    file="/SearchEngine/src/grammar/Index2.java" binary="false" label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="167" y="0"/>    
+    <execution id="12">      
+      <position height="15544" width="61" x="75" y="557"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="3565" width="0" x="0" y="935"/>    
+    </execution>    
+    <execution id="52">      
+      <position height="808" width="0" x="0" y="3483"/>    
+    </execution>    
+    <execution id="42">      
+      <position height="766" width="0" x="0" y="2319"/>    
+    </execution>    
+    <execution id="32">      
+      <position height="850" width="0" x="0" y="1113"/>    
+    </execution>  
+  </object>  
+  <object id="89" language="java" name="index.IndexBuilder" project="SearchEngine" 
+    file="/SearchEngine/src/index/IndexBuilder.java" binary="false" label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="60">      
+      <position height="21" width="0" x="0" y="3682"/>    
+    </execution>    
+    <execution id="62">      
+      <position height="21" width="0" x="0" y="3808"/>    
+    </execution>    
+    <execution id="64">      
+      <position height="21" width="0" x="0" y="3934"/>    
+    </execution>    
+    <execution id="68">      
+      <position height="252" width="0" x="0" y="4018"/>    
+    </execution>    
+    <execution id="93">      
+      <position height="21" width="0" x="0" y="4228"/>    
+    </execution>    
+    <execution id="94">      
+      <position height="21" width="0" x="0" y="5829"/>    
+    </execution>    
+    <execution id="95">      
+      <position height="21" width="0" x="0" y="5913"/>    
+    </execution>    
+    <execution id="96">      
+      <position height="21" width="0" x="0" y="6123"/>    
+    </execution>    
+    <execution id="97">      
+      <position height="21" width="0" x="0" y="5159"/>    
+    </execution>    
+    <execution id="98">      
+      <position height="21" width="0" x="0" y="5243"/>    
+    </execution>    
+    <execution id="99">      
+      <position height="21" width="0" x="0" y="5473"/>    
+    </execution>    
+    <execution id="100">      
+      <position height="21" width="0" x="0" y="5557"/>    
+    </execution>    
+    <execution id="101">      
+      <position height="21" width="0" x="0" y="6395"/>    
+    </execution>    
+    <execution id="102">      
+      <position height="21" width="0" x="0" y="6479"/>    
+    </execution>    
+    <execution id="103">      
+      <position height="21" width="0" x="0" y="6689"/>    
+    </execution>    
+    <execution id="104">      
+      <position height="21" width="0" x="0" y="7549"/>    
+    </execution>    
+    <execution id="105">      
+      <position height="21" width="0" x="0" y="7633"/>    
+    </execution>    
+    <execution id="106">      
+      <position height="21" width="0" x="0" y="7863"/>    
+    </execution>    
+    <execution id="107">      
+      <position height="21" width="0" x="0" y="7947"/>    
+    </execution>    
+    <execution id="108">      
+      <position height="21" width="0" x="0" y="8219"/>    
+    </execution>    
+    <execution id="109">      
+      <position height="21" width="0" x="0" y="8303"/>    
+    </execution>    
+    <execution id="110">      
+      <position height="21" width="0" x="0" y="8513"/>    
+    </execution>    
+    <execution id="111">      
+      <position height="21" width="0" x="0" y="8785"/>    
+    </execution>    
+    <execution id="112">      
+      <position height="21" width="0" x="0" y="8869"/>    
+    </execution>    
+    <execution id="113">      
+      <position height="21" width="0" x="0" y="9079"/>    
+    </execution>    
+    <execution id="114">      
+      <position height="21" width="0" x="0" y="9981"/>    
+    </execution>    
+    <execution id="115">      
+      <position height="21" width="0" x="0" y="10065"/>    
+    </execution>    
+    <execution id="116">      
+      <position height="21" width="0" x="0" y="10463"/>    
+    </execution>    
+    <execution id="117">      
+      <position height="21" width="0" x="0" y="10547"/>    
+    </execution>    
+    <execution id="118">      
+      <position height="21" width="0" x="0" y="10757"/>    
+    </execution>    
+    <execution id="119">      
+      <position height="21" width="0" x="0" y="11281"/>    
+    </execution>    
+    <execution id="120">      
+      <position height="21" width="0" x="0" y="11365"/>    
+    </execution>    
+    <execution id="121">      
+      <position height="21" width="0" x="0" y="11763"/>    
+    </execution>    
+    <execution id="122">      
+      <position height="21" width="0" x="0" y="11847"/>    
+    </execution>    
+    <execution id="123">      
+      <position height="21" width="0" x="0" y="12057"/>    
+    </execution>    
+    <execution id="124">      
+      <position height="21" width="0" x="0" y="13421"/>    
+    </execution>    
+    <execution id="125">      
+      <position height="21" width="0" x="0" y="13505"/>    
+    </execution>    
+    <execution id="126">      
+      <position height="21" width="0" x="0" y="13673"/>    
+    </execution>  
+  </object>  
+  <object id="127" language="java" name="index.IndexBuilder" project="SearchEngine" 
+    file="/SearchEngine/src/index/IndexBuilder.java" binary="false" label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="70">      
+      <position height="21" width="0" x="0" y="2518"/>    
+    </execution>    
+    <execution id="72">      
+      <position height="21" width="0" x="0" y="2644"/>    
+    </execution>    
+    <execution id="74">      
+      <position height="21" width="0" x="0" y="2770"/>    
+    </execution>    
+    <execution id="78">      
+      <position height="210" width="0" x="0" y="2854"/>    
+    </execution>    
+    <execution id="131">      
+      <position height="21" width="0" x="0" y="3022"/>    
+    </execution>  
+  </object>  
+  <object id="132" language="java" name="index.IndexBuilder" project="SearchEngine" 
+    file="/SearchEngine/src/index/IndexBuilder.java" binary="false" label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="18">      
+      <position height="21" width="0" x="0" y="578"/>    
+    </execution>    
+    <execution id="80">      
+      <position height="21" width="0" x="0" y="1312"/>    
+    </execution>    
+    <execution id="82">      
+      <position height="21" width="0" x="0" y="1438"/>    
+    </execution>    
+    <execution id="84">      
+      <position height="21" width="0" x="0" y="1564"/>    
+    </execution>    
+    <execution id="88">      
+      <position height="252" width="0" x="0" y="1690"/>    
+    </execution>    
+    <execution id="136">      
+      <position height="21" width="0" x="0" y="1900"/>    
+    </execution>  
+  </object>  
+  <object id="137" language="java" name="index.IndexBuilder" project="SearchEngine" 
+    file="/SearchEngine/src/index/IndexBuilder.java" binary="false" label="indexBuilder" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="208" y="0"/>  
+  </object>  
+  <object id="138" language="java" name="search.Search" project="SearchEngine" 
+    file="/SearchEngine/src/search/Search.java" binary="false" label="recherche" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="28">      
+      <position height="11486" width="0" x="0" y="4594"/>    
+    </execution>    
+    <execution id="140">      
+      <position height="94" width="0" x="0" y="4720"/>    
+    </execution>    
+    <execution id="186">      
+      <position height="21" width="0" x="0" y="4772"/>    
+    </execution>  
+  </object>  
+  <object id="187" language="java" name="search.Search" project="SearchEngine" 
+    file="/SearchEngine/src/search/Search.java" binary="false" label="search" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="301" y="0"/>    
+    <execution id="10">      
+      <position height="231" width="64" x="238" y="305"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="119" width="64" x="600" y="16095"/>    
+    </execution>  
+  </object>  
+  <object id="194" language="java" name="search.Seeker" project="SearchEngine" 
+    file="/SearchEngine/src/search/Seeker.java" binary="false" label="seeker" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="371" y="0"/>    
+    <execution id="191">      
+      <position height="21" width="0" x="0" y="494"/>    
+    </execution>    
+    <execution id="142">      
+      <position height="2201" width="0" x="0" y="5044"/>    
+    </execution>    
+    <execution id="144">      
+      <position height="105" width="0" x="0" y="7266"/>    
+    </execution>    
+    <execution id="146">      
+      <position height="2327" width="0" x="0" y="7392"/>    
+    </execution>    
+    <execution id="148">      
+      <position height="105" width="0" x="0" y="9782"/>    
+    </execution>    
+    <execution id="150">      
+      <position height="1111" width="0" x="0" y="9908"/>    
+    </execution>    
+    <execution id="152">      
+      <position height="105" width="0" x="0" y="11082"/>    
+    </execution>    
+    <execution id="154">      
+      <position height="1111" width="0" x="0" y="11208"/>    
+    </execution>    
+    <execution id="156">      
+      <position height="21" width="0" x="0" y="12382"/>    
+    </execution>    
+    <execution id="158">      
+      <position height="21" width="0" x="0" y="12424"/>    
+    </execution>    
+    <execution id="168">      
+      <position height="21" width="0" x="0" y="12970"/>    
+    </execution>    
+    <execution id="170">      
+      <position height="21" width="0" x="0" y="13012"/>    
+    </execution>    
+    <execution id="172">      
+      <position height="21" width="0" x="0" y="13138"/>    
+    </execution>    
+    <execution id="174">      
+      <position height="21" width="0" x="0" y="13180"/>    
+    </execution>    
+    <execution id="178">      
+      <position height="21" width="0" x="0" y="13264"/>    
+    </execution>    
+    <execution id="180">      
+      <position height="2655" width="0" x="0" y="13306"/>    
+    </execution>    
+    <execution id="189">      
+      <position height="21" width="0" x="0" y="368"/>    
+    </execution>    
+    <execution id="196">      
+      <position height="157" width="0" x="0" y="5128"/>    
+    </execution>    
+    <execution id="198">      
+      <position height="157" width="0" x="0" y="5442"/>    
+    </execution>    
+    <execution id="200">      
+      <position height="409" width="0" x="0" y="5756"/>    
+    </execution>    
+    <execution id="202">      
+      <position height="409" width="0" x="0" y="6322"/>    
+    </execution>    
+    <execution id="216">      
+      <position height="157" width="0" x="0" y="7518"/>    
+    </execution>    
+    <execution id="218">      
+      <position height="157" width="0" x="0" y="7832"/>    
+    </execution>    
+    <execution id="220">      
+      <position height="409" width="0" x="0" y="8146"/>    
+    </execution>    
+    <execution id="222">      
+      <position height="409" width="0" x="0" y="8712"/>    
+    </execution>    
+    <execution id="236">      
+      <position height="157" width="0" x="0" y="9950"/>    
+    </execution>    
+    <execution id="240">      
+      <position height="409" width="0" x="0" y="10390"/>    
+    </execution>    
+    <execution id="248">      
+      <position height="157" width="0" x="0" y="11250"/>    
+    </execution>    
+    <execution id="252">      
+      <position height="409" width="0" x="0" y="11690"/>    
+    </execution>    
+    <execution id="258">      
+      <position height="577" width="0" x="0" y="13348"/>    
+    </execution>    
+    <execution id="193">      
+      <position height="77" width="64" x="668" y="16116"/>    
+    </execution>  
+  </object>  
+  <object id="301" language="java" name="index.Informations" project="SearchEngine" 
+    file="/SearchEngine/src/index/Informations.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="91">      
+      <position height="21" width="0" x="0" y="4123"/>    
+    </execution>  
+  </object>  
+  <object id="302" language="java" name="index.Informations" project="SearchEngine" 
+    file="/SearchEngine/src/index/Informations.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="129">      
+      <position height="21" width="0" x="0" y="2959"/>    
+    </execution>  
+  </object>  
+  <object id="303" language="java" name="index.Informations" project="SearchEngine" 
+    file="/SearchEngine/src/index/Informations.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="134">      
+      <position height="21" width="0" x="0" y="1795"/>    
+    </execution>  
+  </object>  
+  <object id="304" language="java" name="index.Informations" project="SearchEngine" 
+    file="/SearchEngine/src/index/Informations.java" binary="false" label="informations" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="732" y="0"/>  
+  </object>  
+  <object id="305" language="java" name="index.Informations" project="SearchEngine" 
+    file="/SearchEngine/src/index/Informations.java" binary="false" label="info" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="297">      
+      <position height="21" width="0" x="0" y="13841"/>    
+    </execution>    
+    <execution id="299">      
+      <position height="21" width="0" x="0" y="13883"/>    
+    </execution>  
+  </object>  
+  <object id="306" language="java" name="search.FoundInfos" project="SearchEngine" 
+    file="/SearchEngine/src/search/FoundInfos.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="254">      
+      <position height="21" width="0" x="0" y="12235"/>    
+    </execution>  
+  </object>  
+  <object id="307" language="java" name="search.FoundInfos" project="SearchEngine" 
+    file="/SearchEngine/src/search/FoundInfos.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="242">      
+      <position height="21" width="0" x="0" y="10935"/>    
+    </execution>  
+  </object>  
+  <object id="308" language="java" name="search.FoundInfos" project="SearchEngine" 
+    file="/SearchEngine/src/search/FoundInfos.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="226">      
+      <position height="21" width="0" x="0" y="9467"/>    
+    </execution>  
+  </object>  
+  <object id="309" language="java" name="search.FoundInfos" project="SearchEngine" 
+    file="/SearchEngine/src/search/FoundInfos.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="228">      
+      <position height="21" width="0" x="0" y="9551"/>    
+    </execution>  
+  </object>  
+  <object id="310" language="java" name="search.FoundInfos" project="SearchEngine" 
+    file="/SearchEngine/src/search/FoundInfos.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="206">      
+      <position height="21" width="0" x="0" y="6993"/>    
+    </execution>  
+  </object>  
+  <object id="311" language="java" name="search.FoundInfos" project="SearchEngine" 
+    file="/SearchEngine/src/search/FoundInfos.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="208">      
+      <position height="21" width="0" x="0" y="7077"/>    
+    </execution>  
+  </object>  
+  <object id="312" language="java" name="search.FoundInfos" project="SearchEngine" 
+    file="/SearchEngine/src/search/FoundInfos.java" binary="false" label="toEliminate" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="160">      
+      <position height="21" width="0" x="0" y="12466"/>    
+    </execution>  
+  </object>  
+  <object id="313" language="java" name="search.FoundInfos" project="SearchEngine" 
+    file="/SearchEngine/src/search/FoundInfos.java" binary="false" label="element" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="162">      
+      <position height="21" width="0" x="0" y="12634"/>    
+    </execution>    
+    <execution id="164">      
+      <position height="21" width="0" x="0" y="12718"/>    
+    </execution>    
+    <execution id="166">      
+      <position height="21" width="0" x="0" y="12844"/>    
+    </execution>  
+  </object>  
+  <object id="314" language="java" name="search.FoundInfos" project="SearchEngine" 
+    file="/SearchEngine/src/search/FoundInfos.java" binary="false" label="element1" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="176">      
+      <position height="21" width="0" x="0" y="13222"/>    
+    </execution>    
+    <execution id="182">      
+      <position height="21" width="0" x="0" y="15996"/>    
+    </execution>    
+    <execution id="184">      
+      <position height="21" width="0" x="0" y="16038"/>    
+    </execution>  
+  </object>  
+  <object id="315" language="java" name="search.FoundInfos" project="SearchEngine" 
+    file="/SearchEngine/src/search/FoundInfos.java" binary="false" label="foundInfos" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="627" y="0"/>  
+  </object>  
+  <object id="316" language="java" name="reader.FileRead" project="SearchEngine" 
+    file="/SearchEngine/src/reader/FileRead.java" binary="false" label="fichierALire" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="260">      
+      <position height="1256" width="0" x="0" y="13935"/>    
+    </execution>    
+    <execution id="262">      
+      <position height="728" width="0" x="0" y="15212"/>    
+    </execution>    
+    <execution id="330">      
+      <position height="665" width="0" x="0" y="15254"/>    
+    </execution>    
+    <execution id="332">      
+      <position height="115" width="0" x="0" y="15348"/>    
+    </execution>    
+    <execution id="334">      
+      <position height="73" width="0" x="0" y="15494"/>    
+    </execution>    
+    <execution id="336">      
+      <position height="73" width="0" x="0" y="15630"/>    
+    </execution>    
+    <execution id="338">      
+      <position height="73" width="0" x="0" y="15766"/>    
+    </execution>  
+  </object>  
+  <object id="353" language="java" name="reader.FileRead" project="SearchEngine" 
+    file="/SearchEngine/src/reader/FileRead.java" binary="false" label="fileRead" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="303" y="0"/>  
+  </object>  
+  <object id="354" language="java" name="reader.SortLineNumbers" project="SearchEngine" 
+    file="/SearchEngine/src/reader/SortLineNumbers.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="318">      
+      <position height="21" width="0" x="0" y="13956"/>    
+    </execution>    
+    <execution id="320">      
+      <position height="565" width="0" x="0" y="13998"/>    
+    </execution>    
+    <execution id="356">      
+      <position height="502" width="0" x="0" y="14040"/>    
+    </execution>    
+    <execution id="358">      
+      <position height="21" width="0" x="0" y="14218"/>    
+    </execution>    
+    <execution id="360">      
+      <position height="21" width="0" x="0" y="14448"/>    
+    </execution>    
+    <execution id="362">      
+      <position height="21" width="0" x="0" y="14500"/>    
+    </execution>  
+  </object>  
+  <object id="363" language="java" name="reader.SortLineNumbers" project="SearchEngine" 
+    file="/SearchEngine/src/reader/SortLineNumbers.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="324">      
+      <position height="21" width="0" x="0" y="14626"/>    
+    </execution>    
+    <execution id="326">      
+      <position height="387" width="0" x="0" y="14668"/>    
+    </execution>    
+    <execution id="365">      
+      <position height="324" width="0" x="0" y="14710"/>    
+    </execution>    
+    <execution id="367">      
+      <position height="21" width="0" x="0" y="14888"/>    
+    </execution>    
+    <execution id="369">      
+      <position height="21" width="0" x="0" y="14940"/>    
+    </execution>    
+    <execution id="371">      
+      <position height="21" width="0" x="0" y="14992"/>    
+    </execution>  
+  </object>  
+  <object id="372" language="java" name="reader.SortLineNumbers" project="SearchEngine" 
+    file="/SearchEngine/src/reader/SortLineNumbers.java" binary="false" label="sortLineNumbers" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="478" y="0"/>  
+  </object>  
+  <object id="373" language="java" name="window.Logger" project="SearchEngine" 
+    file="/SearchEngine/src/window/Logger.java" binary="false" label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="761" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="63" x="764" y="120"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="21" width="63" x="764" y="246"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="21" width="0" x="0" y="704"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="21" width="0" x="0" y="872"/>    
+    </execution>    
+    <execution id="26">      
+      <position height="21" width="0" x="0" y="4510"/>    
+    </execution>    
+    <execution id="50">      
+      <position height="21" width="0" x="0" y="3336"/>    
+    </execution>    
+    <execution id="54">      
+      <position height="21" width="0" x="0" y="4374"/>    
+    </execution>    
+    <execution id="56">      
+      <position height="21" width="0" x="0" y="4416"/>    
+    </execution>    
+    <execution id="58">      
+      <position height="21" width="0" x="0" y="4458"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="21" width="0" x="0" y="2172"/>    
+    </execution>    
+    <execution id="44">      
+      <position height="21" width="0" x="0" y="3168"/>    
+    </execution>    
+    <execution id="46">      
+      <position height="21" width="0" x="0" y="3210"/>    
+    </execution>    
+    <execution id="48">      
+      <position height="21" width="0" x="0" y="3252"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="21" width="0" x="0" y="966"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="21" width="0" x="0" y="2004"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="21" width="0" x="0" y="2046"/>    
+    </execution>    
+    <execution id="38">      
+      <position height="21" width="0" x="0" y="2088"/>    
+    </execution>    
+    <execution id="86">      
+      <position height="21" width="0" x="0" y="1648"/>    
+    </execution>    
+    <execution id="76">      
+      <position height="21" width="0" x="0" y="2812"/>    
+    </execution>    
+    <execution id="66">      
+      <position height="21" width="0" x="0" y="3976"/>    
+    </execution>    
+    <execution id="204">      
+      <position height="21" width="0" x="0" y="6867"/>    
+    </execution>    
+    <execution id="210">      
+      <position height="21" width="0" x="0" y="7119"/>    
+    </execution>    
+    <execution id="212">      
+      <position height="21" width="0" x="0" y="7203"/>    
+    </execution>    
+    <execution id="214">      
+      <position height="21" width="0" x="0" y="7329"/>    
+    </execution>    
+    <execution id="224">      
+      <position height="21" width="0" x="0" y="9299"/>    
+    </execution>    
+    <execution id="230">      
+      <position height="21" width="0" x="0" y="9593"/>    
+    </execution>    
+    <execution id="232">      
+      <position height="21" width="0" x="0" y="9677"/>    
+    </execution>    
+    <execution id="234">      
+      <position height="21" width="0" x="0" y="9845"/>    
+    </execution>    
+    <execution id="238">      
+      <position height="21" width="0" x="0" y="10285"/>    
+    </execution>    
+    <execution id="244">      
+      <position height="21" width="0" x="0" y="10977"/>    
+    </execution>    
+    <execution id="246">      
+      <position height="21" width="0" x="0" y="11145"/>    
+    </execution>    
+    <execution id="250">      
+      <position height="21" width="0" x="0" y="11585"/>    
+    </execution>    
+    <execution id="256">      
+      <position height="21" width="0" x="0" y="12277"/>    
+    </execution>    
+    <execution id="328">      
+      <position height="21" width="0" x="0" y="15149"/>    
+    </execution>    
+    <execution id="322">      
+      <position height="21" width="0" x="0" y="14584"/>    
+    </execution>    
+    <execution id="340">      
+      <position height="21" width="0" x="0" y="15849"/>    
+    </execution>    
+    <execution id="342">      
+      <position height="21" width="0" x="0" y="15877"/>    
+    </execution>    
+    <execution id="344">      
+      <position height="21" width="0" x="0" y="15379"/>    
+    </execution>    
+    <execution id="346">      
+      <position height="21" width="0" x="0" y="15421"/>    
+    </execution>    
+    <execution id="348">      
+      <position height="21" width="0" x="0" y="15525"/>    
+    </execution>    
+    <execution id="350">      
+      <position height="21" width="0" x="0" y="15661"/>    
+    </execution>    
+    <execution id="352">      
+      <position height="21" width="0" x="0" y="15797"/>    
+    </execution>  
+  </object>  
+  <object id="374" language="java" name="path.Paths" project="SearchEngine" file="/SearchEngine/src/path/Paths.java" 
+    binary="false" label="paths" type="interface" autoSize="true">    
+    <position height="-1" width="-1" x="810" y="0"/>    
+    <execution id="8">      
+      <position height="21" width="56" x="831" y="277"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="createLogger():void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="Search(java.lang.String)">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="build(java.lang.String,search.Search):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="getSeeker():search.Seeker">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="17" operation="IndexBuilder()">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="scanFile(java.io.BufferedReader):void">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="27" operation="toDo():void">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="29" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="31" operation="builder(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="33" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="37" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="39" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="41" operation="builder(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="43" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="45" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>  
+  <message id="47" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="48"/>  
+  </message>  
+  <message id="49" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="50"/>  
+  </message>  
+  <message id="51" operation="builder(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="52"/>  
+  </message>  
+  <message id="53" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="54"/>  
+  </message>  
+  <message id="55" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="56"/>  
+  </message>  
+  <message id="57" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="58"/>  
+  </message>  
+  <message id="59" operation="addWord(java.lang.String):void">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="60"/>  
+  </message>  
+  <message id="61" operation="addFile(java.lang.String):void">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="62"/>  
+  </message>  
+  <message id="63" operation="addLine(long):void">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="64"/>  
+  </message>  
+  <message id="65" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="66"/>  
+  </message>  
+  <message id="67" operation="buildSet():void">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="68"/>  
+  </message>  
+  <message id="69" operation="addWord(java.lang.String):void">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="70"/>  
+  </message>  
+  <message id="71" operation="addFile(java.lang.String):void">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="72"/>  
+  </message>  
+  <message id="73" operation="addLine(long):void">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="74"/>  
+  </message>  
+  <message id="75" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="76"/>  
+  </message>  
+  <message id="77" operation="buildSet():void">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="78"/>  
+  </message>  
+  <message id="79" operation="addWord(java.lang.String):void">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="80"/>  
+  </message>  
+  <message id="81" operation="addFile(java.lang.String):void">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="82"/>  
+  </message>  
+  <message id="83" operation="addLine(long):void">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="84"/>  
+  </message>  
+  <message id="85" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="86"/>  
+  </message>  
+  <message id="87" operation="buildSet():void">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="88"/>  
+  </message>  
+  <message id="90" operation="Informations(java.util.ArrayList&lt;java.lang.Long&gt;,java.lang.String)">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="91"/>  
+  </message>  
+  <message id="92" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="93"/>  
+  </message>  
+  <message id="128" operation="Informations(java.util.ArrayList&lt;java.lang.Long&gt;,java.lang.String)">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="129"/>  
+  </message>  
+  <message id="130" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="131"/>  
+  </message>  
+  <message id="133" operation="Informations(java.util.ArrayList&lt;java.lang.Long&gt;,java.lang.String)">    
+    <end type="SOURCE" refId="88"/>    
+    <end type="TARGET" refId="134"/>  
+  </message>  
+  <message id="135" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="88"/>    
+    <end type="TARGET" refId="136"/>  
+  </message>  
+  <message id="139" operation="setToSeek(java.util.List&lt;java.lang.String&gt;):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="140"/>  
+  </message>  
+  <message id="141" operation="seekAnd(java.lang.String,java.lang.String):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="142"/>  
+  </message>  
+  <message id="143" operation="predicatInvalid(java.lang.String):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="144"/>  
+  </message>  
+  <message id="145" operation="seekOr(java.lang.String,java.lang.String):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="146"/>  
+  </message>  
+  <message id="147" operation="predicatInvalid(java.lang.String):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="148"/>  
+  </message>  
+  <message id="149" operation="seekNot(java.lang.String):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="150"/>  
+  </message>  
+  <message id="151" operation="predicatInvalid(java.lang.String):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="152"/>  
+  </message>  
+  <message id="153" operation="seek(java.lang.String):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="154"/>  
+  </message>  
+  <message id="155" operation="getInfo():java.util.List&lt;FoundInfos&gt;">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="156"/>  
+  </message>  
+  <message id="157" operation="getIntox():java.util.List&lt;FoundInfos&gt;">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="158"/>  
+  </message>  
+  <message id="159" operation="getFichiers():java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="160"/>  
+  </message>  
+  <message id="161" operation="getFichiers():java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="162"/>  
+  </message>  
+  <message id="163" operation="getFichiers():java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="164"/>  
+  </message>  
+  <message id="165" operation="getFichiers():java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="166"/>  
+  </message>  
+  <message id="167" operation="setInfo(java.util.List&lt;search.FoundInfos&gt;):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="168"/>  
+  </message>  
+  <message id="169" operation="getInfo():java.util.List&lt;FoundInfos&gt;">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="170"/>  
+  </message>  
+  <message id="171" operation="getInfo():java.util.List&lt;FoundInfos&gt;">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="172"/>  
+  </message>  
+  <message id="173" operation="addMessage(java.lang.Object):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="174"/>  
+  </message>  
+  <message id="175" operation="getMot():java.lang.String">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="176"/>  
+  </message>  
+  <message id="177" operation="addMessage(java.lang.Object):void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="178"/>  
+  </message>  
+  <message id="179" 
+    operation="getLinesText(java.lang.String,java.util.List&lt;java.lang.String&gt;):java.lang.StringBuilder">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="180"/>  
+  </message>  
+  <message id="181" operation="getMot():java.lang.String">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="182"/>  
+  </message>  
+  <message id="183" operation="getFichiers():java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="184"/>  
+  </message>  
+  <message id="185" operation="supprNonIndexe(java.util.List&lt;java.lang.String&gt;):java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="140"/>    
+    <end type="TARGET" refId="186"/>  
+  </message>  
+  <message id="188" operation="Seeker()">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="189"/>  
+  </message>  
+  <message id="190" operation="Seeker()">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="191"/>  
+  </message>  
+  <message id="192" operation="getMessage():java.lang.StringBuilder">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="193"/>  
+  </message>  
+  <message id="195" operation="isPresent(java.lang.String):boolean">    
+    <end type="SOURCE" refId="142"/>    
+    <end type="TARGET" refId="196"/>  
+  </message>  
+  <message id="197" operation="isPresent(java.lang.String):boolean">    
+    <end type="SOURCE" refId="142"/>    
+    <end type="TARGET" refId="198"/>  
+  </message>  
+  <message id="199" operation="getFichiers(java.lang.String):java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="142"/>    
+    <end type="TARGET" refId="200"/>  
+  </message>  
+  <message id="201" operation="getFichiers(java.lang.String):java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="142"/>    
+    <end type="TARGET" refId="202"/>  
+  </message>  
+  <message id="203" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="142"/>    
+    <end type="TARGET" refId="204"/>  
+  </message>  
+  <message id="205" operation="FoundInfos(java.lang.String,java.util.List&lt;java.lang.String&gt;)">    
+    <end type="SOURCE" refId="142"/>    
+    <end type="TARGET" refId="206"/>  
+  </message>  
+  <message id="207" operation="FoundInfos(java.lang.String,java.util.List&lt;java.lang.String&gt;)">    
+    <end type="SOURCE" refId="142"/>    
+    <end type="TARGET" refId="208"/>  
+  </message>  
+  <message id="209" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="142"/>    
+    <end type="TARGET" refId="210"/>  
+  </message>  
+  <message id="211" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="142"/>    
+    <end type="TARGET" refId="212"/>  
+  </message>  
+  <message id="213" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="144"/>    
+    <end type="TARGET" refId="214"/>  
+  </message>  
+  <message id="215" operation="isPresent(java.lang.String):boolean">    
+    <end type="SOURCE" refId="146"/>    
+    <end type="TARGET" refId="216"/>  
+  </message>  
+  <message id="217" operation="isPresent(java.lang.String):boolean">    
+    <end type="SOURCE" refId="146"/>    
+    <end type="TARGET" refId="218"/>  
+  </message>  
+  <message id="219" operation="getFichiers(java.lang.String):java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="146"/>    
+    <end type="TARGET" refId="220"/>  
+  </message>  
+  <message id="221" operation="getFichiers(java.lang.String):java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="146"/>    
+    <end type="TARGET" refId="222"/>  
+  </message>  
+  <message id="223" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="146"/>    
+    <end type="TARGET" refId="224"/>  
+  </message>  
+  <message id="225" operation="FoundInfos(java.lang.String,java.util.List&lt;java.lang.String&gt;)">    
+    <end type="SOURCE" refId="146"/>    
+    <end type="TARGET" refId="226"/>  
+  </message>  
+  <message id="227" operation="FoundInfos(java.lang.String,java.util.List&lt;java.lang.String&gt;)">    
+    <end type="SOURCE" refId="146"/>    
+    <end type="TARGET" refId="228"/>  
+  </message>  
+  <message id="229" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="146"/>    
+    <end type="TARGET" refId="230"/>  
+  </message>  
+  <message id="231" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="146"/>    
+    <end type="TARGET" refId="232"/>  
+  </message>  
+  <message id="233" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="148"/>    
+    <end type="TARGET" refId="234"/>  
+  </message>  
+  <message id="235" operation="isPresent(java.lang.String):boolean">    
+    <end type="SOURCE" refId="150"/>    
+    <end type="TARGET" refId="236"/>  
+  </message>  
+  <message id="237" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="150"/>    
+    <end type="TARGET" refId="238"/>  
+  </message>  
+  <message id="239" operation="getFichiers(java.lang.String):java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="150"/>    
+    <end type="TARGET" refId="240"/>  
+  </message>  
+  <message id="241" operation="FoundInfos(java.lang.String,java.util.List&lt;java.lang.String&gt;)">    
+    <end type="SOURCE" refId="150"/>    
+    <end type="TARGET" refId="242"/>  
+  </message>  
+  <message id="243" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="150"/>    
+    <end type="TARGET" refId="244"/>  
+  </message>  
+  <message id="245" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="152"/>    
+    <end type="TARGET" refId="246"/>  
+  </message>  
+  <message id="247" operation="isPresent(java.lang.String):boolean">    
+    <end type="SOURCE" refId="154"/>    
+    <end type="TARGET" refId="248"/>  
+  </message>  
+  <message id="249" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="154"/>    
+    <end type="TARGET" refId="250"/>  
+  </message>  
+  <message id="251" operation="getFichiers(java.lang.String):java.util.List&lt;String&gt;">    
+    <end type="SOURCE" refId="154"/>    
+    <end type="TARGET" refId="252"/>  
+  </message>  
+  <message id="253" operation="FoundInfos(java.lang.String,java.util.List&lt;java.lang.String&gt;)">    
+    <end type="SOURCE" refId="154"/>    
+    <end type="TARGET" refId="254"/>  
+  </message>  
+  <message id="255" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="154"/>    
+    <end type="TARGET" refId="256"/>  
+  </message>  
+  <message id="257" operation="getResult(java.lang.String):java.util.Map&lt;String,List&lt;Long&gt;&gt;">    
+    <end type="SOURCE" refId="180"/>    
+    <end type="TARGET" refId="258"/>  
+  </message>  
+  <message id="259" operation="FileRead(java.lang.String,java.util.List&lt;java.lang.Long&gt;,java.lang.String)">    
+    <end type="SOURCE" refId="180"/>    
+    <end type="TARGET" refId="260"/>  
+  </message>  
+  <message id="261" operation="getLinesText():java.lang.StringBuilder">    
+    <end type="SOURCE" refId="180"/>    
+    <end type="TARGET" refId="262"/>  
+  </message>  
+  <message id="263" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="196"/>    
+    <end type="TARGET" refId="97"/>  
+  </message>  
+  <message id="264" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="196"/>    
+    <end type="TARGET" refId="98"/>  
+  </message>  
+  <message id="265" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="198"/>    
+    <end type="TARGET" refId="99"/>  
+  </message>  
+  <message id="266" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="198"/>    
+    <end type="TARGET" refId="100"/>  
+  </message>  
+  <message id="267" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="200"/>    
+    <end type="TARGET" refId="94"/>  
+  </message>  
+  <message id="268" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="200"/>    
+    <end type="TARGET" refId="95"/>  
+  </message>  
+  <message id="269" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="200"/>    
+    <end type="TARGET" refId="96"/>  
+  </message>  
+  <message id="270" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="202"/>    
+    <end type="TARGET" refId="101"/>  
+  </message>  
+  <message id="271" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="202"/>    
+    <end type="TARGET" refId="102"/>  
+  </message>  
+  <message id="272" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="202"/>    
+    <end type="TARGET" refId="103"/>  
+  </message>  
+  <message id="273" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="216"/>    
+    <end type="TARGET" refId="104"/>  
+  </message>  
+  <message id="274" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="216"/>    
+    <end type="TARGET" refId="105"/>  
+  </message>  
+  <message id="275" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="218"/>    
+    <end type="TARGET" refId="106"/>  
+  </message>  
+  <message id="276" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="218"/>    
+    <end type="TARGET" refId="107"/>  
+  </message>  
+  <message id="277" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="220"/>    
+    <end type="TARGET" refId="108"/>  
+  </message>  
+  <message id="278" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="220"/>    
+    <end type="TARGET" refId="109"/>  
+  </message>  
+  <message id="279" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="220"/>    
+    <end type="TARGET" refId="110"/>  
+  </message>  
+  <message id="280" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="222"/>    
+    <end type="TARGET" refId="111"/>  
+  </message>  
+  <message id="281" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="222"/>    
+    <end type="TARGET" refId="112"/>  
+  </message>  
+  <message id="282" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="222"/>    
+    <end type="TARGET" refId="113"/>  
+  </message>  
+  <message id="283" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="236"/>    
+    <end type="TARGET" refId="114"/>  
+  </message>  
+  <message id="284" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="236"/>    
+    <end type="TARGET" refId="115"/>  
+  </message>  
+  <message id="285" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="240"/>    
+    <end type="TARGET" refId="116"/>  
+  </message>  
+  <message id="286" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="240"/>    
+    <end type="TARGET" refId="117"/>  
+  </message>  
+  <message id="287" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="240"/>    
+    <end type="TARGET" refId="118"/>  
+  </message>  
+  <message id="288" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="248"/>    
+    <end type="TARGET" refId="119"/>  
+  </message>  
+  <message id="289" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="248"/>    
+    <end type="TARGET" refId="120"/>  
+  </message>  
+  <message id="290" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="252"/>    
+    <end type="TARGET" refId="121"/>  
+  </message>  
+  <message id="291" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="252"/>    
+    <end type="TARGET" refId="122"/>  
+  </message>  
+  <message id="292" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="252"/>    
+    <end type="TARGET" refId="123"/>  
+  </message>  
+  <message id="293" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="258"/>    
+    <end type="TARGET" refId="124"/>  
+  </message>  
+  <message id="294" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="258"/>    
+    <end type="TARGET" refId="125"/>  
+  </message>  
+  <message id="295" operation="getIndex():java.util.Map&lt;Integer,HashMap&lt;String,Informations&gt;&gt;">    
+    <end type="SOURCE" refId="258"/>    
+    <end type="TARGET" refId="126"/>  
+  </message>  
+  <message id="296" operation="getFile():java.lang.String">    
+    <end type="SOURCE" refId="258"/>    
+    <end type="TARGET" refId="297"/>  
+  </message>  
+  <message id="298" operation="getLines():java.util.ArrayList&lt;Long&gt;">    
+    <end type="SOURCE" refId="258"/>    
+    <end type="TARGET" refId="299"/>  
+  </message>  
+  <message id="300">    
+    <end type="SOURCE" refId="193"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="317" operation="SortLineNumbers(java.util.List&lt;java.lang.Long&gt;)">    
+    <end type="SOURCE" refId="260"/>    
+    <end type="TARGET" refId="318"/>  
+  </message>  
+  <message id="319" operation="getLinesSorted():java.util.List&lt;Long&gt;">    
+    <end type="SOURCE" refId="260"/>    
+    <end type="TARGET" refId="320"/>  
+  </message>  
+  <message id="321" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="260"/>    
+    <end type="TARGET" refId="322"/>  
+  </message>  
+  <message id="323" operation="SortLineNumbers(java.util.List&lt;java.lang.Long&gt;)">    
+    <end type="SOURCE" refId="260"/>    
+    <end type="TARGET" refId="324"/>  
+  </message>  
+  <message id="325" operation="getLinesSorted():java.util.List&lt;Long&gt;">    
+    <end type="SOURCE" refId="260"/>    
+    <end type="TARGET" refId="326"/>  
+  </message>  
+  <message id="327" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="260"/>    
+    <end type="TARGET" refId="328"/>  
+  </message>  
+  <message id="329" operation="getContextLine(java.lang.Long):java.lang.StringBuilder">    
+    <end type="SOURCE" refId="262"/>    
+    <end type="TARGET" refId="330"/>  
+  </message>  
+  <message id="331" operation="getFilePart(java.lang.Long):java.lang.String">    
+    <end type="SOURCE" refId="330"/>    
+    <end type="TARGET" refId="332"/>  
+  </message>  
+  <message id="333" operation="formatStringStrong(java.lang.String):java.lang.String">    
+    <end type="SOURCE" refId="330"/>    
+    <end type="TARGET" refId="334"/>  
+  </message>  
+  <message id="335" operation="formatStringStrong(java.lang.String):java.lang.String">    
+    <end type="SOURCE" refId="330"/>    
+    <end type="TARGET" refId="336"/>  
+  </message>  
+  <message id="337" operation="formatStringStrong(java.lang.String):java.lang.String">    
+    <end type="SOURCE" refId="330"/>    
+    <end type="TARGET" refId="338"/>  
+  </message>  
+  <message id="339" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="330"/>    
+    <end type="TARGET" refId="340"/>  
+  </message>  
+  <message id="341" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="330"/>    
+    <end type="TARGET" refId="342"/>  
+  </message>  
+  <message id="343" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="332"/>    
+    <end type="TARGET" refId="344"/>  
+  </message>  
+  <message id="345" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="332"/>    
+    <end type="TARGET" refId="346"/>  
+  </message>  
+  <message id="347" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="334"/>    
+    <end type="TARGET" refId="348"/>  
+  </message>  
+  <message id="349" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="336"/>    
+    <end type="TARGET" refId="350"/>  
+  </message>  
+  <message id="351" operation="addInLog(java.lang.String):void">    
+    <end type="SOURCE" refId="338"/>    
+    <end type="TARGET" refId="352"/>  
+  </message>  
+  <message id="355" operation="quicksort(int,int):void">    
+    <end type="SOURCE" refId="320"/>    
+    <end type="TARGET" refId="356"/>  
+  </message>  
+  <message id="357" operation="exchange(int,int):void">    
+    <end type="SOURCE" refId="356"/>    
+    <end type="TARGET" refId="358"/>  
+  </message>  
+  <message id="359" operation="quicksort(int,int):void">    
+    <end type="SOURCE" refId="356"/>    
+    <end type="TARGET" refId="360"/>  
+  </message>  
+  <message id="361" operation="quicksort(int,int):void">    
+    <end type="SOURCE" refId="356"/>    
+    <end type="TARGET" refId="362"/>  
+  </message>  
+  <message id="364" operation="quicksort(int,int):void">    
+    <end type="SOURCE" refId="326"/>    
+    <end type="TARGET" refId="365"/>  
+  </message>  
+  <message id="366" operation="exchange(int,int):void">    
+    <end type="SOURCE" refId="365"/>    
+    <end type="TARGET" refId="367"/>  
+  </message>  
+  <message id="368" operation="quicksort(int,int):void">    
+    <end type="SOURCE" refId="365"/>    
+    <end type="TARGET" refId="369"/>  
+  </message>  
+  <message id="370" operation="quicksort(int,int):void">    
+    <end type="SOURCE" refId="365"/>    
+    <end type="TARGET" refId="371"/>  
+  </message>
+</sequence-diagram>

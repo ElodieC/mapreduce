@@ -82,10 +82,6 @@ public class Index2 {
 				builder.addWord(readWord);
 				first = false;
 			}
-			else if (scanLine.hasNext(",")){
-				//we pass the points
-				scanLine.next(",");
-			}
 			else if (scanLine.hasNext("\\S+\\.txt")){//a series of letters, numbers and punctuation
 				title = scanLine.next();			//with .txt that's the title
 				builder.addFile(title);
