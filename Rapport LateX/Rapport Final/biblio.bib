@@ -1,8 +1,8 @@
 
-% Ce fichier doit lister toutes vos rÈfÈrences bibliographiques.
-% Seules celles appelÈes par la commande \cite (cf. poly LaTeX) seront 
-% automatiquement incorporÈes dans votre document gr‚ce ‡ bibtex
-% et ‡ la sÈquence des 4 commandes suivantes :
+% Ce fichier doit lister toutes vos r√©f√©rences bibliographiques.
+% Seules celles appel√©es par la commande \cite (cf. poly LaTeX) seront 
+% automatiquement incorpor√©es dans votre document gr√¢ce √† bibtex
+% et √† la s√©quence des 4 commandes suivantes :
 %
 %      latex <fichier-tex-sans-extension> 
 %      bibtex <fichier-tex-sans-extension> 
@@ -11,23 +11,36 @@
 		  
 		  
 		  
-% Pour crÈer une nouvelle entrÈe bibliographique dans ce fichier :
+% Pour cr√©er une nouvelle entr√©e bibliographique dans ce fichier :
 %      sous xemacs, dans ce fichier, dans la zone de texte, cliquer
 %      sur le bouton droit de la souris et choisir le type de 
-%      rÈfÈrence. ComplÈter les diffÈrents champs. Supprimer les
-%      champs optionnels non utilisÈs. Ne pas oublier la clÈ 
-%      d'accËs ‡ la rÈfÈrence nÈcessaire pour la commande \cite 
-%      (par exemple "lamport:latex:94").
-		  
+%      r√©f√©rence. Compl√©ter les diff√©rents champs. Supprimer les
+%      champs optionnels non utilis√©s. Ne pas oublier la cl√© 
+%      d'acc√®s √† la r√©f√©rence n√©cessaire pour la commande \cite 
+%      (par exemple "lamport:latex:94").		  
 
-@Book{lamport:latex:94,
-  author = 	 "Lamport, Leslie",
-  title = 	 "LaTeX: A Document Preparation System - User's Guide
-		  and Reference Manual",
-  publisher = 	 "Addison-Wesley",
-  year = 	 "1994",
-  month = 	 nov,
-  edition = 	 "seconde",
+@Misc{wikigoogle:latex:1,
+  title = "Google",
+author = "Wikipedia l'encyclopedie libre",
+howpublished = "\url{http://fr.wikipedia.org/wiki/Google}",
+
+}
+
+
+@InBook{sujet:latex:2,
+  author = 	 {Costan,Alexandru},
+  title = 	 {Sujets des etudes pratiques 2012-2013},
+  chapter = 	 {Sujet 8},
+  publisher = 	 {Institut National des Sciences Appliquees de Rennes},
+  year = 	 {2012},
+}
+
+@Book{mapreducegoogle:latex:3,
+  title = 	 {MapReduce: Simplified Data Processing on Large Clusters},
+  author =  {Jeffrey Dean, Sanjay Ghemawat},
+  company = {Google Inc.},
+  publisher = 	 {Operating Systems and Implementations},
+  year = 	 {2004},
 }
 		  
 @Book{rolland:latex:95,
@@ -36,3 +49,4 @@
   publisher = 	 "Addison-Wesley",
   year = 	 "1995",
 }
+

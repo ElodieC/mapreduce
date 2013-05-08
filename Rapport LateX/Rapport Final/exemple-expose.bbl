@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+
+\bibitem{sujet:latex:2}
+Alexandru \bgroup\fonteauteurs\bgroup Costan\egroup\egroup{} :
+\newblock {\em Sujets des etudes pratiques 2012-2013}, chapitre Sujet 8.
+\newblock Institut National des Sciences Appliquees de Rennes, 2012.
+
+\bibitem{mapreducegoogle:latex:3}
+Sanjay~Ghemawat \bgroup\fonteauteurs\bgroup Jeffrey~Dean\egroup\egroup{} :
+\newblock {\em MapReduce: Simplified Data Processing on Large Clusters}.
+\newblock Operating Systems and Implementations, 2004.
+
+\bibitem{wikigoogle:latex:1}
+Wikipedia l'encyclopedie \bgroup\fonteauteurs\bgroup libre\egroup\egroup{} :
+\newblock Google.
+\newblock \url{http://fr.wikipedia.org/wiki/Google}.
+
+\end{thebibliography}

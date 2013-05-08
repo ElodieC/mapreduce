@@ -12,15 +12,16 @@
 
 %\linespread{1,6}          % Pour une version destinée à un relecteur,
                            % décommenter cette commande (double interligne) 
-                           
+
+\usepackage{url}                           
 % UTILISEZ SPELL (correcteur orthographique) à accès simplifié depuis XEmacs
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{ \textbf{Indexation et recherche de contenu utilisant MapReduce de Google} }
-\markright{Style pour l'exposé technique} 
+\title{ \textbf{Indexation et recherche de contenu utilisant MapReduce de Google}
+    \\ Rapport final }
+\markright{Indexation et recherche de contenu utilisant MapReduce de Google} 
                            % Pour avoir le titre de l'expose sur chaque page
-
 \author{Elodie \textsc{Corbel}, Kévin \textsc{M'Ghari}, \\
         Mickaël \textsc{Olivier}, Clarisse \textsc{Renou} \\
         \\
@@ -35,67 +36,64 @@
 \maketitle                 % Génère le titre
 \thispagestyle{empty}      % Supprime le numéro de page sur la 1re page
 
-
-
 \begin{abstract}
-Le résumé est limité à 10 lignes au maximum.
+Le résumé est limité à 10 lignes au maximum. A faire à la fin.
 \end{abstract} 
 
-
+\section{Remerciements}
+Nous tenous tout d'abord à remercier Alexandru Costan, professeur à l'INSA de Rennes, nous encadrant lors de ce projet. Il a sû nous donner de précieux conseils et nous guider tout au long de l'année aussi bien que nous donner un sujet d'étude riche et intéressant. Nous remercions aussi le personnel de l'INRIA, nous aillant accueilli lorsque nous allions rendre visite à Monsieur Costan.
 \section{Introduction}  
 
-Il n'y a pas de table des matières. Le document doit impérativement
-compter de \textbf{6 à 8 pages} de texte (figures comprises) et il ne
-doit pas y avoir d'annexe.
+Dans le cadre des études pratiques, en troisième année au département informatique à l'INSA de Rennes, nous avons été amené à réaliser un projet tout au long de l'année. Celui que nous avons choisi porte sur l'indexation et la recherche de contenu utilisant MapReduce de Google\cite{sujet:latex:2}.
+Nous avons choisi ce sujet car la recherche de contenu et Google sont pour nous quelque chose d'inévitable à partir du moment où un utilisateur utilise un ordinateur.
+En effet, Google, connu surtout pour son très populaire moteur de recherche, est un phénomène à lui tout seul, il représente 6,4\% du traffic Internet mondial en 2010\cite{wikigoogle:latex:1}. Connaître et utiliser un modèle de programmation tel que MapReduce conçu par Google était donc pour nous très motivant.
 
-Pour utiliser \LaTeX\ (disponible sur le réseau enseignement
-\textbf{uniquement} sous \textbf{Unix/Linux}), copiez tous les fichiers de
-\texttt{/home-info/commun/3info/ExpTech/} sur votre compte, puis 
-tapez \texttt{xlatex exemple-expose}. Vous pouvez alors
-lancer\footnote{équivalent à taper la commande : \texttt{latex mon-document}.}
-\LaTeX\ (bouton \fbox{\textsf{Façonner}} 
-ou \fbox{\includegraphics[height=0.75em]{./fig/xlatex.faconner.eps}}), 
-voir\footnote{équivalent à taper la commande : \texttt{xdvi mon-document}.}
-le résultat (bouton \fbox{\textsf{Visionner}}
-ou \fbox{\includegraphics[height=0.75em]{./fig/xlatex.visionner.eps}}), etc.
+Le principe de la recherche de contenu est assez simple. Il existe des documents structurés ou non dans lesquels des personnes souhaitent effectuer une requête auprès d'un serveur. Le serveur renvoie donc les documents dans lesquels se trouvent les mots sur lesquelles porte la requête. L'indexation permet d'améliorer la rapidité et les performances d'une recherche de contenu. En effet, celle-ci identifie les éléments significatifs du document afin de permettre un accès plus rapide à ceux-ci en créant un index. Lors d'une recherche, le moteur de recherche va d'abord chercher les informations dans l'index puis rend les documents à l'utilisateur.
 
-Lors de la compilation, en cas d'erreur, \LaTeX\ attend un ordre de
-votre part. Les plus utiles sont :
+Nous avons donc pour mission de faire un moteur de recherche avec son système d'inxation utilisant MapReduce de Google.
+
+Dans un premier temps, nous allons vous expliquer les solutions que nous avons choisi et la façon dont nous avons décomposé le travail. Puis, nous vous expliquerons comment nous avons conçu notre moteur de recherche. Et enfin, nous expliciterons les résultats obtenus.
+
+
+
+\section{Etude du projet}  
+
+Afin de déterminer ce que nous devions faire, dans une première partie de l'année, nous avons étudier la littérature existante sur le fonctionnement de MapReduce de Google afin de mieux comprendre notre objectif. Puis, nous avons découpé notre travail. Nous allons donc dans une première partie expliquer le fonctionnement de MapReduce et la solution choisie pour implémenter ce modèle de programmation. Puis, nous parlerons de la répartition du travail.
+
+\subsection{Présentation de MapReduce}
+
+MapReduce est un modèle de programmation popularisé par Google. Il est utilisé pour l'indexation de contenu. Il se repose sur deux fonctions une fonction Map et une fonction Reduce.
+La fonction Map prend en entrée une clé et des valeurs associées. Par exemple, pour un fichier, la clé peut être un numéro de ligne et la valeur le texte de la ligne. Cette fonction Map ensuite rend une clé intermédiaire et une valeur intermédiaire. Dans l'exemple du Wordcount (voir figure~\ref{fig:mapreduce}), dans laquelle on veut compter le nombre de chaque mot, la clé intermédiaire peut être un mot et la valeur 1.
+La fonction Reduce ensuite prend les clés et valeurs intermédiaires données par la fonction Map et aggrégège le résultat afin de donner une clé finale et un résultat final. Dans l'exemple du Wordcount, la clé serait un moteur et le résultat serait le nombre d'occurences de ce mot.\cite{mapreducegoogle:latex:3}
+\FigureEPS{h,t,b,p}{15cm}{mapreduce.eps}
+{Schema illustratif MapReduce}{fig:mapreduce}
+\\
+Il est très efficace pour le traitement de données importantes mais le résultat n'est pas immédiat. Il est donc utilsé en tâche de fond. Pour une même tâche MapReduce, plusieurs fonctions Map peuvent s'exécuter en même temps sur différentes parties de données ce qui rend l'algorithme plus efficace. Il en va de même pour les fonctions Reduce. MapReduce est très utilisé, il en a donc été fait des implémentations, la plus utilisée est Hadoop de Apache. C'est un framework qui utilise le langage de programmation java et qui a son propre système de fichiers sous lequel doivent être placés les fichiers à traiter. En fait, pour utiliser Hadoop, il suffit juste de le configurer, de l'installer et d'écrire des classes Map et Reduce. Nous avons donc décider d'utiliser ce framework pour notre projet avec de réaliser la partie indexation.
+%je ne sais pas si on doit parler tout de suite de comment on a implémenté l'index ou si c'est dans la prochaine partie
+\subsection {Décomposition du travail}
+
+Après le choix de Hadoop, nous avons donc décider de découper notre moteur de recherche en trois parties :
 \begin{itemize}
-        \item[?] liste des commandes possibles ;
+        \item l'interface graphique, où l'utilisateur entre ce qu'il veut rechercher
 
-        \item[h] diagnostic détaillé et suggestion de solution ; 
- 
-        \item[q] arrêt de \LaTeX.
+        \item le moteur de recherche, qui prend la requête entrée par l'utilisateur et effectue les calculs
+         \item et l'index, réalisé à l'aide d'hadoop, qui réalisera l'indexation du contenu.
 \end{itemize}
+Le contenu en lui-même est constitué de fichiers textes, des livres libres de droit trouvés sur internet. Le résultat rendu sera les lignes dans lesquelles appraissent les mots entrés par l'utilisateur. Nous avons décidé d'utiliser le langage java d'une part car Hadoop est en java, d'autre part parce que tous les membres du groupe connaissant bien le langage, cela permet une meilleure cohésion. 
+Comme la mise en place d'Hadoop et de l'index nous semblait une tâche difficile nous avons décidé d'attribuer 2 personnes sur l'indexation, une personne sur le moteur de recherche et une autre personne sur l'interface graphique afin de faire fonctionner au début les modules séparément puis ensuite d'unifier le travail.
+%a toi Mika je te mets les grandes lignes^^ 
+\section{Elaboration du projet}
+intro rapide
+\subsection{Interface graphique}
+japplet page html pourquoi blabla
+\subsection{Moteur de recherche}
+recuperation des infos de l'index etc (ne pas trop rentrer dans les détails du code)
+\subsection{Indexation}
+Je la ferais si tu veux avec un schéma ^^.
 
-Pour avoir un descriptif plus étoffé des commandes \LaTeX\ 
-utilisables, vous pouvez vous reporter à la documentation distribuée.
-Si elle n'est pas suffisante, vous trouverez des informations
-complémentaires à la bibliothèque dans \cite{lamport:latex:94} et
-\cite{rolland:latex:95}.
-
-Sous Solaris vous avez les lettres minuscules accentuées
-accessibles directement par les raccourcis spéciaux \textsf{shift-F1 à F12}, 
-et les majuscules par \textsf{CapsLock} puis \textsf{shift-F1 à F12}, 
-ou bien plus classiquement par la séquence de touches 
-\textsf{Compose accent lettre}.
-
-
-
-\section{Titre de section}  
-
-Ligne de remplissage pour visualiser la mise en page. Ligne de
-remplissage pour visualiser la mise en page. 
-
-\subsection{Titre de sous-section}
-\subsubsection{Titre de sous-sous-section}
 \paragraph{Titre de paragraphe}
 
-Exemple de référence à une figure au format PostScript encapsulé
-(figure~\ref{fig:exemple}). Cette figure a été créée à l'aide de
-\texttt{xfig}\footnote{disponible sous Unix/Linux.} après exportation 
-du fichier fig vers le format Encapsulated PostScript.
+Exemple de 
 
 % Utilisation de la commande pour inclure un fichier eps
 %------------------------------------------------------------------------------
@@ -111,12 +109,6 @@ du fichier fig vers le format Encapsulated PostScript.
                   {fig:exemple}
 %------------------------------------------------------------------------------
 
-Pour inclure une image, on doit aussi la convertir en EPS, avec
-la commande \texttt{convert}\footnote{
-disponible aussi sous Unix/Linux et à privilégier 
-car elle génère un EPS tout à fait standard 
-(au contraire de nombreux pilotes Windows).}
-\texttt{~image image.eps}, qui accepte pratiquement tous les formats d'images.
 
 
 \subsection{Encore un titre de sous-section}

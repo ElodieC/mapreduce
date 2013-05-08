@@ -1,0 +1,81 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=prv_exemple-expose 2013.5.8)  8 MAY 2013 17:21
+entering extended mode
+ %&-line parsing enabled.
+**&prv_exemple-expose _region_.tex
+(./_region_.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+ article.cls    2007/10/19 v1.4h Standard LaTeX document class
+  size11.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
+ exptech.sty    
+graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
+graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg    2009/08/28 v1.8 graphics configuration of TeX Live
+   dvips.def    1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+ fontenc.sty
+   t1enc.def    2005/09/27 v1.99g Standard LaTeX file
+inputenc.sty    2008/03/30 v1.1d Input encoding file
+  latin1.def    2008/03/30 v1.1d Input encoding file
+   babel.sty    2008/07/06 v3.8l The Babel package
+ frenchb.ldf    2009/03/16 v2.3d French support from the babel system
+ frenchb.cfg
+scalefnt.sty    
+  t1cmtt.fd    1999/05/25 v2.5h Standard LaTeX font definitions
+  t1cmss.fd    1999/05/25 v2.5h Standard LaTeX font definitions
+        .
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+(/usr/share/texmf/tex/latex/preview/preview.sty
+Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
+
+(/usr/share/texmf/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen108
+)
+(/usr/share/texmf/tex/latex/preview/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count90
+\hfuzz=\dimen109
+(/usr/share/texmf/tex/latex/preview/prauctex.cfg))
+(/usr/share/texmf/tex/latex/preview/prfootnotes.def)
+\pr@snippet=\count91
+\pr@box=\box26
+\pr@output=\toks17
+
+Preview: Fontsize 10.95pt
+)
+LaTeX Info: Redefining \degres on input line 33.
+LaTeX Info: Redefining \dots on input line 33.
+LaTeX Info: Redefining \up on input line 33.
+  !name(exemple-expose.tex) !offset(-3) 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 38.
+
+ !name(exemple-expose.tex) !offset(58)  ) 
+Here is how much of TeX's memory you used:
+ 203 strings out of 493561
+ 2679 string characters out of 1163400
+ 73696 words of memory out of 3000000
+ 4866 multiletter control sequences out of 15000+50000
+ 15934 words of font info for 38 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 22i,6n,22p,171b,208s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+No pages of output.
