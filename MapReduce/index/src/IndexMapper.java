@@ -49,7 +49,7 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
 			lineOffset++;
 			Text t = new Text (mots.nextToken());//le mot
 			if (!motAIgnorer(t))
-				context.write(new Text(t + " , " +fileName), new Text(""+lineNumber));
+				context.write(new Text(t + " " +fileName), new Text(""+lineNumber));
 		}
 	}
 	/**

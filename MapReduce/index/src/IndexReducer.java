@@ -19,7 +19,7 @@ public class IndexReducer extends Reducer<Text,Text,Text,Text> {
 		
 		//pour stocker les lignes et les ecrire a la fin
 		StringBuilder lineNumbers = new StringBuilder();
-		final String separator = " , ";
+		final String separator = " ";
 		
 		for (Text value:values) {
 			if (lineNumbers.toString().equals("")){
