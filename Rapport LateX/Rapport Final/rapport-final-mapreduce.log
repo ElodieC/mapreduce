@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  9 MAY 2013 18:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  9 MAY 2013 19:35
 entering extended mode
  %&-line parsing enabled.
-**rapport-final-mapreduce
+**rapport-final-mapreduce.tex
 (./rapport-final-mapreduce.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -153,21 +153,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--108
 
  []
 
-[4] [5]
+File: IndexHashmap.eps Graphic file (type eps)
+<IndexHashmap.eps> [4] [5]
 File: resultat.ps Graphic file (type eps)
  <resultat.ps>
-Underfull \hbox (badness 10000) in paragraph at lines 148--153
+Underfull \hbox (badness 10000) in paragraph at lines 150--155
 
  []
 
 [6] (./rapport-final-mapreduce.bbl) [7] (./rapport-final-mapreduce.aux) ) 
 Here is how much of TeX's memory you used:
- 1607 strings out of 495062
- 20016 string characters out of 1182644
+ 1610 strings out of 495062
+ 20061 string characters out of 1182644
  77268 words of memory out of 3000000
- 4783 multiletter control sequences out of 15000+50000
+ 4785 multiletter control sequences out of 15000+50000
  18191 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,6n,26p,683b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,6n,26p,687b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on rapport-final-mapreduce.dvi (7 pages, 23656 bytes).
+Output written on rapport-final-mapreduce.dvi (7 pages, 23880 bytes).

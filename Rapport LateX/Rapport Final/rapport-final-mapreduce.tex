@@ -112,8 +112,10 @@ Une fois le traitement sur le texte pur effectué via MapReduce, on obtient donc 
 
 Il faut donc reconstituer à partir de ce fichier beaucoup moins lourd que le texte initial un index dans la mémoire vive. Pour celà, nous avons opté pour une table de hachage. 
 
-Il s'agit en fait d'une table de hachage contenant elle-même une autre table de hachage ayant en clé principale un entier (identifiant unique pour chaque entrée de la table de hachage) auquel on associe une autre table de hachage, dont la clé (secondaire) est une chaîne de caractères qui décrit le mot auquel est associée l'entrée.%faudrait un petit schéma pour illustrer ce paragraphe
-Enfin, on associe à ce mot le nom de fichier dans lequel il se trouve, et une liste qui contient les numéros de lignes où l'on trouve le mot dans le fichier décrit.
+Il s'agit en fait d'une table de hachage(\textit{voir figure~\ref{fig:hashmap}}) contenant elle-même une autre table de hachage ayant en clé principale un entier (identifiant unique pour chaque entrée de la table de hachage) auquel on associe une autre table de hachage, dont la clé (secondaire) est une chaîne de caractères qui décrit le mot auquel est associée l'entrée.
+Enfin, on associe à ce mot des informations c'est-à-dire le nom de fichier dans lequel il se trouve, et une liste qui contient les numéros de lignes où l'on trouve le mot dans le fichier décrit.
+
+\FigureEPS{h,t,b,p}{10cm}{IndexHashmap.eps}{Schema representant la table de hachage}{fig:hashmap}
 
 Pour l'indexation, le principal problème que nous avons rencontré fut des problèmes dans l'installation d'Hadoop. En effet, Hadoop nécessite Java et ce dernier n'est pas toujours correctement installé sur le système d'exploitation que nous utilisons. Par ailleurs, nous n'avons pas réussi à installer Hadoop sur Windows étant conçu pour tourner sur Linux/Unix, des problèmes de droit nous ont empêché de pouvoir lancer Hadoop.
 \subsection{Moteur de recherche}
