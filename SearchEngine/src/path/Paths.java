@@ -4,32 +4,32 @@ package path;
  * @author Corbel Elodie
  *
  */
-public interface Paths {
-	String chemindeClarisseOutput = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output";
-	String cheminElodieOutput = "/home/hduser/hadoopMR/outputFiles/output";
-	String cheminMickaelOutput = "C:/Users/Olivier Catherine/workspace/hadoopMR/outputFiles/output";
+public class Paths {
+	private static String chemindeClarisseOutput = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output";
+	private static String cheminElodieOutput = "/home/hduser/hadoopMR/outputFiles/output";
+	private static String cheminMickaelOutput = "C:/Users/Olivier Catherine/workspace/hadoopMR/outputFiles/output";
 	/**
 	 * outputIndexLocation String endroit où se trouve le fichier output.txt sortant de l'index
 	 */
-	static final String outputIndexLocation = cheminElodieOutput;
+	public static final String outputIndexLocation = cheminElodieOutput;
 	
-	String cheminElodieSplit = "/home/hduser/hadoopMR/inputFilesSplit/";
-	String chemindeClarisseSplit = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/";
-	String cheminMickaelSplit = "C:/Users/Olivier Catherine/workspace/hadoopMR/inputFilesSplit/";
+	private static String cheminElodieSplit = "/home/hduser/hadoopMR/inputFilesSplit/";
+	private static String chemindeClarisseSplit = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/";
+	private static String cheminMickaelSplit = "C:/Users/Olivier Catherine/workspace/hadoopMR/inputFilesSplit/";
 	/**
 	 * inputFilesSplitDir String dossier où se trouvent les fichiers découpés par le script découpant les fichiers 
 	 * toutes les 100 lignes
 	 */
-	static final String inputFilesSplitDir = cheminElodieSplit;
+	public static final String inputFilesSplitDir = cheminElodieSplit;
 	
-	String pathClarisseLog = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/" +
+	private static String pathClarisseLog = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/" +
 			"mapreduce/hadoopMR/";
-	String pathElodieLog = "/home/hduser/hadoopMR/";
-	String pathMickaelLog = "C:/Users/Olivier Catherine/workspace/hadoopMR/";
+	private static String pathElodieLog = "/home/hduser/hadoopMR/";
+	private static String pathMickaelLog = "C:/Users/Olivier Catherine/workspace/hadoopMR/";
 	/**
 	 * logFilePath String dossier où on enregistre le log du programme
 	 */
-	static final String logFilePath = pathElodieLog;
+	public static final String logFilePath = pathElodieLog;
 	
 	
 	
