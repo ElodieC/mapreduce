@@ -6,7 +6,7 @@ package path;
  */
 public class Paths {
 	private static String chemindeClarisseOutput = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/outputFiles/output";
-	private static String cheminElodieOutput = "/home/hduser/hadoopMR/outputFiles/output";
+	private static String cheminElodieOutput = "/home/hduser/workspace/mapreduce/hadoopMR/outputFiles/output";
 	private static String cheminMickaelOutput = "C:/Users/Olivier Catherine/workspace/hadoopMR/outputFiles/output";
 	/**
 	 * outputIndexLocation String endroit où se trouve le fichier output.txt sortant de l'index
