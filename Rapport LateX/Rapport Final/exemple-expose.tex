@@ -50,7 +50,7 @@ En effet, Google, connu surtout pour son très populaire moteur de recherche, est
 
 Le principe de la recherche de contenu est assez simple. Il existe des documents structurés ou non dans lesquels des personnes souhaitent effectuer une requête auprès d'un serveur. Le serveur renvoie donc les documents dans lesquels se trouvent les mots sur lesquelles porte la requête. L'indexation permet d'améliorer la rapidité et les performances d'une recherche de contenu. En effet, celle-ci identifie les éléments significatifs du document afin de permettre un accès plus rapide à ceux-ci en créant un index. Lors d'une recherche, le moteur de recherche va d'abord chercher les informations dans l'index puis rend les documents à l'utilisateur.
 
-Nous avons donc pour mission de faire un moteur de recherche avec son système d'inxation utilisant MapReduce de Google.
+Nous avons donc pour mission de faire un moteur de recherche avec son système d'inxation utilisant MapReduce de Google
 
 Dans un premier temps, nous allons vous expliquer les solutions que nous avons choisi et la façon dont nous avons décomposé le travail. Puis, nous vous expliquerons comment nous avons conçu notre moteur de recherche. Et enfin, nous expliciterons les résultats obtenus.
 
@@ -72,7 +72,7 @@ Il est très efficace pour le traitement de données importantes mais le résultat 
 %je ne sais pas si on doit parler tout de suite de comment on a implémenté l'index ou si c'est dans la prochaine partie
 \subsection {Décomposition du travail}
 
-Après le choix de Hadoop, nous avons donc décider de découper notre moteur de recherche en trois parties :
+Après le choix de Hadoop, nous avons donc décidé de découper notre moteur de recherche en trois parties :
 \begin{itemize}
         \item l'interface graphique, où l'utilisateur entre ce qu'il veut rechercher
 
@@ -83,14 +83,33 @@ Le contenu en lui-même est constitué de fichiers textes, des livres libres de dr
 Comme la mise en place d'Hadoop et de l'index nous semblait une tâche difficile nous avons décidé d'attribuer 2 personnes sur l'indexation, une personne sur le moteur de recherche et une autre personne sur l'interface graphique afin de faire fonctionner au début les modules séparément puis ensuite d'unifier le travail.
 %a toi Mika je te mets les grandes lignes^^ 
 \section{Elaboration du projet}
-intro rapide
-\subsection{Interface graphique}
-japplet page html pourquoi blabla
-\subsection{Moteur de recherche}
-recuperation des infos de l'index etc (ne pas trop rentrer dans les détails du code)
-\subsection{Indexation}
-Je la ferais si tu veux avec un schéma ^^.
+Très tôt, nous avons décidé de se pencher sur l'architecture de notre projet, et tout au long du projet, nous avons suivi et rectifié son évolution. Voici ci dessous notre architecture finale dans les grandes lignes.
 
+\subsection{Indexation}
+%Je la ferais si tu veux avec un schéma ^^. <= Si tu peux parler de MapReduce ça me va, je te met la partie "création d'un index" en parlant de la grammaire.
+Une fois le traitement sur le texte pur effectué via MapReduce, on obtient donc un fichier texte qui contient ligne par ligne les entrées suivantes, séparées par des virgules : mot, fichier, lignes associées.
+\\Il faut donc reconstituer à partir de ce fichier beaucoup moins lourd que le texte initial un index dans la mémoire vive. Pour celà, nous vons choisi d'utiliser une Map<Integer, HashMap<String, Informations >>. 
+\\Il s'agit en fait d'une Hashmap d'Hashmap contenant en clé principale un integer (pseudo hashcode permettant de parcourir simplement la structure) auquel on associe une autre HashMap, dont la clé (secondaire) est un String qui décrit le mot auquel est associée l'entrée.
+Enfin, on associe à ce String une classe Information, qui possède comme attributs un autre String, qui est un fichier dans lequel on trouve ce mot, et une ArrayList<Long> qui contient les numéros de lignes où l'on trouve le mot dans le fichier décrit.
+\subsection{Moteur de recherche}
+Le moteur de recherche va parcourir la hashmap reconstituée à partir du fichier texte produit par MapReduce afin d'en tirer des informations intéressantes. Tout d'abord, nous avons pensé à une recherche simple, d'une suite de mots. Il s'agissait là de découper l'expression passée par l'utilisateur afin d'accomplir une recherche mot par mot. Sur ce découpage, nous avons choisi d'éliminer certains mots courants de la lange française, à savoir les articles, les mots de liaisons et les pronoms.
+\\Ensuite, la classe chargée de traiter l'expression, nommée search, passe la main à la classe seeker qui va pour chaque mot vérifier s'il s'agit d'une clé de la hashmap constituant l'index puis, si tel est le cas, renvoyer les entrées correspondantes (fichiers, numéros de lignes, nombre d'occurences). A partir de ces informations, on renvoie un affichage de chaque instance de ligne où le mot clé est trouvé, en donnant les numéros de ligne associés.
+L'ordre de l'affichage se base sur un critère de relevance qui concerne le nombre d'occurences de chaque mot clé pour chaque fichier. On réaffichera des parties d'un même fichier pour chaque mot, ce qui nous permet d'obtenir le contexte dans lequel ce mot a été trouvé.
+\\Pour finir, l'idée nous est venue d'introduire quelque prédicats de base, à savoir AND, OR et NOT. Ils permettent respectivement de rechercher un fichier contenant deux mots, de rechercher des fichiers ne comprenant pas les deux mots passés en argument en même temps, et d'éliminer un mot de la recherche. Ils sont cummulables, et leur grammaire est de la forme suivante :
+\\\\
+AND mot mot
+\\OR mot mot
+\\NOT mot
+\\\\
+Pour mettre en place le AND comme le OR, il a fallut parcourir le résultat associés aux deux mots et éliminer les résultats ne correspondant pas - à savoir les fichiers ne contenant pas les deux mots dans le cas du AND, et inversement dans le cas du OR, ceux contenant les deux mots.
+\\Pour le NOT, un cas plus particulier, il a fallu créer une deuxième liste dans la classe Seeker qui contienne les informations à éliminer. Après avoir traitéer tous les mots, dans la classe Search, il nous suffit alors d'enlever les instances de cette liste à la liste de recherche principale. Dans le cas où aucun NOT ne serait utilisé, cette liste est vide donc la méthode marche dans tous les cas.
+\\
+Les seuls problèmes que nous avons rencontré dans cet partie sont purement des problèmes d'algorithme, d'organisation des structures de données et de lecture du texte passé en amont par l'utilisateur.
+\subsection{Interface graphique}
+Enfin, pour l'interface graphique, nous avons vite pensé à utiliser une applet. Java met à dispositions des classes qui permettent simplement de réaliser une classe fenêtre, que l'on peut ensuite exporter sous forme d'applet. Il suffit d'intégrer celle-ci dans une pâge html qui étoffe son apparence pour avoir une interface simple etélégante, constituée entre autres d'un champ de caractère et d'un bouton.
+\\Après la recherche entrée comme spécifiée plus haut, l'applet renvoie tout simplement un affichage des lignes des textes contenant les mots clés nous intéressants, que nous avons mis en avant en les mettant en gras. Si jamais l'utilisateur rentre des informations aberrantes, comme un mot clé n'existant pas ou un prédicat mal formalisé, l'applet en informe aussi l'utilisateur, en lui proposant même une correction dans le second cas.
+\\Nous avons rencontré uniquement des difficultés au niveau de l'affichage de l'applet. En effet, sous linux, il est difficile d'abaisser le niveau de sécurité de java afin d'autoriser l'éxécution mais aussi l'accès aux données de l'applet.
+\\
 \paragraph{Titre de paragraphe}
 
 Exemple de 
@@ -104,9 +123,9 @@ Exemple de
 %           En général, ne pas modifier cet argument.
 
 %------------------------------------------------------------------------------
-\FigureEPS{h,t,b,p}{8.5cm}{./fig/exemple-figure.eps}
-                  {Exemple d'inclusion d'une figure EPS}   
-                  {fig:exemple}
+%\FigureEPS{h,t,b,p}{8.5cm}{./fig/exemple-figure.eps}
+%                  {Exemple d'inclusion d'une figure EPS}   
+%                  {fig:exemple}
 %------------------------------------------------------------------------------
 
 
