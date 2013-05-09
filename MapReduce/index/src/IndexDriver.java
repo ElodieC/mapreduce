@@ -16,10 +16,15 @@ public class IndexDriver {
 		
 		Job job = new Job();
 		job.setJarByClass(IndexDriver.class);
-
-		FileInputFormat.addInputPath(job,new Path("/home/hduser/hadoop/inputFiles"));
-		FileOutputFormat.setOutputPath(job,new Path("/home/hduser/hadoop/output"));//ne doit pas exister
-
+		if (args.length == 2){
+			FileInputFormat.addInputPath(job,new Path(args[0]));
+			FileOutputFormat.setOutputPath(job,new Path(args[1]));//ne doit pas exister
+		}
+		else {
+			System.err.println("Arguments non valides : syntaxe de la commande hadoop jar hadoopIndex.jar IndexDriver inputDFS outputDFS");
+			System.exit(1);
+		}
+		
 		job.setMapperClass(IndexMapper.class);
 
 		job.setReducerClass(IndexReducer.class);

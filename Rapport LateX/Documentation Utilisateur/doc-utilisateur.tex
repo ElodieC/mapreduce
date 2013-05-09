@@ -1,0 +1,102 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     STYLE POUR LES EXPOSÉS TECHNIQUES 
+%         3e année INSA de Rennes
+%
+%             NE PAS MODIFIER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{exptech}       % Fichier (./exptech.sty) contenant les styles pour 
+                           % l'expose technique (ne pas le modifier)
+\usepackage{url}
+
+%\linespread{1,6}          % Pour une version destinée à un relecteur,
+                           % décommenter cette commande (double interligne) 
+                           
+% UTILISEZ SPELL (correcteur orthographique) à accès simplifié depuis XEmacs
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{ \textbf{Indexation et recherche de contenu utilisant MapReduce de Google} \\ Documentation utilisateur}
+\markright{Indexation et recherche de contenu utilisant MapReduce de Google} 
+                           % Pour avoir le titre de l'expose sur chaque page
+
+\author{Elodie \textsc{Corbel}, Kévin \textsc{M'Ghari}, \\
+        Mickaël \textsc{Olivier}, Clarisse \textsc{Renou} \\
+        \\
+        Encadrant : Alexandru \textsc{Costan}}
+
+\date{}                    % Ne pas modifier
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}          
+
+\maketitle                 % Génère le titre
+\thispagestyle{empty}      % Supprime le numéro de page sur la 1re page
+
+\section*{Introduction}  
+
+Notre projet intitulé Indexation et recherche de contenu utilisant MapReduce de Google est en fait un moteur de recherche. Nous utilisons Hadoop pour le système d'indexation, c'est-à-dire référencer les fichiers dans notre moteur de recherche et une applet Java pour effectuer la recherche. 
+Cette documentation a pour but de vous expliquer comment installer et utiliser notre moteur de recherche.
+
+\section{Installation}
+Pour l'installation, il y a plusieurs logiciels nécessaires au fonctionnement de notre moteur de recherche.
+\subsection{Pré-requis}
+Tout d'abord, un système Unix est nécessaire pour l'exécution des scripts.
+
+Ensuite, il faut avoir le Java Development Kit (JDK) installé sur votre ordinateur pour faire fonctionner notre logiciel. 
+
+Enfin, il vous faudra installer et configurer Hadoop pour avoir accès à l'indexation. Pour plus d'informations, aller voir la documentation officielle : \url{http://hadoop.apache.org/}. Si vous voulez suivre un tutoriel pour l'installation sur Ubuntu, c'est ici : \url{http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-single-node-cluster/}.
+\subsection{Configuration}
+Pour configurer notre moteur de recherche, plusieurs fichiers sont à modifier. 
+
+Pour le système d'indexation, il est nécessaire de modifier le fichier \texttt{scripthadoop.sh} se trouvant dans l'archive de notre projet dans le dossier \texttt{hadoopMR}. Les variables à modifier sont :
+\begin{itemize}
+ \item  \texttt{hadoopPath} était le chemin où vous avez installé Hadoop
+ \item  \texttt{inputPath} chemin du dossier parent où se trouvent vos fichiers que vous voulez indexer, les fichiers à indexer doivent obligatoirement être dans un dossier nommé inputFiles
+ \item \texttt{dfsInputPath} endroit où vous voulez mettre les fichiers sur le système de fichier Hadoop
+ \item  \texttt{dfsOutputPath} l'endroit où vous voulez mettre les fichiers en sortie dans le système de fichiers d'Hadoop
+\end{itemize}
+ Si vous voulez que l'indexation s'effectue automatiquement toutes les heures, il faut planifier une tache cron sur Unix\footnote{voir manuel Unix}. Sinon, exécutez seulement le script \texttt{scripthadoop.sh} dans le dossier \texttt{hadoopMR} du projet.
+
+Pour ce qui est de l'applet, vous allez devoir modifier le code et recompiler notre applet (en gardant les mêmes noms et en la plaçant au bon endroit).
+Pour accéder au code source de notre applet, dans notre archive, vous le trouverez dans le dossier \texttt{SearchEngine}. Il vous faut ensuite aller dans \texttt{src/path/Paths.java}. Il faut modifier chacune des variables. Normalement,
+\begin{itemize}
+\item \texttt{outputIndexLocation} même contenu que inputPath puis rajouter \texttt{/outputFiles/output}
+\item \texttt{inputFilesSplitDir} même contenu que inputPath puis rajouter \texttt{/inputFilesSplit/}
+\item \texttt{logFilePath} chemin où vous voulez que soit placé le fichier journal du programme
+\end{itemize} 
+Puis, compiler et placer le .jar de l'applet dans le dossier \texttt{Page web} en la nommant applet.jar. N'oublier pas de signer l'applet (nécessaire pour lire les fichiers du disque dur et donc pour parcourir l'index).
+\section{Fonctionnalités}
+Après les étapes compliquées, passons au fonctionnement du moteur de recherche en lui-même. Pour lancer le logiciel, il vous suffit, après avoir exécuté le script d'indexation (voir section Installation), d'ouvrir, avec un navigateur web, le fichier \texttt{page.html} se trouvant dans le dossier \texttt{Page web} de notre projet.
+\subsection{Recherche simple}  
+Pour faire une recherche, il vous faut simplement entrer des mots dans la champ en-dessous du petit éléphant jaune (logo d'Hadoop), appuyer sur Entrée (ou Search)et le résultat vous sera donné. Le résultat se constitura des noms de fichiers dans lequel votre(vos) mot(s) se trouve(nt) et des trois lignes l'entourant dans le fichier, voir aperçu figure~\ref{fig:apercu}. 
+\FigureEPS{h,t,b,p}{15cm}{apercu.ps}
+                  {Apercu de notre moteur de recherche}   
+                  {fig:apercu}
+
+A noter que certains mots non pertinents sont ignorés et ne donnent pas de résultats. Voici la liste de ces mots :\textit{ et, ou, où, de, des, d, le, les, l, la, je, il, au, aux, du, un, une, a, à, ni, que, si, y, m, mon, ma, mes, me, ne, nous, on, sa, ses, se, qui, s, t, ta, tes, te, il, là, qu, sans, sur}.
+\subsection{Recherche avec prédicats}
+Vous avez la possibilité d'effectuer une recherche avec des prédicats dans notre moteur de recherche. Les prédicats \texttt{AND}, \texttt{OR} et \texttt{NOT} ont une signification. 
+
+Le prédicat \texttt{AND} permet de rendre en résultat seulement les fichiers où les 2 mots suivant le prédicat apparaissent.
+Syntaxe de la commande : \texttt{AND mot1 mot2}.
+
+Le prédicat \texttt{OR} permet de réaliser un ou exclusif. Il rendra seulement les fichiers où les 2 mots suivant le prédicat n'apparaissent pas ensemble.
+Syntaxe de la commande : \texttt{OR mot1 mot2}.
+
+Le prédicat \texttt{NOT} permet d'exclure les fichiers contenant le mot suivant le prédicat.
+Syntaxe de la commande : \texttt{NOT mot}.
+
+\section{Conclusion} 
+ 
+Si vous avez des questions, n'hésitez pas à nous contacter. 
+
+\bibliography{biblio}
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
