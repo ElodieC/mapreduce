@@ -41,24 +41,24 @@ Ce rapport a pour but de mettre en avant le travail effectué par 4 élèves-ingéni
 \end{abstract} 
 
 \section*{Remerciements}
-Nous tenous tout d'abord à remercier Alexandru Costan, professeur à l'INSA de Rennes, nous encadrant lors de ce projet. Il a sû nous donner de précieux conseils et nous guider tout au long de l'année aussi bien que nous procurer un sujet d'étude riche et intéressant. Nous remercions aussi le personnel de l'INRIA toujours souriant et très aimable, nous aillant accueilli lorsque nous allions rendre visite à Monsieur Costan.
+Nous tenons tout d'abord à remercier Alexandru Costan, professeur à l'INSA de Rennes, nous encadrant lors de ce projet. Il a su nous donner de précieux conseils et nous guider tout au long de l'année aussi bien que nous procurer un sujet d'étude riche et intéressant. Nous remercions aussi le personnel de l'INRIA toujours souriant et très aimable, nous aillant accueilli lorsque nous allions rendre visite à Monsieur Costan.
 \section*{Introduction}  
 
-Dans le cadre des études pratiques, en troisième année au département informatique à l'INSA de Rennes, nous avons été amené à réaliser un projet tout au long de l'année. Celui que nous avons choisi porte sur l'indexation et la recherche de contenu utilisant MapReduce de Google\cite{sujet:latex:2}.
+Dans le cadre des études pratiques, en troisième année au département informatique à l'INSA de Rennes, nous avons été amenés à réaliser un projet tout au long de l'année. Celui que nous avons choisi porte sur l'indexation et la recherche de contenu utilisant MapReduce de Google\cite{sujet:latex:2}.
 Nous avons choisi ce sujet car la recherche de contenu et Google sont pour nous quelque chose d'inévitable à partir du moment où un utilisateur utilise un ordinateur.
-En effet, Google, connu surtout pour son très populaire moteur de recherche, est un phénomène à lui tout seul, il représente 6,4\% du traffic Internet mondial en 2010\cite{wikigoogle:latex:1}. Connaître et utiliser un modèle de programmation tel que MapReduce conçu par Google était donc pour nous très motivant.
+En effet, Google, connu surtout pour son très populaire moteur de recherche, est un phénomène à lui tout seul, il représente 6,4\% du trafic Internet mondial en 2010\cite{wikigoogle:latex:1}. Connaître et utiliser un modèle de programmation tel que MapReduce conçu par Google était donc pour nous très motivant.
 
 Le principe de la recherche de contenu est assez simple. Il existe des documents structurés ou non dans lesquels des personnes souhaitent effectuer une requête auprès d'un serveur. Le serveur renvoie donc les documents dans lesquels se trouvent les mots sur lesquels porte la requête. L'indexation permet d'améliorer la rapidité et les performances d'une recherche de contenu. En effet, celle-ci identifie les éléments significatifs du document afin de permettre un accès plus rapide à ceux-ci en créant un index. Lors d'une recherche, le moteur de recherche va d'abord chercher les informations dans l'index puis rend les documents à l'utilisateur.
 
 Nous avons donc pour mission de faire un moteur de recherche avec son système d'indexation utilisant MapReduce de Google
 
-Dans un premier temps, nous allons vous expliquer les solutions que nous avons choisi et la façon dont nous avons décomposé le travail. Puis, nous vous expliquerons comment nous avons conçu notre moteur de recherche. Et enfin, nous expliciterons les résultats obtenus.
+Dans un premier temps, nous allons vous expliquer les solutions que nous avons choisies et la façon dont nous avons décomposé le travail. Puis, nous vous expliquerons comment nous avons conçu notre moteur de recherche. Et enfin, nous expliciterons les résultats obtenus.
 
 
 
 \section{Etude du projet}  
 
-Afin de déterminer ce que nous devions faire, dans une première partie de l'année, nous avons étudier la littérature existante sur le fonctionnement de MapReduce de Google afin de mieux comprendre notre objectif. Puis, nous avons découpé notre travail. Nous allons donc dans une première partie expliquer le fonctionnement de MapReduce et la solution choisie pour implémenter ce modèle de programmation. Puis, nous parlerons de la répartition du travail.
+Afin de déterminer ce que nous devions faire, dans une première partie de l'année, nous avons étudié la littérature existante sur le fonctionnement de MapReduce de Google afin de mieux comprendre notre objectif. Puis, nous avons découpé notre travail. Nous allons donc dans une première partie expliquer le fonctionnement de MapReduce et la solution choisie pour implémenter ce modèle de programmation. Puis, nous parlerons de la répartition du travail.
 
 \subsection{Présentation de MapReduce}
 
@@ -66,14 +66,14 @@ MapReduce est un modèle de programmation popularisé par Google. Il est utilisé p
 
 La fonction \texttt{Map} prend en entrée une clé et des valeurs associées. Par exemple, pour un fichier, la clé peut être un numéro de ligne et la valeur le texte de la ligne. Cette fonction ensuite rend une clé intermédiaire et une valeur intermédiaire. Dans l'exemple du Wordcount (voir \textit{figure~\ref{fig:mapreduce}}), dans laquelle on veut compter le nombre de chaque mot, la clé intermédiaire peut être un mot et la valeur 1.
 
-La fonction \texttt{Reduce} ensuite prend les clés et valeurs intermédiaires données par la fonction \texttt{Map} et aggrège le résultat afin de donner une clé finale et un résultat final. Dans l'exemple du Wordcount, la clé serait un mot et le résultat serait le nombre d'occurences de ce mot.\cite{mapreducegoogle:latex:3}
+La fonction \texttt{Reduce} ensuite prend les clés et valeurs intermédiaires données par la fonction \texttt{Map} et agrège le résultat afin de donner une clé finale et un résultat final. Dans l'exemple du Wordcount, la clé serait un mot et le résultat serait le nombre d'occurrences de ce mot.\cite{mapreducegoogle:latex:3}
 \FigureEPS{h,t,b,p}{15cm}{mapreduce.eps}
 {Schema illustratif MapReduce}{fig:mapreduce}
 \\
 
-Il est très efficace pour le traitement de données importantes mais le résultat n'est pas immédiat. Il est donc utilsé en tâche de fond. Pour une même tâche MapReduce, plusieurs fonctions \texttt{Map} peuvent s'exécuter en même temps sur différentes parties de données ce qui rend l'algorithme plus efficace. Il en va de même pour les fonctions \texttt{Reduce}. 
+Il est très efficace pour le traitement de données importantes mais le résultat n'est pas immédiat. Il est donc utilisé en tâche de fond. Pour une même tâche MapReduce, plusieurs fonctions \texttt{Map} peuvent s'exécuter en même temps sur différentes parties de données ce qui rend l'algorithme plus efficace. Il en va de même pour les fonctions \texttt{Reduce}. 
 
-MapReduce est très utilisé, des implémentations en ont donc été faites, la plus utilisée est Hadoop de Apache. C'est un framework qui utilise le langage de programmation java et qui a son propre système de fichiers sous lequel doivent être placés les fichiers à traiter. En fait, pour utiliser Hadoop, il suffit juste de le configurer, de l'installer et d'écrire des classes effectuant les fonctions \texttt{Map} et \texttt{Reduce}. Nous avons donc décider d'utiliser ce framework pour notre projet afin de réaliser la partie indexation.
+MapReduce est très utilisé, des implémentations en ont donc été faites, la plus utilisée est Hadoop de Apache. C'est un framework qui utilise le langage de programmation java et qui a son propre système de fichiers sous lequel doivent être placés les fichiers à traiter. En fait, pour utiliser Hadoop, il suffit juste de le configurer, de l'installer et d'écrire des classes effectuant les fonctions \texttt{Map} et \texttt{Reduce}. Nous avons donc décidé d'utiliser ce framework pour notre projet afin de réaliser la partie indexation.
 
 \subsection {Décomposition du travail}
 
@@ -106,7 +106,7 @@ La fonction \texttt{Reduce} agrège ensuite ces informations pour nous donner en 
 {Schema illustratif du processus MapReduce pour notre projet}{fig:mapreduceprojet}
 \\
 
-Nous avons aussi choisi d'éliminer les mots non significatifs en entrée afin d'améliorer les performances de notre indexation. Nous avons donc exclu les les articles, les mots de liaisons et les pronoms de la langue française. 
+Nous avons aussi choisi d'éliminer les mots non significatifs en entrée afin d'améliorer les performances de notre indexation. Nous avons donc exclu les articles, les mots de liaisons et les pronoms de la langue française. 
 
 Une fois le traitement sur le texte pur effectué via MapReduce, on obtient donc un fichier texte qui contient ligne par ligne les entrées suivantes, séparées par des espaces : mot fichier suite de numéros de lignes associés.
 
@@ -125,14 +125,14 @@ Ensuite, la partie chargée de traiter l'expression, passe la main à un autre mod
 
 En ce qui concerne la récupération du texte des lignes dans les fichiers, nous avons décidé de découper les fichiers d'origine en plusieurs parties afin que la recherche des lignes soit plus rapide.
 
-Pour finir, nous avons envisagé d'introduire quelques prédicats de base, à savoir \texttt{AND}, \texttt{OR} et \texttt{NOT}. Ils permettent respectivement de rechercher un fichier contenant deux mots, de rechercher des fichiers ne comprenant pas les deux mots passés en argument en même temps, et d'éliminer un mot de la recherche. Ils sont cummulables, et leur grammaire est de la forme suivante :
+Pour finir, nous avons envisagé d'introduire quelques prédicats de base, à savoir \texttt{AND}, \texttt{OR} et \texttt{NOT}. Ils permettent respectivement de rechercher un fichier contenant deux mots, de rechercher des fichiers ne comprenant pas les deux mots passés en argument en même temps, et d'éliminer un mot de la recherche. Ils sont cumulables, et leur grammaire est de la forme suivante :
 \\
 \texttt{
 AND mot mot
 \\OR mot mot
 \\NOT mot}
 
-Pour mettre en place le \texttt{AND} comme le \texttt{OR}, il a fallu parcourir le résultat associés aux deux mots et éliminer les résultats ne correspondant pas - à savoir les fichiers ne contenant pas les deux mots dans le cas du \texttt{AND}, et inversement dans le cas du \texttt{OR}, ceux contenant les deux mots.
+Pour mettre en place le \texttt{AND} comme le \texttt{OR}, il a fallu parcourir le résultat associé aux deux mots et éliminer les résultats ne correspondant pas - à savoir les fichiers ne contenant pas les deux mots dans le cas du \texttt{AND}, et inversement dans le cas du \texttt{OR}, ceux contenant les deux mots.
 
 Pour le \texttt{NOT}, un cas plus particulier, il a fallu créer une deuxième liste qui contient les informations à éliminer. Après avoir traité tous les mots, il nous suffit alors d'enlever les instances de cette liste à la liste de recherche principale. Dans le cas où aucun \texttt{NOT} ne serait utilisé, cette liste est vide donc la méthode fonctionne dans tous les cas.
 
@@ -155,9 +155,9 @@ Pour faire fonctionner tout notre projet ensemble, nous avons rassemblé nos part
 \subsection{Améliorations possibles}
 Quelques améliorations peuvent toutefois être apportées à ce projet. Nous allons vous exposer les améliorations que nous trouvons envisageables mais que nous n'avons pas effectuées par manque de temps.
 \subsubsection{Relevance}
-Pour plusieurs mots entrés, il serait possible de trier le résultat donné par ordre de priorité. Par exemple, donner en premier le fichier où les mots entrés sont les plus proches. Cela nécéssite d'utiliser un algorithme de classification automatique. 
+Pour plusieurs mots entrés, il serait possible de trier le résultat donné par ordre de priorité. Par exemple, donner en premier le fichier où les mots entrés sont les plus proches. Cela nécessite d'utiliser un algorithme de classification automatique. 
 \subsubsection{Nouveau prédicat : expression exacte}
-Il serait aussi possible d'introduire un nouveau prédicat permettant de rechercher une expression qui doit être trouvée exactement comme elle est rédigée par l'utilisateur. Cependant, selon nous, l'indexation que nous avons mise en place ne serait pas très efficace car cela reviendra à reconstruire le fichier de départ et à mémoriser une trop grand quantité d'informations dans l'index. Il faudrait donc concevoir un nouveau système d'indexation (raison pour laquelle nous avons pas eu le temps de le faire).
+Il serait aussi possible d'introduire un nouveau prédicat permettant de rechercher une expression qui doit être trouvée exactement comme elle est rédigée par l'utilisateur. Cependant, selon nous, l'indexation que nous avons mise en place ne serait pas très efficace car cela reviendra à reconstruire le fichier de départ et à mémoriser une trop grand quantité d'informations dans l'index. Il faudrait donc concevoir un nouveau système d'indexation (raison pour laquelle nous n\rq{}avons pas eu le temps de le faire).
 
 Il serait possible aussi de généraliser l'utilisation des prédicats \texttt{AND} et \texttt{OR} a plus de 2 paramètres.
 \section*{Conclusion} 

@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 public class Informations {
 	/**
-	 * Liste des numeros de ligne dans lequel se trouve un mot donné
+	 * Liste des numéros de ligne dans lequel se trouve un mot donné
 	 */
 	private ArrayList<Long> lines;
 	/**
@@ -20,36 +20,36 @@ public class Informations {
 	@SuppressWarnings("unchecked")
 	/**
 	 * Constructeur
-	 * @param lines ArrayList<Long> liste des numeros de ligne dans lequel se trouve un mot donné
-	 * @param file String nom du fichier dans lequel se trouve un mot donné
+	 * @param lines liste des numéros de ligne dans lequel se trouve un mot donné
+	 * @param file nom du fichier dans lequel se trouve un mot donné
 	 */
 	public Informations(ArrayList<Long> lines, String file) {
 		this.lines = (ArrayList<Long>) lines.clone();
 		this.file = file;
 	}
 	/**
-	 * @return lines ArrayList<Long> la liste des numéros de ligne 
+	 * @return la liste des numéros de ligne 
 	 */
 	public ArrayList<Long> getLines() {
 		return lines;
 	}
 	/**
 	 * 
-	 * @param lines ArrayList<Long> liste des numeros de ligne
+	 * @param liste des numéros de ligne
 	 */
 	public void setLines(ArrayList<Long> lines) {
 		this.lines = lines;
 	}
 	/**
 	 * 
-	 * @return file String le nom de fichier
+	 * @return le nom de fichier
 	 */
 	public String getFile() {
 		return file;
 	}
 	/**
 	 * Attribue le nom de fichier
-	 * @param file String nom du fichier
+	 * @param file nom du fichier
 	 */
 	public void setFile(String file) {
 		this.file = file;

@@ -8,18 +8,18 @@ import java.util.List;
  */
 public class FoundInfos {
 	/**
-	 * mot String le mot auquel on va associer des fichiers
+	 * mot mot auquel on va associer des fichiers
 	 */
 	private String mot;
 	/**
-	 * fichiers List<String> la liste des fichiers où se trouvent le mot
+	 * fichiers liste des fichiers où se trouvent le mot
 	 */
 	private List<String> fichiers;
 	
 	/**
 	 * 
-	 * @param mot String
-	 * @param fichiers liste des fichiers dans lesquels se trouvent le mot
+	 * @param mot
+	 * @param fichiers liste des noms de fichiers dans lesquels se trouvent le mot
 	 */
 	public FoundInfos(String mot, List<String> fichiers) {
 		this.mot = mot;
@@ -27,14 +27,14 @@ public class FoundInfos {
 	}
 	/**
 	 * 
-	 * @return le mot String
+	 * @return le mot
 	 */
 	public String getMot(){
 		return this.mot;
 	}
 	/**
 	 * 
-	 * @return la liste des noms de fichiers List<String>
+	 * @return la liste des noms de fichiers
 	 */
 	public List<String> getFichiers(){
 		return this.fichiers;

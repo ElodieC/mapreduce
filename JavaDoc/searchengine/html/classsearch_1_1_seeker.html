@@ -1,0 +1,578 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Moteur de recherche avec Hadoop: Référence de la classe search.Seeker</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="hadoop.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Moteur de recherche avec Hadoop
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Liste&#160;des&#160;classes</span></a></li>
+      <li><a href="classes.html"><span>Index&#160;des&#160;classes</span></a></li>
+      <li><a href="functions.html"><span>Membres&#160;de&#160;classe</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><b>search</b></li><li class="navelem"><a class="el" href="classsearch_1_1_seeker.html">Seeker</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="classsearch_1_1_seeker-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence de la classe search.Seeker</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:acfbd3f942dea7591cc72e1e36cb0e72d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#acfbd3f942dea7591cc72e1e36cb0e72d">seek</a> (String word)</td></tr>
+<tr class="separator:acfbd3f942dea7591cc72e1e36cb0e72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bfbc94c5b08894911e5198dedc23467"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#a0bfbc94c5b08894911e5198dedc23467">seekAnd</a> (String word1, String word2)</td></tr>
+<tr class="separator:a0bfbc94c5b08894911e5198dedc23467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f04e1fa1c445ca919eb6b8d11189a57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#a2f04e1fa1c445ca919eb6b8d11189a57">seekOr</a> (String word1, String word2)</td></tr>
+<tr class="separator:a2f04e1fa1c445ca919eb6b8d11189a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa494d5cdbde3421b7fb7f5f14470272b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#aa494d5cdbde3421b7fb7f5f14470272b">seekNot</a> (String word)</td></tr>
+<tr class="separator:aa494d5cdbde3421b7fb7f5f14470272b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7dd40d9e52ac093248b6f5e7dcdc981"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#ab7dd40d9e52ac093248b6f5e7dcdc981">getInfo</a> ()</td></tr>
+<tr class="separator:ab7dd40d9e52ac093248b6f5e7dcdc981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf679ac6dae0ec4ad808708973a1f343"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#abf679ac6dae0ec4ad808708973a1f343">setInfo</a> (List&lt; <a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a> &gt; <a class="el" href="classsearch_1_1_seeker.html#a25a9106fef32580751f455f8d6da3007">info</a>)</td></tr>
+<tr class="separator:abf679ac6dae0ec4ad808708973a1f343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a534d629418f0edf99c44d525efad7e07"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#a534d629418f0edf99c44d525efad7e07">getIntox</a> ()</td></tr>
+<tr class="separator:a534d629418f0edf99c44d525efad7e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb39a048c4cb99b35f1910da238f3399"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#abb39a048c4cb99b35f1910da238f3399">predicatInvalid</a> (String pred)</td></tr>
+<tr class="separator:abb39a048c4cb99b35f1910da238f3399"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38690f501e996a181a33d4ffa8be472b"><td class="memItemLeft" align="right" valign="top">StringBuilder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#a38690f501e996a181a33d4ffa8be472b">getMessage</a> ()</td></tr>
+<tr class="separator:a38690f501e996a181a33d4ffa8be472b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c188232806b4b5c03a96bf76700bf16"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#a8c188232806b4b5c03a96bf76700bf16">isPresent</a> (String word)</td></tr>
+<tr class="separator:a8c188232806b4b5c03a96bf76700bf16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5bb0ca710142be40f121be649b2ee0d"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#af5bb0ca710142be40f121be649b2ee0d">getFichiers</a> (String word)</td></tr>
+<tr class="separator:af5bb0ca710142be40f121be649b2ee0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cefcec5742612b8ad54d3cece0abfb8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#a6cefcec5742612b8ad54d3cece0abfb8">getNbOccurences</a> (String word)</td></tr>
+<tr class="separator:a6cefcec5742612b8ad54d3cece0abfb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e9af1c29bcc35f13ad9289495bd0c34"><td class="memItemLeft" align="right" valign="top">StringBuilder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#a2e9af1c29bcc35f13ad9289495bd0c34">getLinesText</a> (String word, List&lt; String &gt; sortedFileName)</td></tr>
+<tr class="separator:a2e9af1c29bcc35f13ad9289495bd0c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:a99d1c0af42305656dbf83b6942d29105"><td class="memItemLeft" align="right" valign="top">Map&lt; String, List&lt; Long &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#a99d1c0af42305656dbf83b6942d29105">getResult</a> (String word)</td></tr>
+<tr class="separator:a99d1c0af42305656dbf83b6942d29105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a15c6eb2e70df97ec5786122f7687520d"><td class="memItemLeft" align="right" valign="top">StringBuilder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#a15c6eb2e70df97ec5786122f7687520d">message</a></td></tr>
+<tr class="separator:a15c6eb2e70df97ec5786122f7687520d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25a9106fef32580751f455f8d6da3007"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#a25a9106fef32580751f455f8d6da3007">info</a></td></tr>
+<tr class="separator:a25a9106fef32580751f455f8d6da3007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab2f3678ace38ba862de462c1bf643b6"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsearch_1_1_seeker.html#aab2f3678ace38ba862de462c1bf643b6">intox</a></td></tr>
+<tr class="separator:aab2f3678ace38ba862de462c1bf643b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Recherche dans la hashmap pour un mot donné </p>
+<dl class="section author"><dt>Auteur</dt><dd>Olivier Mickaël </dd></dl>
+</div><h2 class="groupheader">Documentation des fonctions membres</h2>
+<a class="anchor" id="af5bb0ca710142be40f121be649b2ee0d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;String&gt; search.Seeker.getFichiers </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>word</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Rend une liste de fichiers qui est celle associee au mappage d'un mot </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">word</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>les fichiers dans lequel le mot est présent </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab7dd40d9e52ac093248b6f5e7dcdc981"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a>&gt; search.Seeker.getInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Renvoie</dt><dd>la liste des mots et des fichiers dans lequels ils se trouvent </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a534d629418f0edf99c44d525efad7e07"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a>&gt; search.Seeker.getIntox </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Renvoie</dt><dd>la liste des mots et des fichiers à ignorer pour le résultat (prédicat NOT) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2e9af1c29bcc35f13ad9289495bd0c34"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">StringBuilder search.Seeker.getLinesText </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; String &gt;&#160;</td>
+          <td class="paramname"><em>sortedFileName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">word</td><td>String le mot à chercher </td></tr>
+    <tr><td class="paramname">sortedFileName</td><td>la liste des fichiers dans lequel se trouve le mot </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>StringBuilder texte des lignes pour un mot dans les fichiers dans lequel il se trouve </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a38690f501e996a181a33d4ffa8be472b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">StringBuilder search.Seeker.getMessage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Met fin au rendu du résultat final </p>
+<dl class="section return"><dt>Renvoie</dt><dd>le message </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6cefcec5742612b8ad54d3cece0abfb8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int search.Seeker.getNbOccurences </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>word</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Rend le nombre d'occurences totales d'un mot dans l'index </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">word</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>le nombre d'occurences d'un mot dans tous les fichiers </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a99d1c0af42305656dbf83b6942d29105"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt;String,List&lt;Long&gt; &gt; search.Seeker.getResult </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>word</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Rend les numéros de lignes pour un mot c'est-à-dire une Map dans laquelle on a pour clé le fichier dans lequel le mot se trouve et pour valeur la liste du numéro des lignes </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">word</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>table de hachage dans laquelle on a pour clé le fichier dans lequel le mot se trouve et pour valeur la liste du numéro des lignes </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8c188232806b4b5c03a96bf76700bf16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean search.Seeker.isPresent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>word</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Vérifie si le mot est présent dans la hashmap </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">word</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>true si présent false sinon </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abb39a048c4cb99b35f1910da238f3399"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void search.Seeker.predicatInvalid </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>pred</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Permet de donner des informations sur le formalisme du prédicat utilisé en cas d'echec </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pred</td><td>le prédicat qui est invalide </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="acfbd3f942dea7591cc72e1e36cb0e72d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void search.Seeker.seek </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>word</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Vérifie si le mot est présent dans un des fichiers txt si oui il récupère son contexte </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">word</td><td>seeked </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Voir également</dt><dd>#getLinesText(String) </dd>
+<dd>
+<a class="el" href="classsearch_1_1_seeker.html#a8c188232806b4b5c03a96bf76700bf16">isPresent(String)</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0bfbc94c5b08894911e5198dedc23467"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void search.Seeker.seekAnd </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>word1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>word2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Vérifie si les deux mots sont présents dans un même fichier txt si oui il récupère son contexte </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">word1</td><td>String premier mot du prédicat AND </td></tr>
+    <tr><td class="paramname">word2</td><td>String deuxième mot du prédicat AND </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Voir également</dt><dd>#getLinesText(String) </dd>
+<dd>
+<a class="el" href="classsearch_1_1_seeker.html#a8c188232806b4b5c03a96bf76700bf16">isPresent(String)</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa494d5cdbde3421b7fb7f5f14470272b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void search.Seeker.seekNot </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>word</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Vérifie si le mot est présent dans un des fichiers txt si oui il élimine son contexte du message de retour si présent </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">word</td><td>mot dont les fichiers dans lequel il se trouve à éliminer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Voir également</dt><dd>#getLinesText(String) </dd>
+<dd>
+<a class="el" href="classsearch_1_1_seeker.html#a8c188232806b4b5c03a96bf76700bf16">isPresent(String)</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2f04e1fa1c445ca919eb6b8d11189a57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void search.Seeker.seekOr </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>word1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>word2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Vérifie si les deux mots sont présents dans des fichiers différents si oui il récupère son contexte </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">word1</td><td>String premier mot du prédicat OR </td></tr>
+    <tr><td class="paramname">word2</td><td>String deuxième mot du prédicat OR </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Voir également</dt><dd>#getLinesText(String) </dd>
+<dd>
+<a class="el" href="classsearch_1_1_seeker.html#a8c188232806b4b5c03a96bf76700bf16">isPresent(String)</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abf679ac6dae0ec4ad808708973a1f343"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void search.Seeker.setInfo </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a> &gt;&#160;</td>
+          <td class="paramname"><em>info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">info</td><td>liste des mots et des fichiers dans lequels ils se trouvent </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a class="anchor" id="a25a9106fef32580751f455f8d6da3007"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a>&gt; search.Seeker.info</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Liste des informations sur la recherche </p>
+<dl class="section see"><dt>Voir également</dt><dd><a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aab2f3678ace38ba862de462c1bf643b6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a>&gt; search.Seeker.intox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Liste des fichiers à ignorer (prédicat NOT) </p>
+<dl class="section see"><dt>Voir également</dt><dd><a class="el" href="classsearch_1_1_found_infos.html">FoundInfos</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a15c6eb2e70df97ec5786122f7687520d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StringBuilder search.Seeker.message</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Résultat rendu à la fin à afficher ensuite </p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li>D:/Documents/workspace/mapreduce/SearchEngine/src/search/Seeker.java</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Vendredi Mai 10 2013 14:14:59 pour Moteur de recherche avec Hadoop par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.2
+</small></address>
+</body>
+</html>

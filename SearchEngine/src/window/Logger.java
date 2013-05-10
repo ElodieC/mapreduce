@@ -9,7 +9,7 @@ import java.util.Date;
 
 import path.Paths;
 /**
- * Classe qui Met en place le log de ce que souhaite le programmer
+ * Classe qui met en place le log de ce que souhaite le programmeur
  * @author Renou Clarisse
  * @version 1.0
  *
@@ -37,8 +37,8 @@ public class Logger {
 	}
 	
 	/**
-	 * Methode principale qui permet d'ajouter à la suite du fichier la phrase de log que l'on veut
-	 * @param toLog String le commentaire de log
+	 * Méthode principale qui permet d'ajouter à la suite du fichier la phrase de log que l'on veut
+	 * @param toLog commentaire de log
 	 * @exception en cas de probleme d'ouverture ou d'écriture du fichier capture l'exception
 	 */
 	public static void addInLog(String toLog){

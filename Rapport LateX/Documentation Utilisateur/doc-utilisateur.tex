@@ -54,9 +54,9 @@ Pour configurer notre moteur de recherche, plusieurs fichiers sont à modifier.
 
 Pour le système d'indexation, il est nécessaire de modifier le fichier \texttt{scripthadoop.sh} se trouvant dans l'archive de notre projet dans le dossier \texttt{hadoopMR}. Les variables à modifier sont :
 \begin{itemize}
- \item  \texttt{hadoopPath} était le chemin où vous avez installé Hadoop
- \item  \texttt{inputPath} chemin du dossier parent où se trouvent vos fichiers que vous voulez indexer, les fichiers à indexer doivent obligatoirement être dans un dossier nommé inputFiles
- \item \texttt{dfsInputPath} endroit où vous voulez mettre les fichiers sur le système de fichier Hadoop
+ \item  \texttt{hadoopPath} chemin absolu où vous avez installé Hadoop
+ \item  \texttt{inputPath} chemin absolu du dossier parent où se trouvent vos fichiers que vous voulez indexer, les fichiers à indexer doivent obligatoirement être dans un sous-dossier nommé inputFiles
+ \item \texttt{dfsInputPath} endroit où vous voulez mettre les fichiers sur le système de fichiers Hadoop
  \item  \texttt{dfsOutputPath} l'endroit où vous voulez mettre les fichiers en sortie dans le système de fichiers d'Hadoop
 \end{itemize}
  Si vous voulez que l'indexation s'effectue automatiquement toutes les heures, il faut planifier une tache cron sur Unix\footnote{voir manuel Unix}. Sinon, exécutez seulement le script \texttt{scripthadoop.sh} dans le dossier \texttt{hadoopMR} du projet.
@@ -68,11 +68,11 @@ Pour accéder au code source de notre applet, dans notre archive, vous le trouver
 \item \texttt{inputFilesSplitDir} même contenu que inputPath puis rajouter \texttt{/inputFilesSplit/}
 \item \texttt{logFilePath} chemin où vous voulez que soit placé le fichier journal du programme
 \end{itemize} 
-Puis, compiler et placer le .jar de l'applet dans le dossier \texttt{Page web} en la nommant applet.jar. N'oublier pas de signer l'applet (nécessaire pour lire les fichiers du disque dur et donc pour parcourir l'index).
+Puis, compilez et placez le .jar de l'applet dans le dossier \texttt{Page web} en la nommant applet.jar. N'oubliez pas de signer l'applet (nécessaire pour lire les fichiers du disque dur et donc pour parcourir l'index).
 \section{Fonctionnalités}
 Après les étapes compliquées, passons au fonctionnement du moteur de recherche en lui-même. Pour lancer le logiciel, il vous suffit, après avoir exécuté le script d'indexation (voir section Installation), d'ouvrir, avec un navigateur web, le fichier \texttt{page.html} se trouvant dans le dossier \texttt{Page web} de notre projet.
 \subsection{Recherche simple}  
-Pour faire une recherche, il vous faut simplement entrer des mots dans la champ en-dessous du petit éléphant jaune (logo d'Hadoop), appuyer sur Entrée (ou Search)et le résultat vous sera donné. Le résultat se constitura des noms de fichiers dans lequel votre(vos) mot(s) se trouve(nt) et des trois lignes l'entourant dans le fichier, voir aperçu figure~\ref{fig:apercu}. 
+Pour faire une recherche, il vous faut simplement entrer des mots dans le champ en-dessous du petit éléphant jaune (logo d'Hadoop), appuyer sur Entrée (ou Search)et le résultat vous sera donné. Le résultat se constituera des noms de fichiers dans lequel votre(vos) mot(s) se trouve(nt) et des trois lignes l'entourant dans le fichier, voir aperçu figure~\ref{fig:apercu}. 
 \FigureEPS{h,t,b,p}{15cm}{apercu.ps}
                   {Apercu de notre moteur de recherche}   
                   {fig:apercu}

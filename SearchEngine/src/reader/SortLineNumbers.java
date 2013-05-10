@@ -8,19 +8,19 @@ import java.util.List;
  */
 public class SortLineNumbers {
 	/**
-	 * listLignes List<Long> Liste des numéros de ligne
+	 * Liste des numéros de ligne
 	 */
 	private List<Long> listLignes;
 	/**
-	 * 
-	 * @param listLignes List<Long> liste des lignes a trier
+	 * Constructeur
+	 * @param listLignes liste des lignes a trier
 	 */
 	public SortLineNumbers(List<Long> listLignes){
 		this.listLignes = listLignes;
 	}
 	/**
-	 * Tri les lignes par ordre croissant du numero de ligne
-	 * @return la liste des lignes par ordre croissant du numero de ligne
+	 * Tri les lignes par ordre croissant du numéro de ligne
+	 * @return la liste des lignes triées par ordre croissant du numéro de ligne
 	 */
 	public List<Long> getLinesSorted(){
 		quicksort(0,this.listLignes.size()-1);
@@ -28,8 +28,8 @@ public class SortLineNumbers {
 	}
 	/**
 	 * Algorithme de tri rapide
-	 * @param low indice inferieur non trie
-	 * @param high indice superieur non trie
+	 * @param low indice inferieur non trié
+	 * @param high indice superieur non trié
 	 */
 	private void quicksort(int low, int high) {
 		int i = low, j = high;

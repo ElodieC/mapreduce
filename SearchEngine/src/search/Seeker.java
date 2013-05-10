@@ -19,15 +19,17 @@ import window.Logger;
  */
 public class Seeker {
 	/**
-	 * message StringBuilder Resultat rendu a la fin a afficher ensuite
+	 * Résultat rendu à la fin à afficher ensuite
 	 */
 	private StringBuilder message;
 	/**
-	 * info List<FoundInfos> liste des informations sur la recherche
+	 * Liste des informations sur la recherche
+	 * @see FoundInfos
 	 */
 	private List<FoundInfos> info;
 	/**
-	 * intox List<FoundInfos> liste des fichiers à ignorer (prédicat NOT)
+	 * Liste des fichiers à ignorer (prédicat NOT)
+	 * @see FoundInfos
 	 */
 	private List<FoundInfos> intox;
 
@@ -169,8 +171,8 @@ public class Seeker {
 	
 	/**
 	 * Vérifie si le mot est présent dans un des fichiers txt
-	 * si oui il elimine son contexte du message de retour si présent
-	 * @param word String mot dont les fichiers dans lequel il se trouve à éliminer
+	 * si oui il élimine son contexte du message de retour si présent
+	 * @param word mot dont les fichiers dans lequel il se trouve à éliminer
 	 * @see #getLinesText(String)
 	 * @see #isPresent(String)
 	 */
@@ -198,7 +200,7 @@ public class Seeker {
 	}
 	/**
 	 * 
-	 * @param info List<FoundInfos> liste des mots et des fichiers dans lequels ils se trouvent
+	 * @param info liste des mots et des fichiers dans lequels ils se trouvent
 	 */
 	public void setInfo(List<FoundInfos> info) {
 		this.info = info;
@@ -212,8 +214,8 @@ public class Seeker {
 	}
 
 	/**
-	 * Permet de donner des informations sur le formalisme du predicat utilisé en cas d'echec
-	 * @param pred String le prédicat qui est invalide
+	 * Permet de donner des informations sur le formalisme du prédicat utilisé en cas d'echec
+	 * @param pred le prédicat qui est invalide
 	 */
 	public void predicatInvalid(String pred){
 		System.out.println("Prédicat "+pred+" invalide !");
@@ -238,7 +240,7 @@ public class Seeker {
 	}
 
 	/**
-	 * Met fin au rendu du resultat final
+	 * Met fin au rendu du résultat final
 	 * @return le message
 	 */
 	public StringBuilder getMessage(){
@@ -291,11 +293,12 @@ public class Seeker {
 	}
 	
 	/**
-	 * Rend les numeros de lignes pour un mot
-	 * c'est a dire une Map dans laquelle on a pour cle le fichier dans lequel 
-	 * le mot se trouve et pour valeur la liste du numero des lignes
+	 * Rend les numéros de lignes pour un mot
+	 * c'est-à-dire une Map dans laquelle on a pour clé le fichier dans lequel 
+	 * le mot se trouve et pour valeur la liste du numéro des lignes
 	 * @param word
-	 * @return
+	 * @return table de hachage dans laquelle on a pour clé le fichier dans lequel 
+	 * le mot se trouve et pour valeur la liste du numéro des lignes
 	 */
 	private Map<String,List<Long>> getResult(String word){
 		Map<String,List<Long>> result = new HashMap<String,List<Long>>();
@@ -317,9 +320,6 @@ public class Seeker {
 	public StringBuilder getLinesText(String word, List<String> sortedFileName){
 		StringBuilder lineText=new StringBuilder();
 		Map<String,List<Long>> result  =this.getResult(word);
-
-		//SortFiles sortFiles = new SortFiles(result);
-		//String[] sortedFileName = sortFiles.getSortedFileNames();
 
 		for (String nomFichier:sortedFileName){
 			FileRead fichierALire = new FileRead(nomFichier, result.get(nomFichier), word);

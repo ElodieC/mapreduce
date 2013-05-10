@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 /**
  * Classe qui récupère l'expression entrée dans le moteur de recherche 
- * l'analyse, supprime les mots non référencés
+ * l'analyse, supprime les mots non référencés,
  * lance des seekers qui vont récupérer les occurences dans les fichiers
  * @author Olivier Mickaël
  *
@@ -14,20 +14,21 @@ import java.util.List;
 public class Search {
 
 	/**
-	 * toSeek List<String> liste des mots à chercher
+	 * Liste des mots à chercher
 	 */
 	private List<String> toSeek;
 	/**
-	 * expression String Expression entrée dans le moteur de recherche 
+	 * Expression entrée dans le moteur de recherche 
 	 */
 	private String expression; 
 	/**
-	 * seeker Seeker qui va récupérer les informations sur les mots
+	 * Seeker qui va récupérer les informations sur les mots
+	 * @see Seeker
 	 */
 	private Seeker seeker;
 
 	/**
-	 * Constructeur associé a l'objet Search qui opère la recherche
+	 * Constructeur associé à l'objet Search qui opère la recherche
 	 * @param expression entrée dans le moteur de recherche
 	 */
 	public Search(String expression) {
@@ -46,10 +47,9 @@ public class Search {
 
 	/**
 	 * Permet de modifier la liste de mots à chercher 
-	 * @param toSeek String liste des mots à chercher
+	 * @param toSeek liste des mots à chercher
 	 */
 	private void setToSeek(List<String> toSeek) {
-		//RelevanceWord sort = new RelevanceWord(supprNonIndexe(toSeek)); je pense que l'on ne va pas garder ca - Elodie
 		this.toSeek = supprNonIndexe(toSeek);
 	}
 	/**
@@ -147,6 +147,7 @@ public class Search {
 		}
 		this.seeker.setInfo(newInfo);
 		System.out.println(this.seeker.getInfo());
+		//Recuperation des resultats en vue de l'affichage
 		List<FoundInfos> aLire = Collections.synchronizedList(this.seeker.getInfo());
 		for(FoundInfos element : aLire){
 			this.seeker.addMessage("Mot "+element.getMot()+" trouvé<br>");

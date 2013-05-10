@@ -17,33 +17,33 @@ import window.Logger;
  */
 public class FileRead {
 	/**
-	 * fileInputdir String Repertoire où se trouvent les fichiers découpés
+	 * fileInputdir Répertoire où se trouvent les fichiers découpés
 	 */
 	private final String fileInputDir = Paths.inputFilesSplitDir;
 	/**
 	 * Pour parcourir plus vite les fichiers on a décidé de les couper toutes les 100 lignes
 	 * avec un script bash
-	 * nbLinesPerFile int Nbre de lignes par fichier
+	 * nbLinesPerFile Nombre de lignes par fichier
 	 */
 	private final int nbLinesPerFile = 100;
 	/**
-	 * fileName String Nom du fichier a lire
+	 * fileName Nom du fichier à lire
 	 */
 	private String fileName;
 	/**
-	 * lines List<Long> Lignes a afficher
+	 * lines lignes à afficher
 	 */
 	private List<Long> lines;
 	/**
-	 * wordToSearch String le mot que l'on cherche
+	 * wordToSearch mot que l'on cherche
 	 */
 	private String wordToSearch;
 
 	/**
 	 * Récupère la liste des lignes et le nom du fichier pour le mot recherché
-	 * @param file String nom du fichier où sont faites les recherches
-	 * @param lines List<Long> Liste des lignes où les mots sont trouvés
-	 * @param word String Mot recherché
+	 * @param file nom du fichier où sont faites les recherches
+	 * @param lines liste des numéros de lignes où les mots sont trouvés
+	 * @param word mot recherché
 	 */
 	public FileRead(String file, List<Long> lines, String word){
 		this.fileName = file;
@@ -67,7 +67,7 @@ public class FileRead {
 	}
 	/**
 	 * On décide de prendre 3 lignes autours du Mot recherché
-	 * @param Numéro de ligne Long, numéro de la ligne qui contient le mot
+	 * @param line numéro de la ligne qui contient le mot
 	 * @return le contexte pour la ligne donnée = 3 lignes autours
 	 * @exception Attrape l'exception si les fichiers splites n'ont pas ete trouves ou
 	 * s'il sont mal decoupes
@@ -138,8 +138,8 @@ public class FileRead {
 
 	/**
 	 * Récupère le chemin où sont stockés les fichiers découpés
-	 * @param line Long ligne qui contient le mot
-	 * @return String le chemin du fichier découpé
+	 * @param line ligne qui contient le mot
+	 * @return le chemin du fichier découpé
 	 * @see #fileInputDir
 	 */
 	private String getFilePart(Long line){
@@ -163,7 +163,7 @@ public class FileRead {
 	}
 	/**
 	 * Met en forme le résultat avant l'affichage : Mise en avant (gras) du mot recherché
-	 * @param line String texte de la ligne où se trouve le mot
+	 * @param line texte de la ligne où se trouve le mot
 	 * @return le texte de la ligne où se trouve le mot avec le mot en gras
 	 */
 	private String formatStringStrong(String line){

@@ -11,11 +11,11 @@ import search.Search;
 import window.Logger;
 
 /**
- * Cette classe va parcourire le fichier Index et appeler les methodes adequate pour
+ * Cette classe va parcourir le fichier Index et appeler les méthodes adéquatse pour
  * construire la hashmap
- * Elle est statique afin d'avoir acces à la creation d'index partout
- * scanLine est un {@link Scanner} qui va s'occupait mot par mot de la ligne pour construire la hashmap
- * builder est {@link IndexBuilder} charger de construire la hashmap
+ * Elle est statique afin d'avoir accès à la création d'index partout
+ * scanLine est un {@link Scanner} qui va s'occuper mot par mot de la ligne pour construire la hashmap
+ * builder est {@link IndexBuilder} chargé de construire la hashmap
  * recherche est le {@link Search} 
  * @author Renou Clarisse
  * @see IndexBuilder
@@ -27,7 +27,7 @@ public class Index2 {
 	public static Search recherche;
 
 	/**
-	 * Cette methode scan ligne par ligne le fichier index pour la transmettre
+	 * Cette méthode scanne ligne par ligne le fichier index pour la transmettre
 	 * au {@link #builder(String)}
 	 * @param input BufferedReader on entre le fichier index
 	 * @see #builder(String)
@@ -59,12 +59,12 @@ public class Index2 {
 	}
 
 	/**
-	 * Ici on scanne la ligne envoyee mot par mot
-	 * on reccupere ainsi grace a l'index bien constitue, le titre, l'offset 
-	 * et le mot en question
-	 * l'index est constitue ainsi :
+	 * Ici on scanne la ligne envoyée mot par mot.
+	 * On récupère ainsi grâce à l'index bien constitué, le titre, l'offset 
+	 * et le mot en question.
+	 * L'index est constitué ainsi :
 	 * word , title.txt , offset1 offset2 etc
-	 * @param line String, La ligne envoyee
+	 * @param line la ligne envoyée
 	 * @see IndexBuilder
 	 */
 	public static void builder (String line) {
@@ -98,7 +98,7 @@ public class Index2 {
 	}
 
 	/**
-	 * principale methode de la classe, elle initialise l'{@link IndexBuilder} 
+	 * Principale méthode de la classe, elle initialise l'{@link IndexBuilder} 
 	 * et le {@link BufferedReader} puis lance l'analyse
 	 * @param args String, nom du fichier Index
 	 * @param search Search

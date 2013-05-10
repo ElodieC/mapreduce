@@ -21,9 +21,9 @@ import path.Paths;
 import search.Search;
 
 /**
- * Applet du programme, réccupère l'entrée utilisation dans un premier JTextField
+ * Applet du programme, récupère l'entrée utilisateur dans un premier JTextField
  * et réécrit les résultats en dessous
- * @author Corbel Elodie, M'ghari Kevin, Renou Clarisse
+ * @author Corbel Elodie, M'Ghari Kevin, Renou Clarisse
  * @version 2.0
  * @see Page web
  */
@@ -36,10 +36,10 @@ public class Fenetre extends JApplet {
 	private String whereSearch; 
 	
 	/**
-	 * Methode d'initialisation de l'applet
-	 * whereSearch représente le chemin où sont stockés les fichiers txt ou l'on veut
+	 * Méthode d'initialisation de l'applet
+	 * whereSearch représente le chemin où sont stockés les fichiers txt où l'on veut
 	 * lancer les recherches
-	 * 
+	 * @see Paths
 	 */
 	public void init() {
 		whereSearch=Paths.outputIndexLocation;
@@ -77,7 +77,7 @@ public class Fenetre extends JApplet {
 		/**
 		 * Action sur le bouton Search
 		 * Construit la hashmap par rapport au ficher d'Index
-		 * Puis traite le résultat
+		 * Puis rend le résultat
 		 */
 		search.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
