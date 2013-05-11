@@ -10,6 +10,9 @@
 \usepackage{exptech}       % Fichier (./exptech.sty) contenant les styles pour 
                            % l'expose technique (ne pas le modifier)
 
+\usepackage{verbatim}
+\usepackage{listings}
+
 %\linespread{1,6}          % Pour une version destinée à un relecteur,
                            % décommenter cette commande (double interligne) 
                            
@@ -36,50 +39,120 @@
 \thispagestyle{empty}      % Supprime le numéro de page sur la 1re page
 
 
-
-\begin{abstract}
-Le résumé est limité à 10 lignes au maximum.
-\end{abstract} 
-
-
 \section{Introduction}  
 
-Il n'y a pas de table des matières. Le document doit impérativement
-compter de \textbf{6 à 8 pages} de texte (figures comprises) et il ne
-doit pas y avoir d'annexe.
+Indexation et recherche de contenu utilisant MapReduce de Google, voici l'intitulé de notre sujet. En fait, il s'agit simplement de la réalisation d'un moteur d'indexation avec son propre système d'indexation.
 
-Pour utiliser \LaTeX\ (disponible sur le réseau enseignement
-\textbf{uniquement} sous \textbf{Unix/Linux}), copiez tous les fichiers de
-\texttt{/home-info/commun/3info/ExpTech/} sur votre compte, puis 
-tapez \texttt{xlatex exemple-expose}. Vous pouvez alors
-lancer\footnote{équivalent à taper la commande : \texttt{latex mon-document}.}
-\LaTeX\ (bouton \fbox{\textsf{Façonner}} 
-ou \fbox{\includegraphics[height=0.75em]{./fig/xlatex.faconner.eps}}), 
-voir\footnote{équivalent à taper la commande : \texttt{xdvi mon-document}.}
-le résultat (bouton \fbox{\textsf{Visionner}}
-ou \fbox{\includegraphics[height=0.75em]{./fig/xlatex.visionner.eps}}), etc.
+Cette documentation technique a pour but de vous présenter l'architecture de notre projet réalisé lors de notre troisième année à l'INSA de Rennes.
 
-Lors de la compilation, en cas d'erreur, \LaTeX\ attend un ordre de
-votre part. Les plus utiles sont :
+Pour se faire, nous allons premièrement vous présenter l'architecture globale. Puis, un listing des dossiers afin que vous vous visualisez mieux où se trouvent les différents composants de notre projet et comment l'utiliser. Enfin, nous vous présenterons en détails, le fonctionnnement de notre moteur de recherche.
+
+Si vous avez besoin d'informations quant à l'utilisation et à l'installation de notre projet, veuillez vous reporter à la documentation utilisateur (disponible dans l'archive de notre projet).
+\section{Architecture globale}
+
+Depuis le début de projet, nous avons choisi de décomposer notre projet en trois composantes :
 \begin{itemize}
-        \item[?] liste des commandes possibles ;
 
-        \item[h] diagnostic détaillé et suggestion de solution ; 
- 
-        \item[q] arrêt de \LaTeX.
+  \item l'interface graphique, pour la communication avec l'utilisateur afin qu'il puisse entrer les mots qui veut rechercher.
+  \item le moteur de recherche, pour la recherche dans l'index et les calculs
+  \item l'indexation, réalisée par Hadoop, afin d'indexer le contenu
 \end{itemize}
 
-Pour avoir un descriptif plus étoffé des commandes \LaTeX\ 
-utilisables, vous pouvez vous reporter à la documentation distribuée.
-Si elle n'est pas suffisante, vous trouverez des informations
-complémentaires à la bibliothèque dans \cite{lamport:latex:94} et
-\cite{rolland:latex:95}.
+Voici le détail des différentes entrées-sorties :
 
-Sous Solaris vous avez les lettres minuscules accentuées
-accessibles directement par les raccourcis spéciaux \textsf{shift-F1 à F12}, 
-et les majuscules par \textsf{CapsLock} puis \textsf{shift-F1 à F12}, 
-ou bien plus classiquement par la séquence de touches 
-\textsf{Compose accent lettre}.
+\subsection{Interface graphique}
+
+
+\section{Listing contenu dossiers}
+\begin{lstlisting}
+total 28
+drwxr-xr-x 6 hduser hadoop 4096 mai   11 11:03 hadoopMR
+drwxr-xr-x 4 hduser hadoop 4096 mai   11 11:03 JavaDoc
+drwxr-xr-x 4 hduser hadoop 4096 mai   11 11:03 MapReduce
+drwxr-xr-x 2 hduser hadoop 4096 mai    2 10:46 Page Web
+drwxr-xr-x 5 hduser hadoop 4096 mai   11 11:03 Rapport LateX
+drwxr-xr-x 5 hduser hadoop 4096 mai   11 11:03 SearchEngine
+
+./hadoopMR:
+total 4392
+drwxr-xr-x hduser hadoop   avril 30 15:38 inputFiles
+drwxr-xr-x hduser hadoop   mai   11 11:02 inputFilesSplit
+drwxr-xr-x hduser hadoop   mai    9 21:48 outputFiles
+drwxr-xr-x hduser hadoop   mai    9 21:50 Page Web
+-rw-r--r-- hduser hadoop   mai    9 20:40 hadoopIndex.jar
+-rwxr-xr-x hduser hadoop   mai    9 21:25 scripthadoop.sh
+-rwxr-xr-x hduser hadoop   mai    9 21:25 splitScript.sh
+
+./hadoopMR/Page Web:
+total 6172
+-rw-r--r-- 1 hduser hadoop 2920064 mai    9 21:50 applet.jar
+-rw-r--r-- 1 hduser hadoop    1693 avril 30 15:38 blanc.jpeg
+-rw-r--r-- 1 hduser hadoop 3329319 avril 30 15:38 color.jpg
+-rw-r--r-- 1 hduser hadoop   16464 avril 30 15:38 hadoop.jpg
+-rw-r--r-- 1 hduser hadoop   37705 avril 30 15:38 orange.jpg
+-rw-r--r-- 1 hduser hadoop     354 avril 30 15:38 page.html
+
+./Rapport LateX:
+total 12
+drwxr-xr-x 2 hduser hadoop 4096 mai    9 15:47 Documentation technique
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 Documentation Utilisateur
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 Rapport Final
+
+./MapReduce:
+total 28
+drwxr-xr-x 5 hduser hadoop 4096 mai    9 15:31 index
+
+./MapReduce/index/src:
+total 16
+-rw-r--r-- 1 hduser hadoop 1106 mai    9 20:41 IndexDriver.java
+-rw-r--r-- 1 hduser hadoop 2743 mai    8 16:37 IndexMapper.java
+-rw-r--r-- 1 hduser hadoop 1133 mai    8 16:37 IndexReducer.java
+-rw-r--r-- 1 hduser hadoop 1054 mai    7 18:20 NotSplit.java
+
+./SearchEngine:
+total 88
+drwxr-xr-x 8 hduser hadoop  4096 mai    9 21:48 bin
+drwxr-xr-x 8 hduser hadoop  4096 mai   11 11:03 src
+
+./SearchEngine/src:
+total 24
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 grammar
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 index
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 path
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 reader
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 search
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 window
+
+./SearchEngine/src/grammar:
+total 4
+-rw-r--r-- 1 hduser hadoop 3776 mai   11 11:03 Index2.java
+
+./SearchEngine/src/index:
+total 8
+-rw-r--r-- 1 hduser hadoop 2645 mai   11 11:03 IndexBuilder.java
+-rw-r--r-- 1 hduser hadoop 1265 mai   11 11:03 Informations.java
+
+./SearchEngine/src/path:
+total 4
+-rw-r--r-- 1 hduser hadoop 1696 mai   11 11:03 Paths.java
+
+./SearchEngine/src/reader:
+total 12
+-rw-r--r-- 1 hduser hadoop 6430 mai   11 11:03 FileRead.java
+-rw-r--r-- 1 hduser hadoop 1526 mai   11 11:03 SortLineNumbers.java
+
+./SearchEngine/src/search:
+total 24
+-rw-r--r-- 1 hduser hadoop  816 mai   11 11:03 FoundInfos.java
+-rw-r--r-- 1 hduser hadoop 4557 mai   11 11:03 Search.java
+-rw-r--r-- 1 hduser hadoop 9973 mai   11 11:03 Seeker.java
+
+./SearchEngine/src/window:
+total 16
+-rw-r--r-- 1 hduser hadoop 2593 mai   11 11:03 Fenetre.java
+-rw-r--r-- 1 hduser hadoop 1938 mai   11 11:03 Logger.java
+
+\end{lstlisting}
 
 \section{Indexation}
 Une fois le traitement sur le texte pur effectué via MapReduce, on obtient donc un fichier texte qui contient ligne par ligne les entrées suivantes, séparées par des espaces : mot fichier suite de numéros de lignes associés.
