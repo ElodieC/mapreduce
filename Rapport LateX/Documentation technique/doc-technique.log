@@ -1,23 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.5.9)  11 MAY 2013 16:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  11 MAY 2013 19:10
 entering extended mode
+ %&-line parsing enabled.
 **doc-technique.tex
-
-("C:\Users\Olivier Catherine\mapreduce\Rapport LateX\Documentation technique\do
-c-technique.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+(./doc-technique.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -31,63 +22,63 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Users\Olivier Catherine\mapreduce\Rapport LateX\Documentation technique\ex
-ptech.sty" ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+) (./exptech.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: dvips.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
 File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+(/usr/share/texmf-texlive/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\frenchb.ldf"
+(/usr/share/texmf-texlive/tex/generic/babel/frenchb.ldf
 Language: frenchb 2009/03/16 v2.3d French support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen105
 )
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `French'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@french = a dialect from \language0
 Package babel Info: Making : an active character on input line 120.
 Package babel Info: Making ; an active character on input line 121.
 Package babel Info: Making ! an active character on input line 122.
@@ -96,19 +87,18 @@ Package babel Info: Making ? an active character on input line 123.
 \std@mcc=\count88
 \dec@mcc=\count89
 \parindentFFN=\dimen107
-
 *************************************
 * Local config file frenchb.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\frenchb.cfg")))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+(/usr/share/texmf-texlive/tex/generic/babel/frenchb.cfg)))
+(/usr/share/texmf-texlive/tex/latex/carlisle/scalefnt.sty))
+(/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks17
 \verbatim@line=\toks18
 \verbatim@in@stream=\read1
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
 \lst@mode=\count90
 \lst@gtempboxa=\box26
 \lst@token=\toks19
@@ -122,23 +112,23 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \lst@lineno=\count95
 \lst@maxwidth=\dimen111
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count96
 \lst@skipnumbers=\count97
 \lst@framebox=\box27
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-("C:\Users\Olivier Catherine\mapreduce\Rapport LateX\Documentation technique\do
-c-technique.aux")
+) (./doc-technique.aux)
+\openout1 = `doc-technique.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
@@ -161,41 +151,37 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 39.
-
-
-LaTeX Warning: Reference `fig:archiglobale' on page 1 undefined on input line 5
-4.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 64.
 File: archigenerale.ps Graphic file (type eps)
+
 <archigenerale.ps> [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+]
 
 Package frenchb.ldf Warning: Degrees would look better in TS1-encoding: 
 (frenchb.ldf)                add \usepackage{textcomp} to the preamble. 
 (frenchb.ldf)                Degrees used on input line 79.
 
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 90.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
-[]\T1/cmr/m/n/10.95 La ver-sion d'Ha-doop que nous avons uti-lisé pour le pro-j
-et est
+[]\T1/cmr/m/n/10.95 La ver-sion d'Hadoop que nous avons util-isé pour le pro-je
+t est
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
-\T1/cmr/m/n/10.95 la 1.0.3. Vous trou-ve-rez un tu-to-riel de com-ment ins-tal-
-ler Ha-doop
+\T1/cmr/m/n/10.95 la 1.0.3. Vous trou-verez un tu-to-riel ex-pli-quant com-ment
+ in-staller
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
-\T1/cmr/m/n/10.95 à l'adresse sui-vante : $\T1/cmtt/m/n/10.95 http : / / www . 
-michael-[]noll . com / tutorials /$
+\T1/cmr/m/n/10.95 Hadoop à l'adresse suiv-ante : $\T1/cmtt/m/n/10.95 http : / /
+ www . michael-[]noll . com / tutorials /
  []
 
 
@@ -204,8 +190,7 @@ Overfull \hbox (40.66095pt too wide) has occurred while \output is active
 ogle Documentation technique \T1/cmr/m/n/10.95 2
  []
 
-[2
-Non-PDF special ignored!]
+[2]
 Overfull \hbox (58.9568pt too wide) in paragraph at lines 130--131
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -263,24 +248,13 @@ ogle Documentation technique \T1/cmr/m/n/10.95 4
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 202--210
-
- []
-
-
-Underfull \hbox (badness 2547) in paragraph at lines 202--210
-\T1/cmr/m/n/10.95 Deux classes an-nexes sont pré-sentes : sup-pri-mer-Ponc-tua-
-tion, qui sup-prime
- []
-
-
-Overfull \hbox (5.27975pt too wide) in paragraph at lines 202--210
+Overfull \hbox (5.27975pt too wide) in paragraph at lines 204--208
 \T1/cmr/m/n/10.95 "les","l","la","je","il","au","aux","du","un","une","a","à","
 or","ni","que","si","y", 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--210
+Underfull \hbox (badness 10000) in paragraph at lines 204--208
 
  []
 
@@ -291,201 +265,51 @@ ogle Documentation technique \T1/cmr/m/n/10.95 5
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 220--228
-
- []
-
-
 Overfull \hbox (40.66095pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
 ogle Documentation technique \T1/cmr/m/n/10.95 6
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 237--247
-
- []
-
-
 Overfull \hbox (40.66095pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
 ogle Documentation technique \T1/cmr/m/n/10.95 7
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 252--257
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--257
-
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 252--257
-\T1/cmr/m/n/10.95 toDo, la fonc-tion qui ef-fec-tue tout le trai-te-ment de re-
-cherche. Elle per-met
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 258--283
-\T1/cmr/m/n/10.95 seekAnd per-met de faire le par-court de l'in-dex pour deux m
-ots et ren-voie
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--283
-
- []
-
-
 Overfull \hbox (40.66095pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
 ogle Documentation technique \T1/cmr/m/n/10.95 8
  []
 
 [8]
+Underfull \hbox (badness 3861) in paragraph at lines 296--297
+[]\T1/cmr/m/n/10.95 Notre fenêtre est con-sti-tuée d'un \T1/cmtt/m/n/10.95 JTex
+tField entree\T1/cmr/m/n/10.95 , d'un \T1/cmtt/m/n/10.95 JTextPane
+ []
+
+
 Overfull \hbox (40.66095pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
 ogle Documentation technique \T1/cmr/m/n/10.95 9
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 288--291
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--299
-
- []
-
-
-Underfull \hbox (badness 1939) in paragraph at lines 292--299
-\T1/cmr/m/n/10.95 CreateLogger, qui per-met d'ini-tia-li-ser le log-ger en in-d
-i-quant le che-min de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--319
-
- []
-
+No file doc-technique.bbl.
 
 Overfull \hbox (46.10489pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
 ogle Documentation technique \T1/cmr/m/n/10.95 10
  []
 
-[10]
-No file doc-technique.bbl.
-
-Overfull \hbox (46.10489pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
-ogle Documentation technique \T1/cmr/m/n/10.95 11
- []
-
-[11]
-("C:\Users\Olivier Catherine\mapreduce\Rapport LateX\Documentation technique\do
-c-technique.aux")
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[10] (./doc-technique.aux) ) 
 Here is how much of TeX's memory you used:
- 3232 strings out of 493921
- 42407 string characters out of 3144841
- 135068 words of memory out of 3000000
- 6512 multiletter control sequences out of 15000+200000
+ 3228 strings out of 495062
+ 41179 string characters out of 1182644
+ 134884 words of memory out of 3000000
+ 6394 multiletter control sequences out of 15000+50000
  18181 words of font info for 41 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 32i,6n,32p,898b,1577s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Olivier Catherine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecrm0900.pk> <C:\Users\Olivier Catherine\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk> <C:\Users\Olivier Catherine\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\
-Olivier Catherine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-ccc1095.pk> <C:\Users\Olivier Catherine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecsl1095.pk> <C:\Users\Olivier Catherine\AppData\Local\MiK
-TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Olivier Cathe
-rine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <
-C:\Users\Olivier Catherine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecti1095.pk> <C:\Users\Olivier Catherine\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Olivier Catherine\AppData\
-Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Oliv
-ier Catherine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1
-200.pk> <C:\Users\Olivier Catherine\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecrm1200.pk> <C:\Users\Olivier Catherine\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Olivier Catherine
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on doc-technique.pdf (11 pages, 162859 bytes).
-PDF statistics:
- 448 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 hyphenation exceptions out of 8191
+ 32i,6n,32p,978b,1577s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on doc-technique.dvi (10 pages, 43668 bytes).
