@@ -1,0 +1,228 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     STYLE POUR LES EXPOSÉS TECHNIQUES 
+%         3e année INSA de Rennes
+%
+%             NE PAS MODIFIER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{exptech}       % Fichier (./exptech.sty) contenant les styles pour 
+                           % l'expose technique (ne pas le modifier)
+
+\usepackage{verbatim}
+\usepackage{listings}
+\usepackage{url}
+
+%\linespread{1,6}          % Pour une version destinée à un relecteur,
+                           % décommenter cette commande (double interligne) 
+                           
+% UTILISEZ SPELL (correcteur orthographique) à accès simplifié depuis XEmacs
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{ \textbf{Indexation et recherche de contenu utilisant MapReduce de Google} \\ Documentation technique }
+\markright{Indexation et recherche de contenu utilisant MapReduce de Google Documentation technique} 
+                           % Pour avoir le titre de l'expose sur chaque page
+
+\author{Elodie \textsc{Corbel}, Kévin \textsc{M'Ghari}, \\
+        Mickaël \textsc{Olivier}, Clarisse \textsc{Renou} \\
+        \\
+        Encadrant : Alexandru \textsc{Costan}}
+
+\date{}                    % Ne pas modifier
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}          
+
+\maketitle                 % Génère le titre
+\thispagestyle{empty}      % Supprime le numéro de page sur la 1re page
+
+
+\section{Introduction}  
+
+Indexation et recherche de contenu utilisant MapReduce de Google, voici l'intitulé de notre sujet. En fait, il s'agit simplement de la réalisation d'un moteur d'indexation avec son propre système d'indexation.
+
+Cette documentation technique a pour but de vous présenter l'architecture de notre projet réalisé lors de notre troisième année à l'INSA de Rennes.
+
+Pour se faire, nous allons premièrement vous présenter l'architecture globale. Puis, un listing des dossiers afin que vous vous visualisez mieux où se trouvent les différents composants de notre projet et comment l'utiliser. Enfin, nous vous présenterons en détails, le fonctionnnement de notre moteur de recherche.
+
+Si vous avez besoin d'informations quant à l'utilisation et à l'installation de notre projet, veuillez vous reporter à la documentation utilisateur (disponible dans l'archive de notre projet).
+\section{Architecture globale}
+
+Depuis le début de projet, nous avons choisi de décomposer notre projet en trois composantes (\textit{voir figure~\ref{fig:archiglobale}}):
+\begin{itemize}
+
+  \item l'interface graphique, pour la communication avec l'utilisateur afin qu'il puisse entrer les mots qui veut rechercher.
+  \item le moteur de recherche, pour la recherche dans l'index et les calculs
+  \item l'indexation, réalisée par Hadoop, afin d'indexer le contenu
+\end{itemize}
+
+\FigureEPS{h,t,b,p}{6cm}{archigenerale.ps}
+                  {Architecture globale du projet}   
+                  {fig:archiglobale}
+
+
+Voici le détail des différentes entrées-sorties :
+\subsection{Interface graphique}
+On a en entrée la requête entrée par l'utilisateur composée de un ou plusieurs mots.
+
+En résultat, le moteur de recherche va nous donner les fichiers dans lesquels se trouve ce/ces mot/mots avec les lignes dans lesquelles il apparaît. 
+
+On utilise pour cela une JApplet, il faut donc pour l'ouvrir l'intégrer dans une page html. La version de Java requise dépend de celle installée avec votre navigateur. Il est cependant conseillé d'utiliser Java 1.6 pour compiler et exécuter l'applet.
+\subsection{Moteur de recherche}
+Il se compose en 2 parties : une partie qui se charge de faire interface avec l'utilisateur et l'autre de construire une HashMap à partir de l'index pour avoir l'index en mémoire vive.
+
+La partie qui fait interface avec l'utilisateur prend en entrée l'expression entrée par l'utilisateur et en sortie rend les lignes et les fichiers dans lesquels se trouve l'expression entrée.
+
+La partie qui place l'index en mémoire vive, prend en entrée le fichier donné par l'indexation, le parcourt et donne en sortie une HashMap\footnote{voir partie n°.. pour le détail de la HashMap}.
+
+Le moteur de recherche est lié à l'applet et se trouve donc dans le même dossier.
+
+\subsection{Indexation}
+L'indexation est faite à partir du framework d'Apache : Hadoop.
+
+Elle prend en entrée des fichiers texte, nous avons décidé que ce serait des livres libres de droit disponibles sur internet mais ce pourrait être n'importe quels autres fichiers contenant du texte.
+
+En sortie, nous avons l'index construit par Hadoop, il s'agit d'un fichier texte contenant pour chaque ligne un mot du texte le fichier dans lequel il apparaît et les numéros de ligne des occurences de ce mot dans le fichier donné.
+
+La version d'Hadoop que nous avons utilisé pour le projet est la 1.0.3. Vous trouverez un tutoriel de comment installer Hadoop à l'adresse suivante : \url{http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-single-node-cluster/}
+
+\section{Listing contenu dossiers}
+
+Pour une meilleure compréhension de notre projet, nous avons décidé de vous présenter le contenu des dossiers de l'archive :
+\begin{lstlisting}
+total 28
+drwxr-xr-x 6 hduser hadoop 4096 mai   11 11:03 hadoopMR
+drwxr-xr-x 4 hduser hadoop 4096 mai   11 11:03 JavaDoc
+drwxr-xr-x 4 hduser hadoop 4096 mai   11 11:03 MapReduce
+drwxr-xr-x 5 hduser hadoop 4096 mai   11 11:03 Rapport LateX
+drwxr-xr-x 5 hduser hadoop 4096 mai   11 11:03 SearchEngine
+\end{lstlisting}
+Le contenu listé au-dessus est la racine du projet où se trouve les différentes composantes. Le dossier \texttt{hadoopMR} est le dossier global où l'on met les exécutables et on lance le projet. Dans le répertoire \texttt{JavaDoc} se trouve toute la documentation que nous avons générée pour notre projet, elle y est au format PDF et html. Le dossier \texttt{MapReduce} contient tout ce qui concerne le coe source de la partie indexation du projet. Le dossier \texttt{Rapport LateX} contient ce présent rapport, le rapport final du projet et la documentation utilisateur. Et enfin, le dossier \texttt{SearchEngine} est le dossier dans lequel se trouve le code source du moteur de recherche.
+\begin{lstlisting}
+./hadoopMR:
+total 4392
+drwxr-xr-x hduser hadoop   avril 30 15:38 inputFiles
+drwxr-xr-x hduser hadoop   mai   11 11:02 inputFilesSplit
+drwxr-xr-x hduser hadoop   mai    9 21:48 outputFiles
+drwxr-xr-x hduser hadoop   mai    9 21:50 Page Web
+-rw-r--r-- hduser hadoop   mai    9 20:40 hadoopIndex.jar
+-rwxr-xr-x hduser hadoop   mai    9 21:25 scripthadoop.sh
+-rwxr-xr-x hduser hadoop   mai    9 21:25 splitScript.sh
+\end{lstlisting}
+Comme vous pouvez le voir, l'exécutable \texttt{hadoopIndex.jar} sert à construire l'index. Il est lancé à partir du script \texttt{scripthadoop.sh} seul script à lancer pour exécuter l'indexation du contenu. Contenu qui, par ailleurs, doit être placé dans le dossier \texttt{inputFiles}.
+\begin{lstlisting}
+./hadoopMR/Page Web:
+total 6172
+-rw-r--r-- 1 hduser hadoop 2920064 mai    9 21:50 applet.jar
+-rw-r--r-- 1 hduser hadoop    1693 avril 30 15:38 blanc.jpeg
+-rw-r--r-- 1 hduser hadoop 3329319 avril 30 15:38 color.jpg
+-rw-r--r-- 1 hduser hadoop   16464 avril 30 15:38 hadoop.jpg
+-rw-r--r-- 1 hduser hadoop   37705 avril 30 15:38 orange.jpg
+-rw-r--r-- 1 hduser hadoop     354 avril 30 15:38 page.html
+\end{lstlisting}
+Le fichier \texttt{page.html} est la page web qu'il faut ouvrir pour lancer l'applet \texttt{applet.jar}.
+\begin{lstlisting}
+./Rapport LateX:
+total 12
+drwxr-xr-x 2 hduser hadoop 4096 mai    9 15:47 Documentation technique
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 Documentation Utilisateur
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 Rapport Final
+
+./MapReduce:
+total 28
+drwxr-xr-x 5 hduser hadoop 4096 mai    9 15:31 index
+
+./MapReduce/index/src:
+total 16
+-rw-r--r-- 1 hduser hadoop 1106 mai    9 20:41 IndexDriver.java
+-rw-r--r-- 1 hduser hadoop 2743 mai    8 16:37 IndexMapper.java
+-rw-r--r-- 1 hduser hadoop 1133 mai    8 16:37 IndexReducer.java
+-rw-r--r-- 1 hduser hadoop 1054 mai    7 18:20 NotSplit.java
+
+./SearchEngine:
+total 88
+drwxr-xr-x 8 hduser hadoop  4096 mai    9 21:48 bin
+drwxr-xr-x 8 hduser hadoop  4096 mai   11 11:03 src
+
+./SearchEngine/src:
+total 24
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 grammar
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 index
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 path
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 reader
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 search
+drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 window
+
+./SearchEngine/src/grammar:
+total 4
+-rw-r--r-- 1 hduser hadoop 3776 mai   11 11:03 Index2.java
+
+./SearchEngine/src/index:
+total 8
+-rw-r--r-- 1 hduser hadoop 2645 mai   11 11:03 IndexBuilder.java
+-rw-r--r-- 1 hduser hadoop 1265 mai   11 11:03 Informations.java
+
+./SearchEngine/src/path:
+total 4
+-rw-r--r-- 1 hduser hadoop 1696 mai   11 11:03 Paths.java
+
+./SearchEngine/src/reader:
+total 12
+-rw-r--r-- 1 hduser hadoop 6430 mai   11 11:03 FileRead.java
+-rw-r--r-- 1 hduser hadoop 1526 mai   11 11:03 SortLineNumbers.java
+
+./SearchEngine/src/search:
+total 24
+-rw-r--r-- 1 hduser hadoop  816 mai   11 11:03 FoundInfos.java
+-rw-r--r-- 1 hduser hadoop 4557 mai   11 11:03 Search.java
+-rw-r--r-- 1 hduser hadoop 9973 mai   11 11:03 Seeker.java
+
+./SearchEngine/src/window:
+total 16
+-rw-r--r-- 1 hduser hadoop 2593 mai   11 11:03 Fenetre.java
+-rw-r--r-- 1 hduser hadoop 1938 mai   11 11:03 Logger.java
+
+\end{lstlisting}
+Tout le contenu que vous pouvez voir au-dessus constitue le code source de notre projet. Son organisation et son fonctionnement vous sera expliqué dans la partie suivante.
+
+%a toi Mika details de l'archi et tout ^^
+
+\section{Indexation}
+Une fois le traitement sur le texte pur effectué via MapReduce, on obtient donc un fichier texte qui contient ligne par ligne les entrées suivantes, séparées par des espaces : mot fichier suite de numéros de lignes associés.
+\\Il faut donc reconstituer à partir de ce fichier beaucoup moins lourd que le texte initial un index dans la mémoire vive. Pour celà, nous vons choisi d'utiliser une Map<Integer, HashMap<String, Informations >>. 
+\\Il s'agit en fait d'une Hashmap d'Hashmap contenant en clé principale un integer (pseudo hashcode permettant de parcourir simplement la structure) auquel on associe une autre HashMap, dont la clé (secondaire) est un String qui décrit le mot auquel est associée l'entrée.
+Enfin, on associe à ce String une classe Information, qui possède comme attributs un autre String, qui est un fichier dans lequel on trouve ce mot, et une ArrayList<Long> qui contient les numéros de lignes où l'on trouve le mot dans le fichier décrit.
+\subsection{Moteur de recherche}
+Le moteur de recherche va parcourir la hashmap reconstituée à partir du fichier texte produit par MapReduce afin d'en tirer des informations intéressantes. Tout d'abord, nous avons pensé à une recherche simple, d'une suite de mots. Il s'agissait là de découper l'expression passée par l'utilisateur afin d'accomplir une recherche mot par mot. Sur ce découpage, nous avons choisi d'éliminer certains mots courants de la lange française, à savoir les articles, les mots de liaisons et les pronoms.
+\\Ensuite, la classe chargée de traiter l'expression, nommée search, passe la main à la classe seeker qui va pour chaque mot vérifier s'il s'agit d'une clé de la hashmap constituant l'index puis, si tel est le cas, renvoyer les entrées correspondantes (fichiers, numéros de lignes, nombre d'occurences). A partir de ces informations, on renvoie un affichage de chaque instance de ligne où le mot clé est trouvé, en donnant les numéros de ligne associés.
+L'ordre de l'affichage se base sur un critère de relevance qui concerne le nombre d'occurences de chaque mot clé pour chaque fichier. On réaffichera des parties d'un même fichier pour chaque mot, ce qui nous permet d'obtenir le contexte dans lequel ce mot a été trouvé.
+\\Pour finir, l'idée nous est venue d'introduire quelque prédicats de base, à savoir AND, OR et NOT. Ils permettent respectivement de rechercher un fichier contenant deux mots, de rechercher des fichiers ne comprenant pas les deux mots passés en argument en même temps, et d'éliminer un mot de la recherche. Ils sont cummulables, et leur grammaire est de la forme suivante :
+\\\\
+AND mot mot
+\\OR mot mot
+\\NOT mot
+\\\\
+Pour mettre en place le AND comme le OR, il a fallut parcourir le résultat associés aux deux mots et éliminer les résultats ne correspondant pas - à savoir les fichiers ne contenant pas les deux mots dans le cas du AND, et inversement dans le cas du OR, ceux contenant les deux mots.
+\\Pour le NOT, un cas plus particulier, il a fallu créer une deuxième liste dans la classe Seeker qui contienne les informations à éliminer. Après avoir traitéer tous les mots, dans la classe Search, il nous suffit alors d'enlever les instances de cette liste à la liste de recherche principale. Dans le cas où aucun NOT ne serait utilisé, cette liste est vide donc la méthode marche dans tous les cas.
+\\
+Les seuls problèmes que nous avons rencontré dans cet partie sont purement des problèmes d'algorithme, d'organisation des structures de données et de lecture du texte passé en amont par l'utilisateur.
+
+
+
+
+
+
+\section{Conclusion} 
+ 
+\LaTeX\ c'est facile pour produire des documents standard et nickel ! 
+Et Bib\TeX\ pour les références, c'est le pied.
+
+\bibliography{biblio}
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  9 MAY 2013 22:19
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  11 MAY 2013 14:03
 entering extended mode
  %&-line parsing enabled.
-**doc-utilisateur
+**doc-utilisateur.tex
 (./doc-utilisateur.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -180,6 +180,6 @@ Here is how much of TeX's memory you used:
  4774 multiletter control sequences out of 15000+50000
  17398 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,6n,26p,503b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,6n,26p,507b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on doc-utilisateur.dvi (3 pages, 7924 bytes).
+Output written on doc-utilisateur.dvi (3 pages, 7948 bytes).

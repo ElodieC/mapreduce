@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  11 MAY 2013 11:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  11 MAY 2013 14:02
 entering extended mode
  %&-line parsing enabled.
-**exemple-expose.tex
-(./exemple-expose.tex
+**doc-technique.tex
+(./doc-technique.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
@@ -123,58 +123,65 @@ File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(./exemple-expose.aux)
-\openout1 = `exemple-expose.aux'.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+) (./doc-technique.aux)
+\openout1 = `doc-technique.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Info: Redefining \degres on input line 36.
-LaTeX Info: Redefining \dots on input line 36.
-LaTeX Info: Redefining \up on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Info: Redefining \degres on input line 37.
+LaTeX Info: Redefining \dots on input line 37.
+LaTeX Info: Redefining \up on input line 37.
 \c@lstlisting=\count98
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 38.
+(Font)              <12> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 38.
+(Font)              <8> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 38.
+(Font)              <6> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 63.
- [1
+(Font)              <10.95> on input line 64.
+File: archigenerale.ps Graphic file (type eps)
+
+<archigenerale.ps> [1
 
 ]
-Overfull \hbox (58.9568pt too wide) in paragraph at lines 91--92
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+Package frenchb.ldf Warning: Degrees would look better in TS1-encoding: 
+(frenchb.ldf)                add \usepackage{textcomp} to the preamble. 
+(frenchb.ldf)                Degrees used on input line 79.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 90.
+(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+[]\T1/cmr/m/n/10.95 La ver-sion d'Hadoop que nous avons util-isé pour le pro-je
+t est
  []
 
 
-Overfull \hbox (72.02238pt too wide) in paragraph at lines 92--93
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+\T1/cmr/m/n/10.95 la 1.0.3. Vous trou-verez un tu-to-riel de com-ment in-stalle
+r Hadoop
  []
 
 
-Overfull \hbox (13.22726pt too wide) in paragraph at lines 101--102
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (13.22726pt too wide) in paragraph at lines 102--103
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (19.76006pt too wide) in paragraph at lines 103--104
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+\T1/cmr/m/n/10.95 à l'adresse suiv-ante : $\T1/cmtt/m/n/10.95 http : / / www . 
+michael-[]noll . com / tutorials /
  []
 
 
@@ -184,33 +191,13 @@ ogle Documentation technique \T1/cmr/m/n/10.95 2
  []
 
 [2]
-Overfull \hbox (19.76006pt too wide) in paragraph at lines 126--127
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (58.9568pt too wide) in paragraph at lines 130--131
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (19.76006pt too wide) in paragraph at lines 127--129
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (39.35843pt too wide) in paragraph at lines 136--138
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (6.69447pt too wide) in paragraph at lines 140--141
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--170
-
+Overfull \hbox (72.02238pt too wide) in paragraph at lines 131--132
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
@@ -220,62 +207,78 @@ ogle Documentation technique \T1/cmr/m/n/10.95 3
  []
 
 [3]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 183.
-
- (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-
-LaTeX Warning: File `./fig/exemple-figure.eps' not found on input line 197.
+Overfull \hbox (13.22726pt too wide) in paragraph at lines 140--141
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
 
-! LaTeX Error: File `./fig/exemple-figure.eps' not found.
+Overfull \hbox (13.22726pt too wide) in paragraph at lines 141--142
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.197                   {fig:exemple}
-                                     
-? 
 
-! LaTeX Error: Cannot determine size of graphic in ./fig/exemple-figure.eps (no
- BoundingBox).
+Overfull \hbox (19.76006pt too wide) in paragraph at lines 142--143
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.197                   {fig:exemple}
-                                     
-? 
-File: ./fig/exemple-figure.eps Graphic file (type eps)
-<./fig/exemple-figure.eps>
+
+Overfull \hbox (19.76006pt too wide) in paragraph at lines 165--166
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (19.76006pt too wide) in paragraph at lines 166--168
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (39.35843pt too wide) in paragraph at lines 175--177
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.69447pt too wide) in paragraph at lines 179--180
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
 Overfull \hbox (40.66095pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
 ogle Documentation technique \T1/cmr/m/n/10.95 4
  []
 
 [4]
-No file exemple-expose.bbl.
+Underfull \hbox (badness 10000) in paragraph at lines 199--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--212
+
+ []
+
 
 Overfull \hbox (40.66095pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
 ogle Documentation technique \T1/cmr/m/n/10.95 5
  []
 
-[5] (./exemple-expose.aux)
+[5]
+No file doc-technique.bbl.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Overfull \hbox (40.66095pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
+ogle Documentation technique \T1/cmr/m/n/10.95 6
+ []
 
- ) 
+[6] (./doc-technique.aux) ) 
 Here is how much of TeX's memory you used:
- 3155 strings out of 495062
- 40300 string characters out of 1182644
- 139783 words of memory out of 3000000
- 6325 multiletter control sequences out of 15000+50000
- 17492 words of font info for 40 fonts, out of 3000000 for 9000
+ 3226 strings out of 495062
+ 41154 string characters out of 1182644
+ 133884 words of memory out of 3000000
+ 6393 multiletter control sequences out of 15000+50000
+ 17398 words of font info for 40 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,6n,32p,524b,1578s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,6n,32p,728b,1577s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on exemple-expose.dvi (5 pages, 24296 bytes).
+Output written on doc-technique.dvi (6 pages, 27156 bytes).
