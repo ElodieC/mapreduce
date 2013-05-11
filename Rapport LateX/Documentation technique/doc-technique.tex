@@ -196,35 +196,34 @@ Toute la partie qui met en oeuvre le travail fournit par notre algorithme MapRed
 \subsubsection{IndexDriver}
 Il s'agit là de la classe qui contient le main de notre algorithme. Ainsi, on y déclare tout d'abord un job auquel on associe la classe courante. Puis on lui passe le chemin des fichiers d'entrées et des fichiers de sortie en vérifiant que le nombre d'arguments lors de l'appel du main est bien de 2, en renvoyant une erreur dans le cas échéant. 
 \\
-Il reste ensuite à définir la classe de mappage (IndexMapper.class), de reducer (IndexReducer.class), ainsi que le format des valeurs que l'on écrira en sortie(Text.class, NoSplit.class) de manière à ce que le job tourne de manière autonome. Enfin, on attend que le job se termine en testant son état afin de sortir de la méthode main.
+Il reste ensuite à définir la classe de mapper (IndexMapper.class), de reducer (IndexReducer.class), ainsi que le format des valeurs que l'on écrira en sortie(Text.class) de manière à ce que le job tourne de manière autonome. Enfin, on attend que le job se termine en testant son état afin de sortir de la méthode main.
 
 \subsubsection{IndexMapper}
-La classe de mappage qui permet de découper les fichiers d'entrée. En entrée on a pour clé l'offset de la ligne par rapport au début du fichier et en valeur la ligne, en sortie on a pour clé intermédiaire le mot, le nom du fichier et en valeur le numéro de la ligne dans lequel il se trouve. C'est pour cette raison que la classe hérite de Mapper<LongWritable, Text, Text, Text>, les deux premiers paramètres représentant la clé et la valeur en entrée et respectivement en sortie pour les deux derniers. On crée un paramètre qui permet de compter les lignes en l'initialisant à 0. Ensuite, on réécrit une multitude de classe pour mapper, sahcant que l'on aura un mapper par fichier pour faciliter le découpage (qui sera en fait assuré de manière indépendante) :
+La classe de mappage qui permet de découper les fichiers d'entrée. En entrée on a pour clé l'offset de la ligne par rapport au début du fichier et en valeur la ligne, en sortie on a pour clé intermédiaire le mot, le nom du fichier et en valeur le numéro de la ligne dans lequel il se trouve. C'est pour cette raison que la classe hérite de Mapper<LongWritable, Text, Text, Text>, les deux premiers paramètres représentant la clé et la valeur en entrée et respectivement en sortie pour les deux derniers. On crée un paramètre qui permet de compter les lignes en l'initialisant à 0. Ensuite, on réécrit une multitude de classe pour mapper, sachant que l'on aura un mapper par fichier pour faciliter le découpage (qui sera en fait assuré de manière indépendante) :
 \\\\
 Deux classes annexes sont présentes : supprimerPonctuation, qui supprime toute la ponctuation d'un String à l'aide d'un StringBuffer et motAIgnorer, qui teste si un mot passé en paramètre appartient à une liste de mot que l'on ne souhaite pas indexer, à savoir "et", "ou", "où", "de", "des", "d", "le", "les","l","la","je","il","au","aux","du","un","une","a","à","or","ni","que","si","y",
 \\"m","mon","ma","mes","me","ne", "nous","on","sa","ses","se","qui","s","t","ta",
 \\"tes","te","il","là","qu","sans","sur".
 \\\\
-En outre, la classe principale map permet d'effectuer le traitement de mappage sur une ligne à partir de son offset et du texte que l'on y lit. On passe aussi le contexte hadoop comme paramètre. On ignore la casse en mettant le texte en minuscules, on supprime la ponctuation avant de créer un StringTokenizer mots à l'aide du traitement effectué. On récupère en outre le nom du fichier actuel dans le contexte. Ensuite, on effectue une boucle sur toute la ligne en utilisant la fonction hasMoreTokens() de la classe StringTokenizer.
+En outre, la fonction principale Map permet d'effectuer le traitement de mappage sur une ligne à partir de son offset et du texte que l'on y lit. On passe aussi le contexte hadoop comme paramètre. On ignore la casse en mettant le texte en minuscules, on supprime la ponctuation avant de créer un StringTokenizer mots à l'aide du traitement effectué. On récupère en outre le nom du fichier actuel dans le contexte. Ensuite, on effectue une boucle sur toute la ligne en utilisant la fonction hasMoreTokens() de la classe StringTokenizer.
 \\Dans cette boucle, on incrémente l'offset de la ligne et on récupère le mot sous forme de Text. S'il ne s'agit pas d'un mot dans la liste de mots à ignorer qui a été préétablie, alors on écrit dans le contexte le mot, le nom du fichier puis le numéro de la ligne, le tout étant séparé par des espaces.
 
 \subsubsection{IndexReducer}
-La classe de type reducer suit à peu prêt la même architecture que celle associée au mappage, ainsi elle hérite de Reducer<Text,Text,Text,Text>. La seule fonction ici est reduc, qui aggrégège les résultats du mapper afin d'avoir en résultat la liste des numéros de lignes associés à une entrée d'un mot dans un fichier texte. Son rôle dans le détail est de contruire un StringBuilder avec pour séparateur un simple espace, 	que l'on remplie pour chaque valeur passée en paramètre par un simple cast de celle-ci de Text en String, le tout suivi d'un espace. Pour finir, en utilisant la clé passée comme paramètre, on écrit 	ce StringBuilder sous forme de Text dans le le contexte.
+La classe de type reducer suit à peu près la même architecture que celle associée au mappage, ainsi elle hérite de Reducer<Text,Text,Text,Text>. La seule fonction ici est Reduce, qui agrège les résultats du mapper afin d'avoir en résultat la liste des numéros de lignes associés à une entrée d'un mot dans un fichier texte. Son rôle dans le détail est de construire un StringBuilder avec pour séparateur un simple espace, que l'on remplit pour chaque valeur passée en paramètre par un simple cast de celle-ci de Text en String, le tout suivi d'un espace. Pour finir, en utilisant la clé passée comme paramètre, on écrit ce StringBuilder sous forme de Text dans le le contexte.
 
 \subsubsection{NotSplit}
-Enfin, la classe NotSplit permet de gèrer les fichiers en entrée. Ici, elle sert à indiquer que l'on ne veut pas qu'hadoop découpe les fichiers comme ce traitement est fait de manière indépendante. Pour qu'un fichier ne soit pas découpé par hadoop afin d'obtenir les numéros de ligne, il nous suffit donc d'invoquer  cette classe qui hérite en fait de FileInputFormat<K, V> et d'override deux méthodes. D'une part, on s'arrange pour que isSplittable renvoie toujours false. D'autre part, on s'arrange pour que createRecordReader retourne uniquement un nouvel objet qui est en fait un LineRecordReader casté en RecordReader<K,V>.
+Enfin, la classe NotSplit permet de gèrer les fichiers en entrée. Ici, elle sert à indiquer que l'on ne veut pas qu'Hadoop découpe les fichiers comme ce traitement est fait de manière indépendante. Pour qu'un fichier ne soit pas découpé par Hadoop afin d'obtenir les numéros de ligne, il nous suffit donc d'invoquer cette classe qui hérite en fait de FileInputFormat<K, V> et d'override deux méthodes. D'une part, on s'arrange pour que isSplittable renvoie toujours false. D'autre part, on s'arrange pour que createRecordReader retourne uniquement un nouvel objet qui est en fait un LineRecordReader casté en RecordReader<K,V>.
 
 \subsection{Indexation}
-On a notre index dans la mémoire morte grâce à mapreduce, il nous faut désormais le passer dans la mémoire vive de java, par exemple sous dorme de hashmap. Cette partie décrit la fois la construction de cet index. 
+On a notre index dans la mémoire morte grâce à mapreduce, il nous faut désormais le passer dans la mémoire vive de java, par exemple sous forme de Hashmap. Cette partie décrit la fois la construction de cet index. 
 \subsubsection{Index}
-Cette classe va parcourir le fichier Index construit grâce à MapReduce et appeler les méthodes adéquatse pour construire la hashmap. Elle est statique afin d'avoir accès à la création d'index partout. scanLine est un Scanner qui va s'occuper mot par mot de la ligne pour construire la hashmap, builder est IndexBuilder chargé de construire la hashmap. Enfin, on lui associe un paramètre recherche de type S
-earch, qui permet de faire la recherche sur l'index que l'on spécifiera du côté utilisateur. Les méthodes de cette classe sont les suivantes :
+Cette classe va parcourir le fichier Index construit grâce à MapReduce et appeler les méthodes adéquates pour construire la Hashmap. Elle est statique afin d'avoir accès à la création d'index partout. scanLine est un Scanner qui va s'occuper mot par mot de la ligne pour construire la hashmap, builder est IndexBuilder chargé de construire la hashmap. Enfin, on lui associe un paramètre recherche de type Search, qui permet de faire la recherche sur l'index que l'on spécifiera du côté utilisateur. Les méthodes de cette classe sont les suivantes :
 \\\\
 La méthode scanFile scanne ligne par ligne le fichier index pour la transmettre au builder. Il s'agit d'une simple boucle qui vérifie si l'on est arrivé à la fin du fichier et appelle la méthode builder pour chaque ligne.
 \\
 La méthode builder vérifie que la ligne suive la grammaire appropriée de notre index et ajoute au builde dans le cas ou rien ne la contredir le mot, puis le fichier et la liste de lignes que l'on lit dans la ligne.
 \\
-La méthode build enfin, initalise l'IndexBuilder et le BufferedReader pour lancer l'analyse du scanFile, le tout après avoir vérifié que le fichier d'index est présent, et après l'avoir ouvert. Enfin, elle récupère la recherche que l'on passe du côté utilisateur et lance dessus la méthode statique toDo qui effectue la dite recherche.
+La méthode build enfin, initialise l'IndexBuilder et le BufferedReader pour lancer l'analyse du scanFile, le tout après avoir vérifié que le fichier d'index est présent, et après l'avoir ouvert. Enfin, elle récupère la recherche que l'on passe du côté utilisateur et lance dessus la méthode statique toDo qui effectue la dite recherche.
 \subsubsection{IndexBuilder}
 Cette classe s'occupe de construire l'index avec la création d'une hashmap. Ses paramètres sont index, la  Map<Integer, HashMap<String, Informations>> que nous avons utilisé pour stocker nos informations, currentWord, le mot courant, currentFile, le fichier courant, lines, l'ArrayList<Long> définissant la liste de lignes auxquelles on trouve le mot currentWord dans le fichier currentFile. Pour finir,  currentID, un identifiant unique pour chaque combinaison (mot,nomFichier) généré automatiquement et nous permettant de trier la HashMap tout en jouant le rôle de hashcode.
 \\
@@ -283,7 +282,7 @@ getLinesText permet d'obtenir le texte associé aux lignes d'un mot dans un fichi
 \subsubsection{FoundInfos}
 Cette classe associe à un mot la liste de ses fichiers, elle sert juste de structure pour contenir un mot et la 	List<String> de ses fichiers.
 \subsection{Affichage et GUI}
-Cette artie décrit l'interface utilisateur, qui est une applet, ainsi que le logger qui permet de tracer l'exécution du programme.
+Cettep artie décrit l'interface utilisateur, qui est une applet, ainsi que le logger qui permet de tracer l'exécution du programme.
 \subsubsection{Fenetre}
 Notre fenêtre est constituée d'un JTextField entree, d'un JTextPane resultat. Elle a aussi comme paramètres un Search toEvaluate et un String whereSearch que l'on associe à un chemin de la classe Path. Cette classe est uniquement constituée de la fonction init, qui tout d'abord crée le logger tout en lui donnant son contexte. Ensuite, elle décrit la fenêtre en termes de JFrame, auquel on ajoute un JButton, notre JTextField entree et ntre JTextPane resultat (sous forme de JScrollPane). 
 \\\\
@@ -296,29 +295,6 @@ CreateLogger, qui permet d'initialiser le logger en indiquant le chemin de créat
 addInLog,  la méthode principale qui permet d'ajouter à la suite du fichier la phrase de log que l'on veut, ainsi que la date d'exécution.
 \\
 formatDate, qui met la date e au format dd/MM/yyyy kk:mm:ss
-
-\section{Indexation}
-Une fois le traitement sur le texte pur effectué via MapReduce, on obtient donc un fichier texte qui contient ligne par ligne les entrées suivantes, séparées par des espaces : mot fichier suite de numéros de lignes associés.
-\\Il faut donc reconstituer à partir de ce fichier beaucoup moins lourd que le texte initial un index dans la mémoire vive. Pour celà, nous vons choisi d'utiliser une Map<Integer, HashMap<String, Informations >>. 
-\\Il s'agit en fait d'une Hashmap d'Hashmap contenant en clé principale un integer (pseudo hashcode permettant de parcourir simplement la structure) auquel on associe une autre HashMap, dont la clé (secondaire) est un String qui décrit le mot auquel est associée l'entrée.
-Enfin, on associe à ce String une classe Information, qui possède comme attributs un autre String, qui est un fichier dans lequel on trouve ce mot, et une ArrayList<Long> qui contient les numéros de lignes où l'on trouve le mot dans le fichier décrit.
-\subsection{Moteur de recherche}
-Le moteur de recherche va parcourir la hashmap reconstituée à partir du fichier texte produit par MapReduce afin d'en tirer des informations intéressantes. Tout d'abord, nous avons pensé à une recherche simple, d'une suite de mots. Il s'agissait là de découper l'expression passée par l'utilisateur afin d'accomplir une recherche mot par mot. Sur ce découpage, nous avons choisi d'éliminer certains mots courants de la lange française, à savoir les articles, les mots de liaisons et les pronoms.
-\\Ensuite, la classe chargée de traiter l'expression, nommée search, passe la main à la classe seeker qui va pour chaque mot vérifier s'il s'agit d'une clé de la hashmap constituant l'index puis, si tel est le cas, renvoyer les entrées correspondantes (fichiers, numéros de lignes, nombre d'occurences). A partir de ces informations, on renvoie un affichage de chaque instance de ligne où le mot clé est trouvé, en donnant les numéros de ligne associés.
-L'ordre de l'affichage se base sur un critère de relevance qui concerne le nombre d'occurences de chaque mot clé pour chaque fichier. On réaffichera des parties d'un même fichier pour chaque mot, ce qui nous permet d'obtenir le contexte dans lequel ce mot a été trouvé.
-\\Pour finir, l'idée nous est venue d'introduire quelque prédicats de base, à savoir AND, OR et NOT. Ils permettent respectivement de rechercher un fichier contenant deux mots, de rechercher des fichiers ne comprenant pas les deux mots passés en argument en même temps, et d'éliminer un mot de la recherche. Ils sont cummulables, et leur grammaire est de la forme suivante :
-\\\\
-AND mot mot
-\\OR mot mot
-\\NOT mot
-\\\\
-Pour mettre en place le AND comme le OR, il a fallut parcourir le résultat associés aux deux mots et éliminer les résultats ne correspondant pas - à savoir les fichiers ne contenant pas les deux mots dans le cas du AND, et inversement dans le cas du OR, ceux contenant les deux mots.
-\\Pour le NOT, un cas plus particulier, il a fallu créer une deuxième liste dans la classe Seeker qui contienne les informations à éliminer. Après avoir traitéer tous les mots, dans la classe Search, il nous suffit alors d'enlever les instances de cette liste à la liste de recherche principale. Dans le cas où aucun NOT ne serait utilisé, cette liste est vide donc la méthode marche dans tous les cas.
-\\
-Les seuls problèmes que nous avons rencontré dans cet partie sont purement des problèmes d'algorithme, d'organisation des structures de données et de lecture du texte passé en amont par l'utilisateur.
-
-
-
 
 
 
