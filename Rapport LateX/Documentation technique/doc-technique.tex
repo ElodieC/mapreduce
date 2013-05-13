@@ -22,7 +22,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \title{ \textbf{Indexation et recherche de contenu utilisant MapReduce de Google} \\ Documentation technique }
-\markright{Indexation et recherche de contenu utilisant MapReduce de Google Documentation technique} 
+\markright{Indexation et recherche de contenu utilisant MapReduce de Google} 
                            % Pour avoir le titre de l'expose sur chaque page
 
 \author{Elodie \textsc{Corbel}, Kévin \textsc{M'Ghari}, \\
@@ -42,7 +42,7 @@
 
 \section{Introduction}  
 
-Indexation et recherche de contenu utilisant MapReduce de Google, voici l'intitulé de notre sujet. En fait, il s'agit simplement de la réalisation d'un moteur d'indexation avec son propre système d'indexation.
+Indexation et recherche de contenu utilisant MapReduce de Google, voici l'intitulé de notre sujet. En fait, il s'agit simplement de la réalisation d'un moteur de recherche avec son propre système d'indexation.
 
 Cette documentation technique a pour but de vous présenter l'architecture de notre projet réalisé lors de notre troisième année à l'INSA de Rennes.
 
@@ -51,12 +51,12 @@ Pour se faire, nous allons premièrement vous présenter l'architecture globale. P
 Si vous avez besoin d'informations quant à l'utilisation et à l'installation de notre projet, veuillez vous reporter à la documentation utilisateur (disponible dans l'archive de notre projet).
 \section{Architecture globale}
 
-Depuis le début de projet, nous avons choisi de décomposer notre projet en trois composantes (\textit{voir figure~\ref{fig:archiglobale}}):
+Depuis le début du projet, nous avons choisi de décomposer notre projet en trois composantes (\textit{voir figure~\ref{fig:archiglobale}}):
 \begin{itemize}
 
   \item l'interface graphique, pour la communication avec l'utilisateur afin qu'il puisse entrer les mots qu'il veut rechercher.
-  \item le moteur de recherche, pour la recherche dans l'index et les calculs
-  \item l'indexation, réalisée par Hadoop, afin d'indexer le contenu
+  \item le moteur de recherche, pour la recherche dans l'index et les calculs.
+  \item l'indexation, réalisée par Hadoop, afin d'améliorer les performances de recherche dans le contenu.
 \end{itemize}
 
 \FigureEPS{h,t,b,p}{6cm}{archigenerale.ps}
@@ -66,7 +66,7 @@ Depuis le début de projet, nous avons choisi de décomposer notre projet en trois
 
 Voici le détail des différentes entrées-sorties :
 \subsection{Interface graphique}
-On a en entrée la requête entrée par l'utilisateur composée de un ou plusieurs mots.
+On a en entrée la requête entrée par l'utilisateur composée d'un ou plusieurs mots.
 
 En résultat, le moteur de recherche va nous donner les fichiers dans lesquels se trouve ce/ces mot/mots avec les lignes dans lesquelles il apparaît. 
 
@@ -100,7 +100,7 @@ drwxr-xr-x 4 hduser hadoop 4096 mai   11 11:03 MapReduce
 drwxr-xr-x 5 hduser hadoop 4096 mai   11 11:03 Rapport LateX
 drwxr-xr-x 5 hduser hadoop 4096 mai   11 11:03 SearchEngine
 \end{lstlisting}
-Le contenu listé au-dessus est la racine du projet où se trouve les différentes composantes. Le dossier \texttt{hadoopMR} est le dossier global où l'on met les exécutables et on lance le projet. Dans le répertoire \texttt{JavaDoc} se trouve toute la documentation que nous avons générée pour notre projet, elle y est au format PDF et html. Le dossier \texttt{MapReduce} contient tout ce qui concerne le code source de la partie indexation du projet. Le dossier \texttt{Rapport LateX} contient ce présent rapport, le rapport final du projet et la documentation utilisateur. Et enfin, le dossier \texttt{SearchEngine} est le dossier dans lequel se trouve le code source du moteur de recherche.
+Le contenu listé au-dessus est la racine du projet où se trouvent les différentes composantes. Le dossier \texttt{hadoopMR} est le dossier global où l'on met les exécutables et on lance le projet. Dans le répertoire \texttt{JavaDoc} se trouve toute la documentation que nous avons générée pour notre projet, elle y est au format PDF et html. Le dossier \texttt{MapReduce} contient tout ce qui concerne le code source de la partie indexation du projet. Le dossier \texttt{Rapport LateX} contient ce présent rapport, le rapport final du projet et la documentation utilisateur. Et enfin, le dossier \texttt{SearchEngine} est le dossier dans lequel se trouve le code source du moteur de recherche.
 \begin{lstlisting}
 ./hadoopMR:
 total 4392
@@ -201,10 +201,7 @@ Il reste ensuite à définir la classe de \texttt{Mapper} (\texttt{IndexMapper.cla
 \subsubsection{IndexMapper}
 La classe de mappage qui permet de découper les fichiers d'entrée. En entrée, on a pour clé l'offset de la ligne par rapport au début du fichier et en valeur la ligne, en sortie on a pour clé intermédiaire le mot, le nom du fichier et en valeur le numéro de la ligne dans lequel il se trouve. C'est pour cette raison que la classe hérite de \texttt{Mapper<LongWritable, Text, Text, Text>}, les deux premiers paramètres représentant la clé et la valeur en entrée et respectivement en sortie pour les deux derniers. On crée un paramètre qui permet de compter les lignes en l'initialisant à 0. Ensuite, on réécrit une multitude de méthodes pour mapper, sachant que l'on aura un mapper par fichier pour faciliter le découpage (qui sera en fait assuré de manière indépendante) :
 
-Deux méthodes annexes sont présentes : \texttt{supprimerPonctuation}, qui supprime toute la ponctuation d'un \texttt{String} à l'aide d'un \texttt{StringBuffer} et \texttt{motAIgnorer}, qui teste si un mot passé en paramètre appartient à une liste de mots, non pertinents, que l'on ne souhaite pas indexer, à savoir "et", "ou", "où", "de", "des", "d", "le", "les","l","la","je","il","au","aux","du","un","une","a","à","or","ni","que","si","y",
-\\"m","mon","ma","mes","me","ne", "nous","on","sa","ses","se","qui","s","t","ta",
-\\"tes","te","il","là","qu","sans","sur".
-\\
+Deux méthodes annexes sont présentes : \texttt{supprimerPonctuation}, qui supprime toute la ponctuation d'un \texttt{String} à l'aide d'un \texttt{StringBuffer} et \texttt{motAIgnorer}, qui teste si un mot passé en paramètre appartient à une liste de mots, non pertinents, que l'on ne souhaite pas indexer, à savoir\textit{ et, ou, où, de, des, d, le, les, l, la, je, il, au, aux, du, un, une, a, à, ni, que, si, y, m, mon, ma, mes, me, ne, nous, on, sa, ses, se, qui, s, t, ta, tes, te, il, là, qu, sans, sur}.
 
 En outre, la fonction principale \texttt{map} permet d'effectuer le traitement de mappage sur une ligne à partir de son offset et du texte que l'on y lit. On passe aussi le contexte d'Hadoop comme paramètre. On ignore la casse en mettant le texte en minuscules, on supprime la ponctuation avant de créer un \texttt{StringTokenizer} mots à l'aide du traitement effectué. On récupère en outre le nom du fichier actuel dans le contexte. Ensuite, on effectue une boucle sur toute la ligne en utilisant la fonction \texttt{hasMoreTokens()} de la classe \texttt{StringTokenizer}.
 \\Dans cette boucle, on incrémente l'offset de la ligne et on récupère le mot sous forme de \texttt{Text}. S'il ne s'agit pas d'un mot dans la liste de mots à ignorer qui a été préétablie, alors on écrit dans le contexte le mot, le nom du fichier puis le numéro de la ligne, le tout étant séparé par des espaces.

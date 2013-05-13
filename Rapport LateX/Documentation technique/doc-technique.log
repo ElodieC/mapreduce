@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  11 MAY 2013 19:10
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  13 MAY 2013 17:59
 entering extended mode
  %&-line parsing enabled.
 **doc-technique.tex
@@ -151,20 +151,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 39.
+
+Underfull \hbox (badness 1448) in paragraph at lines 59--60
+[]\T1/cmr/m/n/10.95 l'indexation, réal-isée par Hadoop, afin d'améliorer les pe
+r-for-mances de
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 64.
 File: archigenerale.ps Graphic file (type eps)
-
 <archigenerale.ps> [1
 
 ]
-
-Package frenchb.ldf Warning: Degrees would look better in TS1-encoding: 
-(frenchb.ldf)                add \usepackage{textcomp} to the preamble. 
-(frenchb.ldf)                Degrees used on input line 79.
-
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 90.
-(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+ (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
@@ -184,12 +184,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
  www . michael-[]noll . com / tutorials /
  []
 
-
-Overfull \hbox (40.66095pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
-ogle Documentation technique \T1/cmr/m/n/10.95 2
- []
-
 [2]
 Overfull \hbox (58.9568pt too wide) in paragraph at lines 130--131
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
@@ -198,12 +192,6 @@ Overfull \hbox (58.9568pt too wide) in paragraph at lines 130--131
 
 Overfull \hbox (72.02238pt too wide) in paragraph at lines 131--132
 [][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (40.66095pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
-ogle Documentation technique \T1/cmr/m/n/10.95 3
  []
 
 [3]
@@ -241,75 +229,22 @@ Overfull \hbox (6.69447pt too wide) in paragraph at lines 179--180
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \hbox (40.66095pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
-ogle Documentation technique \T1/cmr/m/n/10.95 4
- []
-
-[4]
-Overfull \hbox (5.27975pt too wide) in paragraph at lines 204--208
-\T1/cmr/m/n/10.95 "les","l","la","je","il","au","aux","du","un","une","a","à","
-or","ni","que","si","y", 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--208
-
- []
-
-
-Overfull \hbox (40.66095pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
-ogle Documentation technique \T1/cmr/m/n/10.95 5
- []
-
-[5]
-Overfull \hbox (40.66095pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
-ogle Documentation technique \T1/cmr/m/n/10.95 6
- []
-
-[6]
-Overfull \hbox (40.66095pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
-ogle Documentation technique \T1/cmr/m/n/10.95 7
- []
-
-[7]
-Overfull \hbox (40.66095pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
-ogle Documentation technique \T1/cmr/m/n/10.95 8
- []
-
-[8]
-Underfull \hbox (badness 3861) in paragraph at lines 296--297
+[4] [5] [6] [7] [8]
+Underfull \hbox (badness 3861) in paragraph at lines 293--294
 []\T1/cmr/m/n/10.95 Notre fenêtre est con-sti-tuée d'un \T1/cmtt/m/n/10.95 JTex
 tField entree\T1/cmr/m/n/10.95 , d'un \T1/cmtt/m/n/10.95 JTextPane
  []
 
-
-Overfull \hbox (40.66095pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
-ogle Documentation technique \T1/cmr/m/n/10.95 9
- []
-
 [9]
 No file doc-technique.bbl.
-
-Overfull \hbox (46.10489pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 Indexation et recherche de contenu utilisant MapReduce de Go
-ogle Documentation technique \T1/cmr/m/n/10.95 10
- []
-
 [10] (./doc-technique.aux) ) 
 Here is how much of TeX's memory you used:
- 3228 strings out of 495062
- 41179 string characters out of 1182644
- 134884 words of memory out of 3000000
- 6394 multiletter control sequences out of 15000+50000
+ 3227 strings out of 495062
+ 41166 string characters out of 1182644
+ 134764 words of memory out of 3000000
+ 6393 multiletter control sequences out of 15000+50000
  18181 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  32i,6n,32p,978b,1577s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on doc-technique.dvi (10 pages, 43668 bytes).
+Output written on doc-technique.dvi (10 pages, 43440 bytes).

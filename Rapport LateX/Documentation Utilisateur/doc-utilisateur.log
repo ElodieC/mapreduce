@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  11 MAY 2013 14:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  13 MAY 2013 18:01
 entering extended mode
  %&-line parsing enabled.
 **doc-utilisateur.tex
@@ -145,9 +145,9 @@ Underfull \hbox (badness 1655) in paragraph at lines 51--52
  []
 
 
-Underfull \hbox (badness 4060) in paragraph at lines 55--56
-[]\T1/cmr/m/n/10.95 Pour le sys-tème d'in-dex-a-tion, il est néces-saire de mod
--i-fier le fichier
+Underfull \hbox (badness 4713) in paragraph at lines 55--56
+[]\T1/cmr/m/n/10.95 Pour le sys-tème d'in-dex-a-tion, il est im-pératif de mod-
+i-fier le fichier
  []
 
 [1
@@ -182,4 +182,4 @@ Here is how much of TeX's memory you used:
  28 hyphenation exceptions out of 8191
  32i,6n,26p,507b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on doc-utilisateur.dvi (3 pages, 7948 bytes).
+Output written on doc-utilisateur.dvi (3 pages, 8348 bytes).

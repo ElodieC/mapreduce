@@ -37,7 +37,7 @@
 \thispagestyle{empty}      % Supprime le numéro de page sur la 1re page
 
 \begin{abstract}
-Ce rapport a pour but de mettre en avant le travail effectué par 4 élèves-ingénieurs en troisième année informatique à l'INSA de Rennes. Nous avons effectué un moteur de recherche assez simple avec une interface graphique et un système d'indexation. Nous allons donc vous expliquer comment nous nous sommes organisés pour effectuer ce projet. Ce projet comporte aussi une présentation du modèle de programmation MapReduce de Google que nous avons étudié avant de réaliser le moteur de recherche et que nous avons utilisé pour l'indexation.
+Ce rapport a pour but de mettre en avant le travail effectué par 4 élèves-ingénieurs en troisième année informatique à l'INSA de Rennes. Nous avons effectué un moteur de recherche assez simple avec une interface graphique et un système d'indexation. Nous allons donc vous expliquer comment nous nous sommes organisés pour effectuer ce projet. Ce rapport comporte aussi une présentation du modèle de programmation MapReduce de Google que nous avons étudié avant de réaliser le moteur de recherche et que nous avons utilisé pour l'indexation.
 \end{abstract} 
 
 \section*{Remerciements}
@@ -45,7 +45,7 @@ Nous tenons tout d'abord à remercier Alexandru Costan, professeur à l'INSA de Re
 \section*{Introduction}  
 
 Dans le cadre des études pratiques, en troisième année au département informatique à l'INSA de Rennes, nous avons été amenés à réaliser un projet tout au long de l'année. Celui que nous avons choisi porte sur l'indexation et la recherche de contenu utilisant MapReduce de Google\cite{sujet:latex:2}.
-Nous avons choisi ce sujet car la recherche de contenu et Google sont pour nous quelque chose d'inévitable à partir du moment où un utilisateur utilise un ordinateur.
+Nous avons opté pour ce sujet car la recherche de contenu et Google sont pour nous quelque chose d'inévitable à partir du moment où un utilisateur utilise un ordinateur.
 En effet, Google, connu surtout pour son très populaire moteur de recherche, est un phénomène à lui tout seul, il représente 6,4\% du trafic Internet mondial en 2010\cite{wikigoogle:latex:1}. Connaître et utiliser un modèle de programmation tel que MapReduce conçu par Google était donc pour nous très motivant.
 
 Le principe de la recherche de contenu est assez simple. Il existe des documents structurés ou non dans lesquels des personnes souhaitent effectuer une requête auprès d'un serveur. Le serveur renvoie donc les documents dans lesquels se trouvent les mots sur lesquels porte la requête. L'indexation permet d'améliorer la rapidité et les performances d'une recherche de contenu. En effet, celle-ci identifie les éléments significatifs du document afin de permettre un accès plus rapide à ceux-ci en créant un index. Lors d'une recherche, le moteur de recherche va d'abord chercher les informations dans l'index puis rend les documents à l'utilisateur.
@@ -58,22 +58,22 @@ Dans un premier temps, nous allons vous expliquer les solutions que nous avons c
 
 \section{Etude du projet}  
 
-Afin de déterminer ce que nous devions faire, dans une première partie de l'année, nous avons étudié la littérature existante sur le fonctionnement de MapReduce de Google afin de mieux comprendre notre objectif. Puis, nous avons découpé notre travail. Nous allons donc dans une première partie expliquer le fonctionnement de MapReduce et la solution choisie pour implémenter ce modèle de programmation. Puis, nous parlerons de la répartition du travail.
+Afin de déterminer ce que nous devions faire, dans une première partie de l'année, nous avons étudié la littérature existante sur le fonctionnement de MapReduce de Google pour mieux comprendre notre objectif. Puis, nous avons découpé notre travail. Nous allons donc dans une première partie expliquer le fonctionnement de MapReduce et la solution choisie pour implémenter ce modèle de programmation. Puis, nous parlerons de la répartition du travail.
 
 \subsection{Présentation de MapReduce}
 
 MapReduce est un modèle de programmation popularisé par Google. Il est utilisé pour l'indexation de contenu. Il se repose sur deux fonctions une fonction \texttt{Map} et une fonction \texttt{Reduce}.
 
-La fonction \texttt{Map} prend en entrée une clé et des valeurs associées. Par exemple, pour un fichier, la clé peut être un numéro de ligne et la valeur le texte de la ligne. Cette fonction ensuite rend une clé intermédiaire et une valeur intermédiaire. Dans l'exemple du Wordcount (voir \textit{figure~\ref{fig:mapreduce}}), dans laquelle on veut compter le nombre de chaque mot, la clé intermédiaire peut être un mot et la valeur 1.
+La fonction \texttt{Map} prend en entrée une clé et des valeurs associées. Par exemple, pour un fichier, la clé peut être un numéro de ligne et la valeur le texte de la ligne. Cette fonction ensuite rend une clé intermédiaire et une valeur intermédiaire. Dans l'exemple du Wordcount (voir \textit{figure~\ref{fig:mapreduce}}), dans laquelle on veut compter le nombre d'occurences de chaque mot, la clé intermédiaire peut être un mot et la valeur 1.
 
 La fonction \texttt{Reduce} ensuite prend les clés et valeurs intermédiaires données par la fonction \texttt{Map} et agrège le résultat afin de donner une clé finale et un résultat final. Dans l'exemple du Wordcount, la clé serait un mot et le résultat serait le nombre d'occurrences de ce mot.\cite{mapreducegoogle:latex:3}
 \FigureEPS{h,t,b,p}{15cm}{mapreduce.eps}
 {Schema illustratif MapReduce}{fig:mapreduce}
 \\
 
-Il est très efficace pour le traitement de données importantes mais le résultat n'est pas immédiat. Il est donc utilisé en tâche de fond. Pour une même tâche MapReduce, plusieurs fonctions \texttt{Map} peuvent s'exécuter en même temps sur différentes parties de données ce qui rend l'algorithme plus efficace. Il en va de même pour les fonctions \texttt{Reduce}. 
+Il est très efficace pour le traitement de données importantes mais le résultat n'est pas immédiat. Il est donc utilisé en tâche de fond. Pour une même tâche MapReduce, plusieurs fonctions \texttt{Map} peuvent s'exécuter en même temps sur différentes parties de données ce qui rend l'algorithme plus performant. Il en va de même pour les fonctions \texttt{Reduce}. 
 
-MapReduce est très utilisé, des implémentations en ont donc été faites, la plus utilisée est Hadoop de Apache. C'est un framework qui utilise le langage de programmation java et qui a son propre système de fichiers sous lequel doivent être placés les fichiers à traiter. En fait, pour utiliser Hadoop, il suffit juste de le configurer, de l'installer et d'écrire des classes effectuant les fonctions \texttt{Map} et \texttt{Reduce}. Nous avons donc décidé d'utiliser ce framework pour notre projet afin de réaliser la partie indexation.
+MapReduce est très utilisé, des implémentations en ont donc été faites, la plus utilisée est Hadoop de Apache. C'est un framework qui utilise le langage de programmation Java et qui a son propre système de fichiers sous lequel doivent être placés les fichiers à traiter. En fait, pour utiliser Hadoop, il suffit juste de le configurer, de l'installer et d'écrire des classes effectuant les fonctions \texttt{Map} et \texttt{Reduce}. Nous avons donc décidé d'utiliser ce framework pour notre projet afin de réaliser la partie indexation.
 
 \subsection {Décomposition du travail}
 
@@ -112,7 +112,7 @@ Une fois le traitement sur le texte pur effectué via MapReduce, on obtient donc 
 
 Il faut donc reconstituer à partir de ce fichier beaucoup moins lourd que le texte initial un index dans la mémoire vive. Pour celà, nous avons opté pour une table de hachage. 
 
-Il s'agit en fait d'une table de hachage(\textit{voir figure~\ref{fig:hashmap}}) contenant elle-même une autre table de hachage ayant en clé principale un entier (identifiant unique pour chaque entrée de la table de hachage) auquel on associe une autre table de hachage, dont la clé (secondaire) est une chaîne de caractères qui décrit le mot auquel est associée l'entrée.
+Il s'agit en fait d'une table de hachage(\textit{voir figure~\ref{fig:hashmap}}) ayant en clé principale un entier (identifiant unique pour chaque entrée de la table de hachage) auquel on associe une autre table de hachage, dont la clé (secondaire) est une chaîne de caractères qui décrit le mot auquel est associée l'entrée.
 Enfin, on associe à ce mot des informations c'est-à-dire le nom de fichier dans lequel il se trouve, et une liste qui contient les numéros de lignes où l'on trouve le mot dans le fichier décrit.
 
 \FigureEPS{h,t,b,p}{10cm}{IndexHashmap.eps}{Schema representant la table de hachage}{fig:hashmap}
