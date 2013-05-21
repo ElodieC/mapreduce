@@ -76,7 +76,7 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, Text> {
 	public static String supprimerPonctuation(String texte)
 	{
 		StringBuffer sb = new StringBuffer();
-		for (String s : texte.split("[\\p{P}]")){
+		for (String s : texte.split("[\\p{P}\\$\\+\t]")){
 			sb.append(" ");
 			sb.append(s);
 		}
