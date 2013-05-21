@@ -12,6 +12,7 @@
 
 \usepackage{verbatim}
 \usepackage{listings}
+\usepackage{url}
 
 %\linespread{1,6}          % Pour une version destinée à un relecteur,
                            % décommenter cette commande (double interligne) 
@@ -21,7 +22,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \title{ \textbf{Indexation et recherche de contenu utilisant MapReduce de Google} \\ Documentation technique }
-\markright{Indexation et recherche de contenu utilisant MapReduce de Google Documentation technique} 
+\markright{Indexation et recherche de contenu utilisant MapReduce de Google} 
                            % Pour avoir le titre de l'expose sur chaque page
 
 \author{Elodie \textsc{Corbel}, Kévin \textsc{M'Ghari}, \\
@@ -41,7 +42,7 @@
 
 \section{Introduction}  
 
-Indexation et recherche de contenu utilisant MapReduce de Google, voici l'intitulé de notre sujet. En fait, il s'agit simplement de la réalisation d'un moteur d'indexation avec son propre système d'indexation.
+Indexation et recherche de contenu utilisant MapReduce de Google, voici l'intitulé de notre sujet. En fait, il s'agit simplement de la réalisation d'un moteur de recherche avec son propre système d'indexation.
 
 Cette documentation technique a pour but de vous présenter l'architecture de notre projet réalisé lors de notre troisième année à l'INSA de Rennes.
 
@@ -50,29 +51,57 @@ Pour se faire, nous allons premièrement vous présenter l'architecture globale. P
 Si vous avez besoin d'informations quant à l'utilisation et à l'installation de notre projet, veuillez vous reporter à la documentation utilisateur (disponible dans l'archive de notre projet).
 \section{Architecture globale}
 
-Depuis le début de projet, nous avons choisi de décomposer notre projet en trois composantes :
+Depuis le début du projet, nous avons choisi de décomposer notre projet en trois composantes (\textit{voir figure~\ref{fig:archiglobale}}):
 \begin{itemize}
 
-  \item l'interface graphique, pour la communication avec l'utilisateur afin qu'il puisse entrer les mots qui veut rechercher.
-  \item le moteur de recherche, pour la recherche dans l'index et les calculs
-  \item l'indexation, réalisée par Hadoop, afin d'indexer le contenu
+  \item l'interface graphique, pour la communication avec l'utilisateur afin qu'il puisse entrer les mots qu'il veut rechercher.
+  \item le moteur de recherche, pour la recherche dans l'index et les calculs.
+  \item l'indexation, réalisée par Hadoop, afin d'améliorer les performances de recherche dans le contenu.
 \end{itemize}
 
+\FigureEPS{h,t,b,p}{6cm}{archigenerale.ps}
+                  {Architecture globale du projet}   
+                  {fig:archiglobale}
+
+
 Voici le détail des différentes entrées-sorties :
-
 \subsection{Interface graphique}
+On a en entrée la requête entrée par l'utilisateur composée d'un ou plusieurs mots.
 
+En résultat, le moteur de recherche va nous donner les fichiers dans lesquels se trouve ce/ces mot/mots avec les lignes dans lesquelles il apparaît. 
+
+On utilise pour cela une JApplet, il faut donc pour l'ouvrir l'intégrer dans une page html. La version de Java requise dépend de celle installée avec votre navigateur. Il est cependant conseillé d'utiliser Java 1.6 pour compiler et exécuter l'applet.
+\subsection{Moteur de recherche}
+Il se compose en 2 parties : une partie qui se charge de faire interface avec l'utilisateur et l'autre de construire une HashMap à partir de l'index pour avoir l'index en mémoire vive.
+
+La partie qui fait interface avec l'utilisateur prend en entrée l'expression entrée par l'utilisateur et en sortie rend les lignes et les fichiers dans lesquels se trouve l'expression entrée.
+
+La partie qui place l'index en mémoire vive, prend en entrée le fichier donné par l'indexation, le parcourt et donne en sortie une HashMap\footnote{voir section 4.2 pour le détail de la HashMap}.
+
+Le moteur de recherche est lié à l'applet et se trouve donc dans le même dossier.
+
+\subsection{Indexation}
+L'indexation est faite à partir du framework d'Apache : Hadoop.
+
+Elle prend en entrée des fichiers texte, nous avons décidé que ce serait des livres libres de droit disponibles sur internet mais ce pourrait être n'importe quels autres fichiers contenant du texte.
+
+En sortie, nous avons l'index construit par Hadoop, il s'agit d'un fichier texte contenant pour chaque ligne un mot du texte, le fichier dans lequel il apparaît et les numéros de ligne des occurences de ce mot dans le fichier donné.
+
+La version d'Hadoop que nous avons utilisé pour le projet est la 1.0.3. Vous trouverez un tutoriel expliquant comment installer Hadoop à l'adresse suivante : \url{http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-single-node-cluster/}
 
 \section{Listing contenu dossiers}
+
+Pour une meilleure compréhension de notre projet, nous avons décidé de vous présenter le contenu des dossiers de l'archive :
 \begin{lstlisting}
 total 28
 drwxr-xr-x 6 hduser hadoop 4096 mai   11 11:03 hadoopMR
 drwxr-xr-x 4 hduser hadoop 4096 mai   11 11:03 JavaDoc
 drwxr-xr-x 4 hduser hadoop 4096 mai   11 11:03 MapReduce
-drwxr-xr-x 2 hduser hadoop 4096 mai    2 10:46 Page Web
 drwxr-xr-x 5 hduser hadoop 4096 mai   11 11:03 Rapport LateX
 drwxr-xr-x 5 hduser hadoop 4096 mai   11 11:03 SearchEngine
-
+\end{lstlisting}
+Le contenu listé au-dessus est la racine du projet où se trouvent les différentes composantes. Le dossier \texttt{hadoopMR} est le dossier global où l'on met les exécutables et on lance le projet. Dans le répertoire \texttt{JavaDoc} se trouve toute la documentation que nous avons générée pour notre projet, elle y est au format PDF et html. Le dossier \texttt{MapReduce} contient tout ce qui concerne le code source de la partie indexation du projet. Le dossier \texttt{Rapport LateX} contient ce présent rapport, le rapport final du projet et la documentation utilisateur. Et enfin, le dossier \texttt{SearchEngine} est le dossier dans lequel se trouve le code source du moteur de recherche.
+\begin{lstlisting}
 ./hadoopMR:
 total 4392
 drwxr-xr-x hduser hadoop   avril 30 15:38 inputFiles
@@ -82,7 +111,9 @@ drwxr-xr-x hduser hadoop   mai    9 21:50 Page Web
 -rw-r--r-- hduser hadoop   mai    9 20:40 hadoopIndex.jar
 -rwxr-xr-x hduser hadoop   mai    9 21:25 scripthadoop.sh
 -rwxr-xr-x hduser hadoop   mai    9 21:25 splitScript.sh
-
+\end{lstlisting}
+Comme vous pouvez le voir, l'exécutable \texttt{hadoopIndex.jar} sert à construire l'index. Il est lancé à partir du script \texttt{scripthadoop.sh} seul script à lancer pour exécuter l'indexation du contenu. Contenu qui, par ailleurs, doit être placé dans le dossier \texttt{inputFiles} (pour plus de détails sur l'indexation, voir la documentation utilisateur et les commentaires du script).
+\begin{lstlisting}
 ./hadoopMR/Page Web:
 total 6172
 -rw-r--r-- 1 hduser hadoop 2920064 mai    9 21:50 applet.jar
@@ -91,13 +122,9 @@ total 6172
 -rw-r--r-- 1 hduser hadoop   16464 avril 30 15:38 hadoop.jpg
 -rw-r--r-- 1 hduser hadoop   37705 avril 30 15:38 orange.jpg
 -rw-r--r-- 1 hduser hadoop     354 avril 30 15:38 page.html
-
-./Rapport LateX:
-total 12
-drwxr-xr-x 2 hduser hadoop 4096 mai    9 15:47 Documentation technique
-drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 Documentation Utilisateur
-drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 Rapport Final
-
+\end{lstlisting}
+Le fichier \texttt{page.html} est la page web qu'il faut ouvrir pour lancer l'applet \texttt{applet.jar}. Applet qui doit être signée avant d'ouvrir la page web en raison de l'accès à des fichiers sur le disque dur (notamment le fichier d'index).
+\begin{lstlisting}
 ./MapReduce:
 total 28
 drwxr-xr-x 5 hduser hadoop 4096 mai    9 15:31 index
@@ -153,83 +180,136 @@ total 16
 -rw-r--r-- 1 hduser hadoop 1938 mai   11 11:03 Logger.java
 
 \end{lstlisting}
+Tout le contenu que vous pouvez voir au-dessus constitue le code source de notre projet. Son organisation et son fonctionnement vous sera expliqué dans la partie suivante.
 
-\section{Indexation}
-Une fois le traitement sur le texte pur effectué via MapReduce, on obtient donc un fichier texte qui contient ligne par ligne les entrées suivantes, séparées par des espaces : mot fichier suite de numéros de lignes associés.
-\\Il faut donc reconstituer à partir de ce fichier beaucoup moins lourd que le texte initial un index dans la mémoire vive. Pour celà, nous vons choisi d'utiliser une Map<Integer, HashMap<String, Informations >>. 
-\\Il s'agit en fait d'une Hashmap d'Hashmap contenant en clé principale un integer (pseudo hashcode permettant de parcourir simplement la structure) auquel on associe une autre HashMap, dont la clé (secondaire) est un String qui décrit le mot auquel est associée l'entrée.
-Enfin, on associe à ce String une classe Information, qui possède comme attributs un autre String, qui est un fichier dans lequel on trouve ce mot, et une ArrayList<Long> qui contient les numéros de lignes où l'on trouve le mot dans le fichier décrit.
-\subsection{Moteur de recherche}
-Le moteur de recherche va parcourir la hashmap reconstituée à partir du fichier texte produit par MapReduce afin d'en tirer des informations intéressantes. Tout d'abord, nous avons pensé à une recherche simple, d'une suite de mots. Il s'agissait là de découper l'expression passée par l'utilisateur afin d'accomplir une recherche mot par mot. Sur ce découpage, nous avons choisi d'éliminer certains mots courants de la lange française, à savoir les articles, les mots de liaisons et les pronoms.
-\\Ensuite, la classe chargée de traiter l'expression, nommée search, passe la main à la classe seeker qui va pour chaque mot vérifier s'il s'agit d'une clé de la hashmap constituant l'index puis, si tel est le cas, renvoyer les entrées correspondantes (fichiers, numéros de lignes, nombre d'occurences). A partir de ces informations, on renvoie un affichage de chaque instance de ligne où le mot clé est trouvé, en donnant les numéros de ligne associés.
-L'ordre de l'affichage se base sur un critère de relevance qui concerne le nombre d'occurences de chaque mot clé pour chaque fichier. On réaffichera des parties d'un même fichier pour chaque mot, ce qui nous permet d'obtenir le contexte dans lequel ce mot a été trouvé.
-\\Pour finir, l'idée nous est venue d'introduire quelque prédicats de base, à savoir AND, OR et NOT. Ils permettent respectivement de rechercher un fichier contenant deux mots, de rechercher des fichiers ne comprenant pas les deux mots passés en argument en même temps, et d'éliminer un mot de la recherche. Ils sont cummulables, et leur grammaire est de la forme suivante :
-\\\\
-AND mot mot
-\\OR mot mot
-\\NOT mot
-\\\\
-Pour mettre en place le AND comme le OR, il a fallut parcourir le résultat associés aux deux mots et éliminer les résultats ne correspondant pas - à savoir les fichiers ne contenant pas les deux mots dans le cas du AND, et inversement dans le cas du OR, ceux contenant les deux mots.
-\\Pour le NOT, un cas plus particulier, il a fallu créer une deuxième liste dans la classe Seeker qui contienne les informations à éliminer. Après avoir traitéer tous les mots, dans la classe Search, il nous suffit alors d'enlever les instances de cette liste à la liste de recherche principale. Dans le cas où aucun NOT ne serait utilisé, cette liste est vide donc la méthode marche dans tous les cas.
-\\
-Les seuls problèmes que nous avons rencontré dans cet partie sont purement des problèmes d'algorithme, d'organisation des structures de données et de lecture du texte passé en amont par l'utilisateur.
+\section{Architecture Détaillée}
 
+\subsection{MapReduce}
+Toute la partie qui met en oeuvre le travail fournit par notre algorithme MapReduce sur un serveur d'Hadoop est contitué de quatre classes en tout (voir diagramme de classe figure~\ref{fig:hadoopdiagram}).
 
-\section{Titre de section}  
+\subsubsection{IndexDriver}
+Il s'agit là de la classe qui contient le main de notre algorithme. Ainsi, on y déclare tout d'abord un \texttt{Job} auquel on associe la classe courante. Puis, on lui passe le chemin des fichiers d'entrée et des fichiers de sortie en vérifiant que le nombre d'arguments lors de l'appel du main est bien de 2, en renvoyant une erreur dans le cas échéant. 
 
-Ligne de remplissage pour visualiser la mise en page. Ligne de
-remplissage pour visualiser la mise en page. 
+Il reste ensuite à définir la classe de \texttt{Mapper} (\texttt{IndexMapper.class}), de \texttt{Reducer} (\texttt{IndexReducer.class}), ainsi que le format des valeurs que l'on écrira en sortie(\texttt{Text.class}) de manière à ce que le job tourne de manière autonome. Enfin, on attend que le job se termine en testant son état afin de sortir de la méthode \texttt{main}.
 
-\subsection{Titre de sous-section}
-\subsubsection{Titre de sous-sous-section}
-\paragraph{Titre de paragraphe}
+\subsubsection{IndexMapper}
+La classe de mappage qui permet de découper les fichiers d'entrée. En entrée, on a pour clé l'offset de la ligne par rapport au début du fichier et en valeur la ligne, en sortie on a pour clé intermédiaire le mot, le nom du fichier et en valeur le numéro de la ligne dans lequel il se trouve. C'est pour cette raison que la classe hérite de \texttt{Mapper<LongWritable, Text, Text, Text>}, les deux premiers paramètres représentant la clé et la valeur en entrée et respectivement en sortie pour les deux derniers. On crée un paramètre qui permet de compter les lignes en l'initialisant à 0. Ensuite, on réécrit une multitude de méthodes pour mapper, sachant que l'on aura un mapper par fichier pour faciliter le découpage (qui sera en fait assuré de manière indépendante) :
 
-Exemple de référence à une figure au format PostScript encapsulé
-(figure~\ref{fig:exemple}). Cette figure a été créée à l'aide de
-\texttt{xfig}\footnote{disponible sous Unix/Linux.} après exportation 
-du fichier fig vers le format Encapsulated PostScript.
+Deux méthodes annexes sont présentes : \texttt{supprimerPonctuation}, qui supprime toute la ponctuation d'un \texttt{String} à l'aide d'un \texttt{StringBuffer} et \texttt{motAIgnorer}, qui teste si un mot passé en paramètre appartient à une liste de mots, non pertinents, que l'on ne souhaite pas indexer, à savoir\textit{ et, ou, où, de, des, d, le, les, l, la, je, il, au, aux, du, un, une, a, à, ni, que, si, y, m, mon, ma, mes, me, ne, nous, on, sa, ses, se, qui, s, t, ta, tes, te, il, là, qu, sans, sur}.
 
-% Utilisation de la commande pour inclure un fichier eps
-%------------------------------------------------------------------------------
-%       \FigurePS{h,t,b,p}{largeur}{nom_fichier}{titre}{nom_symbolique} 
-%------------------------------------------------------------------------------
-% {h,t,b,p} donne l'ordre de préférence du positionnement de la figure :
-%                 h -> here ; t -> top ; b -> bottom ; p -> end of part.
-%           En général, ne pas modifier cet argument.
+En outre, la fonction principale \texttt{map} permet d'effectuer le traitement de mappage sur une ligne à partir de son offset et du texte que l'on y lit. On passe aussi le contexte d'Hadoop comme paramètre. On ignore la casse en mettant le texte en minuscules, on supprime la ponctuation avant de créer un \texttt{StringTokenizer} mots à l'aide du traitement effectué. On récupère en outre le nom du fichier actuel dans le contexte. Ensuite, on effectue une boucle sur toute la ligne en utilisant la fonction \texttt{hasMoreTokens()} de la classe \texttt{StringTokenizer}.
+\\Dans cette boucle, on incrémente l'offset de la ligne et on récupère le mot sous forme de \texttt{Text}. S'il ne s'agit pas d'un mot dans la liste de mots à ignorer qui a été préétablie, alors on écrit dans le contexte le mot, le nom du fichier puis le numéro de la ligne, le tout étant séparé par des espaces.
 
-%------------------------------------------------------------------------------
-\FigureEPS{h,t,b,p}{8.5cm}{./fig/exemple-figure.eps}
-                  {Exemple d'inclusion d'une figure EPS}   
-                  {fig:exemple}
-%------------------------------------------------------------------------------
+\subsubsection{IndexReducer}
+La classe de type \texttt{Reducer} suit à peu près la même architecture que celle associée au mappage, ainsi elle hérite de \texttt{Reducer<Text,Text,Text,Text>}. La seule fonction ici est \texttt{reduce}, qui agrège les résultats du mapper afin d'avoir en résultat la liste des numéros de lignes associés à une entrée d'un mot dans un fichier texte. Son rôle dans le détail est de construire un \texttt{StringBuilder} avec pour séparateur un simple espace, que l'on remplit pour chaque valeur passée en paramètre par un simple cast de celle-ci de \texttt{Text} en \texttt{String}, le tout suivi d'un espace. Pour finir, en utilisant la clé passée comme paramètre, on écrit ce \texttt{StringBuilder} sous forme de Text dans le le contexte.
 
-Pour inclure une image, on doit aussi la convertir en EPS, avec
-la commande \texttt{convert}\footnote{
-disponible aussi sous Unix/Linux et à privilégier 
-car elle génère un EPS tout à fait standard 
-(au contraire de nombreux pilotes Windows).}
-\texttt{~image image.eps}, qui accepte pratiquement tous les formats d'images.
+\subsubsection{NotSplit}
+Enfin, la classe \texttt{NotSplit} permet de gèrer les fichiers en entrée. Ici, elle sert à indiquer que l'on ne veut pas qu'Hadoop découpe les fichiers comme ce traitement est fait de manière indépendante. Pour qu'un fichier ne soit pas découpé par Hadoop afin d'obtenir les numéros de ligne, il nous suffit donc d'invoquer cette classe qui hérite en fait de \texttt{FileInputFormat<K, V>} et d'override deux méthodes. D'une part, on s'arrange pour que \texttt{isSplittable} renvoie toujours false afin de ne pas découper les fichiers en entrée. D'autre part, on s'arrange pour que \texttt{createRecordReader} retourne uniquement un nouvel objet qui est en fait un \texttt{LineRecordReader} casté en \texttt{RecordReader<K,V>}.
 
+\FigureEPS{h,t,b,p}{15cm}{HadoopClassDiagram.eps}
+                  {Diagramme de classe d'Hadoop}   
+                  {fig:hadoopdiagram}
 
-\subsection{Encore un titre de sous-section}
-
-Exemple de liste à puces :
+\subsection{Indexation}
+On a notre index dans la mémoire morte grâce à MapReduce, il nous faut désormais le passer dans la mémoire vive de Java, par exemple sous forme de \texttt{Hashmap}. Cette partie décrit la construction de cet index. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%tu as oublié de décrire ta hashmap ^^
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Index}
+Cette classe va parcourir le fichier d'index construit grâce à MapReduce et appeler les méthodes adéquates pour construire la \texttt{Hashmap}. Elle est statique afin d'avoir accès à la création d'index partout. \texttt{scanLine} est un \texttt{Scanner} qui va s'occuper mot par mot de la ligne pour construire la \texttt{Hashmap}, \texttt{builder} est \texttt{IndexBuilder} chargé de construire la \texttt{Hashmap}. Enfin, on lui associe un paramètre recherche de type \texttt{Search}, qui permet de faire la recherche sur l'index que l'on spécifiera du côté utilisateur. Les méthodes de cette classe sont les suivantes :
 \begin{itemize}
-        \item ligne de remplissage pour visualiser la mise en page. Ligne de
-        remplissage pour visualiser la mise en page ;
+\item La méthode \texttt{scanFile} scanne ligne par ligne le fichier index pour la transmettre au builder. Il s'agit d'une simple boucle qui vérifie si l'on est arrivé à la fin du fichier et appelle la méthode \texttt{builder} pour chaque ligne.
 
-        \item ligne de remplissage pour visualiser la mise en page. Ligne de
-        remplissage pour visualiser la mise en page.
+\item La méthode \texttt{builder} vérifie que la ligne suit la grammaire appropriée de notre index et ajoute à l'index, dans le cas où elle est conforme,le mot, puis le fichier et la liste de lignes que l'on lit dans la ligne.
+
+\item La méthode \texttt{build} enfin, initialise l'\texttt{IndexBuilder} et le \texttt{BufferedReader} pour lancer l'analyse du \texttt{scanFile}, le tout après avoir vérifié que le fichier d'index est présent, et après l'avoir ouvert. Enfin, elle récupère la recherche que l'on passe du côté utilisateur et lance dessus la méthode statique \texttt{toDo} qui effectue la dite recherche.
+\end{itemize}
+\subsubsection{IndexBuilder}
+Cette classe s'occupe de construire l'index avec la création d'une \texttt{Hashmap}. Ses attributs sont \texttt{index}, la  \texttt{Map<Integer, HashMap<String, Informations>>} que nous avons utilisé pour stocker nos informations, \texttt{currentWord}, le mot courant, \texttt{currentFile}, le fichier courant, \texttt{lines}, l'\texttt{ArrayList<Long>} définissant la liste de lignes auxquelles on trouve le mot \texttt{currentWord} dans le fichier \texttt{currentFile}. Pour finir,  \texttt{currentID}, un identifiant unique pour chaque combinaison (mot,nomFichier) généré automatiquement et nous permettant de trier la \texttt{HashMap} tout en jouant le rôle de hashcode.
+
+Outre le constructeur, on trouve dans cette classe les méthodes \texttt{addWord}, \texttt{addFile}, \texttt{addLine} qui mémorisent respectivement \texttt{currentWord},\texttt{currentFile} et \texttt{lines}. Enfin, la fonction \texttt{buildset}, lancée pour chaque ligne, ajoute dans l'index une entrée composée d'une part de \texttt{currentID}, et d'autre part d'une \texttt{HashMap<String, Informations>} elle même composée de \texttt{currentWord}, puis de la classe \texttt{Informations} dans laquelle on placera \texttt{currentFile} et \texttt{lines}.
+\subsubsection{Informations}
+Son seul intérêt est de permettre de stocker deux objets en même temps au lieu d'un (il s'agit d'une classe à deux attributs : un \texttt{String} pour le nom de fichier et une \texttt{ArrayList<Long>} pour les lignes). Seuls un constructeur, deux getters, deux setters (pour chaque paramètre) sont présents.
+\subsubsection{Paths}
+De même, le seul intérêt de cette classe est de stocker sous forme de \texttt{static String} les différents chemins utilisés par le moteur de recherche (voir commentaire du code pour savoir à quoi correspondent les chemins à modifier).
+\subsection{Recherche}
+Cette partie décrit l'intégralité du moteur de recherche (voir diagramme de classe figure~\ref{fig:searchenginediagram}).
+\subsubsection{Search}
+Cette classe récupère l'expression entrée dans le moteur de recherche. Elle a comme attributs \texttt{toSeek}, la \texttt{List<String>} des mots à chercher, \texttt{expression}, l'expression entrée dans le moteur qu'il faut analyser sous forme de \texttt{String}, et enfin \texttt{seeker}, qui est une instance de la classe \texttt{Seeker} décrite plus loin. En plus du constructeur, des getters et des setters, les fonctions associées sont :
+\begin{itemize}
+\item \texttt{supprNonIndexe}, qui permet de supprimer les mots ignorés dans le moteur de recherche qui sont trop courants pour vraiment intéresser l'utilisateur. Il s'agit des mêmes mots que ceux que l'on n'a pas indexé.
+
+\item \texttt{toDo}, la fonction qui effectue tout le traitement de recherche. Elle permet tout d'abord d'analyser l'expression passée en la splittant et en appelant \texttt{supprNonIndexe}. Ensuite, pour chaque mot de l'expression, dans une boucle, la fonction lance les prédicats de recherche associés à \texttt{AND}, \texttt{OR} et \texttt{NOT} dans le cas où ils sont rencontrés. Dans le cas d'un \texttt{AND} ou d'un \texttt{OR} on effectuera ensuite un saut de deux mots, ceux associés à l'expression. Dans le cas du \texttt{NOT}, ce saut concerne un seul mot. Sinon, on recherche juste le mot passé en paramètre. Après ce traitement de base, le seeker est composés de deux listes : une liste de fichiers intéressants, et une liste de fichiers rebuts, que l'on souhaite cacher à l'utilisateur. Il nous suffit de faire une différence ensembliste et enfin, d'effectuer l'affichage pour chaque élément de la nouvelle liste ainsi obtenue.
+\end{itemize}
+\subsubsection{Seeker}
+Il s'agit de la classe  qui recherche dans la \texttt{Hashmap} pour un mot donné. Ses attributs sont un \texttt{StringBuilder} qui contiendra le message à afficher à l'écran de l'utilisateur, une \texttt{List<FoundInfos> info} qui contient les fichiers intéressants, et une \texttt{List<FoundInfos> intox} qui contiendra les fichiers que l'on veut éliminer des résultats de la recherche. En plus du constructeur, des getters et setters, voici les différentes méthodes associées :
+\begin{itemize}
+\item \texttt{addMessage}, qui concatène l'objet passé en paramètre au \texttt{StringBuilder} message
+\item \texttt{seek}, qui permet de faire le parcours de l'index pour un mot simple. La fonction vérifie si le mot est présent dans un des fichiers texte et si tel est le cas elle récupère son contexte dans info.
+
+\item \texttt{seekAnd} permet de faire le parcours de l'index pour deux mots et renvoie leurs contextes concernant des fichiers identiques. Il suffit pour celà de faire deux boucles imbriquées sur les listes de fichier associées à chacun des deux mots, de vérifier les cas où l'on tombe sur deux fichiers identiques pour dans ce cas récupérer le contexte associé.
+
+\item \texttt{seekOr} permet de faire le parcours de l'index pour deux mots et renvoie leurs contextes concernant des fichiers différents. Il suffit pour celà de faire deux boucles imbriquées sur les listes de fichier associées à chacun des deux mots, de vérifier les cas où l'on tombe sur deux fichiers différents pour dans ce cas récupérer le contexte associé.
+
+\item \texttt{seekNot} effectue le même travail que \texttt{seek} mais renvoie le résultat de ses recherches dans \texttt{intox} et non dans \texttt{info} car nous devons éliminer ces résultats de la recherche.
+
+\item \texttt{predicatInvalid} permet de donner des informations sur le formalisme du prédicat utilisé en cas d'échec (voir partie moteur de recherche).%?
+
+\item \texttt{isPresent} vérifie si le mot est présent dans la \texttt{Hashmap}, en parcourant chaque instance de l'index
+
+\item \texttt{getFichiers} rend une \texttt{List<String>} de fichiers qui est celle où  se trouve un mot
+
+\item \texttt{getNbOccurences} rend le nombre d'occurences totales d'un mot dans l'index
+
+\item \texttt{getResult} rend les numéros de lignes pour un mot, c'est-à-dire une \texttt{Map} dans laquelle on a pour clé le fichier dans lequel le mot se trouve et pour valeur la liste du numéro des lignes. On construit cette \texttt{Map} par parcours de l'index.
+
+\item \texttt{getLinesText} permet d'obtenir le texte associé aux lignes d'un mot dans un fichier, tout en mettant ledit mot en gras.
+
 \end{itemize}
 
-Ligne de remplissage pour visualiser la mise en page. Ligne de remplissage pour
-visualiser la mise en page. 
+\subsubsection{FoundInfos}
+Cette classe associe à un mot la liste de ses fichiers, elle sert juste de structure pour mémoriser un mot et la \texttt{List<String>} de ses fichiers.
+\subsubsection{FileRead}
+Il s'agit de la classe qui récupère les lignes du fichier pour un mot donné, et permet d'afficher ce qu'obtiendra l'utilisateur après la recherche en mettant les mots intéressants en gras. Elle a comme paramètre le chemin d'accès aux fichiers découpés, le nombre de lignes par fichier découpés, que nous avons fixé à 100 dans nos essais. En outre, on retrouve d'une part \texttt{fileName}, \texttt{lines} qui sont le nom du fichier découpé et ses lignes, et d'autre part \texttt{wordToSearch}, qui est justement le mot recherché, mémorisé afin de pouvoir le mettre en gras.
+
+Les méthodes associées sont, en plus d'un constructeur :
+\begin{itemize}
+  \item \texttt{getLinesText}, qui pour chaque instance de \texttt{lines} va concaténer dans un \texttt{StringBuilder} les lignes dans lesquelles on trouve le mot \texttt{wordToSearch}.
+
+\item \texttt{getContextLine}, qui prend comme paramètre un numéro de ligne pour aller récupérer son contexte (3 lignes autour de la ligne cherchée) dans le fichier de départ. De manière générale, la méthode concatène chaque ligne dans un \texttt{StringBuilder} en faisant de la mise en forme.
+
+\item \texttt{getFilePart}, qui récupère le chemin où sont stockés les fichiers découpés en fonction du numéro de la ligne dans le fichier global.	
+
+\item \texttt{formatStringStrong}, qui permet de mettre en gras le mot recherché dans la ligne où se trouve le mot.
+\end{itemize}
+
+\subsubsection{SortLineNumbers}
+Il s'agit juste d'une classe qui applique l'algorithme de tri rapide pour trier les numéros de ligne par ordre croissant. Elle a donc pour paramètre une \texttt{List<Long>} nommée \texttt{listLignes}. Ses méthodes sont le constructeur, \texttt{getLinesSorted} qui appelle juste \texttt{quicksort}, l'algorithme de tri générique, entre la première et la dernière ligne du fichier. Notons que \texttt{quicksort}, présente dans la classe, se sert de la fonction \texttt{exchange}, qui permet d'échanger deux instances dans \texttt{listLignes}.
+\subsection{Affichage et GUI}
+Cette partie décrit l'interface utilisateur, qui est une applet, ainsi que le journal qui permet de tracer l'exécution du programme.
+\subsubsection{Fenetre}
+Notre fenêtre est constituée d'un \texttt{JTextField entree}, d'un \texttt{JTextPane resultat}. Elle a aussi comme attributs un \texttt{Search toEvaluate} et un \texttt{String whereSearch} dont on récupère le chemin dans la classe \texttt{Path}. Cette classe est uniquement constituée de la fonction \texttt{init}, qui initialise l'applet en créant le logger tout en lui donnant son contexte. Ensuite, elle met en place la fenêtre avec un \texttt{JFrame}, auquel on ajoute un \texttt{JButton}, notre \texttt{JTextField entree} et notre \texttt{JTextPane resultat}. 
+
+Après recentrage de la fenêtre, on crée un \texttt{actionListener} sur le bouton. L'événement déclenche la construction de l'index (s'il n'a pas déjà été créé), construction qui elle-même déclenche la recherche. Ensuite, l'actionListener met dans le \texttt{JScrollPane} le résultat et le logger le message associé au seeker.
+\subsubsection{Logger}
+Cette classe met en place un log sous forme de fichier texte de ce que souhaite afficher le programmeur, en l'occurence le traitement de notre requête. Elle a pour attributs le nom du fichier de log, son chemin et un \texttt{BufferedWriter} pour écrire dans ce fichier. Les méthodes associées sont :
+\begin{itemize}
+\item \texttt{CreateLogger}, qui permet d'initialiser le logger en indiquant le chemin de création du \texttt{fichierpathLog} et son nom \texttt{logFileName}.
+
+\item \texttt{addInLog}, la méthode principale qui permet d'ajouter à la suite du fichier la phrase de log que l'on veut, ainsi que la date d'exécution.
+
+\item \texttt{formatDate}, qui met la date au format \texttt{dd/MM/yyyy kk:mm:ss}
+
+\end{itemize}
 
 
+
+\FigureEPS{h,t,b,p}{15cm}{SearchEngineClassDiagram.eps}
+                  {Diagramme de classe du moteur de recherche}   
+                  {fig:searchenginediagram}
 \section{Conclusion} 
  
-\LaTeX\ c'est facile pour produire des documents standard et nickel ! 
-Et Bib\TeX\ pour les références, c'est le pied.
+Vous avez pu voir comment était organisé notre moteur de recherche et son système d'indexation. Une documentation plus complète est disponible dans notre archive sous forme de Javadoc (voir dossier \texttt{JavaDoc}). Pour les améliorations possibles, vous pouvez lire le rapport final qui propose notamment la création d'un système de classement des noms de fichiers par distance entre les mots (relevance), ou encore l'extension des recherches par prédicats à plus de 2 mots.
 
 \bibliography{biblio}
 

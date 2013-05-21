@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  13 MAY 2013 17:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  21 MAY 2013 19:43
 entering extended mode
  %&-line parsing enabled.
 **doc-technique.tex
@@ -184,67 +184,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
  www . michael-[]noll . com / tutorials /
  []
 
-[2]
-Overfull \hbox (58.9568pt too wide) in paragraph at lines 130--131
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+[2] [3] [4]
+File: HadoopClassDiagram.eps Graphic file (type eps)
+ <HadoopClassDiagram.eps>
+Overfull \hbox (28.45276pt too wide) detected at line 154
+[]
  []
 
-
-Overfull \hbox (72.02238pt too wide) in paragraph at lines 131--132
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[3]
-Overfull \hbox (13.22726pt too wide) in paragraph at lines 140--141
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (13.22726pt too wide) in paragraph at lines 141--142
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (19.76006pt too wide) in paragraph at lines 142--143
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (19.76006pt too wide) in paragraph at lines 165--166
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (19.76006pt too wide) in paragraph at lines 166--168
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (39.35843pt too wide) in paragraph at lines 175--177
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (6.69447pt too wide) in paragraph at lines 179--180
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[4] [5] [6] [7] [8]
-Underfull \hbox (badness 3861) in paragraph at lines 293--294
+[5] [6] [7]
+Underfull \hbox (badness 3861) in paragraph at lines 234--235
 []\T1/cmr/m/n/10.95 Notre fenêtre est con-sti-tuée d'un \T1/cmtt/m/n/10.95 JTex
 tField entree\T1/cmr/m/n/10.95 , d'un \T1/cmtt/m/n/10.95 JTextPane
  []
 
-[9]
+[8]
+File: SearchEngineClassDiagram.eps Graphic file (type eps)
+ <SearchEngineClassDiagram.eps>
+Overfull \hbox (28.45276pt too wide) detected at line 252
+[]
+ []
+
 No file doc-technique.bbl.
-[10] (./doc-technique.aux) ) 
+[9] [10] (./doc-technique.aux) ) 
 Here is how much of TeX's memory you used:
- 3227 strings out of 495062
- 41166 string characters out of 1182644
- 134764 words of memory out of 3000000
- 6393 multiletter control sequences out of 15000+50000
+ 3232 strings out of 495062
+ 41291 string characters out of 1182644
+ 120781 words of memory out of 3000000
+ 6395 multiletter control sequences out of 15000+50000
  18181 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,6n,32p,978b,1577s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,6n,32p,978b,970s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on doc-technique.dvi (10 pages, 43440 bytes).
+Output written on doc-technique.dvi (10 pages, 35156 bytes).

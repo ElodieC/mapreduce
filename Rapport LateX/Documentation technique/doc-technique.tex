@@ -124,74 +124,11 @@ total 6172
 -rw-r--r-- 1 hduser hadoop     354 avril 30 15:38 page.html
 \end{lstlisting}
 Le fichier \texttt{page.html} est la page web qu'il faut ouvrir pour lancer l'applet \texttt{applet.jar}. Applet qui doit être signée avant d'ouvrir la page web en raison de l'accès à des fichiers sur le disque dur (notamment le fichier d'index).
-\begin{lstlisting}
-./Rapport LateX:
-total 12
-drwxr-xr-x 2 hduser hadoop 4096 mai    9 15:47 Documentation technique
-drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 Documentation Utilisateur
-drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 Rapport Final
-
-./MapReduce:
-total 28
-drwxr-xr-x 5 hduser hadoop 4096 mai    9 15:31 index
-
-./MapReduce/index/src:
-total 16
--rw-r--r-- 1 hduser hadoop 1106 mai    9 20:41 IndexDriver.java
--rw-r--r-- 1 hduser hadoop 2743 mai    8 16:37 IndexMapper.java
--rw-r--r-- 1 hduser hadoop 1133 mai    8 16:37 IndexReducer.java
--rw-r--r-- 1 hduser hadoop 1054 mai    7 18:20 NotSplit.java
-
-./SearchEngine:
-total 88
-drwxr-xr-x 8 hduser hadoop  4096 mai    9 21:48 bin
-drwxr-xr-x 8 hduser hadoop  4096 mai   11 11:03 src
-
-./SearchEngine/src:
-total 24
-drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 grammar
-drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 index
-drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 path
-drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 reader
-drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 search
-drwxr-xr-x 2 hduser hadoop 4096 mai   11 11:03 window
-
-./SearchEngine/src/grammar:
-total 4
--rw-r--r-- 1 hduser hadoop 3776 mai   11 11:03 Index2.java
-
-./SearchEngine/src/index:
-total 8
--rw-r--r-- 1 hduser hadoop 2645 mai   11 11:03 IndexBuilder.java
--rw-r--r-- 1 hduser hadoop 1265 mai   11 11:03 Informations.java
-
-./SearchEngine/src/path:
-total 4
--rw-r--r-- 1 hduser hadoop 1696 mai   11 11:03 Paths.java
-
-./SearchEngine/src/reader:
-total 12
--rw-r--r-- 1 hduser hadoop 6430 mai   11 11:03 FileRead.java
--rw-r--r-- 1 hduser hadoop 1526 mai   11 11:03 SortLineNumbers.java
-
-./SearchEngine/src/search:
-total 24
--rw-r--r-- 1 hduser hadoop  816 mai   11 11:03 FoundInfos.java
--rw-r--r-- 1 hduser hadoop 4557 mai   11 11:03 Search.java
--rw-r--r-- 1 hduser hadoop 9973 mai   11 11:03 Seeker.java
-
-./SearchEngine/src/window:
-total 16
--rw-r--r-- 1 hduser hadoop 2593 mai   11 11:03 Fenetre.java
--rw-r--r-- 1 hduser hadoop 1938 mai   11 11:03 Logger.java
-
-\end{lstlisting}
-Tout le contenu que vous pouvez voir au-dessus constitue le code source de notre projet. Son organisation et son fonctionnement vous sera expliqué dans la partie suivante.
 
 \section{Architecture Détaillée}
 
 \subsection{MapReduce}
-Toute la partie qui met en oeuvre le travail fournit par notre algorithme MapReduce sur un serveur d'Hadoop est contitué de quatre classes en tout.
+Toute la partie qui met en oeuvre le travail fournit par notre algorithme MapReduce sur un serveur d'Hadoop est contitué de quatre classes en tout (voir diagramme de classe figure~\ref{fig:hadoopdiagram}).
 
 \subsubsection{IndexDriver}
 Il s'agit là de la classe qui contient le main de notre algorithme. Ainsi, on y déclare tout d'abord un \texttt{Job} auquel on associe la classe courante. Puis, on lui passe le chemin des fichiers d'entrée et des fichiers de sortie en vérifiant que le nombre d'arguments lors de l'appel du main est bien de 2, en renvoyant une erreur dans le cas échéant. 
@@ -211,6 +148,10 @@ La classe de type \texttt{Reducer} suit à peu près la même architecture que cell
 
 \subsubsection{NotSplit}
 Enfin, la classe \texttt{NotSplit} permet de gèrer les fichiers en entrée. Ici, elle sert à indiquer que l'on ne veut pas qu'Hadoop découpe les fichiers comme ce traitement est fait de manière indépendante. Pour qu'un fichier ne soit pas découpé par Hadoop afin d'obtenir les numéros de ligne, il nous suffit donc d'invoquer cette classe qui hérite en fait de \texttt{FileInputFormat<K, V>} et d'override deux méthodes. D'une part, on s'arrange pour que \texttt{isSplittable} renvoie toujours false afin de ne pas découper les fichiers en entrée. D'autre part, on s'arrange pour que \texttt{createRecordReader} retourne uniquement un nouvel objet qui est en fait un \texttt{LineRecordReader} casté en \texttt{RecordReader<K,V>}.
+
+\FigureEPS{h,t,b,p}{15cm}{HadoopClassDiagram.eps}
+                  {Diagramme de classe d'Hadoop}   
+                  {fig:hadoopdiagram}
 
 \subsection{Indexation}
 On a notre index dans la mémoire morte grâce à MapReduce, il nous faut désormais le passer dans la mémoire vive de Java, par exemple sous forme de \texttt{Hashmap}. Cette partie décrit la construction de cet index. 
@@ -235,7 +176,7 @@ Son seul intérêt est de permettre de stocker deux objets en même temps au lieu d
 \subsubsection{Paths}
 De même, le seul intérêt de cette classe est de stocker sous forme de \texttt{static String} les différents chemins utilisés par le moteur de recherche (voir commentaire du code pour savoir à quoi correspondent les chemins à modifier).
 \subsection{Recherche}
-Cette partie décrit l'intégralité du moteur de recherche.
+Cette partie décrit l'intégralité du moteur de recherche (voir diagramme de classe figure~\ref{fig:searchenginediagram}).
 \subsubsection{Search}
 Cette classe récupère l'expression entrée dans le moteur de recherche. Elle a comme attributs \texttt{toSeek}, la \texttt{List<String>} des mots à chercher, \texttt{expression}, l'expression entrée dans le moteur qu'il faut analyser sous forme de \texttt{String}, et enfin \texttt{seeker}, qui est une instance de la classe \texttt{Seeker} décrite plus loin. En plus du constructeur, des getters et des setters, les fonctions associées sont :
 \begin{itemize}
@@ -305,10 +246,13 @@ Cette classe met en place un log sous forme de fichier texte de ce que souhaite 
 \end{itemize}
 
 
+
+\FigureEPS{h,t,b,p}{15cm}{SearchEngineClassDiagram.eps}
+                  {Diagramme de classe du moteur de recherche}   
+                  {fig:searchenginediagram}
 \section{Conclusion} 
  
-\LaTeX\ c'est facile pour produire des documents standard et nickel ! 
-Et Bib\TeX\ pour les références, c'est le pied.
+Vous avez pu voir comment était organisé notre moteur de recherche et son système d'indexation. Une documentation plus complète est disponible dans notre archive sous forme de Javadoc (voir dossier \texttt{JavaDoc}). Pour les améliorations possibles, vous pouvez lire le rapport final qui propose notamment la création d'un système de classement des noms de fichiers par distance entre les mots (relevance), ou encore l'extension des recherches par prédicats à plus de 2 mots.
 
 \bibliography{biblio}
 

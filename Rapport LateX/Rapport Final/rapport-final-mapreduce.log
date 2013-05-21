@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  13 MAY 2013 18:02
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.27)  21 MAY 2013 19:51
 entering extended mode
  %&-line parsing enabled.
 **rapport-final-mapreduce.tex
@@ -141,34 +141,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--73
 
  []
 
-[2] [3]
+[2]
+File: archigenerale.ps Graphic file (type eps)
+ <archigenerale.ps> [3]
 File: mapreduceprojet.ps Graphic file (type eps)
  <mapreduceprojet.ps>
-Overfull \hbox (28.45276pt too wide) detected at line 106
+Overfull \hbox (28.45276pt too wide) detected at line 109
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 107--111
 
  []
 
+[4]
 File: IndexHashmap.eps Graphic file (type eps)
-<IndexHashmap.eps> [4] [5]
+ <IndexHashmap.eps> [5]
 File: resultat.ps Graphic file (type eps)
  <resultat.ps>
-Underfull \hbox (badness 10000) in paragraph at lines 150--155
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
 
  []
 
-[6] (./rapport-final-mapreduce.bbl) [7] (./rapport-final-mapreduce.aux) ) 
+[6] (./rapport-final-mapreduce.bbl [7]) [8] (./rapport-final-mapreduce.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1610 strings out of 495062
- 20061 string characters out of 1182644
- 77268 words of memory out of 3000000
- 4785 multiletter control sequences out of 15000+50000
+ 1613 strings out of 495062
+ 20113 string characters out of 1182644
+ 78268 words of memory out of 3000000
+ 4787 multiletter control sequences out of 15000+50000
  18191 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,6n,26p,687b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,6n,26p,687b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on rapport-final-mapreduce.dvi (7 pages, 23868 bytes).
+Output written on rapport-final-mapreduce.dvi (8 pages, 24360 bytes).

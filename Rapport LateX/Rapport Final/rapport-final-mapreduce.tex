@@ -64,7 +64,7 @@ Afin de déterminer ce que nous devions faire, dans une première partie de l'anné
 
 MapReduce est un modèle de programmation popularisé par Google. Il est utilisé pour l'indexation de contenu. Il se repose sur deux fonctions une fonction \texttt{Map} et une fonction \texttt{Reduce}.
 
-La fonction \texttt{Map} prend en entrée une clé et des valeurs associées. Par exemple, pour un fichier, la clé peut être un numéro de ligne et la valeur le texte de la ligne. Cette fonction ensuite rend une clé intermédiaire et une valeur intermédiaire. Dans l'exemple du Wordcount (voir \textit{figure~\ref{fig:mapreduce}}), dans laquelle on veut compter le nombre d'occurences de chaque mot, la clé intermédiaire peut être un mot et la valeur 1.
+La fonction \texttt{Map} prend en entrée une clé et des valeurs associées. Elle découpe les fichiers et réparti l'entrée sur différents mappers qui s'effectuent en parallèle. Par exemple, pour un fichier, la clé peut être un numéro de ligne et la valeur le texte de la ligne. Cette fonction ensuite rend une clé intermédiaire et une valeur intermédiaire. Dans l'exemple du Wordcount (voir \textit{figure~\ref{fig:mapreduce}}), dans laquelle on veut compter le nombre d'occurences de chaque mot, la clé intermédiaire peut être un mot et la valeur 1.
 
 La fonction \texttt{Reduce} ensuite prend les clés et valeurs intermédiaires données par la fonction \texttt{Map} et agrège le résultat afin de donner une clé finale et un résultat final. Dans l'exemple du Wordcount, la clé serait un mot et le résultat serait le nombre d'occurrences de ce mot.\cite{mapreducegoogle:latex:3}
 \FigureEPS{h,t,b,p}{15cm}{mapreduce.eps}
@@ -90,7 +90,10 @@ Le contenu en lui-même est constitué de fichiers textes, des livres libres de dr
 Comme la mise en place d'Hadoop et de l'index nous semblait une tâche difficile, nous avons décidé d'attribuer 2 personnes sur l'indexation, une personne sur le moteur de recherche et une autre personne sur l'interface graphique afin de faire fonctionner au début les modules séparément puis ensuite d'unifier le travail.
  
 \section{Elaboration du projet}
-Très tôt, nous avons décidé de nous pencher sur l'architecture de notre projet, et tout au long du projet, nous avons suivi et rectifié son évolution. Voici ci-dessous notre architecture finale.
+Très tôt, nous avons décidé de nous pencher sur l'architecture de notre projet, et tout au long du projet, nous avons suivi et rectifié son évolution. Voici ci-dessous notre architecture finale (voir figure~\ref{fig:archigenerale}).
+
+\FigureEPS{h,t,b,p}{6cm}{archigenerale.ps}
+{Architecture générale du projet}{fig:archigenerale}
 
 \subsection{Indexation}
 En ce qui concerne l'indexation, nous avons commencé par installer Hadoop sur une distribution Linux : Ubuntu. Puis, nous avons décidé du format que l'on devait adopter pour la sortie de l'index obtenue à partir des fichiers en entrée.
@@ -132,7 +135,7 @@ AND mot mot
 \\OR mot mot
 \\NOT mot}
 
-Pour mettre en place le \texttt{AND} comme le \texttt{OR}, il a fallu parcourir le résultat associé aux deux mots et éliminer les résultats ne correspondant pas - à savoir les fichiers ne contenant pas les deux mots dans le cas du \texttt{AND}, et inversement dans le cas du \texttt{OR}, ceux contenant les deux mots.
+Pour mettre en place le \texttt{AND} comme le \texttt{OR}, il a fallu parcourir le résultat associé aux deux mots et éliminer les résultats ne correspondant pas - à savoir les fichiers ne contenant pas les deux mots dans le cas du \texttt{OR}, et inversement dans le cas du \texttt{AND}, ceux contenant les deux mots.
 
 Pour le \texttt{NOT}, un cas plus particulier, il a fallu créer une deuxième liste qui contient les informations à éliminer. Après avoir traité tous les mots, il nous suffit alors d'enlever les instances de cette liste à la liste de recherche principale. Dans le cas où aucun \texttt{NOT} ne serait utilisé, cette liste est vide donc la méthode fonctionne dans tous les cas.
 
@@ -140,7 +143,7 @@ Les seuls problèmes que nous avons rencontrés dans cette partie sont purement de
 \subsection{Interface graphique}
 Enfin, pour l'interface graphique, nous avons vite pensé à utiliser une applet. Java met à dispositions des classes qui permettent simplement de réaliser un applet avec la bibliothèque graphique Swing. Il suffit d'intégrer l'applet dans une page html qui étoffe son apparence pour avoir une interface simple et élégante, constituée entre autres d'un champ de caractère et d'un bouton.
 
-Après la recherche entrée comme spécifiée plus haut, l'applet renvoie tout simplement un affichage des lignes des textes contenant les mots clés nous intéressants, que nous avons mis en avant en les mettant en gras. Si jamais l'utilisateur rentre des informations aberrantes, comme un mot-clé n'existant pas ou un prédicat mal formalisé, l'applet en informe aussi l'utilisateur, en lui proposant même une correction dans le second cas.
+Après la recherche entrée comme spécifiée plus haut, l'applet renvoie tout simplement un affichage des lignes des textes contenant les mots clés nous intéressants, que nous avons mis en avant en les mettant en gras. Si jamais l'utilisateur rentre des informations aberrantes, comme un mot-clé n'existant pas ou un prédicat mal formalisé, l'applet en informe aussi l'utilisateur, en lui proposant même la bonne syntaxe dans le second cas.
 
 Nous avons rencontré uniquement des difficultés au niveau de l'affichage de l'applet. En effet, sous Linux, il est difficile d'abaisser le niveau de sécurité de Java afin d'autoriser l'exécution mais aussi l'accès aux données de l'applet. De plus, il faut bien faire attention aux versions avec lesquels on compile l'applet, si on utilise Java 1.7 pour compiler, il faut avoir Java 1.7 d'installé dans le navigateur.
 
