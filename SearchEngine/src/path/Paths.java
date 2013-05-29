@@ -13,7 +13,7 @@ public class Paths {
 	 */
 	public static final String outputIndexLocation = cheminElodieOutput;
 	
-	private static String cheminElodieSplit = "/home/hduser/hadoopMR/inputFilesSplit/";
+	private static String cheminElodieSplit = "/home/hduser/workspace/mapreduce/hadoopMR/inputFilesSplit/";
 	private static String chemindeClarisseSplit = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/mapreduce/hadoopMR/inputFilesSplit/";
 	private static String cheminMickaelSplit = "C:/Users/Olivier Catherine/workspace/hadoopMR/inputFilesSplit/";
 	/**
@@ -24,7 +24,7 @@ public class Paths {
 	
 	private static String pathClarisseLog = "/media/Data_/Bibliotheque/Documents/INSA/Etudes pratiques/" +
 			"mapreduce/hadoopMR/";
-	private static String pathElodieLog = "/home/hduser/hadoopMR/";
+	private static String pathElodieLog = "/home/hduser/workspace/mapreduce/hadoopMR/";
 	private static String pathMickaelLog = "C:/Users/Olivier Catherine/workspace/hadoopMR/";
 	/**
 	 * logFilePath dossier où on enregistre le log du programme

@@ -1,0 +1,100 @@
+nombre trop restreint de sites accessibles de façon autonome. L'avenir de
+l'accès à l'information pour les personnes aveugles devrait passer par le web.
+Ce support, à condition d'une responsabilité des développeurs de sites sous
+l'impulsion d'une autorité qui commence à légiférer, donne un accès instantané à
+une information actuelle au contraire des supports braille ou caractères
+agrandis qui nécessitent des délais et des coûts d'adaptation, de transcription
+et fabrication. (...) Pour les développeurs de sites que ça intéresse, des
+recommandations sont disponibles en nous contactant à HandiCaPZéro, ou sur des
+sites comme VoirPlus ou BrailleNet. En règle générale, les dispositions à
+prendre ne sont pas trop contraignantes. Il ne faudrait pas que le message pour
+rendre un site accessible soit trop compliqué au risque de dissuader les bonnes
+volontés."
+
+Quelles sont les suggestions des professionnels du livre voyants pour rendre le
+web plus accessible aux aveugles et malvoyants?
+
+Jean-Pierre Balpe, directeur du département hypermédias de l'Université Paris 8:
+"Le son est une solution, les claviers adaptés en sont une autre, je ne sais
+s'il existe des écrans spécialisés, mais peut-être... On peut aussi imaginer des
+interactions sonores, Denize en a utilisé quelques-unes dans son cédérom
+Machines à écrire (Gallimard, 1999, ndlr)."
+
+Olivier Bogros, créateur de la Bibliothèque électronique de Lisieux: "Autant que
+possible j'essaie de rendre accessible à tous la bibliothèque électronique de
+Lisieux. Les recommandations du consortium W3C ne sont pas toujours évidentes à
+suivre. Les sites textuels ne requièrent pas une charte graphique sophistiquée à
+base de Java et autres niaiseries."
+
+Marie-Aude Bourson, créatrice des sites littéraires La Grenouille Bleue et
+Gloupsy: "La Grenouille Bleue (qui a dû fermer pour un problème de marque et qui
+a été remplacée par Gloupsy, ndlr) avait une partie destinée aux malvoyants: il
+suffit de créer des pages sans images ni tableau. Uniquement du texte, et une
+structure de site plus simple qui va droit à l'info. Ainsi les logiciels de
+reconnaissance/lecture de pages web sont très efficaces. Il faut donc
+sensibiliser les webmestres."
+
+Richard Chotin, professeur à l'ESA (Ecole supérieure des affaires) de Lille: "Il
+faudrait une réelle motivation des concepteurs de sites envers le problème des
+aveugles et une volonté politique d'intégration des handicapés (et pas seulement
+financière)."
+
+Jean-Pierre Cloutier, auteur des Chroniques de Cybérie, chronique hebdomadaire
+des actualités de l'internet: "Mes suggestions s'adressent surtout aux
+diffuseurs de contenus qui ne respectent pas les normes techniques. Je
+m'explique. Le Consortium W3C est un organisme de normalisation des techniques
+du web. Ses comités étudient les nouvelles techniques, et prescrivent des normes
+d'utilisation. Or les producteurs et diffuseurs de contenus utilisent souvent
+des techniques propriétales, hors normes, propres à un logiciel ou à une
+plate-forme, ce qui donne lieu, par exemple, à des 'sites optimisés' pour
+Netscape ou pour Internet Explorer. Si ces sites soi-disant optimisés pour un
+fureteur ou un autre causent des problèmes pour les utilisateurs ordinaires,
+imaginez la difficulté d'adapter des contenus livrés hors normes à un
+consultation pour non-voyants. Il y a des efforts énormes pour rendre accessible
+à tous le contenu du web, mais tant et aussi longtemps que les diffuseurs
+utiliseront des technologies hors normes, et ne tiendront pas leurs engagements
+pris, notamment, dans le cadre du Web Interoperability Project (WIP), la tâche
+sera difficile."
+
+Luc Dall'Armellina, co-auteur et webmestre d'oVosite, espace d'écritures
+hypermédias: "Jakob Nielsen évoque dans La Conception de sites web - l'art de la
+simplicité (Campus Press, 2000) un système vocal basé sur la lecture de balises
+HTML ou XML capables d'interfacer un synthétiseur vocal qui paraît convaincant.
+La WAI (Web Accessibility Initiative) du Consortium W3C a publié, le 5 mai 1999,
+la première version des directives (téléchargeables) pour un accès web aux
+personnes handicapées, accessible en français."
+
+Anne-Bénédicte Joly, écrivain qui auto-édite ses oeuvres: "Je pense que nous
+devrions voir apparaître des sites disposant de modes d'emplois ou de guides de
+découverte sonores. L'idéal serait de pouvoir guider un internaute malvoyant,
+depuis la mise en route des navigateurs (pour taper l'adresse du site ciblé),
+jusqu'à l'arrivée sur un site. Sur un site équipé, un assistant guide
+l'internaute en lui exposant les fonctionnalités du site. L'accès aux rubriques
+se fait via des codes alphanumériques (sur le même principe que les serveurs
+téléphoniques à fréquence vocale). Le code d'accès à la rubrique est possible
+grâce à un clavier adapté (touche possédant des caractères braille). Puis
+l'assistant propose des choix: téléchargement des rubriques pour éditions sur
+imprimante braille ou lecture de la rubrique sous forme d'extraits sonores. Il
+faudra se montrer vigilants face au temps de chargement du son. Puis, pour
+favoriser les échanges, prévoir la possibilité de déposer des témoignages vocaux
+(voire des images via des webcams) sur le serveur du site."
+
+Olivier Pujol, PDG de Cytale et promoteur du Cybook, livre électronique,
+préconise "le développement des moteurs de type BrailleSurf associés à de la
+synthèse vocale, et le respect par les concepteurs de sites de quelques règles
+(documentation des images, ou association de commentaires textuels à certaines
+applications telles que les animations flash). Dès que notre site atteindra un
+niveau opérationnel suffisant, il sera entièrement adapté à cet effet."
+
+Patrick Rebollar, professeur de littérature française dans des universités
+japonaises, suggère d'"améliorer les logiciels de lecture orale de l'écrit.
+Créer des écrans tactiles qui affichent le texte en braille et développer des
+logiciels de traduction automatique et d'affichage sur écran braille (sous
+l'égide d'une fondation internationale subventionnée par les gouvernements,
+l'Unesco, etc., et qui lèverait des fonds auprès des entreprises intéressées)."
+
+Zina Tucsnak, ingénieur d'études en informatique à l'ATILF (Analyses et
+traitements informatiques du lexique français): "Il faudrait fournir des
+alternatives équivalentes au contenu visuel et auditif: le texte peut être
+expédié directement à des synthétiseurs vocaux et à des générateurs de braille
+et peut être représenté sur du papier. La voix synthétique et le braille sont

@@ -64,7 +64,7 @@ Afin de déterminer ce que nous devions faire, dans une première partie de l'anné
 
 MapReduce est un modèle de programmation popularisé par Google. Il est utilisé pour l'indexation de contenu. Il se repose sur deux fonctions une fonction \texttt{Map} et une fonction \texttt{Reduce}.
 
-La fonction \texttt{Map} prend en entrée une clé et des valeurs associées. Elle découpe les fichiers et réparti l'entrée sur différents mappers qui s'effectuent en parallèle. Par exemple, pour un fichier, la clé peut être un numéro de ligne et la valeur le texte de la ligne. Cette fonction ensuite rend une clé intermédiaire et une valeur intermédiaire. Dans l'exemple du Wordcount (voir \textit{figure~\ref{fig:mapreduce}}), dans laquelle on veut compter le nombre d'occurences de chaque mot, la clé intermédiaire peut être un mot et la valeur 1.
+La fonction \texttt{Map} prend en entrée une clé et des valeurs associées. Elle découpe les fichiers et répartit l'entrée sur différents mappers qui s'effectuent en parallèle. Par exemple, pour un fichier, la clé peut être un numéro de ligne et la valeur le texte de la ligne. Cette fonction ensuite rend une clé intermédiaire et une valeur intermédiaire. Dans l'exemple du Wordcount (voir \textit{figure~\ref{fig:mapreduce}}), dans laquelle on veut compter le nombre d'occurences de chaque mot, la clé intermédiaire peut être un mot et la valeur 1.
 
 La fonction \texttt{Reduce} ensuite prend les clés et valeurs intermédiaires données par la fonction \texttt{Map} et agrège le résultat afin de donner une clé finale et un résultat final. Dans l'exemple du Wordcount, la clé serait un mot et le résultat serait le nombre d'occurrences de ce mot.\cite{mapreducegoogle:latex:3}
 \FigureEPS{h,t,b,p}{15cm}{mapreduce.eps}
@@ -165,7 +165,7 @@ Il serait aussi possible d'introduire un nouveau prédicat permettant de recherch
 Il serait possible aussi de généraliser l'utilisation des prédicats \texttt{AND} et \texttt{OR} a plus de 2 paramètres.
 \section*{Conclusion} 
  
-Ce projet nous a donc permis de mieux comprendre le fonctionnement d'un moteur de recherche tel que Google. Par ailleurs, nous avons pu apprendre à réaliser un projet d'assez longue durée comparé aux projets faits précédemment et de travailler en équipe.
+Ce projet nous a donc permis de mieux comprendre le fonctionnement d'un moteur de recherche tel que Google. Par ailleurs, nous avons pu apprendre à réaliser un projet d'assez longue durée comparé aux projets faits précédemment et à travailler en équipe.
 
 \bibliography{biblio}
 

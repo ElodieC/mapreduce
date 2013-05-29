@@ -1,0 +1,100 @@
+[Dans ce chapitre:]
+
+[15.1. Définition et historique // 15.2. Une qualité médiocre, puis des progrès
+sensibles]
+
+Comme on l'a vu dans le chapitre précédent, si la traduction automatique offre
+déjà de réels services, on en en attend bien davantage. Voici le point sur le
+sujet, ainsi que le point de vue de spécialistes travaillant sur les logiciels à
+venir.
+
+
+15.1. Définition et historique
+
+
+La traduction automatique (TA) est un outil pratique, mais elle ne remplace pas
+et n'est pas destinée à remplacer le professionnel qui traduit. L'être humain
+n'intervient pas au cours du processus, contrairement à la traduction assistée
+par ordinateur (TAO), qui exige une certaine interaction entre l'homme et la
+machine.
+
+Un logiciel de traduction automatique analyse le texte dans la langue source
+(texte à traduire) et génère automatiquement le texte correspondant dans la
+langue cible (texte traduit), en utilisant des règles précises pour le transfert
+de la structure grammaticale. "Il existe aujourd'hui un certain nombre de
+systèmes produisant un résultat qui, s'il n'est pas parfait, est de qualité
+suffisante pour être utile dans certaines applications spécifiques, en général
+dans le domaine de la documentation technique, lit-on sur le site de l'EAMT
+(European Association for Machine Translation). De plus, les logiciels de
+traduction, qui sont essentiellement destinés à aider le traducteur humain à
+produire des traductions, jouissent d'une popularité croissante auprès des
+organismes professionnels de traduction."
+
+Voici un résumé des informations que donnait le site web de Globalink, disparu
+depuis, la société ayant été rachetée par Lernout & Hauspie en 1999.
+
+Dès leurs débuts, la traduction automatique et le traitement de la langue
+naturelle progressent de pair avec l'évolution de l'informatique quantitative.
+Pendant la seconde guerre mondiale, le développement des premiers ordinateurs
+programmables bénéficie des progrès de la cryptographie et des efforts faits
+pour tenter de fissurer les codes secrets allemands et autres codes de guerre.
+Suite à la guerre, la traduction et l'analyse du texte en langue naturelle
+procurent une base de travail au secteur émergent des technologies de
+l'information.
+
+Dans les années 50, la recherche porte sur la traduction littérale, à savoir la
+traduction mot à mot sans prise en compte des règles linguistiques. Le projet
+russe débuté à l'Université de Georgetown en 1950 représente la première
+tentative systématique visant à créer un système de traduction automatique
+utilisable. Des recherches sont également menées en Europe et aux Etats-Unis
+tout au long des années 50 et au début des années 60. Au même moment, les
+progrès rapides en linguistique théorique culminent en 1965 avec la publication
+de Aspects of the Theory and Syntax de Noam Chomsky, qui propose une nouvelle
+définition de la phonologie, de la morphologie, de la syntaxe et de la
+sémantique du langage humain.
+
+En 1966, aux Etats-Unis, le rapport ALPAC fait une estimation prématurément
+négative de la valeur des systèmes de traduction automatique, et des
+perspectives offertes par ceux-ci, mettant fin au financement et à
+l'expérimentation dans ce domaine pour la décennie suivante. C'est seulement à
+la fin des années 70 que des tentatives sérieuses sont à nouveau entreprises,
+parallèlement aux progrès de l'informatique et des technologies des langues.
+Cette période voit aussi le développement de systèmes de transfert et
+l'émergence des premières tentatives commerciales. Des sociétés comme Systran et
+Metal sont persuadées que la traduction automatique est un marché viable et
+utile. Elles mettent sur pied des produits et services de traduction automatique
+reliés à un serveur central. Mais les problèmes sont nombreux: des coûts élevés
+de développement, une lexicographie demandant un énorme travail, des difficultés
+pour proposer de nouvelles combinaisons de langues, l'inaccessibilité de tels
+systèmes pour l'utilisateur moyen, et enfin la difficulté de passer à de
+nouveaux stades de développement.
+
+
+15.2. Une qualité médiocre, puis des progrès sensibles
+
+
+Le dernier en date des logiciels de traduction automatique est celui d'IBM, le
+WebSphere Translation Server. Le logiciel est capable de traduire instantanément
+en plusieurs langues des pages web, des courriers électroniques et des dialogues
+en direct (chats). Il interprète 500 mots à la seconde et permet d'ajouter des
+vocabulaires spécifiques (finance, sciences, etc.). Les fournisseurs de services
+en ligne et les entreprises peuvent proposer en espagnol, en allemand, en
+français et en italien leurs textes rédigés en anglais, et vice-versa. Les
+documents en anglais peuvent également être traduits en chinois, en japonais et
+en coréen, mais l'inverse est impossible. Testé notamment par la Deutsche Bank,
+le logiciel est commercialisé en mars 2001 pour 10.000 $US (10.500 euros).
+"Jusqu'à présent, l'industrie de la traduction automatique n'était constituée
+que de quelques sociétés et ne possédait pas de leader clairement établi.
+L'entrée d'IBM sur ce marché représente un tournant majeur et permettra
+d'accélérer l'adoption de la traduction par ordinateur, un marché estimé à 378
+millions de dollars (397 millions d'euros, ndlr) à l'horizon 2003", déclare dans
+un communiqué (cité par l'AFP) Steve McClure, vice-président du Speech and
+Natural Language Software, une des branches du cabinet de conseil International
+Data Corporation.
+
+Il n'empêche, les "quelques sociétés" concurrentes d'IBM ont de nombreuses
+réalisations à leur actif. Softissimo, éditeur de logiciels de traduction
+automatique et d'apprentissage des langues, est la société créatrice de Reverso,
+une série de logiciels de traduction. La société est également l'auteur de
+produits d'écriture multilingue, de dictionnaires électroniques, d'aide à la
+rédaction et de méthodes de langues. Reverso équipe notamment Voilà, le moteur

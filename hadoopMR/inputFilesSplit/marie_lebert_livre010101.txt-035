@@ -1,0 +1,100 @@
+La généralisation des livres numériques offre enfin aux malvoyants et aux
+aveugles la possibilité d'accéder à de très nombreux textes, chance qu'ils
+n'avaient pas jusque-là. Le document numérique permet de dissocier contenu et
+présentation. Le lecteur peut modifier la présentation à son gré. Quant au
+contenu, on dispose maintenant des technologies permettant de le convertir
+automatiquement dans un autre système de codage ou une autre langue, y compris
+le braille et la synthèse vocale. De l'avis de Patrice Cailleaud, directeur de
+la communication de HandiCaPZéro, le livre numérique "devrait s'imposer comme
+une nouvelle solution complémentaire aux problèmes des personnes aveugles et
+malvoyantes". Toutefois "les droits et autorisations d'auteurs étaient et
+demeurent des freins pour l'adaptation en braille ou caractères agrandis
+d'ouvrage. Les démarches sont saupoudrées, longues et n'aboutissent que trop
+rarement."
+
+Lors du Salon du livre de la jeunesse de Montreuil de décembre 1999, les
+éditions 00h00.com et l'association BrailleNet lancent l'opération "2000 livres
+jeunesse sur internet pour les aveugles et malvoyants en l'an 2000", à savoir un
+service internet permettant de commander en ligne des ouvrages en différents
+formats. Ces ouvrages sont soit des versions numériques téléchargeables et
+consultables sur micro-ordinateur, terminal braille électronique ou synthétiseur
+de parole, soit des versions imprimées en gros caractères ou en braille.
+
+Pour répondre au problème soulevé par le manque d'ouvrages adaptés, BrailleNet
+crée aussi la base de données Hélène, qui propose en accès restreint des livres
+numériques (oeuvres littéraires récentes, documentations techniques, ouvrages
+scientifiques, ouvrages scolaires, supports de cours adaptés) permettant des
+impressions en braille ou en gros caractères, en partenariat avec les organismes
+(associations, éditeurs, établissements d'enseignement) réalisant ces versions
+adaptées. Dans le cadre de sa participation au projet de BrailleNet, l'INRIA
+(Institut national de recherche en informatique et en automatique) développe une
+bibliothèque numérique comportant des ouvrages du domaine public mis en ligne
+sur différents serveurs web et des ouvrages préparés pour une impression braille
+par des écoles ou des centres de transcription.
+
+Mais il reste encore beaucoup à faire pour proposer un véritable service public
+du type de celui qui est proposé aux Etats-Unis par la Library of Congress
+depuis août 1999. Géré par le National Library Service for the Blind and
+Physically Handicapped (NLS/BPH), un serveur permet aux aveugles et malvoyants
+de télécharger des livres au format braille pour une lecture sur plage tactile
+et par synthèse vocale. Les collections de départ - 2.700 livres en braille
+abrégé disponibles en téléchargement ou consultables en ligne - augmentent de
+plusieurs centaines de titres par an. Les sources sont codées pour une
+impression (à l'aide d'une imprimante braille) ou une lecture en ligne en
+braille abrégé (à l'aide de plages tactiles ou toute autre interface d'accès
+braille). Ce service fournit aussi un logiciel de relecture, qui permet de
+désagréger le texte pour l'utiliser sur synthèse vocale.
+
+Dans le domaine des livres électroniques - appareils de lecture permettant de
+lire à l'écran des livres numériques - les choses bougent aussi.
+
+En novembre 2000, Microsoft décide de collaborer avec Pulse Data, une entreprise
+néo-zélandaise spécialisée dans les produits informatiques pour non-voyants.
+Pulse Data est l'auteur de BrailleNote, un PDA (personal digital assistant) sans
+écran utilisant le système d'exploitation Windows CE. Une interface permet de
+transformer en braille les textes lus au moyen du Microsoft Reader. Les aveugles
+peuvent ainsi avoir accès à un catalogue de près de 2.000 livres numériques.
+Après ouverture du fichier, ils ont le choix entre la version vocale et la
+version en braille électronique. Alors qu'il faut en général des mois pour qu'un
+livre soit traduit en braille, la traduction des livres numériques est
+instantanée.
+
+Livre électronique conçu par la société Cytale et commercialisé depuis janvier
+2001, le Cybook permet l'agrandissement des caractères, l'inversion des
+contrastes, la suppression de la couleur, le changement de police, etc., en bref
+tout ce qui permet de contourner un handicap visuel. Cytale travaille avec
+l'INSERM (Institut national de la santé et de la recherche médicale) à
+l'adaptation de son logiciel pour permettre la lecture de livres numériques au
+moyen d'une extension braille ou d'un système de synthèse vocale.
+
+
+9.3. Le livre numérique vocal
+
+
+Depuis vingt ans sinon plus, les aveugles et malvoyants écoutent des livres
+enregistrés sur bande magnétique ou sur cassettes, le plus souvent par des
+bénévoles. Depuis quelques années, ils ont à leur disposition des livres en
+version audio sur CD-Rom. Depuis peu, il existe des technologies permettant de
+convertir automatiquement un document dans un autre système de codage ou une
+autre langue, y compris le braille et la synthèse vocale. Des logiciels -
+notamment ceux de Quack - permettent la lecture d'un fichier texte au moyen
+d'une voix synthétique. Les outils informatiques standard sont en train
+d'intégrer la synthèse de parole, avec possibilité de traduction automatique. Et
+la qualité de la synthèse de parole s'améliore.
+
+Cependant, les aveugles s'accordent souvent à dire que rien ne remplace une
+"vraie" voix, moins parfaite peut-être, mais vivante, avec des nuances, des
+intonations, des inflexions, etc. C'est ce que pense l'équipe du RAAMM
+(Regroupement des aveugles et amblyopes du Montréal métropolitain), qui a choisi
+d'enregister la presse sur publiphone (voir 9.4). Des dizaines de titres sont
+lus par plus de 150 volontaires voyants. L'enregistrement ou l'écoute se fait à
+domicile à partir de son poste de téléphone.
+
+Par ailleurs, nombreux sont les organismes qui disposent d'enregistrements
+réalisés en analogique au fil des années, sur bandes magnétiques et sur
+cassettes. On envisage maintenant la numérisation et le stockage informatique de
+tous ces enregistrements, qui pourraient être utilisés non seulement par la
+communauté desservie par l'organisme propriétaire mais partout ailleurs. Ce
+potentiel à destination des bibliothèques audio permettrait à chaque organisme
+d'accroître ses collections de manière exponentielle. De nouvelles bibliothèques
+audio pourraient être constituées à moindre coût, notamment dans les pays en

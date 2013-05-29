@@ -7,12 +7,10 @@ dfsInputPath=/home/hduser/hadoop
 dfsOutputPath=/home/hduser/hadoop/output
 splitScriptPath=$inputPath/splitScript.sh
 
-#Start Hadoop Server
-$hadoopPath/bin/start-all.sh
-$hadoopPath/bin/hadoop dfsadmin -safemode leave
+#Please start the Hadoop server before launching this script
+
 #Copy files to Hadoop DFS
 $hadoopPath/bin/hadoop dfs -rmr $dfsInputPath/inputFiles
-$hadoopPath/bin/hadoop dfsadmin -safemode leave
 $hadoopPath/bin/hadoop dfs -copyFromLocal $inputPath/inputFiles $dfsInputPath
 
 $hadoopPath/bin/hadoop dfs -rmr $dfsOutputPath
@@ -34,5 +32,3 @@ cp $inputPath/inputFiles/* $inputPath/inputFilesSplit/
 cd $inputPath/inputFilesSplit/
 $inputPath/inputFilesSplit/splitScript.sh
 
-#Stop Hadoop Server
-$hadoopPath/bin/stop-all.sh

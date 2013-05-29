@@ -72,7 +72,7 @@ public class Index2 {
 		String title;
 		int offset;
 		boolean first = true;
-
+		System.out.println(line);
 		scanLine = new Scanner(line);
 		scanLine.useDelimiter("\\s");// a whitespace character
 

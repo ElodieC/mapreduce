@@ -1,6 +1,5 @@
-Dossier pour le developpement de la partie Map/Reduce
+Dossier pour le developpement de la partie Indexation
 
-wordcountyahoo : Wordcount recopier de Yahoo
-		Fonctionne avec Eclipse!!!
-		
-Ponctuation : projet java simple test pour le traitement de la ponctuation
+Le projet de développement se trouve dans le dossier Index, possibilité d'ajout de ce projet à Eclipse en installant le plugin Eclipse correspondant pour le développement avec Hadoop.
+
+

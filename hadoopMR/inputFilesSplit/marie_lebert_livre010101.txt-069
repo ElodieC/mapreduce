@@ -1,0 +1,100 @@
+de recherche de France Télécom. Systran (acronyme de : System Translation) est
+spécialisé dans la technologie et les logiciels de traduction automatique. Son
+logiciel est utilisé notamment dans AltaVista World, le service de traduction
+automatique d'AltaVista. Alis Technologies propose des technologies et des
+services de consultation en matière de communication linguistique. Lernout &
+Hauspie (L&H) est le leader mondial des technologies de reconnaissance vocale.
+La société propose des produits et services en matière de dictée, traduction,
+compression vocale, synthèse vocale et documentation industrielle automatiques,
+et ce pour le grand public, les professionnels et les industriels.
+
+Des équipes de recherche sont également très actives. En voici quelques-unes.
+Financé par le programme HLT (Human Language Technologies) de la Communauté
+européenne, ELSNET (European Network of Excellence in Human Language
+Technologies) regroupe 135 universités et sociétés de 26 pays différents
+spécialisées dans les technologies de la langue et de la parole. Au sein du
+Laboratoire CLIPS (Communication langagière et interaction personne-système) de
+l'Institut d'informatique et mathématiques appliquées (IMAG) de Grenoble, le
+GETA (Groupe d'étude pour la traduction automatique) est une équipe
+pluridisciplinaire formée d'informaticiens et de linguistes. Ses thèmes de
+recherche concernent tous les aspects théoriques, méthodologiques et pratiques
+de la traduction assistée par ordinateur (TAO), et plus généralement de
+l'informatique multilingue. Le GETA participe à l'Universal Networking Language
+Programme (UNLP), un projet de "métalangage numérique" pour l'encodage, le
+stockage, la recherche et la communication d'informations multilingues
+indépendamment d'une langue source - et donc d'un système de pensée - donnée. Ce
+projet est mené sous l'égide de l'Université des Nations unies (UNU, Tokyo).
+Dans le cadre de l'Institut des sciences de l'information (ISI) de l'Université
+de Californie du Sud (USC), le Natural Language Group traite de plusieurs
+aspects du traitement de la langue naturelle: traduction automatique, résumé
+automatique de texte, accès multilingue aux verbes et gestion du texte,
+développement de taxonomies de concepts (ontologies), discours et génération de
+texte, élaboration d'importants lexiques pour plusieurs langues, et
+communication multimédias.
+
+Recueillis sur trois ans (1998, 1999, 2000), les propos d'Eduard Hovy, directeur
+du Natural Language Group, sont éclairants sur les progrès récents de la
+traduction automatique.
+
+Ses commentaires en août 1998: "Dans le contexte de la recherche documentaire et
+du résumé automatique de texte, le multilinguisme sur le web est un facteur qui
+ajoute à la complexité du sujet. Les gens écrivent dans leur propre langue pour
+diverses raisons: commodité, discrétion, communication à l'échelon local, mais
+ceci ne signifie pas que d'autres personnes ne soient pas intéressées de lire ce
+qu'ils ont à dire! Ceci est particulièrement vrai pour les sociétés impliquées
+dans la veille technologique (disons une société informatique qui souhaite
+connaître tous les articles de journaux et périodiques japonais relatifs à son
+activité) et des services de renseignements gouvernementaux ceux qui procurent
+l'information la plus récente, utilisée ensuite par les fonctionnaires pour
+décider de la politique, etc.). Un des principaux problèmes auquel ces services
+doivent faire face est la très grande quantité d'informations. Ils recrutent
+donc du personnel bilingue 'passif' qui peut scanner rapidement les textes afin
+de mettre de côté ce qui est sans intérêt et de donner ensuite les documents
+significatifs à des traducteurs professionnels. Manifestement, une combinaison
+de résumé automatique de texte et de traduction automatique sera très utile dans
+ce cas. Comme la traduction automatique est longue, on peut d'abord résumer le
+texte dans la langue étrangère, puis effectuer une traduction automatique rapide
+à partir du résultat obtenu, en laissant à un être humain ou un classificateur
+de texte (du type recherche documentaire) le soin de décider si on doit garder
+l'article ou le rejeter.
+
+Pour ces raisons, durant ces cinq dernières années, le gouvernement des
+Etats-Unis a financé des recherches en traduction automatique, en résumé
+automatique de texte et en recherche documentaire, et il s'intéresse au
+lancement d'un nouveau programme de recherche en informatique documentaire
+multilingue. On sera ainsi capable d'ouvrir un navigateur tel que Netscape ou
+Explorer, entrer une demande en anglais, et obtenir la liste des documents dans
+toutes les langues. Ces documents seront regroupés par sous-catégorie avec un
+résumé pour chacun et une traduction pour les résumés étrangers, toutes choses
+qui seraient très utiles.
+
+En consultant MuST (multilingual information retrieval, summarization, and
+translation system), vous aurez une démonstration de notre version de ce
+programme de recherche, qui utilise l'anglais comme langue de l'utilisateur sur
+un ensemble d'environ 5.000 textes en anglais, japonais, arabe, espagnol et
+indonésien. Entrez votre demande (par exemple, 'baby', ou tout autre terme) et
+appuyez sur la touche Retour. Dans la fenêtre du milieu vous verrez les titres
+(ou bien les mots-clés, traduits). Sur la gauche vous verrez la langue de ces
+documents: 'Sp' pour espagnol, 'Id' pour indonésien, etc. Cliquez sur le numéro
+situé sur la partie gauche de chaque ligne pour voir le document dans la fenêtre
+du bas. Cliquez sur 'Summarize' pour obtenir le résumé. Cliquez sur 'Translate'
+pour obtenir la traduction (attention, les traductions en arabe et en japonais
+sont extrêmement lentes! Essayez plutôt l'indonésien pour une traduction rapide
+mot à mot). Ce programme de démonstration n'est pas (encore) un produit. Nous
+avons de nombreuses recherches à mener pour améliorer la qualité de chaque
+étape. Mais ceci montre la direction dans laquelle nous allons."
+
+Ses commentaires en août 1999: "Durant les douze derniers mois, j'ai été
+contacté par un nombre surprenant de nouvelles sociétés et start-up en
+technologies de l'information. La plupart d'entre elles ont l'intention d'offrir
+des services liés au commerce électronique (vente en ligne, échange, collecte
+d'information, etc.). Etant donné les faibles résultats des technologies
+actuelles du traitement de la langue naturelle - ailleurs que dans les centres
+de recherche - c'est assez surprenant. Quand avez-vous pour la dernière fois
+trouvé rapidement une réponse correcte à une question posée sur le web, sans
+avoir eu à passer en revue pendant un certain temps des informations n'ayant
+rien à voir avec votre question? Cependant, à mon avis, tout le monde sent que
+les nouveaux développements en résumé automatique de texte, analyse des
+questions, etc., vont, je l'espère, permettre des progrès significatifs. Mais
+nous ne sommes pas encore arrivés à ce stade.
+

@@ -1,0 +1,100 @@
+internet multilingue. Malheureusement le poids de l'anglais est trop fort, et la
+duplication des textes/informations n'est pas réaliste."
+
+Mais les temps ont changé, et désormais moins de la moitié des internautes
+habite l'Amérique du Nord. Selon les statistiques de Global Reach (été 2001), le
+pourcentage d'internautes non anglophones est de 52,5% (47,5% pour les
+anglophones) et continue régulièrement d'augmenter. Le pourcentage des Européens
+non anglophones est de 28,9%, et celui des Asiatiques de 23,5%. Si les
+anglophones d'Amérique du Nord restent le plus important groupe linguistique,
+leur nombre est désormais inférieur à celui des internautes européens et
+asiatiques, dont le nombre a été multiplié par sept depuis 1993.
+
+Le multilinguisme devient donc essentiel. "Il est très important de pouvoir
+communiquer en différentes langues", s'exclame Maria Victoria Marinetti,
+mexicaine, professeur d'espagnol dans des entreprises françaises et traductrice.
+"Je dirais même que c'est obligatoire, car l'information donnée sur le net est à
+destination du monde entier, alors pourquoi ne l'aurions-nous pas dans notre
+propre langue ou dans la langue que nous souhaitons lire? Information mondiale,
+mais pas de vaste choix dans les langues, ce serait contradictoire, pas vrai?"
+
+De l'avis de Guy Bertrand et Cynthia Delisle, du CEVEIL (Centre québécois
+d'expertise et de veille inforoutes et langues, Québec), "le multilinguisme sur
+internet est la conséquence logique et naturelle de la diversité des populations
+humaines. Dans la mesure où le web a d'abord été développé et utilisé aux
+Etats-Unis, il n'est guère étonnant que ce médium ait commencé par être
+essentiellement anglophone (et le demeure actuellement). Toutefois, cette
+situation commence à se modifier (en mars 2000, ndlr) et le mouvement ira en
+s'amplifiant, à la fois parce que la plupart des nouveaux usagers du réseau
+n'auront pas l'anglais comme langue maternelle et parce que les communautés déjà
+présentes sur le web accepteront de moins en moins la 'dictature' de la langue
+anglaise et voudront exploiter internet dans leur propre langue, au moins
+partiellement. (...) L'arrivée de langues autres que l'anglais sur internet, si
+elle constitue un juste rééquilibre et un enrichissement indéniable, renforce
+évidemment le besoin d'outils de traitement linguistique aptes à gérer
+efficacement cette situation, d'où la nécessité de poursuivre les travaux de
+recherche et les activités de veille dans des secteurs comme la traduction
+automatique, la normalisation, le repérage de l'information, la condensation
+automatique (résumés), etc."
+
+Solution provisoire, les alphabets européens commencent d'abord par être
+représentés par des versions étendues de l'ASCII codées non plus sur sept mais
+sur huit bits, afin de prendre en compte les caractères accentués. L'extension
+pour le français est la norme ISO-Latin-1. Mais le passage de l'ASCII à l'ASCII
+étendu devient vite un véritable casse-tête, y compris au sein de l'Union
+européenne, les problèmes étant entre autres la multiplication des systèmes
+d'encodage pour un ordinateur ou un serveur, la corruption des données dans les
+étapes transitoires, l'incompatibilité des systèmes entre eux, les pages ne
+pouvant être affichées que dans une seule langue à la fois, etc.
+
+Une solution pourrait être l'Unicode. Apparu en 1998, ce système de codage
+traduit chaque caractère en 16 bits, lisible quels que soient la plate-forme, le
+logiciel et la langue utilisés. Alors que l'ASCII étendu à 8 bits pouvait
+prendre en compte un maximum de 256 caractères, l'Unicode peut prendre en compte
+plus de 65.000 caractères uniques, et donc traiter informatiquement tous les
+systèmes d'écriture de la planète. Il permet aussi la transmission de caractères
+par des logiciels de diverses provenances.
+
+Mais, même avec l'Unicode, les problèmes restent nombreux, comme le souligne Luc
+Dall'Armellina, co-auteur et webmestre d'oVosite, espace d'écritures
+multimédias: "Les systèmes d'exploitation se dotent peu à peu des kits de
+langues et bientôt peut-être de polices de caractères Unicode à même de
+représenter toutes les langues du monde; reste que chaque application, du
+traitement de texte au navigateur web, emboîte ce pas. Les difficultés sont
+immenses: notre clavier avec ses ± 250 touches avoue ses manques dès lors qu'il
+faille saisir des Katakana ou Hiragana japonais, pire encore avec la langue
+chinoise. La grande variété des systèmes d'écritures de par le monde et le
+nombre de leurs signes font barrage. Mais les écueils culturels ne sont pas
+moins importants, liés aux codes et modalités de représentation propres à chaque
+culture ou ethnie. L'anglais s'impose sans doute parce qu'il est devenu la
+langue commerciale d'échange généralisée; il semble important que toutes les
+langues puissent continuer à être représentées parce que chacune d'elle est
+porteuse d'une vision 'singulière' du monde."
+
+Selon Patrick Rebollar, professeur de littérature française au Japon, "il s'agit
+d'abord d'un problème logiciel. Comme on le voit avec Netscape ou Internet
+Explorer, la possibilité d'affichage multilingue existe. La compatibilité entre
+ces logiciels et les autres (de la suite Office de Microsoft, par exemple) n'est
+cependant pas acquise. L'adoption de la table Unicode devrait résoudre une
+grande partie des problèmes, mais il faut pour cela réécrire la plupart des
+logiciels, ce à quoi les producteurs de logiciels rechignent du fait de la
+dépense, pour une rentabilité qui n'est pas évidente car ces logiciels
+entièrement multilingues intéressent moins de clients que les logiciels de
+navigation."
+
+Que préconise Olivier Gainon, créateur de CyLibris, maison d'édition littéraire
+en ligne? "Première étape: le respect des particularismes au niveau technique.
+Il faut que le réseau respecte les lettres accentuées, les lettres spécifiques,
+etc. Je crois très important que les futurs protocoles de transmission
+permettent une transmission parfaite de ces aspects - ce qui n'est pas forcément
+simple (dans les futures évolutions de l'HTML, ou des protocoles IP, etc.).
+Donc, il faut que chacun puisse se sentir à l'aise avec l'internet et que ce ne
+soit pas simplement réservé à des (plus ou moins) anglophones. Il est anormal
+aujourd'hui que la transmission d'accents puisse poser problème dans les
+courriers électroniques. La première démarche me semble donc une démarche
+technique. Si on arrive à faire cela, le reste en découle: la représentation des
+langues se fera en fonction du nombre de connectés, et il faudra envisager à
+terme des moteurs de recherche multilingues."
+
+De l'avis d'Emmanuel Barthe, documentaliste juridique, "des signes récents
+laissent penser qu'il suffit de laisser les langues telles qu'elles sont

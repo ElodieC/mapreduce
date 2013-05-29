@@ -1,0 +1,100 @@
+anglaises."
+
+
+11.2. Numérisation en mode texte et en mode image
+
+
+La numérisation du document imprimé, c'est-à-dire sa conversion sous une forme
+chiffrée binaire, peut être effectuée soit en mode texte, soit en mode image.
+
+La numérisation en mode texte consiste à scanner le livre puis à contrôler le
+résultat à l'écran en relisant le tout. Les documents originaux manquant de
+clarté - certains livres anciens par exemple - sont saisis ligne après ligne. Ce
+mode de numérisation est long, et la notion de livre ou de page n'est pas
+conservée, puisque le texte apparaît en continu à l'écran. Cette méthode est
+nettement plus coûteuse que la numérisation en mode image, mais très préférable,
+puisqu'elle permet la recherche textuelle, l'indexation, les recherches
+séquentielles, les analyses, les comparaisons, etc. C'est la méthode utilisée
+par le Projet Gutenberg (11.1.1), la Bibliothèque électronique de Lisieux
+(11.1.3), et bien d'autres.
+
+La numérisation en mode image correspond à la "photographie" du livre page après
+page. La notion de livre est conservée. La version informatique est en quelque
+sorte le fac-similé de la version imprimée. On peut donc "feuilleter" le texte
+page après page sur l'écran. C'est la méthode employée pour les numérisations à
+grande échelle, par exemple pour la constitution de Gallica, bibliothèque
+numérique de la Bibliothèque nationale de France (BnF). Même si, pour des
+raisons de coût, la BnF a choisi la numérisation en mode image, elle utilise le
+mode texte pour les tables des matières, les sommaires et les légendes des
+corpus iconographiques, afin de faciliter la recherche plein-texte. Pourquoi ne
+pas tout numériser en mode texte ? La BnF répond sur le site de Gallica: "Le
+mode image conserve l'aspect initial de l'original y compris ses éléments non
+textuels. Si le mode texte autorise des recherches riches et précises dans un
+document et permet une réduction significatice du volume des fichiers manipulés,
+sa réalisation, soit par saisie soit par OCR (optical character recognition),
+implique des coûts de traitement environ 10 fois supérieurs à la simple
+numérisation. Ces techniques parfaitement envisageables pour des volumes limités
+ne pouvaient ici être économiquement justifiables au vu des 35.000 documents
+(représentant presque 15 millions de pages) mis en ligne."
+
+Selon Pierre Schweitzer, l'architecte designer qui a conçu @folio, support
+numérique de lecture nomade, "le mode image permet d'avancer vite et à très
+faible coût. C'est important car la tâche de numérisation du domaine public est
+immense. Il faut tenir compte aussi des différentes éditions: la numérisation du
+patrimoine a pour but de faciliter l'accès aux oeuvres, il serait paradoxal
+qu'elle aboutisse à focaliser sur une édition et à abandonner l'accès aux
+autres. Chacun des deux modes de numérisation s'applique de préférence à un type
+de document, ancien et fragile ou plus récent, libre de droit ou non (pour
+l'auteur ou pour l'édition), abondamment illustré ou pas. Les deux modes ont
+aussi des statuts assez différents: en mode texte ça peut être une nouvelle
+édition d'une oeuvre, en mode image c'est une sorte d''édition d'édition', grâce
+à un de ses exemplaires (qui fonctionne alors comme une fonte d'imprimerie pour
+du papier: une trace optique sur un support, numérique, c'est assez joli à
+réaliser). En pratique, le choix dépend bien sûr de la nature du fonds à
+numériser, des moyens et des buts à atteindre. Difficile de se passer d'une des
+deux façons de faire."
+
+L'équipe d'@folio travaille notamment sur le logiciel Mot@Mot, une passerelle
+entre @folio (voir 8.1) et les fonds numérisés en mode image. "La plus grande
+partie du patrimoine écrit existant est fixé dans des livres, sur du papier,
+explique Pierre Schweitzer. Pour rendre ces oeuvres accessibles sur la toile, la
+numérisation en mode image est un moyen très efficace. Le projet Gallica en est
+la preuve. Mais il reste le problème de l'adaptation des fac-similés d'origine à
+nos écrans de lecture aujourd'hui: réduits brutalement à la taille d'un écran,
+les fac-similés deviennent illisibles. Sauf à manipuler les barres d'ascenseur,
+ce qui nécessite un ordinateur et ne permet pas une lecture confortable. La
+solution proposée par Mot@mot consiste à découper le livre, mot à mot, du début
+à la fin (enfin, les pages scannées du livre...). Ces mots restent donc des
+images, il n'y a pas de reconnaissance de caractères, donc pas d'erreur
+possible. On obtient une chaîne d'images-mots liquide, qu'on peut remettre en
+page aussi facilement qu'une chaîne de caractères. Il devient alors possible de
+l'adapter à un écran de taille modeste, sans rien perdre de la lisibilité du
+texte. La typographie d'origine est conservée, les illustrations aussi."
+
+
+11.3. Les bibliothèques traditionnelles sont-elles menacées?
+
+
+Face à un web encyclopédique et des bibliothèques numériques de plus en plus
+nombreuses, les jours des bibliothèques traditionnelles sont-ils comptés? Ou
+bien, au contraire, l'internet joue-t-il un rôle de catalyseur pour les
+relancer?
+
+En fait, il n'est peut-être pas très opportun d'opposer bibliothèque
+traditionnelle et bibliothèque numérique. Nombre de bibliothèques numériques
+sont créées par des bibliothèques traditionnelles à partir de leurs propres
+fonds. Grâce à quoi la consultation de ces fonds devient facile. Ce qui n'était
+pas le cas jusque-là, pour des raisons diverses: souci de conservation des
+documents rares et fragiles, heures d'ouverture réduites, nombreux formulaires à
+remplir, longs délais de communication, pénurie de personnel. Autant de
+barrières à franchir qui demandaient souvent au lecteur une patience à toute
+épreuve et une détermination hors du commun pour arriver jusqu'au document. A
+présent, si on tient absolument à consulter l'original, on le fait en
+connaissance de cause, après avoir "feuilleté" le fac-similé numérique sur le
+web.
+
+Autre élément à prendre en compte, la bibliothèque numérique peut enfin rendre
+comptatibles deux objectifs qui ne l'étaient guère, à savoir la conservation des
+documents et leur prêt. Dorénavant le document ne quitte son rayonnage qu'une
+seule fois pour être scanné, et le grand public y a facilement accès.
+

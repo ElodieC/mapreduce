@@ -1,0 +1,100 @@
+
+11.1. Du bibliothécaire au cyberthécaire
+
+
+Sur une ancienne version de son site web (1998), la British Library définissait
+la bibliothèque numérique comme une entité résultant de l'utilisation des
+technologies numériques pour acquérir, stocker, préserver et diffuser des
+documents qui sont soit publiés directement sous forme numérique, soit numérisés
+à partir d'un document imprimé, audiovisuel ou autre. Une collection numérique
+devient une bibliothèque numérique quand elle répond aux quatre facteurs
+suivants: 1) elle peut être créée et produite dans un certain nombre d'endroits
+différents, mais elle est accessible en tant qu'entité unique, 2) elle doit être
+organisée et indexée pour un accès aussi facile que possible à partir du lieu de
+base où elle est produite, 3) elle doit être stockée et gérée de manière à avoir
+une existence assez longue après sa création, 4) elle doit trouver un équilibre
+entre le respect du droit d'auteur et les exigences universitaires.
+
+Choisies pour leur intérêt et leur variété, voici quelques expériences: le
+Projet Gutenberg, projet pilote en ligne depuis 1991 (11.1.1); The On-Line Books
+Page (11.1.2), en ligne depuis 1993; la Bibliothèque électronique de Lisieux, en
+ligne depuis 1996 (11.1.3); la médiathèque de Institut Pasteur, en ligne depuis
+1996 (11.1.4); le centre de documentation de l'Organisation de coopération et de
+développement économiques (OCDE), en ligne interne depuis 1996 (11.1.5); le
+centre de documentation de l'Institut d'études politiques (IEP) de Grenoble, en
+ligne depuis 1998 (11.1.6); la bibliothèque de l'Ecole nationale supérieure de
+statistique et d'économie appliquée (ENSEA) d'Abidjan, en ligne depuis 1999
+(11.1.7) ; l'association Juriconnexion (documentation juridique), en ligne
+depuis 1999 (11.1.8); la médiathèque de l'Institut français de Londres, en ligne
+depuis 2000 (11.1.9)
+
+= Le Projet Gutenberg
+
+Projet pionnier, le Projet Gutenberg a inspiré bien d'autres bibliothèques
+numériques depuis. Il débute en 1971 quand Michael Hart, étudiant à l'Université
+d'Illinois, reçoit un compte de 100 millions de dollars de "temps machine" dans
+le laboratoire informatique (Materials Research Lab) de son université. Il
+décide aussitôt de consacrer ce crédit à la recherche et au stockage des oeuvres
+du domaine public disponibles dans les bibliothèques. Il décide aussi de stocker
+les textes électroniques de la manière la plus simple possible, au format ASCII,
+avec des lettres capitales pour les termes en italique, gras ou soulignés, afin
+qu'ils puissent être lus sans problème quels que soient la machine et le
+logiciel utilisés. Peu après, il définit la "mission" du Projet Gutenberg:
+mettre à la disposition de tous le plus grand nombre possible d'oeuvres du
+domaine public. Travailleur acharné, il décide de dédier toute sa vie à son
+projet, qu'il voit comme étant à l'origine d'une révolution néo-industrielle.
+
+Lorsque l'utilisation du web se généralise, le projet trouve un second souffle,
+et un rayonnement international. Les collections se chiffrent maintenant à 3.700
+oeuvres (chiffres de juillet 2001) qui, au fil des années, ont été patiemment
+numérisées en mode texte par des volontaires de nombreux pays (600 volontaires
+actifs en 2000). Un total de 1.000 nouveaux livres devrait être traité en 2001.
+Cinquante heures environ sont nécessaires pour sélectionner, scanner, corriger
+et mettre en page un texte électronique. Un ouvrage de taille moyenne - par
+exemple un roman de Stendhal ou de Jules Verne - est composé de deux fichiers
+ASCII. Si certains documents anciens sont parfois saisis ligne après ligne, le
+plus souvent parce que le texte original manque de clarté, les oeuvres sont en
+général scannées en utilisant un logiciel OCR (optical character recognition),
+puis elles sont relues et corrigées à double reprise, parfois par deux personnes
+différentes. D'abord essentiellement anglophones, les collections deviennent peu
+à peu multilingues.
+
+"Nous considérons le texte électronique comme un nouveau médium, sans véritable
+relation avec le papier, explique Michael Hart. Le seul point commun est que
+nous diffusons les mêmes oeuvres, mais je ne vois pas comment le papier peut
+concurrencer le texte électronique une fois que les gens y sont habitués,
+particulièrement dans les établissements d'enseignement. (...) Ma carrière
+n'aurait pas existé sans l'internet, et le Projet Gutenberg n'aurait jamais eu
+lieu... Vous savez sûrement que le Projet Gutenberg a été le premier site
+d'information sur l'internet. Mon projet est de mettre 10.000 textes
+électroniques sur l'internet. Si je pouvais avoir des subventions importantes,
+j'aimerais aller jusqu'à un million et étendre aussi le nombre de nos usagers
+potentiels de 1,x% à 10% de la population mondiale, ce qui représenterait la
+diffusion de 1.000 fois un milliard de textes électroniques au lieu d'un
+milliard seulement. (...) J'introduis une nouvelle langue par mois maintenant,
+et je vais poursuivre cette politique aussi longtemps que possible."
+
+= The On-Line Books Page
+
+Autre projet pilote à l'époque, The On-Line Books Page répertorie plus de 12.000
+textes électroniques d'oeuvres anglophones en accès libre sur le web. John Mark
+Ockerbloom, qui est à l'époque étudiant à l'Université Carnegie Mellon
+(Pittsburgh, Pennsylvanie), débute ce répertoire en 1993 dans le cadre du site
+web du département d'informatique, dont il est le webmestre.
+
+"J'étais webmestre ici pour la section informatique du CMU (Carnegie Mellon
+University), et j'ai débuté notre site local en 1993, raconte John Mark
+Ockerbloom en septembre 1998. Il comprenait des pages avec des liens vers des
+ressources disponibles localement, et à l'origine The On-Line Books Page était
+une de ces pages, avec des liens vers des livres mis en ligne par des collègues
+de notre département (par exemple Robert Stockton, qui a fait des versions web
+de certains textes du Projet Gutenberg). Ensuite les gens ont commencé à
+demander des liens vers des livres disponibles sur d'autres sites. J'ai remarqué
+que de nombreux sites (et pas seulement le Project Gutenberg ou Wiretap)
+proposaient des livres en ligne, et qu'il serait utile d'en avoir une liste
+complète qui permette de télécharger ou de lire des livres où qu'ils soient sur
+l'internet. C'est ainsi que mon index a débuté. J'ai quitté mes fonctions de
+webmestre en 1996, mais j'ai gardé The On-Line Books Page, parce que, entre
+temps, je m'étais passionné pour l'énorme potentiel qu'a l'internet de rendre la
+littérature accessible au plus grand nombre. Maintenant il y a tant de livres
+mis en ligne que j'ai du mal à rester à jour (en fait j'ai beaucoup de retard).

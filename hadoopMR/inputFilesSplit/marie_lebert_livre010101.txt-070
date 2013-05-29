@@ -1,0 +1,100 @@
+Il me semble qu'il ne s'agira pas d'un changement considérable, mais que nous
+arriverons à des résultats acceptables, et que l'amélioration se fera ensuite
+lentement et sûrement. Ceci s'explique par le fait qu'il est très difficile de
+faire en sorte que votre ordinateur 'comprenne' réellement ce que vous voulez
+dire - ce qui nécessite de notre part la construction informatique d'un réseau
+de 'concepts' et des relations de ces concepts entre eux - réseau qui, jusqu'à
+un certain stade au moins, reflèterait celui de l'esprit humain, au moins dans
+les domaines d'intérêt pouvant être regroupés par sujets. Le mot pris à la
+'surface' n'est pas suffisant - par exemple quand vous tapez: 'capitale de la
+Suisse', les systèmes actuels n'ont aucun moyen de savoir si vous songez à
+'capitale administrative' ou 'capitale financière'. Dans leur grande majorité,
+les gens préféreraient pourtant un type de recherche basé sur une expression
+donnée, ou sur une question donnée formulée en langage courant.
+
+Plusieurs programmes de recherche sont en train d'élaborer de vastes réseaux de
+'concepts', ou d'en proposer l'élaboration. Ceci ne peut se faire en deux ans,
+et ne peut amener rapidement un résultat satisfaisant. Nous devons développer à
+la fois le réseau et les techniques pour construire ces réseaux de manière
+semi-automatique, avec un système d'auto-adaptation. Nous sommes face à un défi
+majeur."
+
+Ses commentaires en septembre 2000: "Je vois de plus en plus de petites sociétés
+utiliser d'une manière ou d'une autre les technologies liées aux langues, pour
+procurer des recherches, des traductions, des rapports ou d'autres services
+permettant de communiquer. Le nombre de créneaux dans lesquels ces technologies
+peuvent être utilisées continue de me surprendre, et cela va des rapports
+financiers et leurs mises à jour aux communications d'une société à l'autre en
+passant par le marketing.
+
+En ce qui concerne la recherche, la principale avancée que je vois est due à
+Kevin Knight, un collègue de l'ISI (Institut des sciences de l'information de
+l'Université de Californie du Sud, ndlr), ce dont je suis très honoré. L'été
+dernier, une équipe de chercheurs et d'étudiants de l'Université Johns Hopkins
+(Maryland) a développé une version à la fois meilleure et plus rapide d'une
+méthode développée à l'origine par IBM (et dont IBM reste propriétaire) il y a
+douze ans environ. Cette méthode permet de créer automatiquement un système de
+traduction automatique, dans la mesure où on lui fournit un volume suffisant de
+texte bilingue. Tout d'abord la méthode trouve toutes les correspondances entre
+les mots et la position des mots d'une langue à l'autre, et ensuite elle
+construit des tableaux très complets de règles entre le texte et sa traduction,
+et les expressions correspondantes.
+
+Bien que la qualité du résultat soit encore loin d'être satisfaisante - personne
+ne pourrait considérer qu'il s'agit d'un produit fini, et personne ne pourrait
+utiliser le résultat tel quel - l'équipe a créé en vingt-quatre heures un
+système (élémentaire) de traduction automatique du chinois vers l'anglais. Ceci
+constitue un exploit phénoménal, qui n'avait jamais été réalisé avant. Les
+détracteurs du projet peuvent bien sûr dire qu'on a besoin dans ce cas de trois
+millions de phrases disponibles dans chaque langue, et qu'on ne peut se procurer
+une quantité pareille que dans les parlements du Canada, de Hong-Kong ou
+d'autres pays bilingues. Ils peuvent bien sûr arguer également de la faible
+qualité du résultat. Mais le fait est que, tous les jours, on met en ligne des
+textes bilingues au contenu à peu près équivalent, et que la qualité de cette
+méthode va continuer de s'améliorer pour atteindre au moins celle des logiciels
+de traduction automatique actuels, qui sont conçus manuellement. J'en suis
+absolument certain.
+
+D'autres développements sont moins spectaculaires. On observe une amélioration
+constante des résultats dans les systèmes pouvant décider de la traduction
+opportune d'un terme (homonyme) qui a des significations différentes (par
+exemple père, pair et père, ndlr). On travaille beaucoup aussi sur la recherche
+d'information par recoupement de langues (qui vous permettront bientôt de
+trouver sur le web des documents en chinois et en français même si vous tapez
+vos questions en anglais). On voit également un développement rapide des
+systèmes qui répondent automatiquement à des questions simples (un peu comme le
+populaire AskJeeves utilisé sur le web, mais avec une gestion par ordinateur et
+non par des êtres humains). Ces systèmes renvoient à un grand volume de texte
+permettant de trouver des 'factiodes' (et non des opinions ou des motifs ou des
+chaînes d'événements) en réponse à des questions telles que: 'Quelle est la
+capitale de l'Ouganda?', ou bien: 'Quel âge a le président Clinton?', ou bien:
+'Qui a inventé le procédé Xerox?', et leurs résultats obtenus sont plutôt
+meilleurs que ce à quoi je m'attendais."
+
+L'étape suivante est définie par Randy Hobler, consultant en marketing internet:
+"Nous arriverons rapidement au point où une traduction très fidèle du texte et
+de la parole sera si commune qu'elle pourra faire partie des plate-formes ou
+même des puces, écrit-il. A ce point, quand le développement de l'internet aura
+atteint sa vitesse de croisière, que la fidélité de la traduction atteindra plus
+de 98% et que les différentes combinaisons de langues possibles auront couvert
+la grande majorité du marché, la transparence de la langue (toute communication
+d'une langue à une autre) sera une vision trop restrictive pour ceux qui vendent
+cette technologie. Le développement suivant sera la 'transparence
+transculturelle et transnationale' dans laquelle les autres aspects de la
+communication humaine, du commerce et des transactions au-delà du seul langage
+entreront en scène. Par exemple, les gestes ont un sens, les mouvements faciaux
+ont un sens, et ceci varie en fonction des sociétés. La lettre O réalisée avec
+le pouce et l'index signifie 'OK' aux Etats-Unis alors qu'en Argentine c'est un
+geste obscène.
+
+Quand se produira l'inévitable développement de la vidéoconférence multilingue
+multimédias, il sera nécessaire de corriger visuellement les gestes. Le MediaLab
+du MIT (Massachussets Institute of Technology), Microsoft et bien d'autres
+travaillent à la reconnaissance informatique des expressions faciales,
+l'identification des caractéristiques biométriques par le biais du visage, etc.
+Il ne servira à rien à un homme d'affaires américain de faire une excellente
+présentation à un Argentin lors d'une vidéoconférence multilingue sur le web,
+avec son discours traduit dans un espagnol argentin parfait, s'il fait en même
+temps le geste O avec le pouce et l'index. Les ordinateurs pourront intercepter
+ces types de messages et les corriger visuellement.
+
